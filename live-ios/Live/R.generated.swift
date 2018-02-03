@@ -267,7 +267,6 @@ struct _R: Rswift.Validatable {
         if UIKit.UIImage(named: "gift-3") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'gift-3' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "gift-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'gift-1' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "gift-2") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'gift-2' is used in storyboard 'Main', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "icon-close") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon-close' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "icon-gift") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon-gift' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "icon-like") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon-like' is used in storyboard 'Main', but couldn't be loaded.") }
         if _R.storyboard.main().giftChooser() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'giftChooser' could not be loaded from storyboard 'Main' as 'GiftChooserViewController'.") }
