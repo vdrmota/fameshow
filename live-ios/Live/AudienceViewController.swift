@@ -86,6 +86,7 @@ class AudienceViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         player.shutdown()
+        manager.defaultSocket.emit("leave", room.key)
         manager.defaultSocket.disconnect()
         NotificationCenter.default.removeObserver(self)
     }

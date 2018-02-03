@@ -36,12 +36,7 @@ class BroadcasterViewController: UIViewController {
         session.delegate = self
         session.captureDevicePosition = .front
         session.preView = self.previewView
-        
-        var watermark = UILabel(frame: CGRect(x: 30, y: 20, width: 20, height: 20));
-        watermark.text = "😜"
-        watermark.font = UIFont(name: "AppleColorEmoji", size: 16)
-        watermark.center = self.view.center
-        session.warterMarkView = watermark;
+
         return session
     }()
     
@@ -50,14 +45,13 @@ class BroadcasterViewController: UIViewController {
     var overlayController: LiveOverlayViewController!
 
     override func viewDidLoad() {
+
         super.viewDidLoad()
-        var watermark = UILabel(frame: CGRect(x: 30, y: 20, width: 20, height: 20));
-        watermark.text = "😜"
-        watermark.font = UIFont(name: "AppleColorEmoji", size: 16)
-        watermark.center = self.view.center
-        session.warterMarkView = watermark;
+
             // Do any additional setup after loading the view, typically from a nib.
-        //IHKeyboardAvoiding.setAvoiding(inputContainer)
+        self.inputTitleOverlay.isHidden = true
+        start()
+
     }
     
     func tap (recognizer: UIGestureRecognizer){
@@ -69,6 +63,7 @@ class BroadcasterViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         session.running = true
+        
     }
     
     
@@ -87,7 +82,7 @@ class BroadcasterViewController: UIViewController {
 
     func start() {
         room = Room(dict: [
-            "title": titleTextField.text! as AnyObject,
+            "title": "upcoming" as AnyObject,
             "key": String.random() as AnyObject
         ])
         
@@ -122,6 +117,7 @@ class BroadcasterViewController: UIViewController {
             return
         }
         session.stopLive()
+        manager.defaultSocket.emit("leave", room.key)
         manager.defaultSocket.disconnect()
     }
     
