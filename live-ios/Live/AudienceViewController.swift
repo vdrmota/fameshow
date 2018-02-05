@@ -51,21 +51,24 @@ class AudienceViewController: UIViewController {
         }
         
         socket.on("new_room") {[weak self] data, ack in
-            self?.player.shutdown()
-            self?.player.view.removeFromSuperview()
-            self?.player = nil
-            if let key = data[0] as? String {
-                 self?.room = Room(dict: [
-                    "title": "upcoming" as AnyObject,
-                    "key": key as AnyObject
-                    ])
-                let urlString = Config.rtmpPlayUrl + (self?.room.key)!
-                self?.player = IJKFFMoviePlayerController(contentURLString: urlString, with: IJKFFOptions.byDefault())
-                self?.player.prepareToPlay()
-                self?.player.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-                self?.player.view.frame = (self?.previewView.bounds)!
-                self?.previewView.addSubview((self?.player.view)!)
-                self?.joinRoom()
+            DispatchQueue.main.async {
+
+                self?.player.shutdown()
+                self?.player.view.removeFromSuperview()
+                self?.player = nil
+                if let key = data[0] as? String {
+                     self?.room = Room(dict: [
+                        "title": "upcoming" as AnyObject,
+                        "key": key as AnyObject
+                        ])
+                    let urlString = Config.rtmpPlayUrl + (self?.room.key)!
+                    self?.player = IJKFFMoviePlayerController(contentURLString: urlString, with: IJKFFOptions.byDefault())
+                    self?.player.prepareToPlay()
+                    self?.player.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+                    self?.player.view.frame = (self?.previewView.bounds)!
+                    self?.previewView.addSubview((self?.player.view)!)
+                    self?.joinRoom()
+                }
             }
         }
         
