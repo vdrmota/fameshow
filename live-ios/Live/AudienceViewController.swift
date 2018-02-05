@@ -143,4 +143,10 @@ class AudienceViewController: UIViewController {
     override var preferredStatusBarStyle : UIStatusBarStyle {
         return .lightContent
     }
+    
+    func beginBroadcast (){
+        let vc = R.storyboard.main.broadcast()!
+        vc.socket = self.socket
+        present(vc, animated: true, completion: nil)
+    }
 }
