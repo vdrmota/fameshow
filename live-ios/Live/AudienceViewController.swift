@@ -51,17 +51,26 @@ class AudienceViewController: UIViewController {
         }
         
        socket.on("winner") {[weak self] data, ack in
-            print("WINNER")
-            let vc = R.storyboard.main.broadcast()!
-            vc.isLive = true;
-            self?.present(vc, animated: true, completion: nil)
+        
+            DispatchQueue.main.async {
+                print("WINNER")
+                let vc = R.storyboard.main.broadcast()!
+                vc.isLive = true;
+                self?.present(vc, animated: true, completion: nil)
+                
+            }
+
         }
         
         socket.on("up_next") {[weak self] data, ack in
-            print("upnext")
-            let vc = R.storyboard.main.broadcast()!
-            vc.isLive = false;
-            self?.present(vc, animated: true, completion: nil)
+            DispatchQueue.main.async {
+                print("upnext")
+                let vc = R.storyboard.main.broadcast()!
+                vc.isLive = false;
+                self?.present(vc, animated: true, completion: nil)
+                
+            }
+            
         }
         
         socket.on("tick") {[weak self] data, ack in
