@@ -56,6 +56,7 @@ class AudienceViewController: UIViewController {
                 print("WINNER")
                 let vc = R.storyboard.main.broadcast()!
                 vc.isLive = true;
+                vc.socket = self?.socket
                 self?.present(vc, animated: true, completion: nil)
                 
             }
@@ -67,6 +68,7 @@ class AudienceViewController: UIViewController {
                 print("upnext")
                 let vc = R.storyboard.main.broadcast()!
                 vc.isLive = false;
+                vc.socket = self?.socket
                 self?.present(vc, animated: true, completion: nil)
                 
             }
