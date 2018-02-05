@@ -22,6 +22,8 @@ class BroadcasterViewController: UIViewController {
     @IBOutlet weak var inputTitleOverlay: UIVisualEffectView!
     @IBOutlet weak var inputContainer: UIView!
     
+    var isLive:Bool!
+    
     let manager = SocketManager(socketURL:URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)])
     //var socket = manager.defaultSocket//SocketIOClient(manager: SocketManager(socketURL:URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)]), nsp: "/")//SocketIOClient(socketURL: URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)])
 
@@ -34,6 +36,9 @@ class BroadcasterViewController: UIViewController {
         
         let session = LFLiveSession(audioConfiguration: audioConfiguration, videoConfiguration: videoConfiguration)!
         session.delegate = self
+        session.beautyFace = false
+        
+        
         session.captureDevicePosition = .front
         session.preView = self.previewView
 
@@ -51,6 +56,18 @@ class BroadcasterViewController: UIViewController {
             // Do any additional setup after loading the view, typically from a nib.
         self.inputTitleOverlay.isHidden = true
         start()
+        
+        manager.defaultSocket.on("is_live") {[weak self] data, ack in
+            print("IS LIVE");
+            self?.isLive = true;
+        }
+        
+        manager.defaultSocket.on("is_dead") {[weak self] data, ack in
+            print("IS DEAD");
+            self?.presentingViewController?.dismiss(animated: true, completion: nil)
+            self?.isLive = false;
+
+        }
 
     }
     

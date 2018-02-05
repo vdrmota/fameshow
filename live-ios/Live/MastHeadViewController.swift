@@ -1,3 +1,4 @@
+
 //
 //  MastHeadViewController.swift
 //  Live
@@ -17,7 +18,14 @@ class MastHeadViewController: UIViewController {
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(MastHeadViewController.refresh))
         view.addGestureRecognizer(tap)
-        // Do any additional setup after loading the view.
+        
+        _ = Timer.scheduledTimer(withTimeInterval: 30, repeats: true) {
+            (_) in
+            
+            if (self.rooms.count == 0) {
+                self.refresh()
+            }
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
