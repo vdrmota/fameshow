@@ -11,6 +11,11 @@ import UIKit
 import SocketIO
 import IHKeyboardAvoiding
 
+struct Tick: Codable {
+    let votes: Int?
+    let viewers: Int?
+}
+
 class AudienceViewController: UIViewController {
 
     @IBOutlet weak var previewView: UIView!
@@ -44,6 +49,35 @@ class AudienceViewController: UIViewController {
             self?.joinRoom()
         }
         
+        manager.defaultSocket.on("winner") {[weak self] data, ack in
+            print("WINNER")
+            let vc = R.storyboard.main.broadcast()!
+            vc.isLive = true;
+            self?.present(vc, animated: true, completion: nil)
+        }
+        
+        manager.defaultSocket.on("up_next") {[weak self] data, ack in
+            print("upnext")
+            let vc = R.storyboard.main.broadcast()!
+            vc.isLive = false;
+            self?.present(vc, animated: true, completion: nil)
+        }
+        
+        manager.defaultSocket.on("tick") {[weak self] data, ack in
+            print("hello")
+            
+            if let viewers = data[0] as? Int, let votes = data[1] as? Int, let time = data[2] as? Int {
+                self?.tick(viewers: viewers, timeRemaining: time, vote: Float(votes))
+            }
+            //print(data["votes"], data["viewers"])
+            
+//            self?.tick(viewers: json!["viewers"] as Int, timeRemaining: json["timeRemaining"] as Int, vote: json["vote"] as Float)
+        }
+        
+    }
+    
+    func tick(viewers : Int, timeRemaining: Int, vote : Float) {
+        print(viewers, timeRemaining, vote)
     }
     
     func joinRoom() {

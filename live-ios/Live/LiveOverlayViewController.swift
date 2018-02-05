@@ -27,12 +27,12 @@ class LiveOverlayViewController: UIViewController {
         super.viewDidLoad()
         
       
-        textField.delegate = self
-        
-        tableView.dataSource = self
-        tableView.delegate = self
-        tableView.estimatedRowHeight = 30
-        tableView.rowHeight = UITableViewAutomaticDimension
+        //textField.delegate = self
+//
+//        tableView.dataSource = self
+//        tableView.delegate = self
+//        tableView.estimatedRowHeight = 30
+//        tableView.rowHeight = UITableViewAutomaticDimension
 
         
         
@@ -55,32 +55,32 @@ class LiveOverlayViewController: UIViewController {
         
         socket.on("gift") {[weak self] data ,ack in
             let event = GiftEvent(dict: data[0] as! [String: AnyObject])
-            self?.giftArea.pushGiftEvent(event)
+           // self?.giftArea.pushGiftEvent(event)
         }
     }
     
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        tableView.contentInset.top = tableView.bounds.height
-        tableView.reloadData()
+        //tableView.contentInset.top = tableView.bounds.height
+        //tableView.reloadData()
     }
     
     @objc func handleTap(_ gesture: UITapGestureRecognizer) {
         guard gesture.state == .ended else {
             return
         }
-        textField.resignFirstResponder()
+        //textField.resignFirstResponder()
     }
     
     @objc func tick(_ timer: Timer) {
-        guard comments.count > 0 else {
-            return
-        }
-        if tableView.contentSize.height > tableView.bounds.height {
-            tableView.contentInset.top = 0
-        }
-        tableView.scrollToRow(at: IndexPath(row: comments.count - 1, section: 0), at: UITableViewScrollPosition.bottom, animated: true)
+//        guard comments.count > 0 else {
+//            return
+//        }
+//        if tableView.contentSize.height > tableView.bounds.height {
+//            tableView.contentInset.top = 0
+//        }
+//        tableView.scrollToRow(at: IndexPath(row: comments.count - 1, section: 0), at: UITableViewScrollPosition.bottom, animated: true)
     }
 
     @IBAction func giftButtonPressed(_ sender: AnyObject) {
