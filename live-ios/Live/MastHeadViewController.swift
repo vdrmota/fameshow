@@ -9,13 +9,27 @@
 
 import UIKit
 import SVProgressHUD
+import SocketIO
 
 class MastHeadViewController: UIViewController {
     var rooms: [Room] = []
+    let manager = SocketManager(socketURL:URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)])
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        manager.defaultSocket.once(clientEvent: .connect) { [weak self] data, ack in
+            guard let this = self else {
+                return
+            }
+            
+            this.manager.defaultSocket.emit("register_user", "this_should_be_user_id")
+            
+        }
+        
+        manager.defaultSocket.connect()
+
         let tap = UITapGestureRecognizer(target: self, action: #selector(MastHeadViewController.refresh))
         view.addGestureRecognizer(tap)
         
@@ -64,12 +78,14 @@ class MastHeadViewController: UIViewController {
     
     @IBAction func createRoom() {
         let vc = R.storyboard.main.broadcast()!
+        vc.socket = manager.defaultSocket
         present(vc, animated: true, completion: nil)
     }
     
     func joinRoom(_ room: Room) {
         let vc = R.storyboard.main.audience()!
         vc.room = room
+        vc.socket = manager.defaultSocket
         present(vc, animated: true, completion: nil)
     }
 
