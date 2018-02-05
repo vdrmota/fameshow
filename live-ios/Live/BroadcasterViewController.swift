@@ -23,7 +23,8 @@ class BroadcasterViewController: UIViewController {
     @IBOutlet weak var inputContainer: UIView!
     
     var isLive:Bool!
-    
+    var socket: SocketIOClient!
+
     let manager = SocketManager(socketURL:URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)])
     //var socket = manager.defaultSocket//SocketIOClient(manager: SocketManager(socketURL:URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)]), nsp: "/")//SocketIOClient(socketURL: URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)])
 
@@ -57,12 +58,12 @@ class BroadcasterViewController: UIViewController {
         self.inputTitleOverlay.isHidden = true
         start()
         
-        manager.defaultSocket.on("is_live") {[weak self] data, ack in
+        socket.on("is_live") {[weak self] data, ack in
             print("IS LIVE");
             self?.isLive = true;
         }
         
-        manager.defaultSocket.on("is_dead") {[weak self] data, ack in
+        socket.on("is_dead") {[weak self] data, ack in
             print("IS DEAD");
             self?.presentingViewController?.dismiss(animated: true, completion: nil)
             self?.isLive = false;
@@ -88,12 +89,13 @@ class BroadcasterViewController: UIViewController {
         super.viewWillDisappear(animated)
         session.running = false
         stop()
+       socket.disconnect()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "overlay" {
             overlayController = segue.destination as! LiveOverlayViewController
-            overlayController.socket = manager.defaultSocket
+            overlayController.socket = socket
         }
     }
 
@@ -109,14 +111,8 @@ class BroadcasterViewController: UIViewController {
         stream.url = "\(Config.rtmpPushUrl)\(room.key)"
         session.startLive(stream)
         
-        manager.defaultSocket.once(clientEvent: .connect) { [weak self] data, ack in
-            guard let this = self else {
-                return
-            }
-            this.manager.defaultSocket.emit("create_room", this.room.toDict())
-        }
-        
-        manager.defaultSocket.connect()
+        socket.emit("create_room", room.toDict())
+
 
 //        socket.once("connect") {[weak self] data, ack in
 //            guard let this = self else {
@@ -135,7 +131,7 @@ class BroadcasterViewController: UIViewController {
         }
         session.stopLive()
         manager.defaultSocket.emit("leave", room.key)
-        manager.defaultSocket.disconnect()
+        //manager.defaultSocket.disconnect()
     }
     
     @IBAction func startButtonPressed(_ sender: AnyObject) {

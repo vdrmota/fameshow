@@ -22,7 +22,8 @@ class AudienceViewController: UIViewController {
     @IBOutlet weak var statusLabel: UILabel!
     
     var room: Room!
-    
+    var socket: SocketIOClient!
+
     var player: IJKFFMoviePlayerController!
     //let socket = SocketIOClient(manager: URL(string: Config.serverUrl)!, nsp: [.log(true), .forcePolling(true)])
     
@@ -45,25 +46,25 @@ class AudienceViewController: UIViewController {
 
         player.prepareToPlay()
         
-        manager.defaultSocket.on("connect") {[weak self] data, ack in
+        socket.on("connect") {[weak self] data, ack in
             self?.joinRoom()
         }
         
-        manager.defaultSocket.on("winner") {[weak self] data, ack in
+       socket.on("winner") {[weak self] data, ack in
             print("WINNER")
             let vc = R.storyboard.main.broadcast()!
             vc.isLive = true;
             self?.present(vc, animated: true, completion: nil)
         }
         
-        manager.defaultSocket.on("up_next") {[weak self] data, ack in
+        socket.on("up_next") {[weak self] data, ack in
             print("upnext")
             let vc = R.storyboard.main.broadcast()!
             vc.isLive = false;
             self?.present(vc, animated: true, completion: nil)
         }
         
-        manager.defaultSocket.on("tick") {[weak self] data, ack in
+        socket.on("tick") {[weak self] data, ack in
             print("hello")
             
             if let viewers = data[0] as? Int, let votes = data[1] as? Int, let time = data[2] as? Int {
@@ -81,7 +82,7 @@ class AudienceViewController: UIViewController {
     }
     
     func joinRoom() {
-        manager.defaultSocket.emit("join_room", room.key)
+        socket.emit("join_room", room.key)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -95,7 +96,6 @@ class AudienceViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         player.play()
-        manager.defaultSocket.connect()
         
         NotificationCenter.default.addObserver(forName: NSNotification.Name.IJKMPMoviePlayerLoadStateDidChange, object: player, queue: OperationQueue.main, using: { [weak self] notification in
             
@@ -120,7 +120,7 @@ class AudienceViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         player.shutdown()
-        manager.defaultSocket.emit("leave", room.key)
+        socket.emit("leave", room.key)
         manager.defaultSocket.disconnect()
         NotificationCenter.default.removeObserver(self)
     }
