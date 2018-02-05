@@ -21,8 +21,14 @@ class BroadcasterViewController: UIViewController {
     @IBOutlet weak var titleTextField: TextField!
     @IBOutlet weak var inputTitleOverlay: UIVisualEffectView!
     @IBOutlet weak var inputContainer: UIView!
+    @IBOutlet weak var indicator: UIView!
+
     
-    var isLive:Bool!
+    var isLive:Bool! {
+        didSet {
+            self.indicator.backgroundColor = (isLive) ? UIColor.red : UIColor.gray
+        }
+    }
     var socket: SocketIOClient!
 
     let manager = SocketManager(socketURL:URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)])
@@ -65,8 +71,11 @@ class BroadcasterViewController: UIViewController {
         
         socket.on("is_dead") {[weak self] data, ack in
             print("IS DEAD");
+            DispatchQueue.main.async {
+
             self?.presentingViewController?.dismiss(animated: true, completion: nil)
             self?.isLive = false;
+            }
 
         }
 
