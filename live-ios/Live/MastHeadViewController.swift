@@ -36,7 +36,7 @@ class MastHeadViewController: UIViewController {
         _ = Timer.scheduledTimer(withTimeInterval: 30, repeats: true) {
             (_) in
             
-            if (self.rooms.count == 0) {
+            if (self.rooms.count == 0 && self.viewIfLoaded?.window != nil) {
                 self.refresh()
             }
         }
@@ -77,9 +77,19 @@ class MastHeadViewController: UIViewController {
     }
     
     @IBAction func createRoom() {
-        let vc = R.storyboard.main.broadcast()!
+//        let vc = R.storyboard.main.broadcast()!
+//        vc.socket = manager.defaultSocket
+//        present(vc, animated: true, completion: nil)
+        let room = Room(dict: [
+            "title": "upcoming" as AnyObject,
+            "key": String.random() as AnyObject
+            ])
+        
+        let vc = R.storyboard.main.audience()!
         vc.socket = manager.defaultSocket
+        vc.room = room
         present(vc, animated: true, completion: nil)
+        vc.beginBroadcast()
     }
     
     func joinRoom(_ room: Room) {
