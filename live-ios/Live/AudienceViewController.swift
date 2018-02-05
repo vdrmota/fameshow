@@ -50,6 +50,25 @@ class AudienceViewController: UIViewController {
             self?.joinRoom()
         }
         
+        socket.on("new_room") {[weak self] data, ack in
+            self?.player.shutdown()
+            self?.player.view.removeFromSuperview()
+            self?.player = nil
+            if let key = data[0] as? String {
+                 self?.room = Room(dict: [
+                    "title": "upcoming" as AnyObject,
+                    "key": key as AnyObject
+                    ])
+                let urlString = Config.rtmpPlayUrl + (self?.room.key)!
+                self?.player = IJKFFMoviePlayerController(contentURLString: urlString, with: IJKFFOptions.byDefault())
+                self?.player.prepareToPlay()
+                self?.player.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+                self?.player.view.frame = (self?.previewView.bounds)!
+                self?.previewView.addSubview((self?.player.view)!)
+                self?.joinRoom()
+            }
+        }
+        
        socket.on("winner") {[weak self] data, ack in
         
             DispatchQueue.main.async {
@@ -131,7 +150,6 @@ class AudienceViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         player.shutdown()
-        socket.emit("leave", room.key)
         //manager.defaultSocket.disconnect()
         NotificationCenter.default.removeObserver(self)
     }
