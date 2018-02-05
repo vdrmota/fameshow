@@ -89,7 +89,7 @@ class BroadcasterViewController: UIViewController {
         super.viewWillDisappear(animated)
         session.running = false
         stop()
-       socket.disconnect()
+       //socket.disconnect()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

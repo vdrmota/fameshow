@@ -132,7 +132,7 @@ class AudienceViewController: UIViewController {
         super.viewWillDisappear(animated)
         player.shutdown()
         socket.emit("leave", room.key)
-        manager.defaultSocket.disconnect()
+        //manager.defaultSocket.disconnect()
         NotificationCenter.default.removeObserver(self)
     }
     
