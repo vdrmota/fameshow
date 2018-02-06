@@ -21,14 +21,9 @@ class BroadcasterViewController: UIViewController {
     @IBOutlet weak var titleTextField: TextField!
     @IBOutlet weak var inputTitleOverlay: UIVisualEffectView!
     @IBOutlet weak var inputContainer: UIView!
-    @IBOutlet weak var indicator: UIView!
 
     
-    var isLive:Bool! {
-        didSet {
-            self.indicator.backgroundColor = (isLive) ? UIColor.red : UIColor.gray
-        }
-    }
+    var isLive:Bool!
     var socket: SocketIOClient!
 
     let manager = SocketManager(socketURL:URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)])
@@ -63,10 +58,16 @@ class BroadcasterViewController: UIViewController {
             // Do any additional setup after loading the view, typically from a nib.
         self.inputTitleOverlay.isHidden = true
         start()
-        
+        if (self.isLive) {
+            infoLabel.text = "LIVE";
+        } else {
+            infoLabel.text = "UP NEXT";
+        }
+
         socket.on("is_live") {[weak self] data, ack in
             print("IS LIVE");
             self?.isLive = true;
+            self?.infoLabel.text = "LIVE";
         }
         
         socket.on("is_dead") {[weak self] data, ack in
@@ -75,6 +76,8 @@ class BroadcasterViewController: UIViewController {
 
             self?.presentingViewController?.dismiss(animated: true, completion: nil)
             self?.isLive = false;
+            self?.infoLabel.text = "DEAD";
+
             }
 
         }
@@ -131,6 +134,7 @@ class BroadcasterViewController: UIViewController {
 //        }
         
         infoLabel.text = "Room: \(room.key)"
+
         //IHKeyboardAvoiding.setAvoiding(overlayController.inputContainer)
     }
     
