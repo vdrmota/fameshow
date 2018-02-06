@@ -68,6 +68,8 @@ class AudienceViewController: UIViewController {
                     self?.player.view.frame = (self?.previewView.bounds)!
                     self?.previewView.addSubview((self?.player.view)!)
                     self?.joinRoom()
+                    self?.player.play()
+
                 }
             }
         }
