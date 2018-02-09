@@ -93,6 +93,7 @@ class AudienceViewController: UIViewController {
                 let vc = R.storyboard.main.broadcast()!
                 vc.isLive = false;
                 vc.socket = self?.socket
+                vc.overlayController.socket = self?.socket
                 self?.present(vc, animated: true, completion: nil)
                 
             }
@@ -123,7 +124,7 @@ class AudienceViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "overlay" {
             overlayController = segue.destination as! LiveOverlayViewController
-            overlayController.socket = manager.defaultSocket
+            overlayController.socket = self.socket
             overlayController.room = room
         }
     }

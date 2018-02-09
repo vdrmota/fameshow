@@ -48,11 +48,12 @@ class LiveOverlayViewController: UIViewController {
         
         socket.on("tick") {[weak self] data ,ack in
             print("hello ther")
-            if let viewers = data[0] as? Int, let votes = data[1] as? Int, let time = data[2] as? Int {
+            if let viewers = data[0] as? Int, let votes = data[1] as? Int, let time = data[2] as? Int, let progress = data[3] as? Float {
                 self?.viewerLabel.text = String(viewers)
                 
-                //self.counter.progress = votes
-                //self.counter.timeRemaining = time
+                self?.counter.voteProgress = Double(progress)
+                self?.counter.timeRemaining = time
+                self?.counter.setNeedsDisplay()
 
                 
             }
