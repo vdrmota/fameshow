@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75276229202DF7A900A407EA /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75276228202DF7A900A407EA /* CounterView.swift */; };
 		7570445A202645DD00D238B8 /* MastHeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75704459202645DD00D238B8 /* MastHeadViewController.swift */; };
 		B32E392C1D336A5500FA87AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E392B1D336A5500FA87AB /* AppDelegate.swift */; };
 		B32E39311D336A5500FA87AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32E392F1D336A5500FA87AB /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		4FD07D4932212F687E5F1B5C /* Pods-Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.debug.xcconfig"; sourceTree = "<group>"; };
+		75276228202DF7A900A407EA /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		75704459202645DD00D238B8 /* MastHeadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastHeadViewController.swift; sourceTree = "<group>"; };
 		8FEF6E319D18D0F7F9E49151 /* Pods-Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.release.xcconfig"; sourceTree = "<group>"; };
 		9AB8022663522F75E00F7B60 /* Pods_Live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +189,7 @@
 				B3401F301D33902300ECF1CC /* BroadcasterViewController.swift */,
 				B3401F321D33903100ECF1CC /* AudienceViewController.swift */,
 				B3401F591D34C54100ECF1CC /* LiveOverlayViewController.swift */,
+				75276228202DF7A900A407EA /* CounterView.swift */,
 				B3401F891D38AA6E00ECF1CC /* GiftChooserViewController.swift */,
 				B3401F701D35E48000ECF1CC /* Model.swift */,
 			);
@@ -395,6 +398,7 @@
 				B3401F881D38801A00ECF1CC /* GiftDisplayView.swift in Sources */,
 				B3401F681D35DCA400ECF1CC /* UIColor.swift in Sources */,
 				B3401F691D35DCA400ECF1CC /* UIFont.swift in Sources */,
+				75276229202DF7A900A407EA /* CounterView.swift in Sources */,
 				B3401F6B1D35DCA400ECF1CC /* UIView.swift in Sources */,
 				7570445A202645DD00D238B8 /* MastHeadViewController.swift in Sources */,
 				B3401F581D34C3F100ECF1CC /* WaveEmitterView.swift in Sources */,

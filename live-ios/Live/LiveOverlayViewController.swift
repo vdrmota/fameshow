@@ -17,7 +17,10 @@ class LiveOverlayViewController: UIViewController {
     @IBOutlet weak var inputContainer: UIView!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var giftArea: GiftDisplayArea!
-    
+    @IBOutlet weak var viewerLabel: UILabel!
+    @IBOutlet weak var subscribeButton: UIButton!
+    @IBOutlet weak var counter: CounterView!
+
     var comments: [Comment] = []
     var room: Room!
     
@@ -42,6 +45,19 @@ class LiveOverlayViewController: UIViewController {
         view.addGestureRecognizer(tap)
         
         //IHKeyboardAvoiding.setAvoiding(inputContainer)
+        
+        socket.on("tick") {[weak self] data ,ack in
+            print("hello ther")
+            if let viewers = data[0] as? Int, let votes = data[1] as? Int, let time = data[2] as? Int {
+                self?.viewerLabel.text = String(viewers)
+                
+                //self.counter.progress = votes
+                //self.counter.timeRemaining = time
+
+                
+            }
+            
+        }
 
         socket.on("upvote") {[weak self] data ,ack in
             self?.emitterView.emitImage(R.image.heart()!)
@@ -95,6 +111,10 @@ class LiveOverlayViewController: UIViewController {
     
     @IBAction func upvoteButtonPressed(_ sender: AnyObject) {
         socket.emit("upvote", room.key)
+    }
+    
+    @IBAction func subscribeButtonPressed(_ sender: AnyObject) {
+        socket.emit("subscribe", room.key)
     }
 }
 

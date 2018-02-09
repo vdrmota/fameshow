@@ -20,7 +20,7 @@ class AudienceViewController: UIViewController {
 
     @IBOutlet weak var previewView: UIView!
     @IBOutlet weak var statusLabel: UILabel!
-    
+
     var room: Room!
     var socket: SocketIOClient!
 
@@ -99,16 +99,16 @@ class AudienceViewController: UIViewController {
             
         }
         
-        socket.on("tick") {[weak self] data, ack in
-            print("hello")
-            
-            if let viewers = data[0] as? Int, let votes = data[1] as? Int, let time = data[2] as? Int {
-                self?.tick(viewers: viewers, timeRemaining: time, vote: Float(votes))
-            }
-            //print(data["votes"], data["viewers"])
-            
-//            self?.tick(viewers: json!["viewers"] as Int, timeRemaining: json["timeRemaining"] as Int, vote: json["vote"] as Float)
-        }
+//        socket.on("tick") {[weak self] data, ack in
+//            print("hello")
+//
+//            if let viewers = data[0] as? Int, let votes = data[1] as? Int, let time = data[2] as? Int {
+//                self?.tick(viewers: viewers, timeRemaining: time, vote: Float(votes))
+//            }
+//            //print(data["votes"], data["viewers"])
+//
+////            self?.tick(viewers: json!["viewers"] as Int, timeRemaining: json["timeRemaining"] as Int, vote: json["vote"] as Float)
+//        }
         
     }
     
