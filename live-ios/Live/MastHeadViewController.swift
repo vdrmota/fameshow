@@ -18,13 +18,16 @@ class MastHeadViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         manager.defaultSocket.once(clientEvent: .connect) { [weak self] data, ack in
             guard let this = self else {
                 return
             }
-            
-            this.manager.defaultSocket.emit("register_user", "this_should_be_user_id")
+            connectedSpeed().testDownloadSpeedWithTimout(timeout: 5.0) { (megabytesPerSecond, error) -> () in
+                print("mbps:\(String(describing: megabytesPerSecond))")
+                this.manager.defaultSocket.emit("register_user", "this_should_be_user_id", megabytesPerSecond!)
+
+            }
             
         }
         
