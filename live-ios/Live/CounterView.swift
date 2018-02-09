@@ -23,9 +23,9 @@ class CounterView: UIView {
     let label:UILabel!       = UILabel()
     var timeRemaining:Int!   = 15 {
         didSet {
-            self.label.text = String(timeRemaining+1)
+            self.label.text = String(timeRemaining)
             if (self.state != .full) {
-                if (self.timeRemaining <= 5) {
+                if (self.timeRemaining < 5) {
                     self.state = .warning;
                 } else {
                     self.state = .normal
