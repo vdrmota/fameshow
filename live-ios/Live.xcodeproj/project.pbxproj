@@ -12,7 +12,7 @@
 		7527622D202E5C3400A407EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7527622C202E5C3400A407EA /* SystemConfiguration.framework */; };
 		7570445A202645DD00D238B8 /* MastHeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75704459202645DD00D238B8 /* MastHeadViewController.swift */; };
 		75A7AC56202E6CD200E2D2E3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC55202E6CD200E2D2E3 /* RoundedButton.swift */; };
-		75A7AC5B202E767100E2D2E3 /* person.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75A7AC5A202E767100E2D2E3 /* person.pdf */; };
+		75A7AC5D202E77E800E2D2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */; };
 		B32E392C1D336A5500FA87AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E392B1D336A5500FA87AB /* AppDelegate.swift */; };
 		B32E39311D336A5500FA87AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32E392F1D336A5500FA87AB /* Main.storyboard */; };
 		B32E39361D336A5500FA87AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32E39341D336A5500FA87AB /* LaunchScreen.storyboard */; };
@@ -56,7 +56,7 @@
 		7527622C202E5C3400A407EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		75704459202645DD00D238B8 /* MastHeadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastHeadViewController.swift; sourceTree = "<group>"; };
 		75A7AC55202E6CD200E2D2E3 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
-		75A7AC5A202E767100E2D2E3 /* person.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = person.pdf; path = ../../../../person.pdf; sourceTree = "<group>"; };
+		75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FEF6E319D18D0F7F9E49151 /* Pods-Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.release.xcconfig"; sourceTree = "<group>"; };
 		9AB8022663522F75E00F7B60 /* Pods_Live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32E39281D336A5500FA87AB /* Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Live.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,6 +191,7 @@
 			children = (
 				B3401F821D387E8100ECF1CC /* Component */,
 				B32E392F1D336A5500FA87AB /* Main.storyboard */,
+				75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */,
 				75704459202645DD00D238B8 /* MastHeadViewController.swift */,
 				7527622A202E5AA100A407EA /* Connectivity.swift */,
 				B3401F2E1D33901600ECF1CC /* HomeViewController.swift */,
@@ -208,7 +209,6 @@
 		B3401F5B1D35DBF000ECF1CC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				75A7AC5A202E767100E2D2E3 /* person.pdf */,
 				B3401F5C1D35DBF900ECF1CC /* Raleway-Regular.ttf */,
 			);
 			name = Resources;
@@ -300,7 +300,7 @@
 			files = (
 				B32E39361D336A5500FA87AB /* LaunchScreen.storyboard in Resources */,
 				B32E39311D336A5500FA87AB /* Main.storyboard in Resources */,
-				75A7AC5B202E767100E2D2E3 /* person.pdf in Resources */,
+				75A7AC5D202E77E800E2D2E3 /* Assets.xcassets in Resources */,
 				B3401F861D38800F00ECF1CC /* GiftDisplayView.xib in Resources */,
 				B3401F5D1D35DBF900ECF1CC /* Raleway-Regular.ttf in Resources */,
 			);
