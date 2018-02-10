@@ -33,26 +33,20 @@ class CounterView: UIView {
             }
         }
     }
+    private var _progress:Double! = 0;
     var voteProgress:Double! {
-
-        set {
+        get {
+            return _progress
+        }
+        
+        set(newValue){
+            _progress = max(1, newValue)
             if voteProgress >= 1.0 {
                 self.state = .full
             } else {
                 self.state = .normal
             }
         }
-        
-        get {
-            return max(1, self.voteProgress)
-        }
-//        didSet{
-//            if voteProgress >= 1.0 {
-//                self.state = .full
-//            } else {
-//                self.state = .normal
-//            }
-//        }
     }
     var color:UIColor!          = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
     var warningColor:UIColor!   = UIColor(red:0.84, green:0.19, blue:0.19, alpha:1.0)

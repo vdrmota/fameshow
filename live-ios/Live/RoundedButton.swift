@@ -47,7 +47,7 @@ extension UIColor {
 class RoundedButton: UIButton {
     @IBInspectable var color : UIColor! = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
     @IBInspectable var highlightedColor : UIColor! = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0).lighter(by:10)
-
+    
     func initialize(frame: CGRect){
         self.titleLabel?.backgroundColor = UIColor.clear
         self.frame = frame.insetBy(dx:-3, dy:-5)//CGRect(x:50, y:70, width: 120, height: 44)
@@ -58,7 +58,7 @@ class RoundedButton: UIButton {
         self.titleLabel?.textAlignment = NSTextAlignment.center
 
         self.layer.masksToBounds = true
-        self.layer.cornerRadius = 10.0
+        self.layer.cornerRadius = 10
         self.setBackgroundImage(UIImage.imageWithColor(color: self.color), for: .normal)
         self.setBackgroundImage(UIImage.imageWithColor(color: self.highlightedColor), for: .highlighted)
 

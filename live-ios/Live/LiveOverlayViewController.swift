@@ -17,7 +17,8 @@ class LiveOverlayViewController: UIViewController {
     @IBOutlet weak var inputContainer: UIView!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var giftArea: GiftDisplayArea!
-    @IBOutlet weak var viewerLabel: UILabel!
+    //@IBOutlet weak var viewerLabel: UILabel!
+    @IBOutlet weak var viewerLabel: UIButton!
     @IBOutlet weak var subscribeButton: UIButton!
     @IBOutlet weak var counter: CounterView!
 
@@ -49,7 +50,8 @@ class LiveOverlayViewController: UIViewController {
         socket.on("tick") {[weak self] data ,ack in
             print("hello ther")
             if let viewers = data[0] as? Int, let votes = data[1] as? Int, let time = data[2] as? Int, let progress = data[3] as? Float {
-                self?.viewerLabel.text = String(viewers)
+                self?.viewerLabel.setTitle(String(viewers), for: .normal)
+                //text = String(viewers)
                 
                 self?.counter.voteProgress = Double(progress)
                 self?.counter.timeRemaining = time
