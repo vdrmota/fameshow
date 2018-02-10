@@ -261,7 +261,7 @@
                         <viewControllerLayoutGuide type="top" id="zK3-Uw-S0b"/>
                         <viewControllerLayoutGuide type="bottom" id="VaL-PS-n05"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="MKl-wE-b3Q">
+                    <view key="view" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="MKl-wE-b3Q">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>

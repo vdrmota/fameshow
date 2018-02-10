@@ -93,7 +93,7 @@ class AudienceViewController: UIViewController {
                 let vc = R.storyboard.main.broadcast()!
                 vc.isLive = false;
                 vc.socket = self?.socket
-                vc.overlayController.socket = self?.socket
+                //vc.overlayController.socket = self?.socket
                 self?.present(vc, animated: true, completion: nil)
                 
             }
