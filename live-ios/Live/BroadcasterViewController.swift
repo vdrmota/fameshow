@@ -58,11 +58,6 @@ class BroadcasterViewController: UIViewController {
             // Do any additional setup after loading the view, typically from a nib.
         self.inputTitleOverlay.isHidden = true
         start()
-        if (self.isLive) {
-            infoLabel.text = "LIVE";
-        } else {
-            infoLabel.text = "UP NEXT";
-        }
 
         socket.on("is_live") {[weak self] data, ack in
             print("IS LIVE");
@@ -96,6 +91,17 @@ class BroadcasterViewController: UIViewController {
         
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if (self.isLive) {
+            infoLabel.text = "LIVE";
+        } else {
+            infoLabel.text = "UP NEXT";
+            let controller = R.storyboard.main.up_next_overlay()!
+            self.present(controller, animated: true, completion: nil)
+            
+        }
+    }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)

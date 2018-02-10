@@ -260,6 +260,7 @@ struct _R: Rswift.Validatable {
       let bundle = R.hostingBundle
       let giftChooser = StoryboardViewControllerResource<GiftChooserViewController>(identifier: "giftChooser")
       let name = "Main"
+      let up_next_overlay = StoryboardViewControllerResource<UpNextOverlayViewController>(identifier: "up_next_overlay")
       
       func audience(_: Void = ()) -> AudienceViewController? {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: audience)
@@ -273,6 +274,10 @@ struct _R: Rswift.Validatable {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: giftChooser)
       }
       
+      func up_next_overlay(_: Void = ()) -> UpNextOverlayViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: up_next_overlay)
+      }
+      
       static func validate() throws {
         if UIKit.UIImage(named: "gift-3") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'gift-3' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "person") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'person' is used in storyboard 'Main', but couldn't be loaded.") }
@@ -281,6 +286,7 @@ struct _R: Rswift.Validatable {
         if UIKit.UIImage(named: "icon-like") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon-like' is used in storyboard 'Main', but couldn't be loaded.") }
         if _R.storyboard.main().giftChooser() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'giftChooser' could not be loaded from storyboard 'Main' as 'GiftChooserViewController'.") }
         if _R.storyboard.main().audience() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'audience' could not be loaded from storyboard 'Main' as 'AudienceViewController'.") }
+        if _R.storyboard.main().up_next_overlay() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'up_next_overlay' could not be loaded from storyboard 'Main' as 'UpNextOverlayViewController'.") }
         if _R.storyboard.main().broadcast() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'broadcast' could not be loaded from storyboard 'Main' as 'BroadcasterViewController'.") }
       }
       

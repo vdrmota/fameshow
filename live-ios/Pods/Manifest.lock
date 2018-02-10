@@ -1,4 +1,5 @@
 PODS:
+  - Cheers (2.0.2)
   - IHKeyboardAvoiding (4.2)
   - LFLiveKit (2.6)
   - R.swift (4.0.0):
@@ -10,6 +11,7 @@ PODS:
   - SVProgressHUD (2.2.2)
 
 DEPENDENCIES:
+  - Cheers
   - IHKeyboardAvoiding
   - LFLiveKit
   - R.swift
@@ -17,6 +19,7 @@ DEPENDENCIES:
   - SVProgressHUD
 
 SPEC CHECKSUMS:
+  Cheers: 450bd0578e40182c73d813a545379450c9f16a4a
   IHKeyboardAvoiding: 9fbf816b7c3c84911964802ff110d12caf40ebef
   LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
   R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
@@ -25,6 +28,6 @@ SPEC CHECKSUMS:
   Starscream: dfb1b3f39506717ee52b67fb48de0c8269504cbc
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
 
-PODFILE CHECKSUM: df5d8b7cdf3f8b4a5a050bfb50cf8965dc3123b8
+PODFILE CHECKSUM: 1f0534b932fce9140758f27225c23b7e4ef6cedc
 
 COCOAPODS: 1.4.0
