@@ -13,9 +13,9 @@ class UpNextOverlayViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let tap = UITapGestureRecognizer(target: self, action: #selector(UpNextOverlayViewController.handleTap(_:)))
-        view.addGestureRecognizer(tap)
-        
+							let tap = UITapGestureRecognizer(target: self, action: #selector(UpNextOverlayViewController.handleTap(_:)))
+        self.view.addGestureRecognizer(tap)
+					
         let cheerView = CheerView()
         cheerView.frame = self.view.bounds
         self.view.addSubview(cheerView)
@@ -23,13 +23,20 @@ class UpNextOverlayViewController: UIViewController {
         // Configure
         cheerView.config.particle = .confetti(allowedShapes: Particle.ConfettiShape.all)
         
-        let heart = NSAttributedString(string: "❤️", attributes: [
-            NSAttributedStringKey.font: UIFont(name: "AppleColorEmoji", size: 10)!
-            ])
-        cheerView.config.particle = Particle.text(CGSize(width:40, height:40),[heart])
+//        let heart = NSAttributedString(string: "❤️", attributes: [
+//            NSAttributedStringKey.font: UIFont(name: "AppleColorEmoji", size: 10)!
+//            ])
+//        cheerView.config.particle = Particle.text(CGSize(width:40, height:40),[heart])
         cheerView.config.colors = [UIColor.white]
         // Start
         cheerView.start()
+					
+					let when = DispatchTime.now() + 4 // change 2 to desired number of seconds
+					DispatchQueue.main.asyncAfter(deadline: when) {
+						// Your code with delay
+						cheerView.stop()
+
+					}
         
 
         // Do any additional setup after loading the view.
@@ -44,11 +51,16 @@ class UpNextOverlayViewController: UIViewController {
         super.init(coder: aDecoder)
     }
 
-    @objc func handleTap(_ gesture: UITapGestureRecognizer) {
-        self.presentingViewController?.dismiss(animated: true, completion: {
-            print("dismissed")
-        });
-    }
+@objc func handleTap(_ gesture: UITapGestureRecognizer) {
+	UIView.animate(withDuration: 0.5, animations: {
+		self.view.alpha = 0
+	}) { (completed) in
+		self.removeFromParentViewController()
+		self.view.removeFromSuperview()
+	}
+
+		//textField.resignFirstResponder()
+	}
     /*
     // MARK: - Navigation
 

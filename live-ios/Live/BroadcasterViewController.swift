@@ -50,14 +50,15 @@ class BroadcasterViewController: UIViewController {
     var room: Room!
     
     var overlayController: LiveOverlayViewController!
+				var upNextOverlayController: UpNextOverlayViewController!
 
     override func viewDidLoad() {
 
         super.viewDidLoad()
-
             // Do any additional setup after loading the view, typically from a nib.
-        self.inputTitleOverlay.isHidden = true
+        //self.inputTitleOverlay.isHidden = true
         start()
+					
 
         socket.on("is_live") {[weak self] data, ack in
             print("IS LIVE");
@@ -97,8 +98,8 @@ class BroadcasterViewController: UIViewController {
             infoLabel.text = "LIVE";
         } else {
             infoLabel.text = "UP NEXT";
-            let controller = R.storyboard.main.up_next_overlay()!
-            self.present(controller, animated: true, completion: nil)
+            ///let controller = R.storyboard.main.up_next_overlay()!
+            //self.present(controller, animated: true, completion: nil)
             
         }
     }
@@ -114,9 +115,23 @@ class BroadcasterViewController: UIViewController {
         if segue.identifier == "overlay" {
             overlayController = segue.destination as! LiveOverlayViewController
             overlayController.socket = socket
+									//overlayController.view.isUserInteractionEnabled = false
         }
-    }
-
+						if segue.identifier == "upnext" {
+						upNextOverlayController = segue.destination as! UpNextOverlayViewController
+						//upNextOverlayController.socket = socket
+					}
+		}
+	private func remove(asChildViewController viewController: UIViewController) {
+		// Notify Child View Controller
+		viewController.willMove(toParentViewController: nil)
+		
+		// Remove Child View From Superview
+		viewController.view.removeFromSuperview()
+		
+		// Notify Child View Controller
+		viewController.removeFromParentViewController()
+	}
     func start() {
         room = Room(dict: [
             "title": "upcoming" as AnyObject,
@@ -170,6 +185,16 @@ class BroadcasterViewController: UIViewController {
     override var preferredStatusBarStyle : UIStatusBarStyle {
         return .lightContent
     }
+	
+	@IBAction func handleTapUI(_ gesture: UITapGestureRecognizer) {
+		print("whwhhw")
+		//textField.resignFirstResponder()
+	}
+	
+	@objc func handleTap(_ gesture: UITapGestureRecognizer) {
+	print("whwhhw")
+		//textField.resignFirstResponder()
+	}
 }
 
 extension BroadcasterViewController: LFLiveSessionDelegate {

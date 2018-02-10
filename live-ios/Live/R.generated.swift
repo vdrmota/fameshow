@@ -22,22 +22,14 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 2 files.
+  /// This `R.file` struct is generated, and contains static references to 1 files.
   struct file {
     /// Resource file `Raleway-Regular.ttf`.
     static let ralewayRegularTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "Raleway-Regular", pathExtension: "ttf")
-    /// Resource file `person_small.pdf`.
-    static let person_smallPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "person_small", pathExtension: "pdf")
     
     /// `bundle.url(forResource: "Raleway-Regular", withExtension: "ttf")`
     static func ralewayRegularTtf(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.ralewayRegularTtf
-      return fileResource.bundle.url(forResource: fileResource)
-    }
-    
-    /// `bundle.url(forResource: "person_small", withExtension: "pdf")`
-    static func person_smallPdf(_: Void = ()) -> Foundation.URL? {
-      let fileResource = R.file.person_smallPdf
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -161,16 +153,25 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    /// This struct is generated for `BroadcasterViewController`, and contains static references to 1 segues.
+    /// This struct is generated for `BroadcasterViewController`, and contains static references to 2 segues.
     struct broadcasterViewController {
       /// Segue identifier `overlay`.
       static let overlay: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, BroadcasterViewController, LiveOverlayViewController> = Rswift.StoryboardSegueIdentifier(identifier: "overlay")
+      /// Segue identifier `upnext`.
+      static let upnext: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, BroadcasterViewController, UpNextOverlayViewController> = Rswift.StoryboardSegueIdentifier(identifier: "upnext")
       
       /// Optionally returns a typed version of segue `overlay`.
       /// Returns nil if either the segue identifier, the source, destination, or segue types don't match.
       /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
       static func overlay(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, BroadcasterViewController, LiveOverlayViewController>? {
         return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.broadcasterViewController.overlay, segue: segue)
+      }
+      
+      /// Optionally returns a typed version of segue `upnext`.
+      /// Returns nil if either the segue identifier, the source, destination, or segue types don't match.
+      /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
+      static func upnext(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, BroadcasterViewController, UpNextOverlayViewController>? {
+        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.broadcasterViewController.upnext, segue: segue)
       }
       
       fileprivate init() {}
