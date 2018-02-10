@@ -22,14 +22,22 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 1 files.
+  /// This `R.file` struct is generated, and contains static references to 2 files.
   struct file {
     /// Resource file `Raleway-Regular.ttf`.
     static let ralewayRegularTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "Raleway-Regular", pathExtension: "ttf")
+    /// Resource file `person.pdf`.
+    static let personPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "person", pathExtension: "pdf")
     
     /// `bundle.url(forResource: "Raleway-Regular", withExtension: "ttf")`
     static func ralewayRegularTtf(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.ralewayRegularTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "person", withExtension: "pdf")`
+    static func personPdf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.personPdf
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -53,7 +61,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 7 images.
+  /// This `R.image` struct is generated, and contains static references to 8 images.
   struct image {
     /// Image `gift-1`.
     static let gift1 = Rswift.ImageResource(bundle: R.hostingBundle, name: "gift-1")
@@ -69,6 +77,8 @@ struct R: Rswift.Validatable {
     static let iconGift = Rswift.ImageResource(bundle: R.hostingBundle, name: "icon-gift")
     /// Image `icon-like`.
     static let iconLike = Rswift.ImageResource(bundle: R.hostingBundle, name: "icon-like")
+    /// Image `person`.
+    static let person = Rswift.ImageResource(bundle: R.hostingBundle, name: "person")
     
     /// `UIImage(named: "gift-1", bundle: ..., traitCollection: ...)`
     static func gift1(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
@@ -103,6 +113,11 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "icon-like", bundle: ..., traitCollection: ...)`
     static func iconLike(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.iconLike, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "person", bundle: ..., traitCollection: ...)`
+    static func person(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.person, compatibleWith: traitCollection)
     }
     
     fileprivate init() {}
@@ -268,6 +283,7 @@ struct _R: Rswift.Validatable {
       
       static func validate() throws {
         if UIKit.UIImage(named: "gift-3") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'gift-3' is used in storyboard 'Main', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "person") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'person' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "gift-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'gift-1' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "gift-2") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'gift-2' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "icon-like") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon-like' is used in storyboard 'Main', but couldn't be loaded.") }

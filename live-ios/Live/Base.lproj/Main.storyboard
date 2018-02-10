@@ -11,7 +11,7 @@
     </dependencies>
     <customFonts key="customFonts">
         <array key="Avenir.ttc">
-            <string>Avenir-Heavy</string>
+            <string>Avenir-Medium</string>
         </array>
         <array key="Raleway-Regular.ttf">
             <string>Raleway-Regular</string>
@@ -382,7 +382,7 @@
                                     <constraint firstAttribute="width" constant="80" id="mx6-cl-0cj"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ads-qZ-yzR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="ads-qZ-yzR">
                                 <rect key="frame" x="15" y="51" width="16" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="16" id="abC-qn-GRT"/>
@@ -390,14 +390,25 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WK-Jb-HeL">
-                                <rect key="frame" x="30" y="51" width="40.5" height="17"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="30" y="51" width="36" height="17"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBw-Ge-kj1">
-                                <rect key="frame" x="241" y="47" width="69" height="30"/>
-                                <state key="normal" title="Subscribe"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBw-Ge-kj1" customClass="RoundedButton" customModule="Live" customModuleProvider="target">
+                                <rect key="frame" x="200" y="42.5" width="110" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="0YT-b0-iD3"/>
+                                    <constraint firstAttribute="height" constant="35" id="Pcn-Pw-2S2"/>
+                                </constraints>
+                                <state key="normal" title="🔔Subscribe"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="highlighedColor">
+                                        <color key="value" red="1" green="0.15196437922992978" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="subscribeButtonPressed:" destination="GmT-t2-do1" eventType="touchUpInside" id="gbv-ly-M5V"/>
                                 </connections>
@@ -409,7 +420,6 @@
                             <constraint firstItem="jgT-nU-mlS" firstAttribute="top" secondItem="jgw-Cg-FdB" secondAttribute="bottom" constant="15" id="JSe-uq-Qbp"/>
                             <constraint firstItem="ZhK-5V-YXr" firstAttribute="leading" secondItem="GHW-Mm-GiF" secondAttribute="trailing" constant="66" id="KI1-W4-VDQ"/>
                             <constraint firstItem="zsj-yN-ulg" firstAttribute="centerX" secondItem="lQK-MJ-Umu" secondAttribute="centerX" id="Kx1-R1-aoJ"/>
-                            <constraint firstItem="KBw-Ge-kj1" firstAttribute="top" secondItem="zsj-yN-ulg" secondAttribute="bottom" constant="-53" id="Lyq-Uv-ClH"/>
                             <constraint firstAttribute="trailing" secondItem="KBw-Ge-kj1" secondAttribute="trailing" constant="10" id="QBR-1f-GPp"/>
                             <constraint firstItem="jgw-Cg-FdB" firstAttribute="centerX" secondItem="ZhK-5V-YXr" secondAttribute="centerX" id="biO-Pg-evy"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7WK-Jb-HeL" secondAttribute="trailing" constant="20" symbolic="YES" id="dG5-Ov-w2Y"/>
@@ -417,6 +427,7 @@
                             <constraint firstItem="zsj-yN-ulg" firstAttribute="top" secondItem="7WK-Jb-HeL" secondAttribute="bottom" constant="-48" id="eHR-Jw-woV"/>
                             <constraint firstItem="ads-qZ-yzR" firstAttribute="centerY" secondItem="7WK-Jb-HeL" secondAttribute="centerY" id="fmI-rf-gTO"/>
                             <constraint firstItem="7WK-Jb-HeL" firstAttribute="leading" secondItem="lQK-MJ-Umu" secondAttribute="leading" constant="30" id="gcr-pt-dB0"/>
+                            <constraint firstItem="KBw-Ge-kj1" firstAttribute="centerY" secondItem="zsj-yN-ulg" secondAttribute="centerY" id="iTM-cV-V1d"/>
                             <constraint firstItem="zsj-yN-ulg" firstAttribute="top" secondItem="xIx-a2-kd8" secondAttribute="bottom" id="ivW-TZ-R6p"/>
                             <constraint firstAttribute="bottomMargin" secondItem="C92-Af-cfR" secondAttribute="bottom" id="m7c-Nf-HWu"/>
                             <constraint firstItem="ads-qZ-yzR" firstAttribute="top" secondItem="7WK-Jb-HeL" secondAttribute="top" id="wK1-O0-KRS"/>
@@ -534,6 +545,7 @@
         <image name="gift-2" width="64" height="64"/>
         <image name="gift-3" width="64" height="64"/>
         <image name="icon-like" width="23" height="22"/>
+        <image name="person" width="48" height="48"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="66o-s1-S8a"/>
