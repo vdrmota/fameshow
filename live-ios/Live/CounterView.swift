@@ -50,7 +50,7 @@ class CounterView: UIView {
     }
     var color:UIColor!          = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
     var warningColor:UIColor!   = UIColor(red:0.84, green:0.19, blue:0.19, alpha:1.0)
-    var fullColor:UIColor!      = UIColor(red:0.33, green:0.94, blue:0.77, alpha:1.0)
+    var fullColor:UIColor!      = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)//UIColor(red:0.33, green:0.94, blue:0.77, alpha:1.0)
 
     private var fillColor : UIColor {
         get {

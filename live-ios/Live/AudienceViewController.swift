@@ -151,9 +151,9 @@ class AudienceViewController: UIViewController {
         NotificationCenter.default.removeObserver(self)
     }
     
-    @IBAction func switchChanged(_ sender: UISwitch) {
-        socket.emit("toggle", sender.isOn)
-    }
+//    @IBAction func switchChanged(_ sender: UISwitch) {
+//        socket.emit("toggle", sender.isOn)
+//    }
 
     
     @IBAction func subscribeButtonPressed(_ sender: AnyObject) {
@@ -171,3 +171,10 @@ class AudienceViewController: UIViewController {
         present(vc, animated: true, completion: nil)
     }
 }
+
+extension AudienceViewController: LLSwitchDelegate {
+    func valueDidChanged(_ llSwitch: LLSwitch!, on: Bool) {
+        socket.emit("toggle", on)
+    }
+}
+
