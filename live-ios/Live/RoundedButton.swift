@@ -45,7 +45,11 @@ extension UIColor {
 }
 
 class RoundedButton: UIButton {
-    @IBInspectable var color : UIColor! = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
+    @IBInspectable var color : UIColor! = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0) {
+        didSet {
+            self.setBackgroundImage(UIImage.imageWithColor(color: self.color), for: .normal)
+        }
+    }
     @IBInspectable var highlightedColor : UIColor! = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0).lighter(by:10)
     
     func initialize(frame: CGRect){

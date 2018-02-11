@@ -140,34 +140,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcV-Jj-LLZ">
-                                <rect key="frame" x="144" y="42" width="33" height="16"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="33" id="LFS-Wt-Yh4"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ld9-Gf-fY4">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <connections>
                                     <segue destination="GmT-t2-do1" kind="embed" identifier="overlay" id="66o-s1-S8a"/>
                                 </connections>
                             </containerView>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pYp-Sx-a00">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <connections>
-                                    <segue destination="gbb-om-07e" kind="embed" identifier="upnext" id="gyU-Bq-ujj"/>
-                                </connections>
-                            </containerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSg-rs-5jg" userLabel="i">
-                                <rect key="frame" x="294" y="42" width="0.0" height="0.0"/>
-                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyW-4M-3ec" customClass="RoundedButton" customModule="Live" customModuleProvider="target">
+                                <rect key="frame" x="127" y="105" width="66" height="26"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="4" maxX="5" maxY="4"/>
+                                <state key="normal" title="Up Next"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQp-wJ-0hN">
                                 <rect key="frame" x="254" y="30" width="59" height="59"/>
                                 <constraints>
@@ -179,31 +163,46 @@
                                     <action selector="flipCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Dz-S7-eb2"/>
                                 </connections>
                             </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pYp-Sx-a00">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <segue destination="gbb-om-07e" kind="embed" identifier="upnext" id="gyU-Bq-ujj"/>
+                                </connections>
+                            </containerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcV-Jj-LLZ">
+                                <rect key="frame" x="16" y="548" width="33" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="33" id="LFS-Wt-Yh4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="oQp-wJ-0hN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="1Ij-4B-jKD"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EOl-1F-OLr" secondAttribute="bottom" id="3Ku-wM-UDW"/>
-                            <constraint firstItem="LcV-Jj-LLZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="3Mn-k3-z3y"/>
+                            <constraint firstItem="CyW-4M-3ec" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7dn-7f-bSD"/>
                             <constraint firstItem="EOl-1F-OLr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="D5o-Lp-AfK"/>
-                            <constraint firstItem="LcV-Jj-LLZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E5f-Oq-Kl8"/>
                             <constraint firstAttribute="trailing" secondItem="oQp-wJ-0hN" secondAttribute="trailing" constant="7" id="FtH-Vs-v4z"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ld9-Gf-fY4" secondAttribute="bottom" id="GZB-sj-1t7"/>
                             <constraint firstItem="EOl-1F-OLr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="HAc-P9-qLY"/>
                             <constraint firstAttribute="trailing" secondItem="ld9-Gf-fY4" secondAttribute="trailing" id="KQ4-l2-yJS"/>
+                            <constraint firstItem="LcV-Jj-LLZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="RqZ-jf-HqG"/>
                             <constraint firstAttribute="trailing" secondItem="EOl-1F-OLr" secondAttribute="trailing" id="TIo-5H-nsC"/>
                             <constraint firstItem="ld9-Gf-fY4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cqN-r2-in2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="MSg-rs-5jg" secondAttribute="trailing" constant="10" id="cxn-qP-SUg"/>
                             <constraint firstItem="ld9-Gf-fY4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="hAQ-3L-DWA"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LcV-Jj-LLZ" secondAttribute="bottom" constant="609" id="hfy-Of-F1t"/>
-                            <constraint firstItem="MSg-rs-5jg" firstAttribute="centerY" secondItem="LcV-Jj-LLZ" secondAttribute="centerY" id="mmk-og-RJa"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LcV-Jj-LLZ" secondAttribute="bottom" constant="20" id="k3f-HL-NTU"/>
+                            <constraint firstItem="CyW-4M-3ec" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="85" id="sYp-t7-p0E"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="cameraFlipButton" destination="oQp-wJ-0hN" id="h7x-tv-457"/>
                         <outlet property="containerView" destination="pYp-Sx-a00" id="Xb3-a3-g7F"/>
-                        <outlet property="infoLabel" destination="MSg-rs-5jg" id="Srz-Wv-Way"/>
+                        <outlet property="liveIndicator" destination="CyW-4M-3ec" id="hdx-dd-rDS"/>
                         <outlet property="previewView" destination="EOl-1F-OLr" id="sRN-dv-F8R"/>
                         <outlet property="statusLabel" destination="LcV-Jj-LLZ" id="PpT-xG-nO3"/>
                     </connections>
@@ -570,6 +569,6 @@
         <image name="person_small" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="93g-pg-D1Y"/>
+        <segue reference="66o-s1-S8a"/>
     </inferredMetricsTieBreakers>
 </document>

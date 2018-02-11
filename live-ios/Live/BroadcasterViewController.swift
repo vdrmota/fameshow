@@ -16,14 +16,34 @@ class BroadcasterViewController: UIViewController {
         
     @IBOutlet weak var previewView: UIView!
     @IBOutlet weak var statusLabel: UILabel!
-    @IBOutlet weak var infoLabel: UILabel!
     
     @IBOutlet weak var titleTextField: TextField!
     @IBOutlet weak var containerView: UIView!
 
     @IBOutlet weak var cameraFlipButton: UIButton!
+    @IBOutlet weak var liveIndicator: RoundedButton!
 
-    var isLive:Bool!
+
+    var isLive:Bool! {
+        didSet {
+            if (self.liveIndicator != nil) {
+                if (isLive) {
+                    self.liveIndicator.setTitle("LIVE", for: .normal)
+                    self.liveIndicator.color = UIColor(red:0.84, green:0.19, blue:0.19, alpha:1.0)
+                    let fadeAnimation = CABasicAnimation(keyPath:"opacity")
+                    fadeAnimation.duration = 1
+                    fadeAnimation.fromValue = 1
+                    fadeAnimation.toValue = 0.75
+                    fadeAnimation.autoreverses = true
+                    fadeAnimation.repeatCount = .greatestFiniteMagnitude
+                    self.liveIndicator.layer.add(fadeAnimation, forKey: "pulse")
+                } else {
+                    self.liveIndicator.setTitle("UP NEXT", for: .normal)
+                    self.liveIndicator.color = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
+                }
+            }
+        }
+    }
     var socket: SocketIOClient!
 
     let manager = SocketManager(socketURL:URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)])
@@ -55,18 +75,15 @@ class BroadcasterViewController: UIViewController {
     override func viewDidLoad() {
 
         super.viewDidLoad()
-            // Do any additional setup after loading the view, typically from a nib.
-        //self.inputTitleOverlay.isHidden = true
+
         start()
 					
-
+        // trigger UI updates if isLive is set before view has loaded
+        self.isLive = (isLive) ? true : false
+        
         socket.on("is_live") {[weak self] data, ack in
-            print("IS LIVE");
             self?.isLive = true;
-            self?.infoLabel.text = "LIVE";
             self?.upNextOverlayController.dismiss()
-            self?.overlayController.state = .broadcasting
-
         }
         
         socket.on("is_dead") {[weak self] data, ack in
@@ -75,8 +92,6 @@ class BroadcasterViewController: UIViewController {
 
             self?.presentingViewController?.dismiss(animated: true, completion: nil)
             self?.isLive = false;
-            self?.infoLabel.text = "DEAD";
-                
 
             }
 
@@ -84,11 +99,6 @@ class BroadcasterViewController: UIViewController {
 
     }
     
-    func tap (recognizer: UIGestureRecognizer){
-        print("hi")
-  
-        
-    }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -98,18 +108,7 @@ class BroadcasterViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        if (self.isLive) {
-            infoLabel.text = "LIVE";
-            overlayController.state = .broadcasting
 
-        } else {
-            infoLabel.text = "UP NEXT";
-            overlayController.state = .pending
-
-            ///let controller = R.storyboard.main.up_next_overlay()!
-            //self.present(controller, animated: true, completion: nil)
-            
-        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -164,7 +163,7 @@ class BroadcasterViewController: UIViewController {
 //            this.socket.emit("create_room", this.room.toDict())
 //        }
         
-        infoLabel.text = "Room: \(room.key)"
+//        infoLabel.text = "Room: \(room.key)"
 
         //IHKeyboardAvoiding.setAvoiding(overlayController.inputContainer)
     }

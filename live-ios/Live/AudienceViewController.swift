@@ -163,7 +163,7 @@ class AudienceViewController: UIViewController {
     func beginBroadcast (){
         let vc = R.storyboard.main.broadcast()!
         vc.socket = self.socket
-        vc.isLive = false;
+        vc.isLive = true;
         present(vc, animated: true, completion: nil)
     }
 }
