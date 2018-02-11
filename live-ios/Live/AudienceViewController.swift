@@ -21,7 +21,7 @@ class AudienceViewController: UIViewController {
     @IBOutlet weak var previewView: UIView!
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var subscribeButton: UIButton!
-    @IBOutlet weak var audienceSwitch: UISwitch!
+    @IBOutlet weak var audienceSwitch: LLSwitch!
     
     var room: Room!
     var socket: SocketIOClient!
@@ -101,6 +101,10 @@ class AudienceViewController: UIViewController {
             }
             
         }
+        
+        audienceSwitch.animationDuration = 0.35
+        audienceSwitch.onColor = UIColor(red:0.42, green:0.36, blue:0.91, alpha:0.9)
+
     }
     
 

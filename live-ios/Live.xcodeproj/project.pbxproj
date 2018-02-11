@@ -15,6 +15,9 @@
 		75A7AC5D202E77E800E2D2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */; };
 		75A7AC5F202F76AC00E2D2E3 /* UpNextOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC5E202F76AC00E2D2E3 /* UpNextOverlayViewController.swift */; };
 		75A7AC652030B8CB00E2D2E3 /* flip-icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75A7AC642030B8CA00E2D2E3 /* flip-icon.pdf */; };
+		75A7AC6C2030FB7600E2D2E3 /* LLAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC672030FB7300E2D2E3 /* LLAnimationManager.m */; };
+		75A7AC6D2030FB7600E2D2E3 /* LLEyesLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC692030FB7400E2D2E3 /* LLEyesLayer.m */; };
+		75A7AC6E2030FB7600E2D2E3 /* LLSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC6B2030FB7500E2D2E3 /* LLSwitch.m */; };
 		B32E392C1D336A5500FA87AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E392B1D336A5500FA87AB /* AppDelegate.swift */; };
 		B32E39311D336A5500FA87AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32E392F1D336A5500FA87AB /* Main.storyboard */; };
 		B32E39361D336A5500FA87AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32E39341D336A5500FA87AB /* LaunchScreen.storyboard */; };
@@ -61,6 +64,12 @@
 		75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75A7AC5E202F76AC00E2D2E3 /* UpNextOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextOverlayViewController.swift; sourceTree = "<group>"; };
 		75A7AC642030B8CA00E2D2E3 /* flip-icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "flip-icon.pdf"; sourceTree = "<group>"; };
+		75A7AC662030FB7300E2D2E3 /* LLAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAnimationManager.h; sourceTree = "<group>"; };
+		75A7AC672030FB7300E2D2E3 /* LLAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAnimationManager.m; sourceTree = "<group>"; };
+		75A7AC682030FB7400E2D2E3 /* LLEyesLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLEyesLayer.h; sourceTree = "<group>"; };
+		75A7AC692030FB7400E2D2E3 /* LLEyesLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLEyesLayer.m; sourceTree = "<group>"; };
+		75A7AC6A2030FB7500E2D2E3 /* LLSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSwitch.h; sourceTree = "<group>"; };
+		75A7AC6B2030FB7500E2D2E3 /* LLSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSwitch.m; sourceTree = "<group>"; };
 		8FEF6E319D18D0F7F9E49151 /* Pods-Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.release.xcconfig"; sourceTree = "<group>"; };
 		9AB8022663522F75E00F7B60 /* Pods_Live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32E39281D336A5500FA87AB /* Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Live.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +132,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75A7AC6F2030FB7B00E2D2E3 /* LLSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				75A7AC662030FB7300E2D2E3 /* LLAnimationManager.h */,
+				75A7AC672030FB7300E2D2E3 /* LLAnimationManager.m */,
+				75A7AC682030FB7400E2D2E3 /* LLEyesLayer.h */,
+				75A7AC692030FB7400E2D2E3 /* LLEyesLayer.m */,
+				75A7AC6A2030FB7500E2D2E3 /* LLSwitch.h */,
+				75A7AC6B2030FB7500E2D2E3 /* LLSwitch.m */,
+			);
+			name = LLSwitch;
+			sourceTree = "<group>";
+		};
 		A04B90479CA53ABDBFB7A373 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +192,7 @@
 				B32E39341D336A5500FA87AB /* LaunchScreen.storyboard */,
 				B32E39371D336A5500FA87AB /* Info.plist */,
 				B3401F2A1D3389A800ECF1CC /* Live-Bridging-Header.h */,
+				75A7AC6F2030FB7B00E2D2E3 /* LLSwitch */,
 				B3401F751D3631B300ECF1CC /* Config.swift */,
 			);
 			path = Live;
@@ -400,8 +423,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A7AC6C2030FB7600E2D2E3 /* LLAnimationManager.m in Sources */,
 				B32E392C1D336A5500FA87AB /* AppDelegate.swift in Sources */,
 				B3401F6A1D35DCA400ECF1CC /* String.swift in Sources */,
+				75A7AC6D2030FB7600E2D2E3 /* LLEyesLayer.m in Sources */,
 				B3401F8A1D38AA6E00ECF1CC /* GiftChooserViewController.swift in Sources */,
 				B3401F6E1D35E22800ECF1CC /* R.generated.swift in Sources */,
 				B3401F331D33903100ECF1CC /* AudienceViewController.swift in Sources */,
@@ -413,6 +438,7 @@
 				B3401F731D35F34E00ECF1CC /* TextField.swift in Sources */,
 				B3401F661D35DCA400ECF1CC /* NavigationController.swift in Sources */,
 				B3401F711D35E48000ECF1CC /* Model.swift in Sources */,
+				75A7AC6E2030FB7600E2D2E3 /* LLSwitch.m in Sources */,
 				7527622B202E5AA100A407EA /* Connectivity.swift in Sources */,
 				B3401F501D34960700ECF1CC /* DesignableButton.swift in Sources */,
 				B3401F671D35DCA400ECF1CC /* XibBasedView.swift in Sources */,
