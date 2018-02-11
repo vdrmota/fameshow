@@ -27,16 +27,19 @@ class BroadcasterViewController: UIViewController {
     var isLive:Bool! {
         didSet {
             if (self.liveIndicator != nil) {
+                self.liveIndicator.layer.removeAllAnimations()
+
+                let fadeAnimation = CABasicAnimation(keyPath:"opacity")
+                fadeAnimation.duration = 1
+                fadeAnimation.fromValue = 1
+                fadeAnimation.toValue = 0.75
+                fadeAnimation.autoreverses = true
+                fadeAnimation.repeatCount = .greatestFiniteMagnitude
+                self.liveIndicator.layer.add(fadeAnimation, forKey: "other")
+                
                 if (isLive) {
                     self.liveIndicator.setTitle("LIVE", for: .normal)
                     self.liveIndicator.color = UIColor(red:0.84, green:0.19, blue:0.19, alpha:1.0)
-                    let fadeAnimation = CABasicAnimation(keyPath:"opacity")
-                    fadeAnimation.duration = 1
-                    fadeAnimation.fromValue = 1
-                    fadeAnimation.toValue = 0.75
-                    fadeAnimation.autoreverses = true
-                    fadeAnimation.repeatCount = .greatestFiniteMagnitude
-                    self.liveIndicator.layer.add(fadeAnimation, forKey: "pulse")
                 } else {
                     self.liveIndicator.setTitle("UP NEXT", for: .normal)
                     self.liveIndicator.color = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
@@ -78,8 +81,11 @@ class BroadcasterViewController: UIViewController {
 
         start()
 					
-        // trigger UI updates if isLive is set before view has loaded
-        self.isLive = (isLive) ? true : false
+        
+        // don't present upNextOverlay if broadcaster is already live (eg. on /genesis)
+        if (self.isLive) {
+            self.wasDismissed(sender: self.upNextOverlayController)
+        }
         
         socket.on("is_live") {[weak self] data, ack in
             self?.isLive = true;
@@ -108,6 +114,9 @@ class BroadcasterViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
+        // trigger UI updates if isLive is set before view has loaded
+        self.isLive = (isLive) ? true : false
 
     }
     
