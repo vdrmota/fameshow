@@ -10,6 +10,10 @@ import UIKit
 import SocketIO
 import IHKeyboardAvoiding
 
+enum UnderlayState {
+    case broadcasting, pending, viewing
+}
+
 class LiveOverlayViewController: UIViewController {
     
     @IBOutlet weak var emitterView: WaveEmitterView!
@@ -18,14 +22,41 @@ class LiveOverlayViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var giftArea: GiftDisplayArea!
     //@IBOutlet weak var viewerLabel: UILabel!
+    
     @IBOutlet weak var viewerLabel: UIButton!
-    @IBOutlet weak var subscribeButton: UIButton!
+    //@IBOutlet weak var subscribeButton: UIButton!
     @IBOutlet weak var counter: CounterView!
+//    @IBOutlet weak var audienceSwitch: UISwitch!
+//    @IBOutlet weak var cameraFlipButton: UIButton!
+
 
     var comments: [Comment] = []
     var room: Room!
     
     var socket: SocketIOClient!
+    
+    var state: UnderlayState = .viewing
+//        didSet {
+//            switch state {
+//                case .broadcasting: do {
+//                    self.subscribeButton.isHidden  = true
+//                    self.audienceSwitch.isHidden   = true
+//                    self.cameraFlipButton.isHidden = false
+//                }
+//                case .pending: do {
+//                    self.subscribeButton.isHidden  = true
+//                    self.audienceSwitch.isHidden   = true
+//                    self.cameraFlipButton.isHidden = false
+//                }
+//                case .viewing: do {
+//                    self.subscribeButton.isHidden  = false
+//                    self.audienceSwitch.isHidden   = false
+//                    self.cameraFlipButton.isHidden = true
+//
+//                }
+//            }
+//        }
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

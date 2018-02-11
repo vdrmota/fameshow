@@ -21,7 +21,8 @@ class BroadcasterViewController: UIViewController {
     @IBOutlet weak var titleTextField: TextField!
     @IBOutlet weak var containerView: UIView!
 
-    
+    @IBOutlet weak var cameraFlipButton: UIButton!
+
     var isLive:Bool!
     var socket: SocketIOClient!
 
@@ -64,6 +65,8 @@ class BroadcasterViewController: UIViewController {
             self?.isLive = true;
             self?.infoLabel.text = "LIVE";
             self?.upNextOverlayController.dismiss()
+            self?.overlayController.state = .broadcasting
+
         }
         
         socket.on("is_dead") {[weak self] data, ack in
@@ -73,6 +76,7 @@ class BroadcasterViewController: UIViewController {
             self?.presentingViewController?.dismiss(animated: true, completion: nil)
             self?.isLive = false;
             self?.infoLabel.text = "DEAD";
+                
 
             }
 
@@ -96,8 +100,12 @@ class BroadcasterViewController: UIViewController {
         super.viewDidAppear(animated)
         if (self.isLive) {
             infoLabel.text = "LIVE";
+            overlayController.state = .broadcasting
+
         } else {
             infoLabel.text = "UP NEXT";
+            overlayController.state = .pending
+
             ///let controller = R.storyboard.main.up_next_overlay()!
             //self.present(controller, animated: true, completion: nil)
             
@@ -178,15 +186,20 @@ class BroadcasterViewController: UIViewController {
         return .lightContent
     }
 	
-	@IBAction func handleTapUI(_ gesture: UITapGestureRecognizer) {
-		print("whwhhw")
-		//textField.resignFirstResponder()
+	@IBAction func flipCamera(_ sender: UIButton) {
+        switch(self.session.captureDevicePosition){
+            case .front: do {
+                self.session.captureDevicePosition = .back
+            }
+            case .back: do {
+                self.session.captureDevicePosition = .front
+            }
+            case .unspecified:
+                break;
+        }
 	}
 	
-	@objc func handleTap(_ gesture: UITapGestureRecognizer) {
-	print("whwhhw")
-		//textField.resignFirstResponder()
-	}
+
 }
 
 extension BroadcasterViewController: UpNextOverlayViewControllerDelegate {

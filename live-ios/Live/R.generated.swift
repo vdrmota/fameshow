@@ -22,14 +22,22 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 1 files.
+  /// This `R.file` struct is generated, and contains static references to 2 files.
   struct file {
     /// Resource file `Raleway-Regular.ttf`.
     static let ralewayRegularTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "Raleway-Regular", pathExtension: "ttf")
+    /// Resource file `flip-icon.pdf`.
+    static let flipIconPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "flip-icon", pathExtension: "pdf")
     
     /// `bundle.url(forResource: "Raleway-Regular", withExtension: "ttf")`
     static func ralewayRegularTtf(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.ralewayRegularTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "flip-icon", withExtension: "pdf")`
+    static func flipIconPdf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.flipIconPdf
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -53,8 +61,10 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 8 images.
+  /// This `R.image` struct is generated, and contains static references to 9 images.
   struct image {
+    /// Image `flip-icon`.
+    static let flipIcon = Rswift.ImageResource(bundle: R.hostingBundle, name: "flip-icon")
     /// Image `gift-1`.
     static let gift1 = Rswift.ImageResource(bundle: R.hostingBundle, name: "gift-1")
     /// Image `gift-2`.
@@ -71,6 +81,11 @@ struct R: Rswift.Validatable {
     static let iconLike = Rswift.ImageResource(bundle: R.hostingBundle, name: "icon-like")
     /// Image `person_small`.
     static let person_small = Rswift.ImageResource(bundle: R.hostingBundle, name: "person_small")
+    
+    /// `UIImage(named: "flip-icon", bundle: ..., traitCollection: ...)`
+    static func flipIcon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.flipIcon, compatibleWith: traitCollection)
+    }
     
     /// `UIImage(named: "gift-1", bundle: ..., traitCollection: ...)`
     static func gift1(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
@@ -290,6 +305,7 @@ struct _R: Rswift.Validatable {
       static func validate() throws {
         if UIKit.UIImage(named: "gift-3") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'gift-3' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "person_small") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'person_small' is used in storyboard 'Main', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "flip-icon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'flip-icon' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "gift-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'gift-1' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "gift-2") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'gift-2' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "icon-like") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon-like' is used in storyboard 'Main', but couldn't be loaded.") }
