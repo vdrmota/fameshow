@@ -31,6 +31,24 @@ class CounterView: UIView {
                     self.state = .normal
                 }
             }
+            
+            if timeRemaining == 0 {
+                self.label.text = ""
+                let pulseAnimation = CABasicAnimation(keyPath:"transform.scale")
+                pulseAnimation.duration = 0.5
+                pulseAnimation.fromValue = 1
+                pulseAnimation.toValue = 0
+                pulseAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+                pulseAnimation.autoreverses = true
+                pulseAnimation.repeatCount = 1
+                self.layer.add(pulseAnimation, forKey: "pulse")
+                let when = DispatchTime.now() + 0.5 // change 2 to desired number of seconds
+                DispatchQueue.main.asyncAfter(deadline: when) {
+                    self.voteProgress = 0
+                    self.setNeedsDisplay()
+
+                }
+            }
         }
     }
     private var _progress:Double! = 0;
@@ -40,7 +58,7 @@ class CounterView: UIView {
         }
         
         set(newValue){
-            _progress = max(1, newValue)
+            _progress = min(1, newValue)
             if voteProgress >= 1.0 {
                 self.state = .full
             } else {

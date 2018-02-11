@@ -37,7 +37,7 @@ class UpNextOverlayViewController: UIViewController {
         // Start
         cheerView.start()
 					
-					let when = DispatchTime.now() + 4 // change 2 to desired number of seconds
+					let when = DispatchTime.now() + 3.5 // change 2 to desired number of seconds
 					DispatchQueue.main.asyncAfter(deadline: when) {
 						// Your code with delay
 						cheerView.stop()
