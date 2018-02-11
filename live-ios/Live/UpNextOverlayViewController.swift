@@ -9,7 +9,12 @@
 import UIKit
 import Cheers
 
+protocol UpNextOverlayViewControllerDelegate: class {
+    func wasDismissed(sender: UpNextOverlayViewController)
+}
+
 class UpNextOverlayViewController: UIViewController {
+    weak var delegate:UpNextOverlayViewControllerDelegate?
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -18,7 +23,8 @@ class UpNextOverlayViewController: UIViewController {
 					
         let cheerView = CheerView()
         cheerView.frame = self.view.bounds
-        self.view.addSubview(cheerView)
+        //self.view.addSubview(cheerView)
+        self.view.insertSubview(cheerView, at: 1)
         
         // Configure
         cheerView.config.particle = .confetti(allowedShapes: Particle.ConfettiShape.all)
@@ -51,13 +57,26 @@ class UpNextOverlayViewController: UIViewController {
         super.init(coder: aDecoder)
     }
 
+    
+    func dismiss () {
+        UIView.animate(withDuration: 0.5, animations: {
+            self.view.alpha = 0
+        }) { (completed) in
+            //self.removeFromParentViewController()
+            //self.view.removeFromSuperview()
+            self.delegate?.wasDismissed(sender: self)
+
+        }
+    }
 @objc func handleTap(_ gesture: UITapGestureRecognizer) {
-	UIView.animate(withDuration: 0.5, animations: {
-		self.view.alpha = 0
-	}) { (completed) in
-		self.removeFromParentViewController()
-		self.view.removeFromSuperview()
-	}
+//    UIView.animate(withDuration: 0.5, animations: {
+//        self.view.alpha = 0
+//    }) { (completed) in
+//        self.removeFromParentViewController()
+//        self.view.removeFromSuperview()
+//    }
+    
+    self.dismiss()
 
 		//textField.resignFirstResponder()
 	}

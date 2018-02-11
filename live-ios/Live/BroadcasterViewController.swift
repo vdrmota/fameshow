@@ -19,8 +19,7 @@ class BroadcasterViewController: UIViewController {
     @IBOutlet weak var infoLabel: UILabel!
     
     @IBOutlet weak var titleTextField: TextField!
-    @IBOutlet weak var inputTitleOverlay: UIVisualEffectView!
-    @IBOutlet weak var inputContainer: UIView!
+    @IBOutlet weak var containerView: UIView!
 
     
     var isLive:Bool!
@@ -50,7 +49,7 @@ class BroadcasterViewController: UIViewController {
     var room: Room!
     
     var overlayController: LiveOverlayViewController!
-				var upNextOverlayController: UpNextOverlayViewController!
+    var upNextOverlayController: UpNextOverlayViewController!
 
     override func viewDidLoad() {
 
@@ -64,6 +63,7 @@ class BroadcasterViewController: UIViewController {
             print("IS LIVE");
             self?.isLive = true;
             self?.infoLabel.text = "LIVE";
+            self?.upNextOverlayController.dismiss()
         }
         
         socket.on("is_dead") {[weak self] data, ack in
@@ -117,11 +117,12 @@ class BroadcasterViewController: UIViewController {
             overlayController.socket = socket
 									//overlayController.view.isUserInteractionEnabled = false
         }
-						if segue.identifier == "upnext" {
-						upNextOverlayController = segue.destination as! UpNextOverlayViewController
-						//upNextOverlayController.socket = socket
-					}
-		}
+            if segue.identifier == "upnext" {
+            upNextOverlayController = segue.destination as! UpNextOverlayViewController
+            upNextOverlayController.delegate = self
+            //upNextOverlayController.socket = socket
+        }
+    }
 	private func remove(asChildViewController viewController: UIViewController) {
 		// Notify Child View Controller
 		viewController.willMove(toParentViewController: nil)
@@ -132,6 +133,7 @@ class BroadcasterViewController: UIViewController {
 		// Notify Child View Controller
 		viewController.removeFromParentViewController()
 	}
+    
     func start() {
         room = Room(dict: [
             "title": "upcoming" as AnyObject,
@@ -168,16 +170,6 @@ class BroadcasterViewController: UIViewController {
         //manager.defaultSocket.disconnect()
     }
     
-    @IBAction func startButtonPressed(_ sender: AnyObject) {
-        titleTextField.resignFirstResponder()
-        start()
-        UIView.animate(withDuration: 0.2, animations: {
-            self.inputTitleOverlay.alpha = 0
-        }, completion: { finished in
-            self.inputTitleOverlay.isHidden = true
-        })
-    }
-        
     @IBAction func closeButtonPressed(_ sender: AnyObject) {
         presentingViewController?.dismiss(animated: true, completion: nil)
     }
@@ -195,6 +187,14 @@ class BroadcasterViewController: UIViewController {
 	print("whwhhw")
 		//textField.resignFirstResponder()
 	}
+}
+
+extension BroadcasterViewController: UpNextOverlayViewControllerDelegate {
+    
+    func wasDismissed(sender: UpNextOverlayViewController) {
+        self.remove(asChildViewController: sender)
+        self.containerView.removeFromSuperview()
+    }
 }
 
 extension BroadcasterViewController: LFLiveSessionDelegate {

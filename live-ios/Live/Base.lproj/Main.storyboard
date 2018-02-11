@@ -188,6 +188,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="containerView" destination="pYp-Sx-a00" id="Xb3-a3-g7F"/>
                         <outlet property="infoLabel" destination="MSg-rs-5jg" id="Srz-Wv-Way"/>
                         <outlet property="previewView" destination="EOl-1F-OLr" id="sRN-dv-F8R"/>
                         <outlet property="statusLabel" destination="LcV-Jj-LLZ" id="PpT-xG-nO3"/>
@@ -543,6 +544,10 @@
         <scene sceneID="bys-KJ-ltE">
             <objects>
                 <viewController id="46A-vY-1u6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cie-N5-yL8"/>
+                        <viewControllerLayoutGuide type="bottom" id="3tO-Yd-mtV"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hC7-fT-xfg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
