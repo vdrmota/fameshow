@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75028C39203142B10077C8FE /* flip-icon-shadow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75028C38203142B10077C8FE /* flip-icon-shadow.pdf */; };
 		75276229202DF7A900A407EA /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75276228202DF7A900A407EA /* CounterView.swift */; };
 		7527622B202E5AA100A407EA /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527622A202E5AA100A407EA /* Connectivity.swift */; };
 		7527622D202E5C3400A407EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7527622C202E5C3400A407EA /* SystemConfiguration.framework */; };
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		4FD07D4932212F687E5F1B5C /* Pods-Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.debug.xcconfig"; sourceTree = "<group>"; };
+		75028C38203142B10077C8FE /* flip-icon-shadow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "flip-icon-shadow.pdf"; sourceTree = "<group>"; };
 		75276228202DF7A900A407EA /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		7527622A202E5AA100A407EA /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 		7527622C202E5C3400A407EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -237,6 +239,7 @@
 		B3401F5B1D35DBF000ECF1CC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				75028C38203142B10077C8FE /* flip-icon-shadow.pdf */,
 				75A7AC642030B8CA00E2D2E3 /* flip-icon.pdf */,
 				B3401F5C1D35DBF900ECF1CC /* Raleway-Regular.ttf */,
 			);
@@ -331,6 +334,7 @@
 				B32E39361D336A5500FA87AB /* LaunchScreen.storyboard in Resources */,
 				B32E39311D336A5500FA87AB /* Main.storyboard in Resources */,
 				75A7AC5D202E77E800E2D2E3 /* Assets.xcassets in Resources */,
+				75028C39203142B10077C8FE /* flip-icon-shadow.pdf in Resources */,
 				B3401F861D38800F00ECF1CC /* GiftDisplayView.xib in Resources */,
 				B3401F5D1D35DBF900ECF1CC /* Raleway-Regular.ttf in Resources */,
 			);

@@ -141,23 +141,6 @@ class CounterView: UIView {
     }
 
 
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        
-        self.label.frame = frame
-        self.label.backgroundColor = UIColor.clear
-        self.label.text = "15"
-        self.label.font = UIFont(name: "Avenir", size: 40);
-        self.label.textColor = UIColor.white
-        self.label.textAlignment = NSTextAlignment.center
-        self.label.shadowColor = UIColor.black;
-        self.label.shadowOffset = CGSize(width:0.0, height:1.0)
-        self.addSubview(self.label)
-        
-        progressView = UIView(frame:frame)
-        self.addSubview(progressView)
-    }
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.backgroundColor = UIColor.clear
@@ -168,8 +151,12 @@ class CounterView: UIView {
         self.label.font = UIFont(name: "Avenir", size: 20);
         self.label.textColor = UIColor.white
         self.label.textAlignment = NSTextAlignment.center
-        self.label.shadowColor = self.color;
-        self.label.shadowOffset = CGSize(width:0.0, height:1.0)
+        self.label.layer.shadowOpacity = 1.0;
+        self.label.layer.shadowRadius = 0.0;
+        self.label.layer.shadowColor = UIColor.black.cgColor;
+        self.label.layer.shadowOffset = CGSize(width:0.0,height: -1.0);
+        //self.label.shadowColor = self.color;
+        //self.label.shadowOffset = CGSize(width:0.0, height:1.0)
         self.addSubview(self.label)
         
         progressView = UIView(frame:self.bounds)

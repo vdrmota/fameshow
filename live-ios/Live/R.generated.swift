@@ -22,10 +22,12 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 2 files.
+  /// This `R.file` struct is generated, and contains static references to 3 files.
   struct file {
     /// Resource file `Raleway-Regular.ttf`.
     static let ralewayRegularTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "Raleway-Regular", pathExtension: "ttf")
+    /// Resource file `flip-icon-shadow.pdf`.
+    static let flipIconShadowPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "flip-icon-shadow", pathExtension: "pdf")
     /// Resource file `flip-icon.pdf`.
     static let flipIconPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "flip-icon", pathExtension: "pdf")
     
@@ -38,6 +40,12 @@ struct R: Rswift.Validatable {
     /// `bundle.url(forResource: "flip-icon", withExtension: "pdf")`
     static func flipIconPdf(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.flipIconPdf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "flip-icon-shadow", withExtension: "pdf")`
+    static func flipIconShadowPdf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.flipIconShadowPdf
       return fileResource.bundle.url(forResource: fileResource)
     }
     
