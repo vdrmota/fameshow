@@ -81,11 +81,15 @@ class BroadcasterViewController: UIViewController {
 
         start()
 					
+
         
         // don't present upNextOverlay if broadcaster is already live (eg. on /genesis)
         if (self.isLive) {
             self.wasDismissed(sender: self.upNextOverlayController)
         }
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(BroadcasterViewController.handleTap(_:)))
+        view.addGestureRecognizer(tap)
         
         socket.on("is_live") {[weak self] data, ack in
             self?.isLive = true;
@@ -206,6 +210,13 @@ class BroadcasterViewController: UIViewController {
                 break;
         }
 	}
+    
+    @objc func handleTap(_ gesture: UITapGestureRecognizer) {
+        guard gesture.state == .ended else {
+            return
+        }
+        //textField.resignFirstResponder()
+    }
 	
 
 }

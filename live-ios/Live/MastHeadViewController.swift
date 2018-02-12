@@ -10,15 +10,17 @@
 import UIKit
 import SVProgressHUD
 import SocketIO
+import Cheers
 
 class MastHeadViewController: UIViewController {
     var rooms: [Room] = []
     let manager = SocketManager(socketURL:URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)])
-
+    let cheerView = CheerView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        view.backgroundColor = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
         manager.defaultSocket.once(clientEvent: .connect) { [weak self] data, ack in
             guard let this = self else {
                 return
@@ -30,6 +32,22 @@ class MastHeadViewController: UIViewController {
             }
             
         }
+        
+        
+        cheerView.alpha = 0.5
+        cheerView.frame = self.view.bounds
+        //self.view.addSubview(cheerView)
+        self.view.insertSubview(cheerView, at: 0)
+        
+        // Configure
+        cheerView.config.particle = .confetti(allowedShapes: Particle.ConfettiShape.all)
+        
+        //        let heart = NSAttributedString(string: "❤️", attributes: [
+        //            NSAttributedStringKey.font: UIFont(name: "AppleColorEmoji", size: 10)!
+        //            ])
+        //        cheerView.config.particle = Particle.text(CGSize(width:40, height:40),[heart])
+        cheerView.config.colors = [UIColor.white]
+        // Start
         
         manager.defaultSocket.connect()
 
@@ -47,8 +65,15 @@ class MastHeadViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+        cheerView.start()
+
         refresh()
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        cheerView.stop()
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -111,5 +136,8 @@ class MastHeadViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    override var preferredStatusBarStyle : UIStatusBarStyle {
+        return .lightContent
+    }
 
 }
