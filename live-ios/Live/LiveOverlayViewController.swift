@@ -9,6 +9,7 @@
 import UIKit
 import SocketIO
 import IHKeyboardAvoiding
+import Whisper
 
 enum UnderlayState {
     case broadcasting, pending, viewing
@@ -77,9 +78,16 @@ class LiveOverlayViewController: UIViewController {
         view.addGestureRecognizer(tap)
         
         //IHKeyboardAvoiding.setAvoiding(inputContainer)
+        socket.on("message") { data, ack in
+            if let message = data[0] as? String {
+                let murmur = Murmur(title: message, backgroundColor: UIColor.colorWithRGB(red: 0, green: 0, blue: 0, alpha: 0.4), titleColor: UIColor.white, font: UIFont(name: "Avenir", size: 13)!)
+                
+                // Show and hide a message after delay
+                Whisper.show(whistle: murmur, action: .show(5))
+            }
+        }
         
         socket.on("tick") {[weak self] data ,ack in
-            print("hello ther")
             if let viewers = data[0] as? Int, let votes = data[1] as? Int, let time = data[2] as? Int, let progress = data[3] as? Float {
                 self?.viewerLabel.setTitle(String(viewers), for: .normal)
                 //text = String(viewers)

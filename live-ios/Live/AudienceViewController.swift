@@ -10,6 +10,7 @@
 import UIKit
 import SocketIO
 import IHKeyboardAvoiding
+import Whisper
 
 struct Tick: Codable {
     let votes: Int?
@@ -169,7 +170,7 @@ class AudienceViewController: UIViewController {
         let vc = R.storyboard.main.broadcast()!
         vc.socket = self.socket
         vc.isLive = true;
-        present(vc, animated: true, completion: nil)
+        //present(vc, animated: true, completion: nil)
     }
 }
 

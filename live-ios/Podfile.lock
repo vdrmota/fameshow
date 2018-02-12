@@ -9,6 +9,7 @@ PODS:
     - Starscream (~> 3.0.2)
   - Starscream (3.0.3)
   - SVProgressHUD (2.2.2)
+  - Whisper (6.0.2)
 
 DEPENDENCIES:
   - Cheers
@@ -17,6 +18,7 @@ DEPENDENCIES:
   - R.swift
   - Socket.IO-Client-Swift (~> 13.1.0)
   - SVProgressHUD
+  - Whisper
 
 SPEC CHECKSUMS:
   Cheers: 450bd0578e40182c73d813a545379450c9f16a4a
@@ -27,7 +29,8 @@ SPEC CHECKSUMS:
   Socket.IO-Client-Swift: b67a96d6a9e5f271bceb93e99779d2cf77c74868
   Starscream: dfb1b3f39506717ee52b67fb48de0c8269504cbc
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  Whisper: 169760fc4bab0abf24d5529f9276f95c25cf1025
 
-PODFILE CHECKSUM: 1f0534b932fce9140758f27225c23b7e4ef6cedc
+PODFILE CHECKSUM: b2a942a1186097bb4bd7348f654ba0b919e449dc
 
 COCOAPODS: 1.4.0
