@@ -103,7 +103,8 @@ class AudienceViewController: UIViewController {
         }
         
         audienceSwitch.animationDuration = 0.35
-        audienceSwitch.onColor = UIColor(red:0.42, green:0.36, blue:0.91, alpha:0.9)
+        audienceSwitch.delegate = self
+        audienceSwitch.onColor = UIColor(red:0.42, green:0.36, blue:0.91, alpha:0.6)
 
     }
     
