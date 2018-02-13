@@ -34,13 +34,18 @@ class MastHeadViewController: UIViewController {
         }
         
         
-        cheerView.alpha = 0.5
+        cheerView.alpha = 0.25
         cheerView.frame = self.view.bounds
         //self.view.addSubview(cheerView)
         self.view.insertSubview(cheerView, at: 0)
         
         // Configure
         cheerView.config.particle = .confetti(allowedShapes: Particle.ConfettiShape.all)
+        cheerView.config.customize = { cells in
+            cells.forEach({ (cell) in
+                cell.birthRate = 10
+            })
+        }
         
         //        let heart = NSAttributedString(string: "❤️", attributes: [
         //            NSAttributedStringKey.font: UIFont(name: "AppleColorEmoji", size: 10)!
