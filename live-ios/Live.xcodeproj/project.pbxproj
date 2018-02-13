@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		75028C39203142B10077C8FE /* flip-icon-shadow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75028C38203142B10077C8FE /* flip-icon-shadow.pdf */; };
+		7521BED1203279D700F01A40 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7521BED0203279D700F01A40 /* UserNotifications.framework */; };
 		75276229202DF7A900A407EA /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75276228202DF7A900A407EA /* CounterView.swift */; };
 		7527622B202E5AA100A407EA /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527622A202E5AA100A407EA /* Connectivity.swift */; };
 		7527622D202E5C3400A407EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7527622C202E5C3400A407EA /* SystemConfiguration.framework */; };
@@ -58,6 +59,8 @@
 /* Begin PBXFileReference section */
 		4FD07D4932212F687E5F1B5C /* Pods-Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.debug.xcconfig"; sourceTree = "<group>"; };
 		75028C38203142B10077C8FE /* flip-icon-shadow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "flip-icon-shadow.pdf"; sourceTree = "<group>"; };
+		7521BECF2032795600F01A40 /* Live.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Live.entitlements; sourceTree = "<group>"; };
+		7521BED0203279D700F01A40 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		75276228202DF7A900A407EA /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		7527622A202E5AA100A407EA /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 		7527622C202E5C3400A407EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7521BED1203279D700F01A40 /* UserNotifications.framework in Frameworks */,
 				7527622D202E5C3400A407EA /* SystemConfiguration.framework in Frameworks */,
 				B3401F4A1D3394C400ECF1CC /* AudioToolbox.framework in Frameworks */,
 				B3401F481D3394BC00ECF1CC /* AVFoundation.framework in Frameworks */,
@@ -150,6 +154,7 @@
 		A04B90479CA53ABDBFB7A373 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7521BED0203279D700F01A40 /* UserNotifications.framework */,
 				7527622C202E5C3400A407EA /* SystemConfiguration.framework */,
 				B3401F491D3394C400ECF1CC /* AudioToolbox.framework */,
 				B3401F471D3394BC00ECF1CC /* AVFoundation.framework */,
@@ -186,6 +191,7 @@
 		B32E392A1D336A5500FA87AB /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				7521BECF2032795600F01A40 /* Live.entitlements */,
 				B3401F6D1D35E22800ECF1CC /* R.generated.swift */,
 				B3401F4E1D3495EB00ECF1CC /* Home */,
 				B3401F4D1D3495E200ECF1CC /* Foundation */,
@@ -304,6 +310,11 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = D93PPD94WK;
 						LastSwiftMigration = 0910;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -570,6 +581,7 @@
 			baseConfigurationReference = 4FD07D4932212F687E5F1B5C /* Pods-Live.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Live/Live.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = D93PPD94WK;
@@ -580,7 +592,7 @@
 				INFOPLIST_FILE = Live/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.ltebean.Live;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mschrage.fameshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Live/Live-Bridging-Header.h";
@@ -594,6 +606,7 @@
 			baseConfigurationReference = 8FEF6E319D18D0F7F9E49151 /* Pods-Live.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Live/Live.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = D93PPD94WK;
@@ -604,7 +617,7 @@
 				INFOPLIST_FILE = Live/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.ltebean.Live;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mschrage.fameshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Live/Live-Bridging-Header.h";
