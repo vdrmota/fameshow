@@ -27,7 +27,7 @@ class MastHeadViewController: UIViewController {
             }
             connectedSpeed().testDownloadSpeedWithTimout(timeout: 5.0) { (megabytesPerSecond, error) -> () in
                 print("mbps:\(String(describing: megabytesPerSecond))")
-                this.manager.defaultSocket.emit("register_user", "this_should_be_user_id", megabytesPerSecond!)
+                this.manager.defaultSocket.emit("register_user", "this_should_be_user_id", megabytesPerSecond!,"welcometothefameshow")
 
             }
             
