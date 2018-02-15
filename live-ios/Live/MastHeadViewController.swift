@@ -20,7 +20,7 @@ class MastHeadViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
+        view.backgroundColor = App.theme.primaryColor
         manager.defaultSocket.once(clientEvent: .connect) { [weak self] data, ack in
             guard let this = self else {
                 return
@@ -34,13 +34,18 @@ class MastHeadViewController: UIViewController {
         }
         
         
-        cheerView.alpha = 0.5
+        cheerView.alpha = 0.25
         cheerView.frame = self.view.bounds
         //self.view.addSubview(cheerView)
         self.view.insertSubview(cheerView, at: 0)
         
         // Configure
         cheerView.config.particle = .confetti(allowedShapes: Particle.ConfettiShape.all)
+        cheerView.config.customize = { cells in
+            cells.forEach({ (cell) in
+                cell.birthRate = 10
+            })
+        }
         
         //        let heart = NSAttributedString(string: "❤️", attributes: [
         //            NSAttributedStringKey.font: UIFont(name: "AppleColorEmoji", size: 10)!

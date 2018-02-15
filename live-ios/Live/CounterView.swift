@@ -66,9 +66,9 @@ class CounterView: UIView {
             }
         }
     }
-    var color:UIColor!          = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
-    var warningColor:UIColor!   = UIColor(red:0.84, green:0.19, blue:0.19, alpha:1.0)
-    var fullColor:UIColor!      = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)//UIColor(red:0.33, green:0.94, blue:0.77, alpha:1.0)
+    var color:UIColor!          = App.theme.secondaryColor//UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
+    var warningColor:UIColor!   = App.theme.warningColor
+    var fullColor:UIColor!      = App.theme.secondaryColor//UIColor(red:0.33, green:0.94, blue:0.77, alpha:1.0)
 
     private var fillColor : UIColor {
         get {
@@ -151,10 +151,10 @@ class CounterView: UIView {
         self.label.font = UIFont(name: "Avenir", size: 20);
         self.label.textColor = UIColor.white
         self.label.textAlignment = NSTextAlignment.center
-        self.label.layer.shadowOpacity = 1.0;
-        self.label.layer.shadowRadius = 0.0;
+        self.label.layer.shadowOpacity = 0.8;
+        self.label.layer.shadowRadius = 5;
         self.label.layer.shadowColor = UIColor.black.cgColor;
-        self.label.layer.shadowOffset = CGSize(width:0.0,height: -1.0);
+        self.label.layer.shadowOffset = CGSize(width:0.0,height: 1.0);
         //self.label.shadowColor = self.color;
         //self.label.shadowOffset = CGSize(width:0.0, height:1.0)
         self.addSubview(self.label)

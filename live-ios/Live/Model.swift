@@ -40,6 +40,10 @@ struct Comment {
 struct User {
     
     var id = Int(arc4random())
+    var username:String?
+    var password:String?
+    var email:String?
+    var pushToken:String?
     
     static let currentUser = User()
 }
