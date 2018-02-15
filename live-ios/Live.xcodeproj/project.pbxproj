@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		75028C39203142B10077C8FE /* flip-icon-shadow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75028C38203142B10077C8FE /* flip-icon-shadow.pdf */; };
 		7521BED1203279D700F01A40 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7521BED0203279D700F01A40 /* UserNotifications.framework */; };
+		7521BED320338D3000F01A40 /* TextEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521BED220338D3000F01A40 /* TextEntryViewController.swift */; };
+		7521BED52033970500F01A40 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521BED42033970500F01A40 /* InitialViewController.swift */; };
+		7521BED72034DB3100F01A40 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521BED62034DB3100F01A40 /* App.swift */; };
 		75276229202DF7A900A407EA /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75276228202DF7A900A407EA /* CounterView.swift */; };
 		7527622B202E5AA100A407EA /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527622A202E5AA100A407EA /* Connectivity.swift */; };
 		7527622D202E5C3400A407EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7527622C202E5C3400A407EA /* SystemConfiguration.framework */; };
@@ -61,6 +64,9 @@
 		75028C38203142B10077C8FE /* flip-icon-shadow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "flip-icon-shadow.pdf"; sourceTree = "<group>"; };
 		7521BECF2032795600F01A40 /* Live.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Live.entitlements; sourceTree = "<group>"; };
 		7521BED0203279D700F01A40 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		7521BED220338D3000F01A40 /* TextEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntryViewController.swift; sourceTree = "<group>"; };
+		7521BED42033970500F01A40 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		7521BED62034DB3100F01A40 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		75276228202DF7A900A407EA /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		7527622A202E5AA100A407EA /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 		7527622C202E5C3400A407EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -228,6 +234,8 @@
 				B32E392F1D336A5500FA87AB /* Main.storyboard */,
 				75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */,
 				75704459202645DD00D238B8 /* MastHeadViewController.swift */,
+				7521BED220338D3000F01A40 /* TextEntryViewController.swift */,
+				7521BED42033970500F01A40 /* InitialViewController.swift */,
 				75A7AC5E202F76AC00E2D2E3 /* UpNextOverlayViewController.swift */,
 				7527622A202E5AA100A407EA /* Connectivity.swift */,
 				B3401F2E1D33901600ECF1CC /* HomeViewController.swift */,
@@ -238,6 +246,7 @@
 				75A7AC55202E6CD200E2D2E3 /* RoundedButton.swift */,
 				B3401F891D38AA6E00ECF1CC /* GiftChooserViewController.swift */,
 				B3401F701D35E48000ECF1CC /* Model.swift */,
+				7521BED62034DB3100F01A40 /* App.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -445,15 +454,18 @@
 				B3401F6A1D35DCA400ECF1CC /* String.swift in Sources */,
 				75A7AC6D2030FB7600E2D2E3 /* LLEyesLayer.m in Sources */,
 				B3401F8A1D38AA6E00ECF1CC /* GiftChooserViewController.swift in Sources */,
+				7521BED72034DB3100F01A40 /* App.swift in Sources */,
 				B3401F6E1D35E22800ECF1CC /* R.generated.swift in Sources */,
 				B3401F331D33903100ECF1CC /* AudienceViewController.swift in Sources */,
 				B3401F761D3631B300ECF1CC /* Config.swift in Sources */,
 				B3401F841D387F8D00ECF1CC /* GiftDisplayArea.swift in Sources */,
 				B3401F2F1D33901600ECF1CC /* HomeViewController.swift in Sources */,
 				75A7AC5F202F76AC00E2D2E3 /* UpNextOverlayViewController.swift in Sources */,
+				7521BED320338D3000F01A40 /* TextEntryViewController.swift in Sources */,
 				B3401F5A1D34C54100ECF1CC /* LiveOverlayViewController.swift in Sources */,
 				B3401F731D35F34E00ECF1CC /* TextField.swift in Sources */,
 				B3401F661D35DCA400ECF1CC /* NavigationController.swift in Sources */,
+				7521BED52033970500F01A40 /* InitialViewController.swift in Sources */,
 				B3401F711D35E48000ECF1CC /* Model.swift in Sources */,
 				75A7AC6E2030FB7600E2D2E3 /* LLSwitch.m in Sources */,
 				7527622B202E5AA100A407EA /* Connectivity.swift in Sources */,

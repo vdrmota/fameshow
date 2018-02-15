@@ -45,24 +45,36 @@ extension UIColor {
 }
 
 class RoundedButton: UIButton {
-    @IBInspectable var color : UIColor! = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0) {
+    @IBInspectable var color : UIColor! =  App.theme.secondaryColor {
         didSet {
             self.setBackgroundImage(UIImage.imageWithColor(color: self.color), for: .normal)
         }
     }
-    @IBInspectable var highlightedColor : UIColor! = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0).lighter(by:10)
+    @IBInspectable var highlightedColor : UIColor! = App.theme.secondaryColor.lighter(by:10)
+    
+    @IBInspectable var cornerRadius : CGFloat = 10.0 {
+        didSet{
+            self.layer.cornerRadius = self.cornerRadius
+        }
+    }
+    
+    @IBInspectable var fontSize : UIFont! = UIFont(name: "Avenir", size: 16){
+        didSet{
+            self.titleLabel?.font = self.fontSize;
+        }
+    }
+
     
     func initialize(frame: CGRect){
         self.titleLabel?.backgroundColor = UIColor.clear
         self.frame = frame.insetBy(dx:-3, dy:-5)//CGRect(x:50, y:70, width: 120, height: 44)
-        self.titleLabel?.font = UIFont(name: "Avenir", size: 16);
         self.setTitleColor(UIColor.white, for: .normal)
         self.setTitleColor(UIColor.lightGray, for: .highlighted)
         
         self.titleLabel?.textAlignment = NSTextAlignment.center
 
         self.layer.masksToBounds = true
-        self.layer.cornerRadius = 10
+        self.layer.cornerRadius = self.cornerRadius
         self.setBackgroundImage(UIImage.imageWithColor(color: self.color), for: .normal)
         self.setBackgroundImage(UIImage.imageWithColor(color: self.highlightedColor), for: .highlighted)
 
@@ -72,6 +84,13 @@ class RoundedButton: UIButton {
         super.init(coder: aDecoder)
 
         self.initialize(frame: self.bounds)
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        self.initialize(frame: frame)
+
     }
     /*
     // Only override draw() if you perform custom drawing.

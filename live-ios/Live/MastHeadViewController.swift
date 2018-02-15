@@ -20,7 +20,7 @@ class MastHeadViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
+        view.backgroundColor = App.theme.primaryColor
         manager.defaultSocket.once(clientEvent: .connect) { [weak self] data, ack in
             guard let this = self else {
                 return
