@@ -18,6 +18,7 @@
 		7527622D202E5C3400A407EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7527622C202E5C3400A407EA /* SystemConfiguration.framework */; };
 		7570445A202645DD00D238B8 /* MastHeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75704459202645DD00D238B8 /* MastHeadViewController.swift */; };
 		75852B702036284A0093FEF0 /* PushNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75852B6F2036284A0093FEF0 /* PushNotificationViewController.swift */; };
+		75852B762038C2480093FEF0 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 75852B752038C2480093FEF0 /* default.png */; };
 		75A7AC56202E6CD200E2D2E3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC55202E6CD200E2D2E3 /* RoundedButton.swift */; };
 		75A7AC5D202E77E800E2D2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */; };
 		75A7AC5F202F76AC00E2D2E3 /* UpNextOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC5E202F76AC00E2D2E3 /* UpNextOverlayViewController.swift */; };
@@ -75,6 +76,7 @@
 		7527622C202E5C3400A407EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		75704459202645DD00D238B8 /* MastHeadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastHeadViewController.swift; sourceTree = "<group>"; };
 		75852B6F2036284A0093FEF0 /* PushNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationViewController.swift; sourceTree = "<group>"; };
+		75852B752038C2480093FEF0 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 		75A7AC55202E6CD200E2D2E3 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75A7AC5E202F76AC00E2D2E3 /* UpNextOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextOverlayViewController.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				75028C38203142B10077C8FE /* flip-icon-shadow.pdf */,
+				75852B752038C2480093FEF0 /* default.png */,
 				75A7AC642030B8CA00E2D2E3 /* flip-icon.pdf */,
 				B3401F5C1D35DBF900ECF1CC /* Raleway-Regular.ttf */,
 				7521BEDA20355C4000F01A40 /* Fameshow-160.png */,
@@ -364,6 +367,7 @@
 				75028C39203142B10077C8FE /* flip-icon-shadow.pdf in Resources */,
 				B3401F861D38800F00ECF1CC /* GiftDisplayView.xib in Resources */,
 				B3401F5D1D35DBF900ECF1CC /* Raleway-Regular.ttf in Resources */,
+				75852B762038C2480093FEF0 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
