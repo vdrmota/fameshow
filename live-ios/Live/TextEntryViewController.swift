@@ -68,8 +68,8 @@ class TextEntryViewController: UIViewController {
         self.nextButton.cornerRadius = 25
         if (self.type == .login) {
             self.nextButton.setTitle("Log in", for: .normal)
-
         } else {
+            self.nextButton.setTitle("Next", for: .normal)
         }
         
         container.addSubview(self.nextButton)
