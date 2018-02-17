@@ -54,30 +54,6 @@ class AudienceViewController: UIViewController {
             self?.joinRoom()
         }
         
-        socket.on("new_room") {[weak self] data, ack in
-            DispatchQueue.main.async {
-                SVProgressHUD.show()
-                self?.player.shutdown()
-                self?.player.view.removeFromSuperview()
-                self?.player = nil
-                if let key = data[0] as? String {
-                     self?.room = Room(dict: [
-                        "title": "upcoming" as AnyObject,
-                        "key": key as AnyObject
-                        ])
-                    let urlString = Config.rtmpPlayUrl + (self?.room.key)!
-                    self?.player = IJKFFMoviePlayerController(contentURLString: urlString, with: IJKFFOptions.byDefault())
-                    self?.player.prepareToPlay()
-                    self?.player.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-                    self?.player.view.frame = (self?.previewView.bounds)!
-                    self?.previewView.addSubview((self?.player.view)!)
-                    self?.joinRoom()
-                    self?.player.play()
-
-                }
-            }
-        }
-        
        socket.on("winner") {[weak self] data, ack in
         
             DispatchQueue.main.async {
@@ -106,13 +82,40 @@ class AudienceViewController: UIViewController {
         
         audienceSwitch.animationDuration = 0.35
         audienceSwitch.delegate = self
-        audienceSwitch.onColor = UIColor(red:0.42, green:0.36, blue:0.91, alpha:0.6)
+        audienceSwitch.onColor = App.theme.secondaryColor
 
     }
     
 
     func joinRoom() {
         socket.emit("join_room", room.key)
+    }
+    
+    func newRoom (_ key: String) {
+        if self.room.key == key {
+            print("The new room key matches the room that is currently streaming. I'm gonna ignore this.")
+            return;
+        }
+            
+        DispatchQueue.main.async {
+            SVProgressHUD.show()
+            self.player.shutdown()
+            self.player.view.removeFromSuperview()
+            self.player = nil
+            
+            self.room = Room(dict: [
+                "title": "upcoming" as AnyObject,
+                "key": key as AnyObject
+                ])
+            let urlString = Config.rtmpPlayUrl + (self.room.key)
+            self.player = IJKFFMoviePlayerController(contentURLString: urlString, with: IJKFFOptions.byDefault())
+            self.player.prepareToPlay()
+            self.player.view.frame = self.previewView.bounds
+            self.previewView.addSubview(self.player.view)
+            self.joinRoom()
+            self.player.play()
+                
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -146,6 +149,12 @@ class AudienceViewController: UIViewController {
                 this.statusLabel.text = "Playing"
             }
         })
+        
+        socket.on("new_room") {[weak self] data, ack in
+            if let key = data[0] as? String {
+                self?.newRoom(key)
+            }
+        }
 
     }
     
@@ -154,6 +163,7 @@ class AudienceViewController: UIViewController {
         player.shutdown()
         //manager.defaultSocket.disconnect()
         NotificationCenter.default.removeObserver(self)
+        self.socket.off("new_room")
     }
     
 //    @IBAction func switchChanged(_ sender: UISwitch) {

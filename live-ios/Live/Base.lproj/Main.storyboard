@@ -122,6 +122,18 @@
                                     <action selector="createRoom" destination="egt-r7-H53" eventType="touchUpInside" id="qza-6S-Bbm"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4w-HI-Dnv">
+                                <rect key="frame" x="244" y="20" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Dc0-yP-hF1"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="Fkb-oh-N2j"/>
+                                    <constraint firstAttribute="width" constant="46" id="xKw-VO-bbK"/>
+                                </constraints>
+                                <state key="normal" title="Log out"/>
+                                <connections>
+                                    <action selector="logout" destination="egt-r7-H53" eventType="touchUpInside" id="jkY-7v-WWX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -138,6 +150,8 @@
                             <constraint firstItem="MqK-sM-zdA" firstAttribute="centerX" secondItem="PqP-ZO-w1i" secondAttribute="centerX" id="gcg-aA-z9U"/>
                             <constraint firstAttribute="trailing" secondItem="MqK-sM-zdA" secondAttribute="trailing" constant="42" id="lzx-Uw-Isc"/>
                             <constraint firstItem="5E6-rQ-bEg" firstAttribute="centerX" secondItem="PqP-ZO-w1i" secondAttribute="centerX" id="nSx-fV-VbI"/>
+                            <constraint firstAttribute="trailing" secondItem="O4w-HI-Dnv" secondAttribute="trailing" constant="16" id="vJW-Vd-yIj"/>
+                            <constraint firstItem="O4w-HI-Dnv" firstAttribute="top" secondItem="eye-7Z-vO9" secondAttribute="bottom" id="vkW-td-Fnz"/>
                             <constraint firstItem="MqK-sM-zdA" firstAttribute="centerY" secondItem="PqP-ZO-w1i" secondAttribute="centerY" constant="100" id="ykC-28-jc4"/>
                         </constraints>
                     </view>

@@ -97,12 +97,16 @@ class BroadcasterViewController: UIViewController {
         }
         
         socket.on("is_dead") {[weak self] data, ack in
-            print("IS DEAD");
-            DispatchQueue.main.async {
-
-            self?.presentingViewController?.dismiss(animated: true, completion: nil)
-            self?.isLive = false;
-
+            
+            if let key = data[0] as? String {
+                print("IS DEAD");
+                DispatchQueue.main.async {
+                    self?.isLive = false;
+                    let audienceVC = self?.presentingViewController as! AudienceViewController
+                    audienceVC.dismiss(animated: true, completion: nil)
+                    audienceVC.newRoom(key)
+                
+                }
             }
 
         }

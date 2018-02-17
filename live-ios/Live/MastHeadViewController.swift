@@ -86,7 +86,7 @@ class MastHeadViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @objc func logout() {
+    @IBAction func logout() {
         UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
         UserDefaults.standard.synchronize()
         // this is temporary 
