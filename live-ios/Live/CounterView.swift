@@ -99,7 +99,7 @@ class CounterView: UIView {
     private var progressView:UIView!
     private var state = State.normal {
         didSet {
-            self.label.shadowColor = self.fillColor;
+            //self.label.shadowColor = self.fillColor;
             self.label.layer.removeAllAnimations()
             self.progressView.layer.removeAllAnimations()
             switch self.state {

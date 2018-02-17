@@ -17,9 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        //UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
+        //UserDefaults.standard.synchronize()
+        
         // Override point for customization after application launch.
-        UNUserNotificationCenter.current().requestAuthorization(options:[.badge, .alert, .sound]){ (granted, error) in }
-        application.registerForRemoteNotifications()
+        //UNUserNotificationCenter.current().requestAuthorization(options:[.badge, .alert, .sound]){ (granted, error) in }
+        //application.registerForRemoteNotifications()
         
         UINavigationBar.appearance().clipsToBounds = true
         
@@ -28,6 +31,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         statusBar.backgroundColor = UIColor.colorWithRGB(red: 0, green: 0, blue: 0, alpha: 0.2)
         
         setupAppearance()
+        
+        if (!User.currentUser.registered) {
+            
+            let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+            let initialVC = storyboard.instantiateViewController(withIdentifier: "initial")
+
+            self.window?.rootViewController = initialVC;
+        }
+        
         return true
     }
     
@@ -79,6 +91,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Convert token to string
         let deviceTokenString = deviceToken.reduce("", {$0 + String(format: "%02X", $1)})
         
+        NotificationCenter.default.post(name: .didRegister, object: deviceTokenString)
+        
+        
+
+        
         // Print it to console
         print("APNs device token: \(deviceTokenString)")
         
@@ -89,6 +106,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         // Print the error to console (you should alert the user that registration failed)
         print("APNs registration failed: \(error)")
+        
+         NotificationCenter.default.post(name:.didFailToRegister, object: nil)
     }
     
     func application(_ application: UIApplication, didReceiveRemoteNotification data: [AnyHashable : Any]) {

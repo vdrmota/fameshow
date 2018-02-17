@@ -22,14 +22,22 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 3 files.
+  /// This `R.file` struct is generated, and contains static references to 4 files.
   struct file {
+    /// Resource file `Fameshow-160.png`.
+    static let fameshow160Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Fameshow-160", pathExtension: "png")
     /// Resource file `Raleway-Regular.ttf`.
     static let ralewayRegularTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "Raleway-Regular", pathExtension: "ttf")
     /// Resource file `flip-icon-shadow.pdf`.
     static let flipIconShadowPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "flip-icon-shadow", pathExtension: "pdf")
     /// Resource file `flip-icon.pdf`.
     static let flipIconPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "flip-icon", pathExtension: "pdf")
+    
+    /// `bundle.url(forResource: "Fameshow-160", withExtension: "png")`
+    static func fameshow160Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.fameshow160Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
     
     /// `bundle.url(forResource: "Raleway-Regular", withExtension: "ttf")`
     static func ralewayRegularTtf(_: Void = ()) -> Foundation.URL? {
@@ -69,8 +77,10 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 9 images.
+  /// This `R.image` struct is generated, and contains static references to 10 images.
   struct image {
+    /// Image `Fameshow-160`.
+    static let fameshow160 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Fameshow-160")
     /// Image `flip-icon`.
     static let flipIcon = Rswift.ImageResource(bundle: R.hostingBundle, name: "flip-icon")
     /// Image `gift-1`.
@@ -89,6 +99,11 @@ struct R: Rswift.Validatable {
     static let iconLike = Rswift.ImageResource(bundle: R.hostingBundle, name: "icon-like")
     /// Image `person_small`.
     static let person_small = Rswift.ImageResource(bundle: R.hostingBundle, name: "person_small")
+    
+    /// `UIImage(named: "Fameshow-160", bundle: ..., traitCollection: ...)`
+    static func fameshow160(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.fameshow160, compatibleWith: traitCollection)
+    }
     
     /// `UIImage(named: "flip-icon", bundle: ..., traitCollection: ...)`
     static func flipIcon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
@@ -285,17 +300,19 @@ struct _R: Rswift.Validatable {
     }
     
     struct main: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
-      typealias InitialController = InitialViewController
+      typealias InitialController = NavigationController
       
       let audience = StoryboardViewControllerResource<AudienceViewController>(identifier: "audience")
       let broadcast = StoryboardViewControllerResource<BroadcasterViewController>(identifier: "broadcast")
       let bundle = R.hostingBundle
       let email = StoryboardViewControllerResource<TextEntryViewController>(identifier: "email")
       let giftChooser = StoryboardViewControllerResource<GiftChooserViewController>(identifier: "giftChooser")
+      let initial = StoryboardViewControllerResource<InitialViewController>(identifier: "initial")
       let login = StoryboardViewControllerResource<TextEntryViewController>(identifier: "login")
       let masthead = StoryboardViewControllerResource<NavigationController>(identifier: "masthead")
       let name = "Main"
       let password = StoryboardViewControllerResource<TextEntryViewController>(identifier: "password")
+      let push = StoryboardViewControllerResource<PushNotificationViewController>(identifier: "push")
       let up_next_overlay = StoryboardViewControllerResource<UpNextOverlayViewController>(identifier: "up_next_overlay")
       let username = StoryboardViewControllerResource<TextEntryViewController>(identifier: "username")
       
@@ -315,6 +332,10 @@ struct _R: Rswift.Validatable {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: giftChooser)
       }
       
+      func initial(_: Void = ()) -> InitialViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: initial)
+      }
+      
       func login(_: Void = ()) -> TextEntryViewController? {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: login)
       }
@@ -325,6 +346,10 @@ struct _R: Rswift.Validatable {
       
       func password(_: Void = ()) -> TextEntryViewController? {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: password)
+      }
+      
+      func push(_: Void = ()) -> PushNotificationViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: push)
       }
       
       func up_next_overlay(_: Void = ()) -> UpNextOverlayViewController? {
@@ -345,10 +370,12 @@ struct _R: Rswift.Validatable {
         if _R.storyboard.main().giftChooser() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'giftChooser' could not be loaded from storyboard 'Main' as 'GiftChooserViewController'.") }
         if _R.storyboard.main().login() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'login' could not be loaded from storyboard 'Main' as 'TextEntryViewController'.") }
         if _R.storyboard.main().email() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'email' could not be loaded from storyboard 'Main' as 'TextEntryViewController'.") }
+        if _R.storyboard.main().push() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'push' could not be loaded from storyboard 'Main' as 'PushNotificationViewController'.") }
         if _R.storyboard.main().audience() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'audience' could not be loaded from storyboard 'Main' as 'AudienceViewController'.") }
         if _R.storyboard.main().up_next_overlay() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'up_next_overlay' could not be loaded from storyboard 'Main' as 'UpNextOverlayViewController'.") }
         if _R.storyboard.main().broadcast() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'broadcast' could not be loaded from storyboard 'Main' as 'BroadcasterViewController'.") }
         if _R.storyboard.main().password() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'password' could not be loaded from storyboard 'Main' as 'TextEntryViewController'.") }
+        if _R.storyboard.main().initial() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'initial' could not be loaded from storyboard 'Main' as 'InitialViewController'.") }
         if _R.storyboard.main().masthead() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'masthead' could not be loaded from storyboard 'Main' as 'NavigationController'.") }
         if _R.storyboard.main().username() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'username' could not be loaded from storyboard 'Main' as 'TextEntryViewController'.") }
       }

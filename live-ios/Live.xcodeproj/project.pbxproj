@@ -12,10 +12,12 @@
 		7521BED320338D3000F01A40 /* TextEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521BED220338D3000F01A40 /* TextEntryViewController.swift */; };
 		7521BED52033970500F01A40 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521BED42033970500F01A40 /* InitialViewController.swift */; };
 		7521BED72034DB3100F01A40 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521BED62034DB3100F01A40 /* App.swift */; };
+		7521BEDB20355C4000F01A40 /* Fameshow-160.png in Resources */ = {isa = PBXBuildFile; fileRef = 7521BEDA20355C4000F01A40 /* Fameshow-160.png */; };
 		75276229202DF7A900A407EA /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75276228202DF7A900A407EA /* CounterView.swift */; };
 		7527622B202E5AA100A407EA /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527622A202E5AA100A407EA /* Connectivity.swift */; };
 		7527622D202E5C3400A407EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7527622C202E5C3400A407EA /* SystemConfiguration.framework */; };
 		7570445A202645DD00D238B8 /* MastHeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75704459202645DD00D238B8 /* MastHeadViewController.swift */; };
+		75852B702036284A0093FEF0 /* PushNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75852B6F2036284A0093FEF0 /* PushNotificationViewController.swift */; };
 		75A7AC56202E6CD200E2D2E3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC55202E6CD200E2D2E3 /* RoundedButton.swift */; };
 		75A7AC5D202E77E800E2D2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */; };
 		75A7AC5F202F76AC00E2D2E3 /* UpNextOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC5E202F76AC00E2D2E3 /* UpNextOverlayViewController.swift */; };
@@ -67,10 +69,12 @@
 		7521BED220338D3000F01A40 /* TextEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntryViewController.swift; sourceTree = "<group>"; };
 		7521BED42033970500F01A40 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		7521BED62034DB3100F01A40 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		7521BEDA20355C4000F01A40 /* Fameshow-160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fameshow-160.png"; sourceTree = "<group>"; };
 		75276228202DF7A900A407EA /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		7527622A202E5AA100A407EA /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 		7527622C202E5C3400A407EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		75704459202645DD00D238B8 /* MastHeadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastHeadViewController.swift; sourceTree = "<group>"; };
+		75852B6F2036284A0093FEF0 /* PushNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationViewController.swift; sourceTree = "<group>"; };
 		75A7AC55202E6CD200E2D2E3 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75A7AC5E202F76AC00E2D2E3 /* UpNextOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextOverlayViewController.swift; sourceTree = "<group>"; };
@@ -234,6 +238,7 @@
 				B32E392F1D336A5500FA87AB /* Main.storyboard */,
 				75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */,
 				75704459202645DD00D238B8 /* MastHeadViewController.swift */,
+				75852B6F2036284A0093FEF0 /* PushNotificationViewController.swift */,
 				7521BED220338D3000F01A40 /* TextEntryViewController.swift */,
 				7521BED42033970500F01A40 /* InitialViewController.swift */,
 				75A7AC5E202F76AC00E2D2E3 /* UpNextOverlayViewController.swift */,
@@ -257,6 +262,7 @@
 				75028C38203142B10077C8FE /* flip-icon-shadow.pdf */,
 				75A7AC642030B8CA00E2D2E3 /* flip-icon.pdf */,
 				B3401F5C1D35DBF900ECF1CC /* Raleway-Regular.ttf */,
+				7521BEDA20355C4000F01A40 /* Fameshow-160.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -351,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A7AC652030B8CB00E2D2E3 /* flip-icon.pdf in Resources */,
+				7521BEDB20355C4000F01A40 /* Fameshow-160.png in Resources */,
 				B32E39361D336A5500FA87AB /* LaunchScreen.storyboard in Resources */,
 				B32E39311D336A5500FA87AB /* Main.storyboard in Resources */,
 				75A7AC5D202E77E800E2D2E3 /* Assets.xcassets in Resources */,
@@ -470,6 +477,7 @@
 				75A7AC6E2030FB7600E2D2E3 /* LLSwitch.m in Sources */,
 				7527622B202E5AA100A407EA /* Connectivity.swift in Sources */,
 				B3401F501D34960700ECF1CC /* DesignableButton.swift in Sources */,
+				75852B702036284A0093FEF0 /* PushNotificationViewController.swift in Sources */,
 				B3401F671D35DCA400ECF1CC /* XibBasedView.swift in Sources */,
 				B3401F881D38801A00ECF1CC /* GiftDisplayView.swift in Sources */,
 				B3401F681D35DCA400ECF1CC /* UIColor.swift in Sources */,

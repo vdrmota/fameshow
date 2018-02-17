@@ -8,8 +8,6 @@
 
 import UIKit
 
-
-
 class TextEntryViewController: UIViewController {
     @IBOutlet weak var textfield: UITextField!
     @IBOutlet weak var confirmTextfield: UITextField!
@@ -58,6 +56,9 @@ class TextEntryViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = App.theme.primaryColor
 
+//        NotificationCenter.default.addObserver(forName: nil, object: nil, queue: nil) { notification in
+//            print("\(notification.name): \(notification.userInfo ?? [:])")
+//        }
         let container = UIView(frame: CGRect(x: 0.0, y: 0.0, width: self.view.bounds.width, height:100));
 
         self.nextButton = RoundedButton(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.8, height: 44))
@@ -69,7 +70,6 @@ class TextEntryViewController: UIViewController {
             self.nextButton.setTitle("Log in", for: .normal)
 
         } else {
-            self.nextButton.setTitle("Next", for: .normal)
         }
         
         container.addSubview(self.nextButton)
@@ -88,7 +88,7 @@ class TextEntryViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.textfield.becomeFirstResponder()
+        self.textfield?.becomeFirstResponder()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -167,7 +167,7 @@ class TextEntryViewController: UIViewController {
                         }
                         nextVC.user = self.user
                         nextVC.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
-                        self.present(nextVC, animated: true, completion: nil)
+                        self.present(nextVC, animated: false, completion: nil)
                     }
                 } else {
                     // else animation and show error text
@@ -249,8 +249,10 @@ class TextEntryViewController: UIViewController {
             print("responseString = \(responseString!)")
             
             if responseString == "success" {
+                User.currentUser.username = self.user.username
+                User.currentUser.registered = true
                 DispatchQueue.main.async {
-                    let nextVC = self.storyboard!.instantiateViewController(withIdentifier: "masthead")
+                    let nextVC = self.storyboard!.instantiateViewController(withIdentifier: "push")
                     nextVC.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
                     self.present(nextVC, animated: true, completion: nil)
                 }
@@ -284,8 +286,12 @@ class TextEntryViewController: UIViewController {
             print("responseString = \(responseString!)")
             
             if responseString == "1" {
+                User.currentUser.username = username
+                //User.currentUser.email = self.user.email
+                User.currentUser.registered = true
+                
                 DispatchQueue.main.async {
-                    let nextVC = self.storyboard!.instantiateViewController(withIdentifier: "masthead")
+                    let nextVC = self.storyboard!.instantiateViewController(withIdentifier: "push")
                     nextVC.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
                     self.present(nextVC, animated: true, completion: nil)
                 }

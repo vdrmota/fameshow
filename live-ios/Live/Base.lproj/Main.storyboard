@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="46A-vY-1u6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="kPp-GM-YLq">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -638,7 +638,7 @@
         <!--Initial View Controller-->
         <scene sceneID="bys-KJ-ltE">
             <objects>
-                <viewController id="46A-vY-1u6" customClass="InitialViewController" customModule="Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="initial" id="46A-vY-1u6" customClass="InitialViewController" customModule="Live" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Cie-N5-yL8"/>
                         <viewControllerLayoutGuide type="bottom" id="3tO-Yd-mtV"/>
@@ -718,6 +718,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="openTOS" destination="46A-vY-1u6" eventType="touchUpInside" id="vt0-wi-Tvy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07n-lI-aBo">
                                 <rect key="frame" x="258" y="20" width="54" height="36"/>
@@ -885,6 +888,75 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="72r-NE-Jk5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="261" y="-1026"/>
+        </scene>
+        <!--Push Notification View Controller-->
+        <scene sceneID="xNL-el-jpc">
+            <objects>
+                <viewController storyboardIdentifier="push" id="pIc-st-f6H" customClass="PushNotificationViewController" customModule="Live" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XJn-O5-hYX"/>
+                        <viewControllerLayoutGuide type="bottom" id="diG-7x-Agi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rsy-rB-kQw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6K7-qh-IPl" customClass="RoundedButton" customModule="Live" customModuleProvider="target">
+                                <rect key="frame" x="58" y="290" width="204" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="dbZ-lY-QTm"/>
+                                    <constraint firstAttribute="width" constant="204" id="iDA-4I-Gjf"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" title="Enable Push Notifications"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="requestPermission" destination="pIc-st-f6H" eventType="touchUpInside" id="Cib-Lp-ApJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable push notifications so you can be notified when the show starts!" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4JO-sV-mxU">
+                                <rect key="frame" x="53" y="185" width="214" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="JlL-3T-gNK"/>
+                                    <constraint firstAttribute="width" constant="214" id="sBR-Ap-j4o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZgD-94-L9B">
+                                <rect key="frame" x="281" y="9" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Tku-KE-7DJ"/>
+                                    <constraint firstAttribute="width" constant="30" id="gfj-VF-5ml"/>
+                                </constraints>
+                                <state key="normal" title="Skip">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="skip" destination="pIc-st-f6H" eventType="touchUpInside" id="aRb-pF-Bxp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZgD-94-L9B" firstAttribute="top" secondItem="XJn-O5-hYX" secondAttribute="bottom" constant="-11" id="7Gn-wI-9Ja"/>
+                            <constraint firstItem="6K7-qh-IPl" firstAttribute="centerX" secondItem="rsy-rB-kQw" secondAttribute="centerX" id="Uyx-oD-rWU"/>
+                            <constraint firstItem="4JO-sV-mxU" firstAttribute="centerX" secondItem="rsy-rB-kQw" secondAttribute="centerX" id="WHY-6Y-OAw"/>
+                            <constraint firstAttribute="trailing" secondItem="ZgD-94-L9B" secondAttribute="trailing" constant="9" id="fmo-bL-MrW"/>
+                            <constraint firstItem="6K7-qh-IPl" firstAttribute="top" secondItem="4JO-sV-mxU" secondAttribute="bottom" constant="33" id="iRu-Bo-0sz"/>
+                            <constraint firstItem="6K7-qh-IPl" firstAttribute="centerY" secondItem="rsy-rB-kQw" secondAttribute="centerY" constant="75" id="obG-Uh-eZZ"/>
+                            <constraint firstItem="ZgD-94-L9B" firstAttribute="leading" secondItem="rsy-rB-kQw" secondAttribute="leading" constant="281" id="uXw-Ta-Hse"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="si3-Rb-uKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="643" y="-1605"/>
         </scene>
         <!--Text Entry View Controller-->
         <scene sceneID="XXR-La-jM3">

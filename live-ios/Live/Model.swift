@@ -38,14 +38,56 @@ struct Comment {
 
 
 struct User {
+    enum Key : String {
+        case username  = "username"
+        case password  = "password"
+        case email     = "email"
+        case pushToken = "pushToken"
+        case registered = "registered"
+    }
     
     var id = Int(arc4random())
-    var username:String?
+    var username:String? {
+        set(val) {
+            UserDefaults.standard.set(val, forKey: Key.username.rawValue)
+            UserDefaults.standard.synchronize()
+        }
+        get {
+            return UserDefaults.standard.string(forKey: Key.username.rawValue)
+        }
+    }
+    //password is just set temporarily @ login flow. Shouldn't be stored in user defaults.
     var password:String?
-    var email:String?
-    var pushToken:String?
+    var email:String? {
+        set(val) {
+            UserDefaults.standard.set(val, forKey: Key.email.rawValue)
+            UserDefaults.standard.synchronize()
+        }
+        get {
+            return UserDefaults.standard.string(forKey: Key.email.rawValue)
+        }
+    }
+    var pushToken:String? {
+        set(val) {
+            UserDefaults.standard.set(val, forKey: Key.pushToken.rawValue)
+            UserDefaults.standard.synchronize()
+        }
+        get {
+            return UserDefaults.standard.string(forKey: Key.pushToken.rawValue)
+        }
+    }
     
-    static let currentUser = User()
+    var registered: Bool {
+        set(val) {
+            UserDefaults.standard.set(val, forKey: Key.registered.rawValue)
+            UserDefaults.standard.synchronize()
+        }
+        get {
+            return UserDefaults.standard.bool(forKey: Key.registered.rawValue)
+        }
+    }
+    
+    static var currentUser = User()
 }
 
 

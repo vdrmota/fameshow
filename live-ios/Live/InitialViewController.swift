@@ -18,7 +18,7 @@ class InitialViewController: UIViewController {
         let cheerView = CheerView()
         cheerView.alpha = 0.25
         cheerView.frame = self.view.bounds
-        self.view.addSubview(cheerView)
+        self.view.insertSubview(cheerView, at: 0)
         //self.view.addSubview(cheerView)
         //self.view.insertSubview(cheerView, at: 1)
         
@@ -48,6 +48,10 @@ class InitialViewController: UIViewController {
         return .lightContent
     }
 
+    @IBAction func openTOS(){
+        //UIApplication.shared.openURL(URL(string: "http://fameshow.co/tos")!)
+        UIApplication.shared.open(URL(string: "http://fameshow.co/tos")!, options: [:], completionHandler: nil)
+    }
     /*
     // MARK: - Navigation
 
