@@ -59,7 +59,7 @@ class MastHeadViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self, action: #selector(MastHeadViewController.refresh))
         view.addGestureRecognizer(tap)
         
-        _ = Timer.scheduledTimer(withTimeInterval: 30, repeats: true) {
+        _ = Timer.scheduledTimer(withTimeInterval: 10, repeats: true) {
             (_) in
             
             if (self.rooms.count == 0 && self.viewIfLoaded?.window != nil) {
@@ -94,14 +94,14 @@ class MastHeadViewController: UIViewController {
     }
     
     @objc func refresh() {
-        SVProgressHUD.show()
+        //SVProgressHUD.show()
         let request = URLRequest(url: URL(string: "\(Config.serverUrl)/rooms")!)
         NSURLConnection.sendAsynchronousRequest(request, queue: OperationQueue.main, completionHandler: { resp, data, err in
             guard err == nil else {
                 SVProgressHUD.showError(withStatus: "Error")
                 return
             }
-            SVProgressHUD.dismiss()
+            //SVProgressHUD.dismiss()
             let rooms = try! JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions()) as! [[String: AnyObject]]
             self.rooms = rooms.map {
                 Room(dict: $0)
@@ -110,7 +110,7 @@ class MastHeadViewController: UIViewController {
             if (rooms.count > 0) {
                 self.joinRoom(self.rooms[0])
             } else {
-                SVProgressHUD.showError(withStatus: "No live stream could be joined")
+                //SVProgressHUD.showError(withStatus: "No live stream could be joined")
                 // set status text or something
             }
         })

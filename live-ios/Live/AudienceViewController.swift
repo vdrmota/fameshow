@@ -98,7 +98,7 @@ class AudienceViewController: UIViewController {
         }
             
         DispatchQueue.main.async {
-            SVProgressHUD.show()
+            //SVProgressHUD.show()
             self.player.shutdown()
             self.player.view.removeFromSuperview()
             self.player = nil
@@ -141,7 +141,7 @@ class AudienceViewController: UIViewController {
                 this.statusLabel.text = "Playable"
             case IJKMPMovieLoadState.playthroughOK: do {
                 this.statusLabel.text = "Playing"
-                SVProgressHUD.dismiss()
+                //SVProgressHUD.dismiss()
             }
             case IJKMPMovieLoadState.stalled:
                 this.statusLabel.text = "Buffering"
