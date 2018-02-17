@@ -83,6 +83,9 @@ class AudienceViewController: UIViewController {
         audienceSwitch.animationDuration = 0.35
         audienceSwitch.delegate = self
         audienceSwitch.onColor = App.theme.secondaryColor
+        audienceSwitch.setOn(true, animated: false)
+        socket.emit("toggle", true)
+
 
     }
     
