@@ -55,7 +55,7 @@ class MastHeadViewController: UIViewController {
         cheerView.config.colors = [UIColor.white]
         // Start
         
-        self.usernameLabel.text = User.currentUser.username! + "| $0"
+        self.usernameLabel.text = User.currentUser.username! + " | $0"
         
         manager.defaultSocket.connect()
 
