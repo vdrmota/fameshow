@@ -16,6 +16,7 @@ class MastHeadViewController: UIViewController {
     var rooms: [Room] = []
     let manager = SocketManager(socketURL:URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)])
     let cheerView = CheerView()
+    @IBOutlet weak var usernameLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,6 +54,8 @@ class MastHeadViewController: UIViewController {
         //        cheerView.config.particle = Particle.text(CGSize(width:40, height:40),[heart])
         cheerView.config.colors = [UIColor.white]
         // Start
+        
+        self.usernameLabel.text = User.currentUser.username! + "| $0"
         
         manager.defaultSocket.connect()
 

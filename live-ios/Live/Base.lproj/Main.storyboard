@@ -631,7 +631,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="egt-r7-H53" kind="relationship" relationship="rootViewController" id="qTq-Vc-iOI"/>
+                        <segue destination="zMW-Ez-0H9" kind="relationship" relationship="rootViewController" id="TIG-HG-gFn"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Wf-LB-1gD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -891,6 +891,77 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="72r-NE-Jk5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="261" y="-1026"/>
+        </scene>
+        <!--Mast Head View Controller-->
+        <scene sceneID="N88-sq-wXf">
+            <objects>
+                <viewController id="zMW-Ez-0H9" customClass="MastHeadViewController" customModule="Live" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vgm-E0-o6E"/>
+                        <viewControllerLayoutGuide type="bottom" id="v9h-tf-s7A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e4n-iq-p4B">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mschrage | $0 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3Q-Nr-lJB">
+                                <rect key="frame" x="192" y="28" width="112" height="24"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEXT SHOW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqZ-QM-Xy3">
+                                <rect key="frame" x="95" y="185" width="130" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="a91-MB-8A2"/>
+                                    <constraint firstAttribute="height" constant="30" id="keq-BM-z4Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prize: $10/minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpl-eA-5U3">
+                                <rect key="frame" x="60" y="263" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="imB-ie-1SE"/>
+                                    <constraint firstAttribute="height" constant="30" id="vDX-Jc-yDP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tomorrow 3pm EST" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3AM-KJ-ixm">
+                                <rect key="frame" x="-5" y="225" width="330" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="6kx-gl-fHg"/>
+                                    <constraint firstAttribute="height" constant="30" id="PQH-T1-hfR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="31"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="R3Q-Nr-lJB" firstAttribute="top" secondItem="Vgm-E0-o6E" secondAttribute="bottom" constant="8" id="4P7-CP-wL8"/>
+                            <constraint firstItem="3AM-KJ-ixm" firstAttribute="centerX" secondItem="e4n-iq-p4B" secondAttribute="centerX" id="AS3-01-uoR"/>
+                            <constraint firstItem="iqZ-QM-Xy3" firstAttribute="centerX" secondItem="e4n-iq-p4B" secondAttribute="centerX" id="ChP-5N-2TJ"/>
+                            <constraint firstAttribute="trailing" secondItem="R3Q-Nr-lJB" secondAttribute="trailing" constant="16" id="FDc-wN-VQk"/>
+                            <constraint firstItem="iqZ-QM-Xy3" firstAttribute="centerX" secondItem="zpl-eA-5U3" secondAttribute="centerX" id="SFt-tO-6Mv"/>
+                            <constraint firstItem="3AM-KJ-ixm" firstAttribute="top" secondItem="iqZ-QM-Xy3" secondAttribute="bottom" constant="10" id="Sld-T9-gRS"/>
+                            <constraint firstItem="zpl-eA-5U3" firstAttribute="centerX" secondItem="e4n-iq-p4B" secondAttribute="centerX" id="aau-Ye-ACq"/>
+                            <constraint firstItem="zpl-eA-5U3" firstAttribute="top" secondItem="3AM-KJ-ixm" secondAttribute="bottom" constant="8" id="qsA-HI-O3Q"/>
+                            <constraint firstItem="3AM-KJ-ixm" firstAttribute="centerY" secondItem="e4n-iq-p4B" secondAttribute="centerY" id="wXR-fp-Xf1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="qqJ-dE-xVq"/>
+                    <connections>
+                        <outlet property="usernameLabel" destination="R3Q-Nr-lJB" id="Nev-ne-Rgw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4i5-Rj-jyL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="643" y="-157"/>
         </scene>
         <!--Push Notification View Controller-->
         <scene sceneID="xNL-el-jpc">
