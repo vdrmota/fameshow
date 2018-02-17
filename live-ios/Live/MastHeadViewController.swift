@@ -101,7 +101,7 @@ class MastHeadViewController: UIViewController {
         let request = URLRequest(url: URL(string: "\(Config.serverUrl)/rooms")!)
         NSURLConnection.sendAsynchronousRequest(request, queue: OperationQueue.main, completionHandler: { resp, data, err in
             guard err == nil else {
-                SVProgressHUD.showError(withStatus: "Error")
+                //SVProgressHUD.showError(withStatus: "Error")
                 return
             }
             //SVProgressHUD.dismiss()
