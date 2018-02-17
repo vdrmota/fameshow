@@ -350,11 +350,8 @@ setInterval(function() {
         var result2 = {"viewers": viewerCounter, "votes": voteCounter, "time": counter, "%": percentage};
         result2 = JSON.stringify(result2)
         console.log(result2)
-        if (showCounter)
-        {
-          io.sockets.emit('tick', viewerCounter, voteCounter, counter, percentage)
-        }
-        
+
+        io.sockets.emit('tick', viewerCounter, voteCounter, counter, percentage, showCounter)
 
         if (counter == 0)
         {
@@ -643,8 +640,6 @@ var yourscript = exec('sh video.sh '+req.query.video,
 app.get('/genesisupnext', function(req, res) 
 {
 
-  nextExists = true
-
   var potentialStreamers = streamer_users.slice(); // temporary
 
   upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
@@ -666,6 +661,8 @@ app.get('/genesisupnext', function(req, res)
 
 app.get('/genesisstart', function(req, res) 
 {
+
+    nextExists = true
 
     var potentialStreamers = streamer_users.slice(); // temporary
 
@@ -710,7 +707,7 @@ app.get('/intervideo', function(req, res)
   // 500ms before counter hits 0
   var timeleft = (INTERVAL - counter) * 1000 - 500
 
-  var length = parseInt(req.query.length)
+  var length = parseInt(req.query.length) * 1000
 
   setTimeout(myFunction7, timeleft);
 
@@ -741,6 +738,8 @@ app.get('/intervideo', function(req, res)
         });
 
       io.sockets.emit('new_room', roomname)
+
+      console.log("VIDEO LENGTH: "+length)
 
       setTimeout(myFunction8, length);
 
