@@ -36,7 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
             let initialVC = storyboard.instantiateViewController(withIdentifier: "initial")
-
             self.window?.rootViewController = initialVC;
         }
         

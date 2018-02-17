@@ -69,14 +69,14 @@ class RoundedButton: UIButton {
         self.titleLabel?.backgroundColor = UIColor.clear
         self.frame = frame.insetBy(dx:-3, dy:-5)//CGRect(x:50, y:70, width: 120, height: 44)
         self.setTitleColor(UIColor.white, for: .normal)
-        self.setTitleColor(UIColor.lightGray, for: .highlighted)
+        self.setTitleColor(UIColor.lightGray, for: .selected)
         
         self.titleLabel?.textAlignment = NSTextAlignment.center
 
         self.layer.masksToBounds = true
         self.layer.cornerRadius = self.cornerRadius
         self.setBackgroundImage(UIImage.imageWithColor(color: self.color), for: .normal)
-        self.setBackgroundImage(UIImage.imageWithColor(color: self.highlightedColor), for: .highlighted)
+        self.setBackgroundImage(UIImage.imageWithColor(color: self.highlightedColor), for: .selected)
 
     }
     

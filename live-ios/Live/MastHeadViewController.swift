@@ -86,6 +86,13 @@ class MastHeadViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @objc func logout() {
+        UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
+        UserDefaults.standard.synchronize()
+        // this is temporary 
+        exit(0);
+    }
+    
     @objc func refresh() {
         SVProgressHUD.show()
         let request = URLRequest(url: URL(string: "\(Config.serverUrl)/rooms")!)

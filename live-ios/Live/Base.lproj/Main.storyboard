@@ -929,10 +929,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZgD-94-L9B">
-                                <rect key="frame" x="281" y="9" width="30" height="30"/>
+                                <rect key="frame" x="266" y="30" width="44" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Tku-KE-7DJ"/>
-                                    <constraint firstAttribute="width" constant="30" id="gfj-VF-5ml"/>
+                                    <constraint firstAttribute="height" constant="44" id="Tku-KE-7DJ"/>
+                                    <constraint firstAttribute="width" constant="44" id="gfj-VF-5ml"/>
                                 </constraints>
                                 <state key="normal" title="Skip">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -944,13 +944,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ZgD-94-L9B" firstAttribute="top" secondItem="XJn-O5-hYX" secondAttribute="bottom" constant="-11" id="7Gn-wI-9Ja"/>
+                            <constraint firstItem="ZgD-94-L9B" firstAttribute="top" secondItem="XJn-O5-hYX" secondAttribute="bottom" constant="10" id="7Gn-wI-9Ja"/>
                             <constraint firstItem="6K7-qh-IPl" firstAttribute="centerX" secondItem="rsy-rB-kQw" secondAttribute="centerX" id="Uyx-oD-rWU"/>
                             <constraint firstItem="4JO-sV-mxU" firstAttribute="centerX" secondItem="rsy-rB-kQw" secondAttribute="centerX" id="WHY-6Y-OAw"/>
-                            <constraint firstAttribute="trailing" secondItem="ZgD-94-L9B" secondAttribute="trailing" constant="9" id="fmo-bL-MrW"/>
+                            <constraint firstAttribute="trailing" secondItem="ZgD-94-L9B" secondAttribute="trailing" constant="10" id="fmo-bL-MrW"/>
                             <constraint firstItem="6K7-qh-IPl" firstAttribute="top" secondItem="4JO-sV-mxU" secondAttribute="bottom" constant="33" id="iRu-Bo-0sz"/>
                             <constraint firstItem="6K7-qh-IPl" firstAttribute="centerY" secondItem="rsy-rB-kQw" secondAttribute="centerY" constant="75" id="obG-Uh-eZZ"/>
-                            <constraint firstItem="ZgD-94-L9B" firstAttribute="leading" secondItem="rsy-rB-kQw" secondAttribute="leading" constant="281" id="uXw-Ta-Hse"/>
                         </constraints>
                     </view>
                 </viewController>

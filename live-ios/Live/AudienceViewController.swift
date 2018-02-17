@@ -11,6 +11,7 @@ import UIKit
 import SocketIO
 import IHKeyboardAvoiding
 import Whisper
+import SVProgressHUD
 
 struct Tick: Codable {
     let votes: Int?
@@ -55,7 +56,7 @@ class AudienceViewController: UIViewController {
         
         socket.on("new_room") {[weak self] data, ack in
             DispatchQueue.main.async {
-
+                SVProgressHUD.show()
                 self?.player.shutdown()
                 self?.player.view.removeFromSuperview()
                 self?.player = nil
@@ -135,8 +136,10 @@ class AudienceViewController: UIViewController {
             switch state {
             case IJKMPMovieLoadState.playable:
                 this.statusLabel.text = "Playable"
-            case IJKMPMovieLoadState.playthroughOK:
+            case IJKMPMovieLoadState.playthroughOK: do {
                 this.statusLabel.text = "Playing"
+                SVProgressHUD.dismiss()
+            }
             case IJKMPMovieLoadState.stalled:
                 this.statusLabel.text = "Buffering"
             default:
