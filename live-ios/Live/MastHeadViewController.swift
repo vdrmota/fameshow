@@ -103,16 +103,36 @@ class MastHeadViewController: UIViewController {
             let csv = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)!
             let array = csv.components(separatedBy: ",")
             
-            self.descriptionLabel.text = array[0]
-            self.nextShowLabel.text    = array[1]
-            self.prizeLabel.text       = array[2]
-            SVProgressHUD.dismiss()
+            if array.length != 3 {
+                
+                DispatchQueue.main.async {
+                    self.descriptionLabel.text = ""
+                    self.nextShowLabel.text    = ""
+                    self.prizeLabel.text       = "Looks like something went wrong..."
+                    SVProgressHUD.dismiss()
+                    
+                    UIView.animate(withDuration: 0.5, animations: {
+                        self.descriptionLabel.alpha = 1
+                        self.nextShowLabel.alpha    = 1
+                        self.prizeLabel.alpha       = 1
+                    })
+                }
+                
+                return
+            }
             
-            UIView.animate(withDuration: 0.5, animations: {
-                self.descriptionLabel.alpha = 1
-                self.nextShowLabel.alpha    = 1
-                self.prizeLabel.alpha       = 1
-            })
+            DispatchQueue.main.async {
+                self.descriptionLabel.text = array[0]
+                self.nextShowLabel.text    = array[1]
+                self.prizeLabel.text       = array[2]
+                SVProgressHUD.dismiss()
+                
+                UIView.animate(withDuration: 0.5, animations: {
+                    self.descriptionLabel.alpha = 1
+                    self.nextShowLabel.alpha    = 1
+                    self.prizeLabel.alpha       = 1
+                })
+            }
         }
         
         task.resume()
