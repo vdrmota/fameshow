@@ -52,6 +52,16 @@ class InitialViewController: UIViewController {
         //UIApplication.shared.openURL(URL(string: "http://fameshow.co/tos")!)
         UIApplication.shared.open(URL(string: "http://fameshow.co/tos")!, options: [:], completionHandler: nil)
     }
+    
+    @IBAction func login(){
+        let nextVC = self.storyboard!.instantiateViewController(withIdentifier: "login")
+        self.navigationController?.pushViewController(nextVC, animated: true)
+    }
+    
+    @IBAction func signup(){
+        let nextVC = self.storyboard!.instantiateViewController(withIdentifier: "username")
+        self.navigationController?.pushViewController(nextVC, animated: true)
+    }
     /*
     // MARK: - Navigation
 

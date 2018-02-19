@@ -145,6 +145,7 @@ class TextEntryViewController: UIViewController {
             let task = URLSession.shared.dataTask(with: request) { data, response, error in
                 guard let data = data, error == nil else {
                     // check for fundamental networking error
+                    self.signalValidationError("You're not connected to the internet!")
                     print("error=\(error!)")
                     return
                 }
@@ -166,8 +167,10 @@ class TextEntryViewController: UIViewController {
                                 break
                         }
                         nextVC.user = self.user
-                        nextVC.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
-                        self.present(nextVC, animated: false, completion: nil)
+                        self.navigationController?.pushViewController(nextVC, animated: false)
+
+                        //nextVC.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+                        //self.present(nextVC, animated: false, completion: nil)
                     }
                 } else {
                     // else animation and show error text
@@ -241,6 +244,8 @@ class TextEntryViewController: UIViewController {
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {
                 // check for fundamental networking error
+                self.signalValidationError("That's weird. Something went wrong.")
+
                 print("error=\(error!)")
                 return
             }
@@ -253,8 +258,9 @@ class TextEntryViewController: UIViewController {
                 User.currentUser.registered = true
                 DispatchQueue.main.async {
                     let nextVC = self.storyboard!.instantiateViewController(withIdentifier: "push")
-                    nextVC.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
-                    self.present(nextVC, animated: true, completion: nil)
+                    self.navigationController?.pushViewController(nextVC, animated: true)
+                    //nextVC.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+                    //self.present(nextVC, animated: true, completion: nil)
                 }
             } else {
                 // else animation and show error text

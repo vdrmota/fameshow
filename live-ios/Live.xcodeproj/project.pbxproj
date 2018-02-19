@@ -19,6 +19,12 @@
 		7570445A202645DD00D238B8 /* MastHeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75704459202645DD00D238B8 /* MastHeadViewController.swift */; };
 		75852B702036284A0093FEF0 /* PushNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75852B6F2036284A0093FEF0 /* PushNotificationViewController.swift */; };
 		75852B762038C2480093FEF0 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 75852B752038C2480093FEF0 /* default.png */; };
+		75852B78203A20FC0093FEF0 /* Fameshow-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 75852B77203A20FB0093FEF0 /* Fameshow-1024.png */; };
+		75852B7C203A23EE0093FEF0 /* Fameshow-160.png in Resources */ = {isa = PBXBuildFile; fileRef = 75852B7B203A23EE0093FEF0 /* Fameshow-160.png */; };
+		75852B7E203A24900093FEF0 /* Fameshow-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 75852B7D203A24900093FEF0 /* Fameshow-120.png */; };
+		75852B80203A258A0093FEF0 /* Fameshow-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 75852B7F203A258A0093FEF0 /* Fameshow-60.png */; };
+		75852B82203A26020093FEF0 /* Fameshow-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 75852B81203A26020093FEF0 /* Fameshow-40.png */; };
+		75852B88203A28520093FEF0 /* star.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75852B87203A28520093FEF0 /* star.pdf */; };
 		75A7AC56202E6CD200E2D2E3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC55202E6CD200E2D2E3 /* RoundedButton.swift */; };
 		75A7AC5D202E77E800E2D2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */; };
 		75A7AC5F202F76AC00E2D2E3 /* UpNextOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC5E202F76AC00E2D2E3 /* UpNextOverlayViewController.swift */; };
@@ -77,6 +83,12 @@
 		75704459202645DD00D238B8 /* MastHeadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastHeadViewController.swift; sourceTree = "<group>"; };
 		75852B6F2036284A0093FEF0 /* PushNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationViewController.swift; sourceTree = "<group>"; };
 		75852B752038C2480093FEF0 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		75852B77203A20FB0093FEF0 /* Fameshow-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fameshow-1024.png"; sourceTree = "<group>"; };
+		75852B7B203A23EE0093FEF0 /* Fameshow-160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Fameshow-160.png"; path = "../../../Assets/Fameshow-160.png"; sourceTree = "<group>"; };
+		75852B7D203A24900093FEF0 /* Fameshow-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Fameshow-120.png"; path = "../../../Assets/Fameshow-120.png"; sourceTree = "<group>"; };
+		75852B7F203A258A0093FEF0 /* Fameshow-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fameshow-60.png"; sourceTree = "<group>"; };
+		75852B81203A26020093FEF0 /* Fameshow-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fameshow-40.png"; sourceTree = "<group>"; };
+		75852B87203A28520093FEF0 /* star.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = star.pdf; path = ../../../Assets/star.pdf; sourceTree = "<group>"; };
 		75A7AC55202E6CD200E2D2E3 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75A7AC5E202F76AC00E2D2E3 /* UpNextOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextOverlayViewController.swift; sourceTree = "<group>"; };
@@ -261,6 +273,12 @@
 		B3401F5B1D35DBF000ECF1CC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				75852B87203A28520093FEF0 /* star.pdf */,
+				75852B81203A26020093FEF0 /* Fameshow-40.png */,
+				75852B7F203A258A0093FEF0 /* Fameshow-60.png */,
+				75852B7B203A23EE0093FEF0 /* Fameshow-160.png */,
+				75852B7D203A24900093FEF0 /* Fameshow-120.png */,
+				75852B77203A20FB0093FEF0 /* Fameshow-1024.png */,
 				75028C38203142B10077C8FE /* flip-icon-shadow.pdf */,
 				75852B752038C2480093FEF0 /* default.png */,
 				75A7AC642030B8CA00E2D2E3 /* flip-icon.pdf */,
@@ -360,14 +378,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A7AC652030B8CB00E2D2E3 /* flip-icon.pdf in Resources */,
+				75852B80203A258A0093FEF0 /* Fameshow-60.png in Resources */,
 				7521BEDB20355C4000F01A40 /* Fameshow-160.png in Resources */,
 				B32E39361D336A5500FA87AB /* LaunchScreen.storyboard in Resources */,
 				B32E39311D336A5500FA87AB /* Main.storyboard in Resources */,
+				75852B7C203A23EE0093FEF0 /* Fameshow-160.png in Resources */,
+				75852B7E203A24900093FEF0 /* Fameshow-120.png in Resources */,
+				75852B82203A26020093FEF0 /* Fameshow-40.png in Resources */,
+				75852B78203A20FC0093FEF0 /* Fameshow-1024.png in Resources */,
 				75A7AC5D202E77E800E2D2E3 /* Assets.xcassets in Resources */,
 				75028C39203142B10077C8FE /* flip-icon-shadow.pdf in Resources */,
 				B3401F861D38800F00ECF1CC /* GiftDisplayView.xib in Resources */,
 				B3401F5D1D35DBF900ECF1CC /* Raleway-Regular.ttf in Resources */,
 				75852B762038C2480093FEF0 /* default.png in Resources */,
+				75852B88203A28520093FEF0 /* star.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +628,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FD07D4932212F687E5F1B5C /* Pods-Live.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Live/Live.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -629,6 +654,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8FEF6E319D18D0F7F9E49151 /* Pods-Live.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Live/Live.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

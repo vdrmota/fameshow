@@ -103,7 +103,7 @@ class LiveOverlayViewController: UIViewController {
         }
 
         socket.on("upvote") {[weak self] data ,ack in
-            self?.emitterView.emitImage(R.image.heart()!)
+            self?.emitterView.emitImage(R.image.star()!)
         }
         
         socket.on("comment") {[weak self] data ,ack in

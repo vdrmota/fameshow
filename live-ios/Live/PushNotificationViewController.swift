@@ -8,6 +8,7 @@
 
 import UIKit
 import UserNotifications
+import Cheers
 
 class PushNotificationViewController: UIViewController {
     private let baseURL = "http://cs50.vojtadrmota.com/fame"
@@ -19,6 +20,26 @@ class PushNotificationViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(didRegister(notification:)), name: .didRegister, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(didFailToRegister), name: .didFailToRegister, object: nil)
         
+        let cheerView = CheerView()
+        cheerView.alpha = 0.25
+        cheerView.frame = self.view.bounds
+        //self.view.addSubview(cheerView)
+        self.view.insertSubview(cheerView, at: 0)
+        
+        // Configure
+        cheerView.config.particle = .confetti(allowedShapes: Particle.ConfettiShape.all)
+        cheerView.config.customize = { cells in
+            cells.forEach({ (cell) in
+                cell.birthRate = 10
+            })
+        }
+        
+        //        let heart = NSAttributedString(string: "❤️", attributes: [
+        //            NSAttributedStringKey.font: UIFont(name: "AppleColorEmoji", size: 10)!
+        //            ])
+        //        cheerView.config.particle = Particle.text(CGSize(width:40, height:40),[heart])
+        cheerView.config.colors = [UIColor.white]
+        cheerView.start()
 
         // Do any additional setup after loading the view.
     }
@@ -48,7 +69,7 @@ class PushNotificationViewController: UIViewController {
         var request = URLRequest(url: url)
         request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
         request.httpMethod = "POST"
-        let postString = "username=\(User.currentUser.username!)&token=\(token!)"
+        let postString = "username=\(User.currentUser.username! )&token=\(token!)"
         request.httpBody = postString.data(using: .utf8)
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {

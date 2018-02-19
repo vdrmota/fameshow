@@ -22,16 +22,40 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 4 files.
+  /// This `R.file` struct is generated, and contains static references to 10 files.
   struct file {
+    /// Resource file `Fameshow-1024.png`.
+    static let fameshow1024Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Fameshow-1024", pathExtension: "png")
+    /// Resource file `Fameshow-120.png`.
+    static let fameshow120Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Fameshow-120", pathExtension: "png")
     /// Resource file `Fameshow-160.png`.
     static let fameshow160Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Fameshow-160", pathExtension: "png")
+    /// Resource file `Fameshow-40.png`.
+    static let fameshow40Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Fameshow-40", pathExtension: "png")
+    /// Resource file `Fameshow-60.png`.
+    static let fameshow60Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Fameshow-60", pathExtension: "png")
     /// Resource file `Raleway-Regular.ttf`.
     static let ralewayRegularTtf = Rswift.FileResource(bundle: R.hostingBundle, name: "Raleway-Regular", pathExtension: "ttf")
+    /// Resource file `default.png`.
+    static let defaultPng = Rswift.FileResource(bundle: R.hostingBundle, name: "default", pathExtension: "png")
     /// Resource file `flip-icon-shadow.pdf`.
     static let flipIconShadowPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "flip-icon-shadow", pathExtension: "pdf")
     /// Resource file `flip-icon.pdf`.
     static let flipIconPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "flip-icon", pathExtension: "pdf")
+    /// Resource file `star.pdf`.
+    static let starPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "star", pathExtension: "pdf")
+    
+    /// `bundle.url(forResource: "Fameshow-1024", withExtension: "png")`
+    static func fameshow1024Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.fameshow1024Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Fameshow-120", withExtension: "png")`
+    static func fameshow120Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.fameshow120Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
     
     /// `bundle.url(forResource: "Fameshow-160", withExtension: "png")`
     static func fameshow160Png(_: Void = ()) -> Foundation.URL? {
@@ -39,9 +63,27 @@ struct R: Rswift.Validatable {
       return fileResource.bundle.url(forResource: fileResource)
     }
     
+    /// `bundle.url(forResource: "Fameshow-40", withExtension: "png")`
+    static func fameshow40Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.fameshow40Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Fameshow-60", withExtension: "png")`
+    static func fameshow60Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.fameshow60Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
     /// `bundle.url(forResource: "Raleway-Regular", withExtension: "ttf")`
     static func ralewayRegularTtf(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.ralewayRegularTtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "default", withExtension: "png")`
+    static func defaultPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.defaultPng
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -54,6 +96,12 @@ struct R: Rswift.Validatable {
     /// `bundle.url(forResource: "flip-icon-shadow", withExtension: "pdf")`
     static func flipIconShadowPdf(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.flipIconShadowPdf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "star", withExtension: "pdf")`
+    static func starPdf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.starPdf
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -77,10 +125,20 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 10 images.
+  /// This `R.image` struct is generated, and contains static references to 16 images.
   struct image {
+    /// Image `Fameshow-1024`.
+    static let fameshow1024 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Fameshow-1024")
+    /// Image `Fameshow-120`.
+    static let fameshow120 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Fameshow-120")
     /// Image `Fameshow-160`.
     static let fameshow160 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Fameshow-160")
+    /// Image `Fameshow-40`.
+    static let fameshow40 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Fameshow-40")
+    /// Image `Fameshow-60`.
+    static let fameshow60 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Fameshow-60")
+    /// Image `default`.
+    static let `default` = Rswift.ImageResource(bundle: R.hostingBundle, name: "default")
     /// Image `flip-icon`.
     static let flipIcon = Rswift.ImageResource(bundle: R.hostingBundle, name: "flip-icon")
     /// Image `gift-1`.
@@ -99,10 +157,37 @@ struct R: Rswift.Validatable {
     static let iconLike = Rswift.ImageResource(bundle: R.hostingBundle, name: "icon-like")
     /// Image `person_small`.
     static let person_small = Rswift.ImageResource(bundle: R.hostingBundle, name: "person_small")
+    /// Image `star`.
+    static let star = Rswift.ImageResource(bundle: R.hostingBundle, name: "star")
+    
+    /// `UIImage(named: "Fameshow-1024", bundle: ..., traitCollection: ...)`
+    static func fameshow1024(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.fameshow1024, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Fameshow-120", bundle: ..., traitCollection: ...)`
+    static func fameshow120(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.fameshow120, compatibleWith: traitCollection)
+    }
     
     /// `UIImage(named: "Fameshow-160", bundle: ..., traitCollection: ...)`
     static func fameshow160(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.fameshow160, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Fameshow-40", bundle: ..., traitCollection: ...)`
+    static func fameshow40(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.fameshow40, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Fameshow-60", bundle: ..., traitCollection: ...)`
+    static func fameshow60(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.fameshow60, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "default", bundle: ..., traitCollection: ...)`
+    static func `default`(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.`default`, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "flip-icon", bundle: ..., traitCollection: ...)`
@@ -150,6 +235,11 @@ struct R: Rswift.Validatable {
       return UIKit.UIImage(resource: R.image.person_small, compatibleWith: traitCollection)
     }
     
+    /// `UIImage(named: "star", bundle: ..., traitCollection: ...)`
+    static func star(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.star, compatibleWith: traitCollection)
+    }
+    
     fileprivate init() {}
   }
   
@@ -166,11 +256,8 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.reuseIdentifier` struct is generated, and contains static references to 1 reuse identifiers.
+  /// This `R.reuseIdentifier` struct is generated, and contains static references to 0 reuse identifiers.
   struct reuseIdentifier {
-    /// Reuse identifier `cell`.
-    static let cell: Rswift.ReuseIdentifier<UIKit.UITableViewCell> = Rswift.ReuseIdentifier(identifier: "cell")
-    
     fileprivate init() {}
   }
   
@@ -288,13 +375,18 @@ struct _R: Rswift.Validatable {
   struct storyboard: Rswift.Validatable {
     static func validate() throws {
       try main.validate()
+      try launchScreen.validate()
     }
     
-    struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType {
+    struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
       typealias InitialController = UIKit.UIViewController
       
       let bundle = R.hostingBundle
       let name = "LaunchScreen"
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "default.png") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'default.png' is used in storyboard 'LaunchScreen', but couldn't be loaded.") }
+      }
       
       fileprivate init() {}
     }
@@ -307,7 +399,7 @@ struct _R: Rswift.Validatable {
       let bundle = R.hostingBundle
       let email = StoryboardViewControllerResource<TextEntryViewController>(identifier: "email")
       let giftChooser = StoryboardViewControllerResource<GiftChooserViewController>(identifier: "giftChooser")
-      let initial = StoryboardViewControllerResource<InitialViewController>(identifier: "initial")
+      let initial = StoryboardViewControllerResource<UIKit.UINavigationController>(identifier: "initial")
       let login = StoryboardViewControllerResource<TextEntryViewController>(identifier: "login")
       let masthead = StoryboardViewControllerResource<NavigationController>(identifier: "masthead")
       let name = "Main"
@@ -332,7 +424,7 @@ struct _R: Rswift.Validatable {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: giftChooser)
       }
       
-      func initial(_: Void = ()) -> InitialViewController? {
+      func initial(_: Void = ()) -> UIKit.UINavigationController? {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: initial)
       }
       
@@ -375,7 +467,7 @@ struct _R: Rswift.Validatable {
         if _R.storyboard.main().up_next_overlay() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'up_next_overlay' could not be loaded from storyboard 'Main' as 'UpNextOverlayViewController'.") }
         if _R.storyboard.main().broadcast() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'broadcast' could not be loaded from storyboard 'Main' as 'BroadcasterViewController'.") }
         if _R.storyboard.main().password() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'password' could not be loaded from storyboard 'Main' as 'TextEntryViewController'.") }
-        if _R.storyboard.main().initial() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'initial' could not be loaded from storyboard 'Main' as 'InitialViewController'.") }
+        if _R.storyboard.main().initial() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'initial' could not be loaded from storyboard 'Main' as 'UIKit.UINavigationController'.") }
         if _R.storyboard.main().masthead() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'masthead' could not be loaded from storyboard 'Main' as 'NavigationController'.") }
         if _R.storyboard.main().username() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'username' could not be loaded from storyboard 'Main' as 'TextEntryViewController'.") }
       }

@@ -69,6 +69,16 @@ class MastHeadViewController: UIViewController {
                 self.refresh()
             }
         }
+        
+         manager.defaultSocket.on("start_show") {[weak self] data, ack in
+            if let key = data[0] as? String {
+                let room = Room(dict: [
+                    "title": "upcoming" as AnyObject,
+                    "key": key as AnyObject
+                    ])
+                self?.joinRoom(room)
+            }
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

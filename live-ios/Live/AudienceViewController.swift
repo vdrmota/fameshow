@@ -54,6 +54,10 @@ class AudienceViewController: UIViewController {
             self?.joinRoom()
         }
         
+        socket.on("terminate") {[weak self] data, ack in
+            self?.dismiss(animated: true, completion: nil)
+        }
+        
        socket.on("winner") {[weak self] data, ack in
         
             DispatchQueue.main.async {
