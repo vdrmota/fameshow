@@ -22,12 +22,10 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 10 files.
+  /// This `R.file` struct is generated, and contains static references to 8 files.
   struct file {
     /// Resource file `Fameshow-1024.png`.
     static let fameshow1024Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Fameshow-1024", pathExtension: "png")
-    /// Resource file `Fameshow-120.png`.
-    static let fameshow120Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Fameshow-120", pathExtension: "png")
     /// Resource file `Fameshow-160.png`.
     static let fameshow160Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Fameshow-160", pathExtension: "png")
     /// Resource file `Fameshow-40.png`.
@@ -42,18 +40,10 @@ struct R: Rswift.Validatable {
     static let flipIconShadowPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "flip-icon-shadow", pathExtension: "pdf")
     /// Resource file `flip-icon.pdf`.
     static let flipIconPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "flip-icon", pathExtension: "pdf")
-    /// Resource file `star.pdf`.
-    static let starPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "star", pathExtension: "pdf")
     
     /// `bundle.url(forResource: "Fameshow-1024", withExtension: "png")`
     static func fameshow1024Png(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.fameshow1024Png
-      return fileResource.bundle.url(forResource: fileResource)
-    }
-    
-    /// `bundle.url(forResource: "Fameshow-120", withExtension: "png")`
-    static func fameshow120Png(_: Void = ()) -> Foundation.URL? {
-      let fileResource = R.file.fameshow120Png
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -99,12 +89,6 @@ struct R: Rswift.Validatable {
       return fileResource.bundle.url(forResource: fileResource)
     }
     
-    /// `bundle.url(forResource: "star", withExtension: "pdf")`
-    static func starPdf(_: Void = ()) -> Foundation.URL? {
-      let fileResource = R.file.starPdf
-      return fileResource.bundle.url(forResource: fileResource)
-    }
-    
     fileprivate init() {}
   }
   
@@ -125,12 +109,10 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 16 images.
+  /// This `R.image` struct is generated, and contains static references to 15 images.
   struct image {
     /// Image `Fameshow-1024`.
     static let fameshow1024 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Fameshow-1024")
-    /// Image `Fameshow-120`.
-    static let fameshow120 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Fameshow-120")
     /// Image `Fameshow-160`.
     static let fameshow160 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Fameshow-160")
     /// Image `Fameshow-40`.
@@ -163,11 +145,6 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "Fameshow-1024", bundle: ..., traitCollection: ...)`
     static func fameshow1024(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.fameshow1024, compatibleWith: traitCollection)
-    }
-    
-    /// `UIImage(named: "Fameshow-120", bundle: ..., traitCollection: ...)`
-    static func fameshow120(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
-      return UIKit.UIImage(resource: R.image.fameshow120, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "Fameshow-160", bundle: ..., traitCollection: ...)`

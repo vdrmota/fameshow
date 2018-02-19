@@ -22,8 +22,6 @@
 		75852B78203A20FC0093FEF0 /* Fameshow-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 75852B77203A20FB0093FEF0 /* Fameshow-1024.png */; };
 		75852B80203A258A0093FEF0 /* Fameshow-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 75852B7F203A258A0093FEF0 /* Fameshow-60.png */; };
 		75852B82203A26020093FEF0 /* Fameshow-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 75852B81203A26020093FEF0 /* Fameshow-40.png */; };
-		75852B88203A28520093FEF0 /* star.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75852B87203A28520093FEF0 /* star.pdf */; };
-		75852B8E203A900D0093FEF0 /* Fameshow-160.png in Resources */ = {isa = PBXBuildFile; fileRef = 75852B8D203A900D0093FEF0 /* Fameshow-160.png */; };
 		75A7AC56202E6CD200E2D2E3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC55202E6CD200E2D2E3 /* RoundedButton.swift */; };
 		75A7AC5D202E77E800E2D2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A7AC5C202E77E800E2D2E3 /* Assets.xcassets */; };
 		75A7AC5F202F76AC00E2D2E3 /* UpNextOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A7AC5E202F76AC00E2D2E3 /* UpNextOverlayViewController.swift */; };
@@ -381,7 +379,6 @@
 				7521BEDB20355C4000F01A40 /* Fameshow-160.png in Resources */,
 				B32E39361D336A5500FA87AB /* LaunchScreen.storyboard in Resources */,
 				B32E39311D336A5500FA87AB /* Main.storyboard in Resources */,
-				75852B8E203A900D0093FEF0 /* Fameshow-160.png in Resources */,
 				75852B82203A26020093FEF0 /* Fameshow-40.png in Resources */,
 				75852B78203A20FC0093FEF0 /* Fameshow-1024.png in Resources */,
 				75A7AC5D202E77E800E2D2E3 /* Assets.xcassets in Resources */,
@@ -389,7 +386,6 @@
 				B3401F861D38800F00ECF1CC /* GiftDisplayView.xib in Resources */,
 				B3401F5D1D35DBF900ECF1CC /* Raleway-Regular.ttf in Resources */,
 				75852B762038C2480093FEF0 /* default.png in Resources */,
-				75852B88203A28520093FEF0 /* star.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
