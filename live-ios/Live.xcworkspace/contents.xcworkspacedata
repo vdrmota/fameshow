@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Fameshow-120.png">
+   </FileRef>
+   <FileRef
       location = "group:Live.xcodeproj">
    </FileRef>
    <FileRef
