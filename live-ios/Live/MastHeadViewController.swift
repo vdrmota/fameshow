@@ -103,7 +103,7 @@ class MastHeadViewController: UIViewController {
             let csv = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)!
             let array = csv.components(separatedBy: ",")
             
-            if array.length != 3 {
+            if array.count != 3 {
                 
                 DispatchQueue.main.async {
                     self.descriptionLabel.text = ""
