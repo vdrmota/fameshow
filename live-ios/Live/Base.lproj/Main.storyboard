@@ -906,6 +906,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="qqJ-dE-xVq"/>
                     <connections>
+                        <outlet property="descriptionLabel" destination="iqZ-QM-Xy3" id="pJD-yE-emz"/>
+                        <outlet property="nextShowLabel" destination="3AM-KJ-ixm" id="Gpf-cp-mOQ"/>
+                        <outlet property="prizeLabel" destination="zpl-eA-5U3" id="PVx-KQ-dIa"/>
                         <outlet property="usernameLabel" destination="R3Q-Nr-lJB" id="Nev-ne-Rgw"/>
                     </connections>
                 </viewController>

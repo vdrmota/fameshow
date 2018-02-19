@@ -17,6 +17,9 @@ class MastHeadViewController: UIViewController {
     let manager = SocketManager(socketURL:URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)])
     let cheerView = CheerView()
     @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var nextShowLabel: UILabel!
+    @IBOutlet weak var prizeLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,6 +89,33 @@ class MastHeadViewController: UIViewController {
         cheerView.start()
 
         refresh()
+        
+        let url = URL(string: "http://cs50.vojtadrmota.com/fame/next-show.php")
+        SVProgressHUD.show()
+        
+        
+        
+        self.descriptionLabel.alpha = 0
+        self.nextShowLabel.alpha    = 0
+        self.prizeLabel.alpha       = 0
+        
+        let task = URLSession.shared.dataTask(with: url!) {(data, response, error) in
+            let csv = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)!
+            let array = csv.components(separatedBy: ",")
+            
+            self.descriptionLabel.text = array[0]
+            self.nextShowLabel.text    = array[1]
+            self.prizeLabel.text       = array[2]
+            SVProgressHUD.dismiss()
+            
+            UIView.animate(withDuration: 0.5, animations: {
+                self.descriptionLabel.alpha = 1
+                self.nextShowLabel.alpha    = 1
+                self.prizeLabel.alpha       = 1
+            })
+        }
+        
+        task.resume()
     }
     
     override func viewDidDisappear(_ animated: Bool) {
