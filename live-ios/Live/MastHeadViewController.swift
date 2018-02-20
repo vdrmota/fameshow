@@ -90,7 +90,7 @@ class MastHeadViewController: UIViewController {
 
         refresh()
         
-        let url = URL(string: "http://cs50.vojtadrmota.com/fame/next-show.php")
+        let url = URL(string: Config.phpUrl + "/next-show.php")
         SVProgressHUD.show()
         
         

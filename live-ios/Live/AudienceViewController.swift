@@ -9,7 +9,6 @@
 
 import UIKit
 import SocketIO
-import IHKeyboardAvoiding
 import Whisper
 import SVProgressHUD
 

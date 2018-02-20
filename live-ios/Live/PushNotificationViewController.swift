@@ -11,7 +11,7 @@ import UserNotifications
 import Cheers
 
 class PushNotificationViewController: UIViewController {
-    private let baseURL = "http://cs50.vojtadrmota.com/fame"
+    private let baseURL = Config.phpUrl//"http://cs50.vojtadrmota.com/fame"
 
     override func viewDidLoad() {
         view.backgroundColor = App.theme.primaryColor

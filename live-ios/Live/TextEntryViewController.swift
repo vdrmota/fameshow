@@ -15,7 +15,7 @@ class TextEntryViewController: UIViewController {
 
     var nextButton: RoundedButton!
     
-    private let baseURL = "http://cs50.vojtadrmota.com/fame"
+    private let baseURL = Config.phpUrl
     enum EntryType: String {
         case email    = "email"
         case username = "username"
