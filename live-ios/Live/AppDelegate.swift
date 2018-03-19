@@ -42,6 +42,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self.window?.rootViewController = initialVC;
         }
         
+        let isRegisteredForRemoteNotifications = UIApplication.shared.isRegisteredForRemoteNotifications
+        if isRegisteredForRemoteNotifications {
+            // User is registered for notification
+            UNUserNotificationCenter.current().requestAuthorization(options:[.badge, .alert, .sound]){ (granted, error) in }
+
+        }
+        
         return true
     }
     
@@ -94,6 +101,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let deviceTokenString = deviceToken.reduce("", {$0 + String(format: "%02X", $1)})
         
         NotificationCenter.default.post(name: .didRegister, object: deviceTokenString)
+        
+        let url = URL(string: Config.phpUrl + "/token.php")!
+        var request = URLRequest(url: url)
+        request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
+        request.httpMethod = "POST"
+        let postString = "username=\(User.currentUser.username! )&token=\(deviceTokenString)"
+        request.httpBody = postString.data(using: .utf8)
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data, error == nil else {
+                // check for fundamental networking error
+                print("error=\(error!)")
+                return
+            }
+            
+            let responseString = String(data: data, encoding: .utf8)
+            print("responseString = \(responseString!)")
+            
+            if responseString == "1" {
+                User.currentUser.pushToken = deviceTokenString
+                //                DispatchQueue.main.async {
+                ////                    let nextVC = self.storyboard!.instantiateViewController(withIdentifier: "masthead")
+                ////                    nextVC.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+                ////                    self.present(nextVC, animated: true, completion: nil)
+                //                    self.skip()
+                //                }
+            } else {
+                // else animation and show error text
+                print("error")
+                
+            }
+            
+        }
+        task.resume()
         
         
 

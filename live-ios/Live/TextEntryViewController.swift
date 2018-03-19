@@ -75,6 +75,13 @@ class TextEntryViewController: UIViewController {
         container.addSubview(self.nextButton)
         
         self.textfield.inputAccessoryView = container
+        
+        if self.type == .email {
+            self.textfield.textContentType = UITextContentType.emailAddress
+        } else {
+            self.textfield.textContentType = UITextContentType("")
+
+        }
         if ((self.confirmTextfield) != nil) {
             self.confirmTextfield.inputAccessoryView = container
         }
@@ -256,6 +263,8 @@ class TextEntryViewController: UIViewController {
             if responseString == "success" {
                 User.currentUser.username = self.user.username
                 User.currentUser.registered = true
+                User.currentUser.balance = "0"
+
                 DispatchQueue.main.async {
                     let nextVC = self.storyboard!.instantiateViewController(withIdentifier: "push")
                     self.navigationController?.pushViewController(nextVC, animated: true)
@@ -295,6 +304,7 @@ class TextEntryViewController: UIViewController {
                 User.currentUser.username = username
                 //User.currentUser.email = self.user.email
                 User.currentUser.registered = true
+                User.currentUser.balance = "-"
                 
                 DispatchQueue.main.async {
                     let nextVC = self.storyboard!.instantiateViewController(withIdentifier: "push")

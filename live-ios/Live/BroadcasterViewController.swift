@@ -81,7 +81,7 @@ class BroadcasterViewController: UIViewController {
 
         start()
 					
-
+        self.view.backgroundColor = UIColor.black
         
         // don't present upNextOverlay if broadcaster is already live (eg. on /genesis)
         if (self.isLive) {

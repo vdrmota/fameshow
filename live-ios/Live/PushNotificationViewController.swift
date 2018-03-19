@@ -83,12 +83,12 @@ class PushNotificationViewController: UIViewController {
             
             if responseString == "1" {
                 User.currentUser.pushToken = token
-                DispatchQueue.main.async {
-//                    let nextVC = self.storyboard!.instantiateViewController(withIdentifier: "masthead")
-//                    nextVC.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
-//                    self.present(nextVC, animated: true, completion: nil)
-                    self.skip()
-                }
+//                DispatchQueue.main.async {
+////                    let nextVC = self.storyboard!.instantiateViewController(withIdentifier: "masthead")
+////                    nextVC.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+////                    self.present(nextVC, animated: true, completion: nil)
+//                    self.skip()
+//                }
             } else {
                 // else animation and show error text
                 print("error")

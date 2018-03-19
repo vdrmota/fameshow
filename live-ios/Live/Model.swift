@@ -30,20 +30,25 @@ struct Room {
 struct Comment {
     
     var text: String
-    
+    var user: String
+
     init(dict: [String: AnyObject]) {
         text = dict["text"] as! String
+        user = ""//dict["user"] as! String
+
     }
 }
 
 
 struct User {
     enum Key : String {
-        case username  = "username"
-        case password  = "password"
-        case email     = "email"
-        case pushToken = "pushToken"
+        case username   = "username"
+        case password   = "password"
+        case email      = "email"
+        case pushToken  = "pushToken"
         case registered = "registered"
+        case balance    = "balance"
+
     }
     
     var id = Int(arc4random())
@@ -84,6 +89,16 @@ struct User {
         }
         get {
             return UserDefaults.standard.bool(forKey: Key.registered.rawValue)
+        }
+    }
+    
+    var balance: String? {
+        set(val) {
+            UserDefaults.standard.set(val, forKey: Key.balance.rawValue)
+            UserDefaults.standard.synchronize()
+        }
+        get {
+            return UserDefaults.standard.string(forKey: Key.balance.rawValue)
         }
     }
     

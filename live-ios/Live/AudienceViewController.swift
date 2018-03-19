@@ -46,6 +46,7 @@ class AudienceViewController: UIViewController {
         player.view.frame = previewView.bounds
         previewView.addSubview(player.view)
         
+        self.view.backgroundColor = UIColor.black
 
         player.prepareToPlay()
         
@@ -54,7 +55,12 @@ class AudienceViewController: UIViewController {
         }
         
         socket.on("terminate") {[weak self] data, ack in
-            self?.dismiss(animated: true, completion: nil)
+            DispatchQueue.main.async {
+                if (self != nil) {
+                    self?.dismiss(animated: true, completion: nil)
+                }
+            }
+
         }
         
        socket.on("winner") {[weak self] data, ack in

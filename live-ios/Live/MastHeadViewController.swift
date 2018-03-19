@@ -31,7 +31,11 @@ class MastHeadViewController: UIViewController {
             }
             connectedSpeed().testDownloadSpeedWithTimout(timeout: 5.0) { (megabytesPerSecond, error) -> () in
                 print("mbps:\(String(describing: megabytesPerSecond))")
+                if megabytesPerSecond != nil {
                 this.manager.defaultSocket.emit("register_user", User.currentUser.username!, megabytesPerSecond!,"welcometothefameshow")
+                } else {
+                    this.manager.defaultSocket.emit("register_user", User.currentUser.username!, "0","welcometothefameshow")
+                }
 
             }
             
@@ -58,7 +62,12 @@ class MastHeadViewController: UIViewController {
         cheerView.config.colors = [UIColor.white]
         // Start
         
-        self.usernameLabel.text = User.currentUser.username! + " | $0"
+        if let balance = User.currentUser.balance {
+            self.usernameLabel.text = User.currentUser.username! + " | $" + balance
+
+        } else {
+            self.usernameLabel.text = User.currentUser.username! + " | $-"
+        }
         
         manager.defaultSocket.connect()
 
@@ -84,58 +93,55 @@ class MastHeadViewController: UIViewController {
         }
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        cheerView.start()
-
-        refresh()
-        
-        let url = URL(string: Config.phpUrl + "/next-show.php")
+    func fetchUserBalance() {
+        App.post("/balance.php", parameters: ["username" : User.currentUser.username!]) { (res) in
+            User.currentUser.balance = res
+            self.usernameLabel.text = User.currentUser.username! + " | $" + User.currentUser.balance!
+        }
+    }
+    
+    func fetchShowDetails() {
         SVProgressHUD.show()
-        
-        
         
         self.descriptionLabel.alpha = 0
         self.nextShowLabel.alpha    = 0
         self.prizeLabel.alpha       = 0
         
-        let task = URLSession.shared.dataTask(with: url!) {(data, response, error) in
-            let csv = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)!
-            let array = csv.components(separatedBy: ",")
+        App.get("/next-show.php") { (res) in
+            SVProgressHUD.dismiss()
             
+            UIView.animate(withDuration: 0.5, animations: {
+                self.descriptionLabel.alpha = 1
+                self.nextShowLabel.alpha    = 1
+                self.prizeLabel.alpha       = 1
+            })
+            
+            let array = res.components(separatedBy: ",")
             if array.count != 3 {
                 
-                DispatchQueue.main.async {
-                    self.descriptionLabel.text = ""
-                    self.nextShowLabel.text    = ""
-                    self.prizeLabel.text       = "Looks like something went wrong..."
-                    SVProgressHUD.dismiss()
-                    
-                    UIView.animate(withDuration: 0.5, animations: {
-                        self.descriptionLabel.alpha = 1
-                        self.nextShowLabel.alpha    = 1
-                        self.prizeLabel.alpha       = 1
-                    })
-                }
+                self.descriptionLabel.text = ""
+                self.nextShowLabel.text    = ""
+                self.prizeLabel.text       = "Looks like something went wrong..."
                 
                 return
             }
             
-            DispatchQueue.main.async {
-                self.descriptionLabel.text = array[0]
-                self.nextShowLabel.text    = array[1]
-                self.prizeLabel.text       = array[2]
-                SVProgressHUD.dismiss()
-                
-                UIView.animate(withDuration: 0.5, animations: {
-                    self.descriptionLabel.alpha = 1
-                    self.nextShowLabel.alpha    = 1
-                    self.prizeLabel.alpha       = 1
-                })
-            }
+            self.descriptionLabel.text = array[0]
+            self.nextShowLabel.text    = array[1]
+            self.prizeLabel.text       = array[2]
+            SVProgressHUD.dismiss()
+            
         }
+    }
         
-        task.resume()
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        cheerView.start()
+
+        refresh()
+        fetchUserBalance()
+        fetchShowDetails()
+
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -178,6 +184,14 @@ class MastHeadViewController: UIViewController {
             }
         })
     }
+    
+    @IBAction func contact() {
+        UIApplication.shared.open(URL(string:"mailto:contact@fameshow.co")!, options: [:]) { (completed) in
+            
+        }
+        //UIApplication.shared.openURL(URL(string:"mailto:contact@fameshow.co")!)
+    }
+
     
     @IBAction func createRoom() {
 //        let vc = R.storyboard.main.broadcast()!

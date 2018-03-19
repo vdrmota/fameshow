@@ -62,22 +62,30 @@ class LiveOverlayViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-      
-        //textField.delegate = self
-//
-//        tableView.dataSource = self
-//        tableView.delegate = self
-//        tableView.estimatedRowHeight = 30
-//        tableView.rowHeight = UITableViewAutomaticDimension
+        //KeyboardAvoiding.avoidingView = self.inputContainer
 
-        
+        textField.delegate = self
+//
+        tableView.dataSource = self
+        tableView.delegate = self
+        //tableView.estimatedRowHeight = 20
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.tableFooterView = UIView()
+        tableView.separatorStyle = .none
+        tableView.allowsSelection = false;
         
         Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(LiveOverlayViewController.tick(_:)), userInfo: nil, repeats: true)
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(LiveOverlayViewController.handleTap(_:)))
         view.addGestureRecognizer(tap)
+        //KeyboardAvoiding.avoidingView = self.inputContainer
+        KeyboardAvoiding.padding = 10
+
+        textField.tintColor = App.theme.primaryColor
+        textField.keyboardAppearance = UIKeyboardAppearance.dark
+        textField.layer.cornerRadius = textField.frame.height / 2
+        textField.layer.masksToBounds = true
         
-        //IHKeyboardAvoiding.setAvoiding(inputContainer)
         socket.on("message") { data, ack in
             if let message = data[0] as? String {
                 let murmur = Murmur(title: message, backgroundColor: UIColor.colorWithRGB(red: 0, green: 0, blue: 0, alpha: 0.4), titleColor: UIColor.white, font: UIFont(name: "Avenir", size: 13)!)
@@ -107,7 +115,8 @@ class LiveOverlayViewController: UIViewController {
         }
         
         socket.on("comment") {[weak self] data ,ack in
-            let comment = Comment(dict: data[0] as! [String: AnyObject])
+            var comment = Comment(dict: data[0] as! [String: AnyObject])
+            comment.user = data[1] as! String
             self?.comments.append(comment)
             self?.tableView.reloadData()
         }
@@ -121,25 +130,34 @@ class LiveOverlayViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        //tableView.contentInset.top = tableView.bounds.height
-        //tableView.reloadData()
+        tableView.contentInset.top = tableView.bounds.height
+        tableView.reloadData()
+        KeyboardAvoiding.avoidingView = self.inputContainer
+
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        //KeyboardAvoiding.avoidingView = self.inputContainer
+
+    }
+
     
     @objc func handleTap(_ gesture: UITapGestureRecognizer) {
         guard gesture.state == .ended else {
             return
         }
-        //textField.resignFirstResponder()
+        textField.resignFirstResponder()
     }
     
     @objc func tick(_ timer: Timer) {
-//        guard comments.count > 0 else {
-//            return
-//        }
-//        if tableView.contentSize.height > tableView.bounds.height {
-//            tableView.contentInset.top = 0
-//        }
-//        tableView.scrollToRow(at: IndexPath(row: comments.count - 1, section: 0), at: UITableViewScrollPosition.bottom, animated: true)
+        guard comments.count > 0 else {
+            return
+        }
+        if tableView.contentSize.height > tableView.bounds.height {
+            tableView.contentInset.top = 0
+        }
+        tableView.scrollToRow(at: IndexPath(row: comments.count - 1, section: 0), at: UITableViewScrollPosition.bottom, animated: true)
     }
 
     @IBAction func giftButtonPressed(_ sender: AnyObject) {
@@ -169,7 +187,7 @@ extension LiveOverlayViewController: UITextFieldDelegate {
             if let text = textField.text , text != "" {
                 socket.emit("comment", [
                     "roomKey": room.key,
-                    "text": text
+                    "text": text,
                 ])
             }
             textField.text = ""
@@ -198,6 +216,31 @@ extension LiveOverlayViewController: UITableViewDataSource, UITableViewDelegate 
 }
 
 
+class TableView : UITableView {
+    
+    let fadePercentage: Double = 0.2
+    
+    override func layoutSubviews() {
+        
+        super.layoutSubviews()
+        
+        let transparent = UIColor.clear.cgColor
+        let opaque = UIColor.black.cgColor
+        
+        let maskLayer = CALayer()
+        maskLayer.frame = self.bounds
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = CGRect(x: self.bounds.origin.x, y: 0, width: self.bounds.size.width, height: self.bounds.size.height)
+        gradientLayer.colors = [transparent, opaque]//,opaque,transparent]
+        gradientLayer.locations = [0, NSNumber(floatLiteral: fadePercentage)]//,  NSNumber(floatLiteral: 1 - fadePercentage), 1]
+        
+        maskLayer.addSublayer(gradientLayer)
+        self.layer.mask = maskLayer
+        
+    }
+}
+
 class CommentCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
@@ -212,11 +255,22 @@ class CommentCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        commentContainer.layer.cornerRadius = 3
+        //commentContainer.layer.cornerRadius = 3
+        self.backgroundColor = UIColor.clear
+        self.contentView.backgroundColor = UIColor.clear
     }
     
     func updateUI() {
-        titleLabel.attributedText = comment.text.attributedComment()
+        let font = [ NSAttributedStringKey.font: UIFont(name: "Avenir", size: 15.0)!, NSAttributedStringKey.foregroundColor : UIColor.white ]
+        let string = NSMutableAttributedString(string: comment.user + " " + comment.text, attributes: font )
+        string.addAttribute(NSAttributedStringKey.foregroundColor, value: App.theme.secondaryColor, range: NSRange(location: 0, length: comment.user.count) )
+        titleLabel.attributedText = string
+        //titleLabel.text = comment.user + ": " + comment.text
+        titleLabel.layer.shadowOpacity = 0.8;
+        titleLabel.layer.shadowRadius = 5;
+        titleLabel.layer.shadowColor = UIColor.black.cgColor;
+        titleLabel.layer.shadowOffset = CGSize(width:0.0,height: 1.0);
+        //titleLabel.attributedText = comment.text.attributedComment()
     }
     
 }

@@ -25,7 +25,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>4</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -34,9 +34,11 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>App needs camera access to start streaming</string>
+	<string>Fameshow needs camera access to start streaming</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>App needs microphone access to start streaming</string>
+	<string>Fameshow needs microphone access to start streaming</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Test</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Raleway-Regular.ttf</string>
