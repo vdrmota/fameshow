@@ -22,6 +22,8 @@ class MastHeadViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
 
     override func viewDidLoad() {
+        let version = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String
+
         super.viewDidLoad()
         UIApplication.shared.statusBarStyle = .lightContent
         view.backgroundColor = App.theme.primaryColor
@@ -29,8 +31,7 @@ class MastHeadViewController: UIViewController {
             guard let this = self else {
                 return
             }
-            
-            this.manager.defaultSocket.emit("register_user", User.currentUser.username!)
+            this.manager.defaultSocket.emit("register_user", User.currentUser.username!, version)
         }
         
 //        manager.defaultSocket.once(clientEvent: .connect) { [weak self] data, ack in
@@ -223,10 +224,19 @@ class MastHeadViewController: UIViewController {
     }
     
     func joinRoom(_ room: Room) {
-        let vc = R.storyboard.main.audience()!
-        vc.room = room
-        vc.socket = manager.defaultSocket
-        present(vc, animated: true, completion: nil)
+        let version = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String
+
+        if (room.version == version) {
+            let vc = R.storyboard.main.audience()!
+            vc.room = room
+            vc.socket = manager.defaultSocket
+            present(vc, animated: true, completion: nil)
+        } else {
+            SVProgressHUD.showError(withStatus: "You're running an old version of the app!\nPlease update to view the show.")
+            self.descriptionLabel.text = ""
+            self.nextShowLabel.text    = ""
+            self.prizeLabel.text       = "Please update Fameshow!"
+        }
     }
 
     /*

@@ -12,16 +12,25 @@ struct Room {
     
     var key: String
     var title: String
-    
+    var version: String
+
     init(dict: [String: AnyObject]) {
         title = dict["title"] as! String
         key = dict["key"] as! String
+        if let ver = dict["version"] {
+            version = ver as! String
+        } else {
+            version = "1.0"
+        }
+
     }
     
     func toDict() -> [String: AnyObject] {
         return [
             "title": title as AnyObject,
-            "key": key as AnyObject
+            "key": key as AnyObject,
+            "version": version as AnyObject
+
         ]
     }
 }
