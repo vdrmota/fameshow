@@ -89,16 +89,21 @@ extension WebViewController: WKNavigationDelegate {
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         self.title = webView.title
         self.navigationItem.title = self.title
-
-    webView.evaluateJavaScript("document.querySelector(\"meta[scrollable]\").getAttribute(\"scrollable\")") { (result, error) -> Void in
-            if error == nil {
-                print(result!)
-                
-                if let isScrollable = result as! String? {
-                    webView.scrollView.isScrollEnabled = !(isScrollable == "false")
+        
+        let injectUsername = "var meta = document.createElement('meta'); var head = document.getElementsByTagName('head')[0]; meta.name = \"username\"; meta.content = \"\(User.currentUser.username ?? "")\"; head.appendChild(meta);"
+        
+        //inject the meta tag <meta name = "username" content = "mschrage">
+        webView.evaluateJavaScript(injectUsername, completionHandler: nil)
+        
+        webView.evaluateJavaScript("document.querySelector(\"meta[scrollable]\").getAttribute(\"scrollable\")") { (result, error) -> Void in
+                if error == nil {
+                    print(result!)
+                    
+                    if let isScrollable = result as! String? {
+                        webView.scrollView.isScrollEnabled = !(isScrollable == "false")
+                    }
                 }
             }
-        }
     }
     
     func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
