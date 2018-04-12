@@ -52,6 +52,10 @@ class TextEntryViewController: UIViewController {
         }
     }
     
+    @IBAction func dismissNavigationController () {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = App.theme.primaryColor

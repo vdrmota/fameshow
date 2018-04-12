@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		75028C39203142B10077C8FE /* flip-icon-shadow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75028C38203142B10077C8FE /* flip-icon-shadow.pdf */; };
+		750487262062F4FD0022F55A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750487252062F4FD0022F55A /* WebViewController.swift */; };
 		7521BED1203279D700F01A40 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7521BED0203279D700F01A40 /* UserNotifications.framework */; };
 		7521BED320338D3000F01A40 /* TextEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521BED220338D3000F01A40 /* TextEntryViewController.swift */; };
 		7521BED52033970500F01A40 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521BED42033970500F01A40 /* InitialViewController.swift */; };
@@ -104,6 +105,7 @@
 /* Begin PBXFileReference section */
 		4FD07D4932212F687E5F1B5C /* Pods-Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Live/Pods-Live.debug.xcconfig"; sourceTree = "<group>"; };
 		75028C38203142B10077C8FE /* flip-icon-shadow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "flip-icon-shadow.pdf"; sourceTree = "<group>"; };
+		750487252062F4FD0022F55A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		7521BECF2032795600F01A40 /* Live.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Live.entitlements; sourceTree = "<group>"; };
 		7521BED0203279D700F01A40 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		7521BED220338D3000F01A40 /* TextEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntryViewController.swift; sourceTree = "<group>"; };
@@ -326,6 +328,7 @@
 				B3401F891D38AA6E00ECF1CC /* GiftChooserViewController.swift */,
 				B3401F701D35E48000ECF1CC /* Model.swift */,
 				7521BED62034DB3100F01A40 /* App.swift */,
+				750487252062F4FD0022F55A /* WebViewController.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -573,6 +576,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A7AC6C2030FB7600E2D2E3 /* LLAnimationManager.m in Sources */,
+				750487262062F4FD0022F55A /* WebViewController.swift in Sources */,
 				B32E392C1D336A5500FA87AB /* AppDelegate.swift in Sources */,
 				B3401F6A1D35DCA400ECF1CC /* String.swift in Sources */,
 				75A7AC6D2030FB7600E2D2E3 /* LLEyesLayer.m in Sources */,

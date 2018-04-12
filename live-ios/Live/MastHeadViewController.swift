@@ -23,23 +23,36 @@ class MastHeadViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        UIApplication.shared.statusBarStyle = .lightContent
         view.backgroundColor = App.theme.primaryColor
-        manager.defaultSocket.once(clientEvent: .connect) { [weak self] data, ack in
+        manager.defaultSocket.on(clientEvent: .connect) { [weak self] data, ack in
             guard let this = self else {
                 return
             }
-            connectedSpeed().testDownloadSpeedWithTimout(timeout: 5.0) { (megabytesPerSecond, error) -> () in
-                print("mbps:\(String(describing: megabytesPerSecond))")
-                if megabytesPerSecond != nil {
-                this.manager.defaultSocket.emit("register_user", User.currentUser.username!, megabytesPerSecond!,"welcometothefameshow")
-                } else {
-                    this.manager.defaultSocket.emit("register_user", User.currentUser.username!, "0","welcometothefameshow")
-                }
-
-            }
             
+            this.manager.defaultSocket.emit("register_user", User.currentUser.username!)
         }
+        
+//        manager.defaultSocket.once(clientEvent: .connect) { [weak self] data, ack in
+//            guard let this = self else {
+//                return
+//            }
+//
+//            this.manager.defaultSocket.emit("register_user", User.currentUser.username!)
+//
+//            connectedSpeed().testDownloadSpeedWithTimout(timeout: 5.0) { (megabytesPerSecond, error) -> () in
+//                print("mbps:\(String(describing: megabytesPerSecond))")
+//                if megabytesPerSecond != nil {
+//                this.manager.defaultSocket.emit("register_user", User.currentUser.username!, megabytesPerSecond!,"welcometothefameshow")
+//                } else {
+//                    this.manager.defaultSocket.emit("register_user", User.currentUser.username!, "0","welcometothefameshow")
+//                }
+//
+//            }
+            
+ //
+        
+  //  }
         
         
         cheerView.alpha = 0.25

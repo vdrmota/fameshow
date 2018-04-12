@@ -27,13 +27,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //UNUserNotificationCenter.current().requestAuthorization(options:[.badge, .alert, .sound]){ (granted, error) in }
         //application.registerForRemoteNotifications()
         
-        UINavigationBar.appearance().clipsToBounds = true
+        //UINavigationBar.appearance().clipsToBounds = true
         
         let statusBar: UIView = UIApplication.shared.value(forKey: "statusBar") as! UIView
         
         statusBar.backgroundColor = UIColor.colorWithRGB(red: 0, green: 0, blue: 0, alpha: 0.2)
         
-        setupAppearance()
+        let navigationBar = UINavigationBar.appearance();
+        
+        let navigationTitleFont = UIFont(name: "Avenir", size: 20)!
+        navigationBar.titleTextAttributes = [NSAttributedStringKey.font: navigationTitleFont]
+        
+        navigationBar.barTintColor = UIColor.white
+        navigationBar.isTranslucent = false
+        
+        //setupAppearance()
         
         if (!User.currentUser.registered) {
             
@@ -55,7 +63,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     fileprivate func setupAppearance() {
         let navigationBar = UINavigationBar.appearance();
         navigationBar.tintColor = UIColor.white
-        navigationBar.barTintColor = UIColor.primaryColor()
+        navigationBar.barTintColor = UIColor.white
         navigationBar.isTranslucent = false
 //        let titleAttrs = TextAttributes()
 //            .font(UIFont.defaultFont(size: 19))

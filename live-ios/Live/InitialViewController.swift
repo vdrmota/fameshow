@@ -50,7 +50,7 @@ class InitialViewController: UIViewController {
 
     @IBAction func openTOS(){
         //UIApplication.shared.openURL(URL(string: "http://fameshow.co/tos")!)
-        UIApplication.shared.open(URL(string: "http://fameshow.co/tos")!, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: "http://fameshow.co/legal/")!, options: [:], completionHandler: nil)
     }
     
     @IBAction func login(){

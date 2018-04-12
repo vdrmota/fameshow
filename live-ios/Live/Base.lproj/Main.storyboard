@@ -694,6 +694,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="5Sb-eC-gDm"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                 <inset key="contentEdgeInsets" minX="26" minY="10" maxX="26" maxY="10"/>
                                 <state key="normal" title="Get Started"/>
                                 <userDefinedRuntimeAttributes>
@@ -706,13 +707,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By signing up you agree to the" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7y-JR-Gar">
-                                <rect key="frame" x="71.5" y="437.5" width="177" height="18"/>
+                                <rect key="frame" x="71.5" y="436" width="177" height="18"/>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="13"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5x1-ds-QA6">
-                                <rect key="frame" x="67.5" y="451.5" width="185" height="28.5"/>
+                                <rect key="frame" x="48" y="450" width="225" height="30"/>
                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -722,16 +723,9 @@
                                                 <font key="NSOriginalFont" size="13" name="Avenir-Heavy"/>
                                             </attributes>
                                         </fragment>
-                                        <fragment content=" ">
+                                        <fragment content=",">
                                             <attributes>
-                                                <font key="NSFont" size="12" name="Avenir-Heavy"/>
-                                                <font key="NSOriginalFont" size="13" name="Avenir-Book"/>
-                                            </attributes>
-                                        </fragment>
-                                        <fragment content="&amp;">
-                                            <attributes>
-                                                <font key="NSFont" size="12" name="Avenir-Light"/>
-                                                <font key="NSOriginalFont" size="12" name="Avenir-Light"/>
+                                                <font key="NSFont" size="13" name="Avenir-Book"/>
                                             </attributes>
                                         </fragment>
                                         <fragment content=" ">
@@ -744,6 +738,22 @@
                                             <attributes>
                                                 <font key="NSFont" size="12" name="Avenir-Heavy"/>
                                                 <font key="NSOriginalFont" size="13" name="Avenir-Heavy"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <font key="NSFont" size="13" name="Avenir-Heavy"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="&amp;">
+                                            <attributes>
+                                                <font key="NSFont" size="13" name="Avenir-Book"/>
+                                                <font key="NSOriginalFont" size="13" name="Avenir-Book"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" Rules">
+                                            <attributes>
+                                                <font key="NSFont" size="13" name="Avenir-Heavy"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -922,6 +932,53 @@
             </objects>
             <point key="canvasLocation" x="261" y="-1026"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="AOc-SY-kH4">
+            <objects>
+                <navigationController id="PSs-kh-Zqj" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Coq-SW-ari">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dMr-qv-uS6" kind="relationship" relationship="rootViewController" id="Rda-Q6-faj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5PE-1U-zzE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-271" y="-78"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="g3F-Id-6Cm">
+            <objects>
+                <viewController title="About" id="dMr-qv-uS6" customClass="WebViewController" customModule="Live" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UUk-7k-Dvx"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Qg-Dp-bhy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ebN-80-INC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="N6v-8Y-lq8">
+                        <barButtonItem key="backBarButtonItem" title=" " id="nTs-1H-DM7"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="stop" id="kTu-ib-R2L">
+                            <color key="tintColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="dismissNavigationController" destination="dMr-qv-uS6" id="ia3-Xf-5Hd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="urlPath" value="http://fameshow.co/app/about.html"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uaY-Zf-fQs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="249" y="-78"/>
+        </scene>
         <!--Mast Head View Controller-->
         <scene sceneID="N88-sq-wXf">
             <objects>
@@ -935,7 +992,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mschrage | $0 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3Q-Nr-lJB">
-                                <rect key="frame" x="192" y="28" width="112" height="24"/>
+                                <rect key="frame" x="192" y="44" width="112" height="24"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -971,7 +1028,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEh-rH-kSZ">
-                                <rect key="frame" x="99" y="436" width="123" height="36"/>
+                                <rect key="frame" x="98.5" y="436" width="123" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="123" id="i2E-Sw-XDB"/>
                                     <constraint firstAttribute="height" constant="36" id="jqI-mX-ErU"/>
@@ -982,18 +1039,39 @@
                                     <action selector="contact" destination="zMW-Ez-0H9" eventType="touchUpInside" id="QUd-3n-v2c"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvI-FM-tP4">
+                                <rect key="frame" x="16" y="38" width="36" height="36"/>
+                                <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="Mms-5U-dIT"/>
+                                    <constraint firstAttribute="height" constant="36" id="g7d-z5-lzt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="1" maxY="0.0"/>
+                                <state key="normal" title="?"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="PSs-kh-Zqj" kind="modal" id="PoK-Dl-6RK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="R3Q-Nr-lJB" firstAttribute="top" secondItem="Vgm-E0-o6E" secondAttribute="bottom" constant="8" id="4P7-CP-wL8"/>
+                            <constraint firstItem="R3Q-Nr-lJB" firstAttribute="top" secondItem="Vgm-E0-o6E" secondAttribute="bottom" constant="24" id="4P7-CP-wL8"/>
                             <constraint firstItem="3AM-KJ-ixm" firstAttribute="centerX" secondItem="e4n-iq-p4B" secondAttribute="centerX" id="AS3-01-uoR"/>
                             <constraint firstItem="iqZ-QM-Xy3" firstAttribute="centerX" secondItem="e4n-iq-p4B" secondAttribute="centerX" id="ChP-5N-2TJ"/>
                             <constraint firstAttribute="trailing" secondItem="R3Q-Nr-lJB" secondAttribute="trailing" constant="16" id="FDc-wN-VQk"/>
+                            <constraint firstItem="xvI-FM-tP4" firstAttribute="centerY" secondItem="R3Q-Nr-lJB" secondAttribute="centerY" id="Pbk-af-o02"/>
                             <constraint firstItem="iqZ-QM-Xy3" firstAttribute="centerX" secondItem="zpl-eA-5U3" secondAttribute="centerX" id="SFt-tO-6Mv"/>
                             <constraint firstItem="3AM-KJ-ixm" firstAttribute="top" secondItem="iqZ-QM-Xy3" secondAttribute="bottom" constant="10" id="Sld-T9-gRS"/>
                             <constraint firstItem="zpl-eA-5U3" firstAttribute="centerX" secondItem="e4n-iq-p4B" secondAttribute="centerX" id="aau-Ye-ACq"/>
                             <constraint firstItem="wEh-rH-kSZ" firstAttribute="centerX" secondItem="e4n-iq-p4B" secondAttribute="centerX" id="pcc-9w-C9b"/>
                             <constraint firstItem="zpl-eA-5U3" firstAttribute="top" secondItem="3AM-KJ-ixm" secondAttribute="bottom" constant="8" id="qsA-HI-O3Q"/>
+                            <constraint firstItem="xvI-FM-tP4" firstAttribute="leading" secondItem="e4n-iq-p4B" secondAttribute="leading" constant="16" id="rI4-kF-b35"/>
                             <constraint firstItem="v9h-tf-s7A" firstAttribute="top" secondItem="wEh-rH-kSZ" secondAttribute="bottom" constant="8" id="tcy-av-kdd"/>
                             <constraint firstItem="3AM-KJ-ixm" firstAttribute="centerY" secondItem="e4n-iq-p4B" secondAttribute="centerY" id="wXR-fp-Xf1"/>
                         </constraints>

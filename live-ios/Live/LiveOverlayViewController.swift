@@ -69,6 +69,7 @@ class LiveOverlayViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         //tableView.estimatedRowHeight = 20
+        tableView.showsVerticalScrollIndicator = false
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.tableFooterView = UIView()
         tableView.separatorStyle = .none

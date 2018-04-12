@@ -100,9 +100,9 @@ class BroadcasterViewController: UIViewController {
             
             if let key = data[0] as? String {
                 print("IS DEAD");
-                
-                if self != nil {
-                    DispatchQueue.main.async {
+                DispatchQueue.main.async {
+
+                    if self != nil {
                         self?.isLive = false;
                         let audienceVC = self?.presentingViewController as! AudienceViewController
                         audienceVC.dismiss(animated: true, completion: nil)
