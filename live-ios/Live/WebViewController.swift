@@ -132,6 +132,18 @@ extension WebViewController: WKNavigationDelegate {
                         decisionHandler(.cancel)
                         return
                     }
+                    
+                    if scheme == "close" {
+                        self.navigationController?.dismiss(animated: true, completion: nil)
+                        decisionHandler(.cancel)
+                        return
+                    }
+                    
+                    if scheme == "back" {
+                        self.navigationController?.popViewController(animated: true)
+                        decisionHandler(.cancel)
+                        return
+                    }
                 }
 
                 

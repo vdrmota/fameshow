@@ -162,9 +162,12 @@ class BroadcasterViewController: UIViewController {
 	}
     
     func start() {
+        let version = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String
+
         room = Room(dict: [
             "title": "upcoming" as AnyObject,
-            "key": String.random() as AnyObject
+            "key": String.random() as AnyObject,
+            "version": version as AnyObject
         ])
         
         overlayController.room = room

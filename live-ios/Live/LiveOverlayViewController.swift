@@ -10,6 +10,7 @@ import UIKit
 import SocketIO
 import IHKeyboardAvoiding
 import Whisper
+import Cheers
 
 enum UnderlayState {
     case broadcasting, pending, viewing
@@ -33,7 +34,8 @@ class LiveOverlayViewController: UIViewController {
 
     var comments: [Comment] = []
     var room: Room!
-    
+    var cheerView: CheerView =  CheerView()
+
     var socket: SocketIOClient!
     
     var state: UnderlayState = .viewing
@@ -86,6 +88,36 @@ class LiveOverlayViewController: UIViewController {
         textField.keyboardAppearance = UIKeyboardAppearance.dark
         textField.layer.cornerRadius = textField.frame.height / 2
         textField.layer.masksToBounds = true
+        
+        cheerView.frame = self.view.bounds
+        //self.view.addSubview(cheerView)
+        self.view.insertSubview(cheerView, at: 1)
+        
+        // Configure
+ 
+        
+        socket.on("confetti") { data, ack in
+            if let icon = data[0] as? String {
+                DispatchQueue.main.async {
+    
+                    self.cheerView.config.particle = .confetti(allowedShapes: Particle.ConfettiShape.all)
+                    
+                    let confetti = NSAttributedString(string: icon, attributes: [
+                        NSAttributedStringKey.font: UIFont(name: "AppleColorEmoji", size: 10)!
+                        ])
+                    self.cheerView.config.particle = Particle.text(CGSize(width:40, height:40),[confetti])
+                    // Start
+                    self.cheerView.start()
+                    
+                    let when = DispatchTime.now() + 3.5 // change 2 to desired number of seconds
+                    DispatchQueue.main.asyncAfter(deadline: when) {
+                        // Your code with delay
+                        self.cheerView.stop()
+                        
+                    }
+                }
+            }
+        }
         
         socket.on("message") { data, ack in
             if let message = data[0] as? String {
