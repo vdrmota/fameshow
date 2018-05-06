@@ -9,6 +9,7 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< HEAD
             filePath = "Live/TextEntryViewController.swift"
             timestampString = "545867357.934895"
             startingColumnNumber = "9223372036854775807"
@@ -16,6 +17,15 @@
             startingLineNumber = "308"
             endingLineNumber = "308"
             landmarkName = "login(_:_:)"
+=======
+            filePath = "Live/BroadcasterViewController.swift"
+            timestampString = "546922261.793358"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "handleTap(_:)"
+>>>>>>> upnext
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,8 +35,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< HEAD
             filePath = "Live/WebViewController.swift"
             timestampString = "547323546.6959341"
+=======
+            filePath = "Live/TextEntryViewController.swift"
+            timestampString = "545867357.934895"
+>>>>>>> upnext
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "83"
@@ -41,6 +56,7 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< HEAD
             filePath = "Live/WebViewController.swift"
             timestampString = "547323546.696261"
             startingColumnNumber = "9223372036854775807"
@@ -75,6 +91,10 @@
             continueAfterRunningActions = "No"
             filePath = "Live/WebViewController.swift"
             timestampString = "547323546.696647"
+=======
+            filePath = "Live/WebViewController.swift"
+            timestampString = "545626505.6276259"
+>>>>>>> upnext
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"
@@ -90,7 +110,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Live/WebViewController.swift"
+<<<<<<< HEAD
             timestampString = "547323546.696857"
+=======
+            timestampString = "545626505.627817"
+>>>>>>> upnext
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "115"
@@ -105,8 +129,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< HEAD
             filePath = "Live/BroadcasterViewController.swift"
             timestampString = "547330719.409575"
+=======
+            filePath = "Live/WebViewController.swift"
+            timestampString = "545626505.627859"
+>>>>>>> upnext
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "111"
@@ -121,8 +150,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< HEAD
             filePath = "Live/BroadcasterViewController.swift"
             timestampString = "547330719.409676"
+=======
+            filePath = "Live/WebViewController.swift"
+            timestampString = "545626505.627896"
+>>>>>>> upnext
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "86"
@@ -137,8 +171,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< HEAD
             filePath = "Live/RTMPView.swift"
             timestampString = "546929270.378409"
+=======
+            filePath = "Live/WebViewController.swift"
+            timestampString = "545626505.627931"
+>>>>>>> upnext
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -170,6 +209,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Live/BroadcasterViewController.swift"
+<<<<<<< HEAD
             timestampString = "547330719.409829"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -192,6 +232,14 @@
             startingLineNumber = "85"
             endingLineNumber = "85"
             landmarkName = "applicationWillResignActive(_:)"
+=======
+            timestampString = "546922261.793871"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "viewDidLoad()"
+>>>>>>> upnext
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -202,12 +250,21 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Live/BroadcasterViewController.swift"
+<<<<<<< HEAD
             timestampString = "547330719.409924"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "249"
             endingLineNumber = "249"
             landmarkName = "exitedApp()"
+=======
+            timestampString = "546922261.794205"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "viewDidLoad()"
+>>>>>>> upnext
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -217,6 +274,7 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< HEAD
             filePath = "Live/BroadcasterViewController.swift"
             timestampString = "547330719.409966"
             startingColumnNumber = "9223372036854775807"
@@ -224,6 +282,63 @@
             startingLineNumber = "253"
             endingLineNumber = "253"
             landmarkName = "enteredApp()"
+=======
+            filePath = "Live/RTMPView.swift"
+            timestampString = "546929270.378409"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "roomKey"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Live/AudienceViewController.swift"
+            timestampString = "546929270.378533"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Live/BroadcasterViewController.swift"
+            timestampString = "546926944.945513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Live/LiveOverlayViewController.swift"
+            timestampString = "546929270.378625"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "viewDidLoad()"
+>>>>>>> upnext
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
