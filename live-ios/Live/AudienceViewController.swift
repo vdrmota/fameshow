@@ -168,6 +168,16 @@ class AudienceViewController: UIViewController {
             }
         }
 
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(self.exitedApp),
+            name: Notification.Name.UIApplicationWillResignActive,
+            object: nil)
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(self.enteredApp),
+            name: Notification.Name.UIApplicationDidBecomeActive,
+            object: nil)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -176,6 +186,7 @@ class AudienceViewController: UIViewController {
         //manager.defaultSocket.disconnect()
         NotificationCenter.default.removeObserver(self)
         self.socket.off("new_room")
+        
     }
     
 //    @IBAction func switchChanged(_ sender: UISwitch) {
@@ -196,6 +207,15 @@ class AudienceViewController: UIViewController {
         vc.socket = self.socket
         vc.isLive = true;
         present(vc, animated: true, completion: nil)
+    }
+    
+    @objc func exitedApp () {
+        
+        socket.emit("leave")
+    }
+    
+    @objc func enteredApp () {
+        socket.emit("reconnect")
     }
 }
 

@@ -90,6 +90,8 @@ class LiveOverlayViewController: UIViewController {
         textField.layer.masksToBounds = true
         
         cheerView.frame = self.view.bounds
+        cheerView.config.colors = [UIColor.white]
+
         //self.view.addSubview(cheerView)
         self.view.insertSubview(cheerView, at: 1)
         
@@ -99,13 +101,11 @@ class LiveOverlayViewController: UIViewController {
         socket.on("confetti") { data, ack in
             if let icon = data[0] as? String {
                 DispatchQueue.main.async {
-    
-                    self.cheerView.config.particle = .confetti(allowedShapes: Particle.ConfettiShape.all)
                     
                     let confetti = NSAttributedString(string: icon, attributes: [
-                        NSAttributedStringKey.font: UIFont(name: "AppleColorEmoji", size: 10)!
+                        NSAttributedStringKey.font: UIFont(name: "AppleColorEmoji", size: 30)!
                         ])
-                    self.cheerView.config.particle = Particle.text(CGSize(width:40, height:40),[confetti])
+                    self.cheerView.config.particle = Particle.text(CGSize(width:100, height:100),[confetti])
                     // Start
                     self.cheerView.start()
                     
@@ -129,16 +129,18 @@ class LiveOverlayViewController: UIViewController {
         }
         
         socket.on("tick") {[weak self] data ,ack in
-            if let viewers = data[0] as? Int, let votes = data[1] as? Int, let time = data[2] as? Int, let progress = data[3] as? Float, let counterVisible = data[4] as? Bool {
+            if let viewers  = data[0] as? Int,
+               let votes    = data[1] as? Int,
+               let time     = data[2] as? Int,
+               let progress = data[3] as? Double,
+               let counterVisible = data[4] as? Bool {
                 self?.viewerLabel.setTitle(String(viewers), for: .normal)
-                //text = String(viewers)
                 
                 self?.counter.voteProgress = Double(progress)
                 self?.counter.timeRemaining = time
                 self?.counter.isHidden = !counterVisible
                 self?.counter.setNeedsDisplay()
 
-                
             }
             
         }

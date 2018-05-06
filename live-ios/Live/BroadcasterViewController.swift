@@ -40,9 +40,12 @@ class BroadcasterViewController: UIViewController {
                 if (isLive) {
                     self.liveIndicator.setTitle("LIVE", for: .normal)
                     self.liveIndicator.color = UIColor(red:0.84, green:0.19, blue:0.19, alpha:1.0)
+                    self.previewView.transform = CGAffineTransform(scaleX: 1, y: 1)
                 } else {
-                    self.liveIndicator.setTitle("UP NEXT", for: .normal)
+                    self.liveIndicator.setTitle("YOU ARE UP NEXT", for: .normal)
                     self.liveIndicator.color = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
+                    self.previewView.transform = CGAffineTransform(scaleX: 0.6, y: 0.6)
+
                 }
             }
         }
@@ -102,7 +105,7 @@ class BroadcasterViewController: UIViewController {
                 print("IS DEAD");
                 DispatchQueue.main.async {
 
-                    if self != nil {
+                    if self != nil && self?.presentingViewController != nil  {
                         self?.isLive = false;
                         let audienceVC = self?.presentingViewController as! AudienceViewController
                         audienceVC.dismiss(animated: true, completion: nil)
@@ -121,6 +124,17 @@ class BroadcasterViewController: UIViewController {
         super.viewWillAppear(animated)
         session.running = true
         
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(self.exitedApp),
+            name: Notification.Name.UIApplicationWillResignActive,
+            object: nil)
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(self.enteredApp),
+            name: Notification.Name.UIApplicationDidBecomeActive,
+            object: nil)
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -128,6 +142,7 @@ class BroadcasterViewController: UIViewController {
         
         // trigger UI updates if isLive is set before view has loaded
         self.isLive = (isLive) ? true : false
+        
 
     }
     
@@ -135,6 +150,9 @@ class BroadcasterViewController: UIViewController {
         super.viewWillDisappear(animated)
         session.running = false
         stop()
+        
+        NotificationCenter.default.removeObserver(self)
+
        //socket.disconnect()
     }
     
@@ -167,7 +185,6 @@ class BroadcasterViewController: UIViewController {
         room = Room(dict: [
             "title": "upcoming" as AnyObject,
             "key": String.random() as AnyObject,
-            "version": version as AnyObject
         ])
         
         overlayController.room = room
@@ -196,7 +213,7 @@ class BroadcasterViewController: UIViewController {
             return
         }
         session.stopLive()
-        manager.defaultSocket.emit("leave", room.key)
+        //manager.defaultSocket.emit("leave", room.key)
         //manager.defaultSocket.disconnect()
     }
     
@@ -228,7 +245,13 @@ class BroadcasterViewController: UIViewController {
         //textField.resignFirstResponder()
     }
 	
-
+    @objc func exitedApp () {
+        socket.emit("leave")
+    }
+    
+    @objc func enteredApp () {
+        socket.emit("reconnect")
+    }
 }
 
 extension BroadcasterViewController: UpNextOverlayViewControllerDelegate {
@@ -238,6 +261,7 @@ extension BroadcasterViewController: UpNextOverlayViewControllerDelegate {
         self.containerView.removeFromSuperview()
     }
 }
+
 
 extension BroadcasterViewController: LFLiveSessionDelegate {
     

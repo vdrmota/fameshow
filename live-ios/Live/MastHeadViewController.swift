@@ -132,8 +132,24 @@ class MastHeadViewController: UIViewController {
         fetchUserBalance()
         fetchShowDetails()
 
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(self.exitedApp),
+            name: Notification.Name.UIApplicationWillResignActive,
+            object: nil)
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(self.enteredApp),
+            name: Notification.Name.UIApplicationDidBecomeActive,
+            object: nil)
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+
+        NotificationCenter.default.removeObserver(self)
+
+    }
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         cheerView.stop()
@@ -208,7 +224,7 @@ class MastHeadViewController: UIViewController {
             vc.socket = manager.defaultSocket
             present(vc, animated: true, completion: nil)
         } else {
-            let alertController = UIAlertController(title: "You're running an old version of Fameshow", message: "Please update the app in order to view the show.", preferredStyle: .alert)
+            let alertController = UIAlertController(title: "You're running an old version of Fameshow", message: "Please update the app in order to watch the show.", preferredStyle: .alert)
             
             let gotToAppStore = UIAlertAction(title: "Go to App Store", style: .default) { (action:UIAlertAction) in
                 UIApplication.shared.openURL(NSURL(string: "itms://itunes.apple.com/us/app/fameshow/id1350328096?mt=8")! as URL)
@@ -241,6 +257,14 @@ class MastHeadViewController: UIViewController {
     */
     override var preferredStatusBarStyle : UIStatusBarStyle {
         return .lightContent
+    }
+    
+    @objc func exitedApp () {
+        manager.defaultSocket.emit("leave")
+    }
+    
+    @objc func enteredApp () {
+        manager.defaultSocket.emit("reconnect")
     }
 
 }
