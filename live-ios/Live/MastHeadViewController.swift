@@ -33,27 +33,7 @@ class MastHeadViewController: UIViewController {
             }
             this.manager.defaultSocket.emit("register_user", User.currentUser.username!, version)
         }
-        
-//        manager.defaultSocket.once(clientEvent: .connect) { [weak self] data, ack in
-//            guard let this = self else {
-//                return
-//            }
-//
-//            this.manager.defaultSocket.emit("register_user", User.currentUser.username!)
-//
-//            connectedSpeed().testDownloadSpeedWithTimout(timeout: 5.0) { (megabytesPerSecond, error) -> () in
-//                print("mbps:\(String(describing: megabytesPerSecond))")
-//                if megabytesPerSecond != nil {
-//                this.manager.defaultSocket.emit("register_user", User.currentUser.username!, megabytesPerSecond!,"welcometothefameshow")
-//                } else {
-//                    this.manager.defaultSocket.emit("register_user", User.currentUser.username!, "0","welcometothefameshow")
-//                }
-//
-//            }
-            
- //
-        
-  //  }
+
         
         
         cheerView.alpha = 0.25
@@ -69,12 +49,7 @@ class MastHeadViewController: UIViewController {
             })
         }
         
-        //        let heart = NSAttributedString(string: "❤️", attributes: [
-        //            NSAttributedStringKey.font: UIFont(name: "AppleColorEmoji", size: 10)!
-        //            ])
-        //        cheerView.config.particle = Particle.text(CGSize(width:40, height:40),[heart])
         cheerView.config.colors = [UIColor.white]
-        // Start
         
         if let balance = User.currentUser.balance {
             self.usernameLabel.text = User.currentUser.username! + " | $" + balance
@@ -97,10 +72,11 @@ class MastHeadViewController: UIViewController {
         }
         
          manager.defaultSocket.on("start_show") {[weak self] data, ack in
-            if let key = data[0] as? String {
+            if let key = data[0] as? String, let version = data[1] as? String {
                 let room = Room(dict: [
                     "title": "upcoming" as AnyObject,
-                    "key": key as AnyObject
+                    "key": key as AnyObject,
+                    "version" : version as AnyObject
                     ])
                 self?.joinRoom(room)
             }
@@ -232,11 +208,26 @@ class MastHeadViewController: UIViewController {
             vc.socket = manager.defaultSocket
             present(vc, animated: true, completion: nil)
         } else {
-            SVProgressHUD.showError(withStatus: "You're running an old version of the app!\nPlease update to view the show.")
-            self.descriptionLabel.text = ""
-            self.nextShowLabel.text    = ""
-            self.prizeLabel.text       = "Please update Fameshow!"
+            let alertController = UIAlertController(title: "You're running an old version of Fameshow", message: "Please update the app in order to view the show.", preferredStyle: .alert)
+            
+            let gotToAppStore = UIAlertAction(title: "Go to App Store", style: .default) { (action:UIAlertAction) in
+                UIApplication.shared.openURL(NSURL(string: "itms://itunes.apple.com/us/app/fameshow/id1350328096?mt=8")! as URL)
+            }
+            
+            let cancel = UIAlertAction(title: "Not now", style: .default) { (action:UIAlertAction) in
+                print("You've pressed cancel");
+            }
+
+            
+            alertController.addAction(gotToAppStore)
+            alertController.addAction(cancel)
+
+            self.present(alertController, animated: true, completion: nil);
+
         }
+        
+        //UIApplication.sharedApplication().openURL(NSURL(string: "itms://itunes.apple.com/de/app/x-gift/id839686104?mt=8&uo=4")!)
+
     }
 
     /*
