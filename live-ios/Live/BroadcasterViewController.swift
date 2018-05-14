@@ -29,22 +29,29 @@ class BroadcasterViewController: UIViewController {
             if (self.liveIndicator != nil) {
                 self.liveIndicator.layer.removeAllAnimations()
 
-                let fadeAnimation = CABasicAnimation(keyPath:"opacity")
-                fadeAnimation.duration = 1
-                fadeAnimation.fromValue = 1
-                fadeAnimation.toValue = 0.75
-                fadeAnimation.autoreverses = true
-                fadeAnimation.repeatCount = .greatestFiniteMagnitude
-                self.liveIndicator.layer.add(fadeAnimation, forKey: "other")
                 
                 if (isLive) {
                     self.liveIndicator.setTitle("LIVE", for: .normal)
                     self.liveIndicator.color = UIColor(red:0.84, green:0.19, blue:0.19, alpha:1.0)
                     self.previewView.transform = CGAffineTransform(scaleX: 1, y: 1)
+                    self.previewView.layer.cornerRadius = 0
+                    self.previewView.layer.masksToBounds = false
+
+                    let fadeAnimation = CABasicAnimation(keyPath:"opacity")
+                    fadeAnimation.duration = 1
+                    fadeAnimation.fromValue = 1
+                    fadeAnimation.toValue = 0.75
+                    fadeAnimation.autoreverses = true
+                    fadeAnimation.repeatCount = .greatestFiniteMagnitude
+                    self.liveIndicator.layer.add(fadeAnimation, forKey: "other")
+
                 } else {
                     self.liveIndicator.setTitle("YOU ARE UP NEXT", for: .normal)
                     self.liveIndicator.color = UIColor(red:0.42, green:0.36, blue:0.91, alpha:1.0)
-                    self.previewView.transform = CGAffineTransform(scaleX: 0.6, y: 0.6)
+                    self.previewView.transform = CGAffineTransform(scaleX: 0.65, y: 0.65)
+                    self.previewView.layer.cornerRadius = 20//CGAffineTransform(scaleX: 0.65, y: 0.65)
+                    self.previewView.layer.masksToBounds = true
+
 
                 }
             }

@@ -53,7 +53,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let isRegisteredForRemoteNotifications = UIApplication.shared.isRegisteredForRemoteNotifications
         if isRegisteredForRemoteNotifications {
             // User is registered for notification
-            UNUserNotificationCenter.current().requestAuthorization(options:[.badge, .alert, .sound]){ (granted, error) in }
+            //UNUserNotificationCenter.current().requestAuthorization(options:[.badge, .alert, .sound]){ (granted, error) in }
+            UIApplication.shared.registerForRemoteNotifications()
 
         }
         
@@ -77,6 +78,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //barButtonAttrs.dictionary
         barButtonItem.setTitleTextAttributes(nil, for: .normal)
         barButtonItem.setTitleTextAttributes(nil, for: .highlighted)
+        
         
     }
 
@@ -109,6 +111,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let deviceTokenString = deviceToken.reduce("", {$0 + String(format: "%02X", $1)})
         
         NotificationCenter.default.post(name: .didRegister, object: deviceTokenString)
+        
+        if (deviceTokenString == User.currentUser.pushToken) {
+            print("Token hasn't changed; no need to update.")
+            return
+        }
         
         let url = URL(string: Config.phpUrl + "/token.php")!
         var request = URLRequest(url: url)
