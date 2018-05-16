@@ -27,17 +27,26 @@ var nextExists = false
 var potentialStreamers = []
 var voteCounter = 0
 var viewerCounter = 0
-const INTERVAL = 30
+const INTERVAL = 20
 var counter = INTERVAL
+const PAYOUT = 0.5
+var payout = 0
 var totalTime = 0
 var percentage = 0
 var additionalViewers = 0
 var session = (new Date).getTime()
 var threshold = 0.33
-var users_authenticated = {}
+//var users_authenticated = {}
 var showCounter = false
 var upnext_queue = false
 var queueupnext = ""
+var liveRoom = ""
+var updateRoom = true
+var have_streamed = []
+var no_stream = []
+var is_genesis = false
+const VERSION = "1.1"
+var badWords = ["nigger", "negro", "fuck", "nudes", "boobs", "cock", "penis", "vagina", "suicide"];
 
 function getKeyByValue(object, value) 
 {
@@ -49,23 +58,31 @@ function countUnique(iterable)
   return new Set(iterable).size;
 }
 
+Array.prototype.diff = function(a) {
+    return this.filter(function(i) {return a.indexOf(i) < 0;});
+};
+
 
 app.get('/rooms', function(req, res) 
 {
 
-  var roomList = Object.keys(rooms).map(function(key) 
+  if (liveRoom.length !== 0)
   {
-    return rooms[key]
-  })
-
-  res.send(roomList)
+    res.send([{"title":"fame","key":liveRoom,"version":VERSION}])
+  }
+  else
+  {
+    res.send([])
+  }
 
 })
 
 
 app.get('/genesis', function(req, res) {
 
-  potentialStreamers = streamer_users.slice()
+  //potentialStreamers = streamer_users.slice()
+
+  potentialStreamers = map_users.slice()
 
   var winner = Math.floor(Math.random() * Math.floor(potentialStreamers.length))
   var winnerId = potentialStreamers.splice(winner)[0]
@@ -97,28 +114,28 @@ app.get('/genesis', function(req, res) {
 
 io.on('connection', function(socket) {
 
-  users_authenticated[socket.id] = false
+  //users_authenticated[socket.id] = false
   map_users.push(socket.id)
-  console.log(map_users)
-
-  viewerCounter = countUnique(map_users)*10 + additionalViewers
+  viewerCounter = countUnique(map_users) + additionalViewers
 
   if (viewerCounter < 0)
   {
     viewerCounter = 0 + additionalViewers
   }
 
-  socket.on('register_user', function(username, mbps, token) {
+  socket.on('register_user', function(username) {
 
     idToUser[socket.id] = username
-    idToMbps[socket.id] = mbps
+    idToMbps[socket.id] = 1
 
-    if (token == "welcometothefameshow")
-    {
-      users_authenticated[socket.id] = true;
-    }
+    //if (token == "welcometothefameshow")
+    //{
+    //  users_authenticated[socket.id] = true;
+    //}
 
+    console.log("[!CONNECTIONS!]")
     console.log(idToUser)
+    console.log("[!END_CONNECTIONS!]")
 
   })
 
@@ -128,10 +145,27 @@ io.on('connection', function(socket) {
       return
     }
 
-    console.log('create room:', room)
+    //console.log('create room:', room)
     var roomKey = room.key
     rooms[roomKey] = room
     socket.roomKey = roomKey
+
+    if (updateRoom === true)
+    {
+      if (streamRoom.length !== 0)
+      {
+        liveRoom = streamRoom
+      }
+      else
+      {
+        liveRoom = roomKey
+      }
+    }
+    else
+    {
+      updateRoom = true
+    }
+    
     streamRoom = roomKey
 
     idToRoom[socket.id] = roomKey
@@ -143,7 +177,7 @@ io.on('connection', function(socket) {
     {
       php.my_function(roomKey, socket.id, idToUser[socket.id], session, function(err, result, output, printed)
       {
-        console.log('created')
+        console.log('!created: ' + roomKey)
       });
     });
 
@@ -151,43 +185,48 @@ io.on('connection', function(socket) {
 
   socket.on('close_room', function(roomKey) {
 
-    console.log('close room:', roomKey)
-
     delete rooms[roomKey]
 
   })
 
   socket.on('toggle', function(streamer) {
 
-    if (streamer === true)
-    {
-      var iterations = Math.round(idToMbps[socket.id])
+  // false = doesn't want to stream
 
-      if (iterations < 1)
-      {
-        iterations = 1
-      }
+  if (streamer === false)
+  {
+    no_stream.push(socket.id)
+  }
+  else
+  {
+    no_stream = no_stream.filter(a => a !== socket.id)
+  }
+})
 
-      for (var i = 0; i < iterations; i++)
-      {
-        streamer_users.push(socket.id)
-      }
-    }
-    else
-    {
-      streamer_users = streamer_users.filter(a => a !== socket.id)
-    }
+  socket.on('reconnect', function() {
+
+
+  no_stream = no_stream.filter(a => a !== socket.id)
+
+  map_users.push(socket.id)
+  console.log('!reconnect: ', idToUser[socket.id])
+  viewerCounter = countUnique(map_users) + additionalViewers
+
+  if (viewerCounter < 0)
+  {
+    viewerCounter = 0 + additionalViewers
+  }
 
   })
 
-  socket.on('disconnect', function() {
+  socket.on('leave', function() {
+
+    no_stream.push(socket.id)
 
     streamer_users = streamer_users.filter(a => a !== socket.id)
     map_users = map_users.filter(a => a !== socket.id)
 
-    console.log(map_users)
-
-    console.log('disconnect: ', idToUser[socket.id])
+    console.log('!leave: ', idToUser[socket.id])
 
     // check if user has been queued as up next
     if (upnext_queue === true)
@@ -204,16 +243,31 @@ io.on('connection', function(socket) {
     if (upNextId == socket.id)
     {
 
-      var potentialStreamers = streamer_users.slice(); 
+      console.log("IT WAS UPNEXT")
+
+      var old_upNextId = upNextId
+
+      updateRoom = false
+
+      var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
+      potentialStreamers = potentialStreamers.filter(a => a !== upNextId)
 
       streamer_users = streamer_users.filter(a => a !== streamId)
 
-      upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-      upNextId = potentialStreamers.splice(upNext)[0];
+      if (upnext_queue === true)
+      {
+        upNextId = queueupnext
+        upnext_queue = false
+      }
+      else
+      {
+        upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
+        upNextId = potentialStreamers.splice(upNext)[0];
+      }
 
       io.sockets.connected[upNextId].emit("up_next");
 
-      console.log(upNextId + " is up next.")
+      io.sockets.connected[old_upNextId].emit("terminate", session);
 
     }
 
@@ -221,7 +275,12 @@ io.on('connection', function(socket) {
 
     if (streamId == socket.id)
     {
-      var potentialStreamers = streamer_users.slice(); // temporary
+
+      io.sockets.emit('message', "The streamer just disconnected. A new one will be up soon!")
+
+      io.sockets.connected[streamId].emit("is_dead", streamRoom)
+
+      var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); // temporary
 
       potentialStreamers = potentialStreamers.filter(a => a !== streamId)
 
@@ -234,23 +293,25 @@ io.on('connection', function(socket) {
       // tell everybody what the new room is
       io.sockets.emit('new_room', streamRoom)
 
-      console.log(streamId + " is streaming.")
-
-      console.log(potentialStreamers)
-
-      upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-      upNextId = potentialStreamers.splice(upNext)[0];
+      if (upnext_queue === true)
+      {
+        upNextId = queueupnext
+        upnext_queue = false
+      }
+      else
+      {
+        upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
+        upNextId = potentialStreamers.splice(upNext)[0];
+      }
 
       io.sockets.connected[upNextId].emit("up_next");
-
-      console.log(upNextId + " is up next.")
 
       totalTime = 0
       voteCounter = 0
       counter = INTERVAL
     }
 
-    viewerCounter = countUnique(map_users)*10 + additionalViewers
+    viewerCounter = countUnique(map_users) + additionalViewers
 
     if (viewerCounter < 0)
     {
@@ -268,9 +329,108 @@ io.on('connection', function(socket) {
 
   })
 
-  socket.on('join_room', function(roomKey) {
+  socket.on('disconnect', function() {
 
-    console.log('join room:', roomKey)
+    streamer_users = streamer_users.filter(a => a !== socket.id)
+    map_users = map_users.filter(a => a !== socket.id)
+
+    console.log('!disconnect: ', idToUser[socket.id])
+
+    // check if user has been queued as up next
+    if (upnext_queue === true)
+    {
+      if (queueupnext == socket.id)
+      {
+        upnext_queue = false
+        queueupnext = ""
+      }
+    }
+
+    // check if user is up next
+
+    if (upNextId == socket.id)
+    {
+
+      updateRoom = false
+
+      var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream);
+
+      streamer_users = streamer_users.filter(a => a !== streamId)
+
+      if (upnext_queue === true)
+      {
+        upNextId = queueupnext
+        upnext_queue = false
+      }
+      else
+      {
+        upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
+        upNextId = potentialStreamers.splice(upNext)[0];
+      }
+
+      io.sockets.connected[upNextId].emit("up_next");
+
+    }
+
+    // check if user is streaming rn
+
+    if (streamId == socket.id)
+    {
+
+      io.sockets.emit('message', "The streamer just disconnected. A new one will be up soon!")
+
+      var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); // temporary
+
+      potentialStreamers = potentialStreamers.filter(a => a !== streamId)
+
+      streamId = upNextId
+
+      potentialStreamers = potentialStreamers.filter(a => a !== streamId)
+
+      io.sockets.connected[streamId].emit("is_live");
+
+      // tell everybody what the new room is
+      io.sockets.emit('new_room', streamRoom)
+
+      if (upnext_queue === true)
+      {
+        upNextId = queueupnext
+        upnext_queue = false
+      }
+      else
+      {
+        upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
+        upNextId = potentialStreamers.splice(upNext)[0];
+      }
+
+      io.sockets.connected[upNextId].emit("up_next");
+
+      totalTime = 0
+      voteCounter = 0
+      counter = INTERVAL
+    }
+
+    viewerCounter = countUnique(map_users) + additionalViewers
+
+    if (viewerCounter < 0)
+    {
+      viewerCounter = 0 + additionalViewers
+    }
+
+    if (socket.roomKey) 
+    {
+      delete rooms[socket.roomKey]
+    }
+    else
+    {
+      //viewerCounter--
+    }
+
+    delete idToUser[socket.id]
+
+  })
+
+  socket.on('join_room', function(roomKey) {
 
     socket.join(roomKey)
 
@@ -282,27 +442,41 @@ io.on('connection', function(socket) {
 
     // check if person has already upvoted in this INTERVAL
 
-    if (!have_upvoted.includes(socket.id))
+    if (is_genesis)
     {
-      // user can upvote
-      console.log('upvote:', roomKey)
-      voteCounter++
 
-      io.sockets.emit('upvote')
+      if (!have_upvoted.includes(socket.id))
+      {
+        // user can upvote
+        console.log('!upvote:', roomKey)
+        voteCounter++
 
-      have_upvoted.push(socket.id)
+        have_upvoted.push(socket.id)
+      }
+      else
+      {
+        // user has already upvoted -- notify that user
+        
+      }
+
     }
-    else
-    {
-      // user has already upvoted -- notify that user
-      io.sockets.connected[socket.id].emit("already_upvoted");
-    }
+
+    io.sockets.emit('upvote')
 
   })
 
   socket.on('comment', function(data) {
-    console.log('comment:', data)
-    io.sockets.emit('comment', data)
+    if (badWords.some(function(v) { return data === v; })) 
+    {
+      // if bad words, tell that person
+      io.sockets.connected[socket.id].emit('message', "Inappropriate comment!")
+    }
+    else
+    {
+      // if no bad words
+      console.log('!comment by '+idToUser[socket.id]+':', data)
+      io.sockets.emit('comment', data, idToUser[socket.id])
+    }
   })
 
   socket.on('subscribe', function(currentRoom) {
@@ -323,15 +497,15 @@ io.on('connection', function(socket) {
 
   })
 
-  setTimeout(function()
-  { 
+  // setTimeout(function()
+  // { 
 
-    if (!users_authenticated[socket.id])
-    {
-      socket.disconnect()
-    }
+  //   if (!users_authenticated[socket.id])
+  //   {
+  //     socket.disconnect()
+  //   }
 
-  }, 5000);
+  // }, 5000);
 
 })
 
@@ -347,14 +521,19 @@ setInterval(function() {
         }
         
 
-        var result2 = {"viewers": viewerCounter, "votes": voteCounter, "time": counter, "%": percentage};
+        var result2 = {"viewers": viewerCounter, "votes": voteCounter, "time": counter, "%": percentage, "counter": showCounter};
         result2 = JSON.stringify(result2)
-        console.log(result2)
+        console.log("!Tick: " + result2)
 
         io.sockets.emit('tick', viewerCounter, voteCounter, counter, percentage, showCounter)
 
         if (counter == 0)
         {
+
+          console.log("[!BEGIN_ANALYTICS!]")
+          console.log("[!CONNECTIONS!]")
+          console.log(idToUser)
+          console.log("[!END_CONNECTIONS!]")
 
           // reset votes
           voteCounter = 0
@@ -365,6 +544,8 @@ setInterval(function() {
             counter = INTERVAL
 
             totalTime += INTERVAL
+
+            io.sockets.connected[upNextId].emit('message', "The streamer was given more time. Your turn soon!")
           }
           else
           {
@@ -372,25 +553,44 @@ setInterval(function() {
             counter = INTERVAL
             totalTime += INTERVAL
 
+            payout = (totalTime / INTERVAL) * PAYOUT
+
               if (nextExists === true)
               {
 
-                  var potentialStreamers = streamer_users.slice(); // temporary
+                  showCounter = false     
 
-                  potentialStreamers = potentialStreamers.filter(a => a !== streamId)
+                  // var potentialStreamers = potentialStreamers || []
 
-                  io.sockets.connected[streamId].emit("is_dead")
+                  // if (potentialStreamers.length <= 2)
+                  // {
+                  //   var potentialStreamers = map_users.slice();
+                  // }
+
+                  have_streamed.push(streamId)
+                
+                  // if diff returns 1 person (it's the upnext person) then empty have_streamed
+                  if (map_users.diff(have_streamed).length <= 1)
+                  {
+                     have_streamed = []
+                  }
+                  
+                  var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); // temporary map_users instead of streamer_users
+
+                  //potentialStreamers = potentialStreamers.filter(a => a !== streamId)
+
+                  io.sockets.connected[streamId].emit("is_dead", streamRoom)
+
+                  console.log("!DIED: " + streamRoom)
 
                   // store results in database
                   execPhp('store.php', function(error, php, outprint)
                   {
-                    php.my_function(totalTime, streamId, function(err, result, output, printed)
+                    php.my_function(totalTime, streamId, payout, idToUser[streamId], function(err, result, output, printed)
                     {
-                      console.log('stored')
+                      console.log('!stored: ' + idToUser[streamId] + " " + payout)
                     });
                   });
-
-                  console.log(streamId + " is out.")
 
                   streamId = upNextId
 
@@ -398,49 +598,71 @@ setInterval(function() {
 
                   io.sockets.connected[streamId].emit("is_live");
 
-                  // 5 second wait here.
-
                   // tell everybody what the new room is
+
                   io.sockets.emit('new_room', streamRoom)
 
-                  console.log(streamId + " is streaming.")
+                  // no streamers availaible (create new room with clip saying no streamers)
+                  if (potentialStreamers.length < 1)
+                  {
+                    upNextId = getKeyByValue(idToUser, "vojtadrmota")
 
-                  console.log(potentialStreamers)
+                    if (upNextId == null)
+                    {
+                      upNextId = getKeyByValue(idToUser, "mschrage")
+                    }
+                  }
+                  else
+                  {
+                    if (upnext_queue === true)
+                    {
+                      upNextId = queueupnext
+                      upnext_queue = false
+                    }
+                    else
+                    {
+                      console.log("!POTENTIAL: " + potentialStreamers)
+                      upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
+                      upNextId = potentialStreamers.splice(upNext)[0];
+                    }
+                  }
 
-                if (upnext_queue === true)
-                {
-                  upNextId = queueupnext
+                  // CHANGED: check if person upnext is still connected
+
+                  if (upNextId == null || !map_users.includes(upNextId))
+                  {
+                    upNextId = getKeyByValue(idToUser, "vojtadrmota")
+
+                    if (upNextId == null)
+                    {
+                      upNextId = getKeyByValue(idToUser, "mschrage")
+                    }
+                  }
 
                   io.sockets.connected[upNextId].emit("up_next");
 
-                  console.log(upNextId + " is up next.")
-
                   totalTime = 0
+                  voteCounter = 0
 
-                  upnext_queue = false
-                }
-                else
-                {
+                  // hide counter for 5 sec here
+                  setTimeout(function()
+                    { 
+                      counter = INTERVAL
+                      showCounter = true
+                    }, 3000);
 
-                  upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-                  upNextId = potentialStreamers.splice(upNext)[0];
-
-                  io.sockets.connected[upNextId].emit("up_next");
-
-                  console.log(upNextId + " is up next.")
-
-                  totalTime = 0
-                }
               }
               else
               {
                 // genesis hasn't been called yet
-                console.log('GENESIS NOT CALLED')
+                //console.log('GENESIS NOT CALLED')
               }
           }
 
           // reset upvotes
           have_upvoted = []
+
+        console.log("[!END_ANALYTICS!]")
           
         }
         else
@@ -462,23 +684,19 @@ app.get('/cpanel', function(req, res)
 app.get('/next', function(req, res) 
 {
 
-  var potentialStreamers = streamer_users.slice(); // temporary
+  var potentialStreamers = map_users.slice(); // temporary
 
   potentialStreamers = potentialStreamers.filter(a => a !== streamId)
   potentialStreamers = potentialStreamers.filter(a => a !== upNextId)
 
-  console.log(potentialStreamers)
+  io.sockets.connected[upNextId].emit("is_dead", streamRoom)
 
-  io.sockets.connected[upNextId].emit("is_dead")
-
-  io.sockets.connected[upNextId].emit('new_room', streamRoom)
+  //io.sockets.connected[upNextId].emit('new_room', streamRoom)
 
   upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
   upNextId = potentialStreamers.splice(upNext)[0];
 
   io.sockets.connected[upNextId].emit("up_next");
-
-  console.log(upNextId + " is up next.")
 
   setTimeout(myFunction2, 3000);
 
@@ -494,22 +712,21 @@ app.get('/next', function(req, res)
 app.get('/promote', function(req, res) 
 {
 
-    var potentialStreamers = streamer_users.slice(); // temporary
+    var potentialStreamers = map_users.slice(); // temporary
 
     potentialStreamers = potentialStreamers.filter(a => a !== streamId)
 
-    io.sockets.connected[streamId].emit("is_dead")
+    var prevStreamerId = streamId
+    io.sockets.connected[streamId].emit("is_dead", streamRoom)
 
     // store results in database
     execPhp('store.php', function(error, php, outprint)
     {
-      php.my_function(totalTime, streamId, function(err, result, output, printed)
+      php.my_function(totalTime, streamId, PAYOUT, idToUser[streamId], function(err, result, output, printed)
       {
         console.log('stored')
       });
     });
-
-    console.log(streamId + " is out.")
 
     streamId = upNextId
 
@@ -520,16 +737,18 @@ app.get('/promote', function(req, res)
     // tell everybody what the new room is
     io.sockets.emit('new_room', streamRoom)
 
-    console.log(streamId + " is streaming.")
-
-    console.log(potentialStreamers)
-
-    upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-    upNextId = potentialStreamers.splice(upNext)[0];
-
+    if (upnext_queue === true)
+    {
+      upNextId = queueupnext
+      upnext_queue = false
+    }
+    else
+    {
+      upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
+      upNextId = potentialStreamers.splice(upNext)[0];
+    }
+    
     io.sockets.connected[upNextId].emit("up_next");
-
-    console.log(upNextId + " is up next.")
 
     totalTime = 0
     voteCounter = 0
@@ -613,7 +832,12 @@ app.get('/messageupnext', function(req, res)
 app.get('/end', function(req, res) 
 {
 
-  io.sockets.emit('terminated', session)
+  io.sockets.emit('is_dead', streamRoom)
+
+  streamRoom = ""
+  io.sockets.emit('terminate', session)
+
+  liveRoom = ""
 
   res.send("It's done, it's over :)")
 
@@ -622,7 +846,16 @@ app.get('/end', function(req, res)
 app.get('/video', function(req, res) 
 {
 
-var yourscript = exec('sh video.sh '+req.query.video,
+liveRoom = "thefameshow44"
+streamRoom = "thefameshow44"
+
+io.sockets.emit('start_show', liveRoom, VERSION)
+
+setTimeout(myFunction9, 5000);
+
+    function myFunction9(){
+
+var yourscript = exec('sh video.sh '+req.query.video+' '+liveRoom,
         (error, stdout, stderr) => {
             console.log(`${stdout}`);
             console.log(`${stderr}`);
@@ -630,8 +863,79 @@ var yourscript = exec('sh video.sh '+req.query.video,
                 console.log(`exec error: ${error}`);
             }
         });
+
+  }
   
-  rooms["thefameshow44"] = {"title": "thefameshow44", "key": "thefameshow44"}
+  //rooms["thefameshow44"] = {"title": "thefameshow44", "key": "thefameshow44"}
+
+  res.render("panel.html", { streaming: streamRoom, threshold: threshold });
+
+})
+
+app.get('/video_start', function(req, res) 
+{
+
+liveRoom = "thefameshow45"
+streamRoom = "thefameshow45"
+
+io.sockets.emit('new_room', liveRoom)
+
+setTimeout(myFunction9, 5000);
+
+    function myFunction9(){
+
+var yourscript = exec('sh video.sh '+req.query.video+' '+liveRoom,
+        (error, stdout, stderr) => {
+            console.log(`${stdout}`);
+            console.log(`${stderr}`);
+            if (error !== null) {
+                console.log(`exec error: ${error}`);
+            }
+        });
+
+  }
+  
+  //rooms["thefameshow44"] = {"title": "thefameshow44", "key": "thefameshow44"}
+
+  res.render("panel.html", { streaming: streamRoom, threshold: threshold });
+
+})
+
+app.get('/video_schrage', function(req, res) 
+{
+
+liveRoom = "thefameshow46"
+streamRoom = "thefameshow46"
+
+io.sockets.emit('new_room', liveRoom)
+
+setTimeout(myFunction9, 3000);
+
+    function myFunction9(){
+
+var yourscript = exec('sh video.sh '+req.query.video+' '+liveRoom,
+        (error, stdout, stderr) => {
+            console.log(`${stdout}`);
+            console.log(`${stderr}`);
+            if (error !== null) {
+                console.log(`exec error: ${error}`);
+            }
+        });
+
+  }
+  
+  //rooms["thefameshow44"] = {"title": "thefameshow44", "key": "thefameshow44"}
+
+  res.render("panel.html", { streaming: streamRoom, threshold: threshold });
+
+})
+
+app.get('/fake_comment', function(req, res) 
+{
+
+  commentdata = {'text': req.query.comment, 'key': "asdfk"}
+
+  io.sockets.emit('comment', commentdata, req.query.username)  
 
   res.render("panel.html", { streaming: streamRoom, threshold: threshold });
 
@@ -640,14 +944,48 @@ var yourscript = exec('sh video.sh '+req.query.video,
 app.get('/genesisupnext', function(req, res) 
 {
 
-  var potentialStreamers = streamer_users.slice(); // temporary
+  var potentialStreamers = map_users.slice(); // temporary
 
   upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
   upNextId = potentialStreamers.splice(upNext)[0];
 
   io.sockets.connected[upNextId].emit("up_next");
 
-  console.log(upNextId + " is up next.")
+  setTimeout(myFunction6, 3000);
+
+  function myFunction6(){
+
+    res.render("panel.html", { streaming: idToRoom[upNextId], threshold: threshold });
+
+  }
+
+})
+
+app.get('/genesisupnext_vojta', function(req, res) 
+{
+
+  upNextId = getKeyByValue(idToUser, "vojtadrmota")
+
+  io.sockets.connected[upNextId].emit("up_next");
+
+  setTimeout(myFunction6, 3000);
+
+  function myFunction6(){
+
+    res.render("panel.html", { streaming: idToRoom[upNextId], threshold: threshold });
+
+  }
+
+})
+
+app.get('/genesisupnext_matt', function(req, res) 
+{
+
+  upNextId = getKeyByValue(idToUser, "mschrage")
+
+  io.sockets.connected[upNextId].emit("up_next");
+
+  console.log("Genesis, Upnext: Matt")
 
   setTimeout(myFunction6, 3000);
 
@@ -662,11 +1000,19 @@ app.get('/genesisupnext', function(req, res)
 app.get('/genesisstart', function(req, res) 
 {
 
+    console.log("[!BEGIN_SHOW!]")
+
+    is_genesis = true
+
     nextExists = true
 
-    var potentialStreamers = streamer_users.slice(); // temporary
+    var potentialStreamers = map_users.slice(); // temporary
+
+    console.log("Genesis, upnext: "+upNextId)
 
     streamId = upNextId
+
+    console.log("Genesis, streamid: "+streamId)
 
     potentialStreamers = potentialStreamers.filter(a => a !== streamId)
 
@@ -675,21 +1021,29 @@ app.get('/genesisstart', function(req, res)
     // tell everybody what the new room is
     io.sockets.emit('new_room', streamRoom)
 
-    console.log(streamId + " is streaming.")
-
-    console.log(potentialStreamers)
-
-    upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-    upNextId = potentialStreamers.splice(upNext)[0];
+    if (upnext_queue === true)
+    {
+      upNextId = queueupnext
+      upnext_queue = false
+    }
+    else
+    {
+      upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
+      upNextId = potentialStreamers.splice(upNext)[0];
+    }
 
     io.sockets.connected[upNextId].emit("up_next");
 
-    console.log(upNextId + " is up next.")
-
     totalTime = 0
     voteCounter = 0
-    counter = INTERVAL
-    showCounter = true
+
+                // hid counter for 5 sec here
+                  showCounter = false
+                  setTimeout(function()
+                    { 
+                      counter = INTERVAL
+                      showCounter = true
+                    }, 3000);
 
     setTimeout(myFunction3, 3000);
 
@@ -705,7 +1059,7 @@ app.get('/intervideo', function(req, res)
 {
 
   // 500ms before counter hits 0
-  var timeleft = (INTERVAL - counter) * 1000 - 500
+  var timeleft = counter * 1000 - 500
 
   var length = parseInt(req.query.length) * 1000
 
@@ -716,19 +1070,22 @@ app.get('/intervideo', function(req, res)
     if (percentage >= 1)
     {
       // person is still on
-      res.send("Person got more time. <a href='http://vojtadrmota.com:3000/cpanel'>Go back to cPanel</a>.")
+      res.send("Person got more time. <a href='http://fameshow.co:3000/cpanel'>Go back to cPanel</a>.")
     }
     else
     {
-      counter = 1000000 // make sure this is longer than the length of video
-      showCounter = false
+
+      io.sockets.connected[upNextId].emit('message', "The streamer was given more time. Your turn soon!")
+
+      counter = INTERVAL // make sure this is longer than the length of video
+      //showCounter = false
 
       randnum = parseInt(Math.random() * 1000)
       roomname = "thefameshow44" + randnum
 
-      io.sockets.connected[streamId].emit("is_dead")
+      io.sockets.connected[streamId].emit("is_dead", streamRoom)
 
-      var yourscript = exec('sh video2.sh '+req.query.video+' '+roomname,
+      var yourscript = exec('sh video.sh '+req.query.video+' '+roomname,
         (error, stdout, stderr) => {
             console.log(`${stdout}`);
             console.log(`${stderr}`);
@@ -739,13 +1096,11 @@ app.get('/intervideo', function(req, res)
 
       io.sockets.emit('new_room', roomname)
 
-      console.log("VIDEO LENGTH: "+length)
-
       setTimeout(myFunction8, length);
 
       function myFunction8(){
 
-                var potentialStreamers = streamer_users.slice();
+                var potentialStreamers = map_users.slice();
 
                 streamId = upNextId
 
@@ -756,21 +1111,25 @@ app.get('/intervideo', function(req, res)
                 // tell everybody what the new room is
                 io.sockets.emit('new_room', streamRoom)
 
-                console.log(streamId + " is streaming.")
-
-                upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-                upNextId = potentialStreamers.splice(upNext)[0];
+                if (upnext_queue === true)
+                {
+                  upNextId = queueupnext
+                  upnext_queue = false
+                }
+                else
+                {
+                  upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
+                  upNextId = potentialStreamers.splice(upNext)[0];
+                }
 
                 io.sockets.connected[upNextId].emit("up_next");
-
-                console.log(upNextId + " is up next.")
 
                 totalTime = 0
                 counter = INTERVAL
                 percentage = 0
                 showCounter = true
 
-                res.send("Done. <a href='http://vojtadrmota.com:3000/cpanel'>Go back to cPanel</a>.")
+                res.send("Done. <a href='http://fameshow.co:3000/cpanel'>Go back to cPanel</a>.")
 
       }
 
@@ -785,13 +1144,34 @@ app.get('/seeconnections', function(req, res)
 
   var connected_users = ""
   var connected_size = 0
+  var user_status = ""
+  var user_selection = ""
+
+  if (upnext_queue)
+  {
+    user_selection = "(manual)"
+  }
+  else
+  {
+    user_selection = "(automatic)"
+  }
 
   for (var key in idToUser) {
-    connected_users += "<br>"+idToUser[key]+": "+key
+
+    if (have_streamed.includes(key))
+    {
+      user_status = "<b>"+idToUser[key]+"</b>"
+    }
+    else
+    {
+      user_status = idToUser[key]
+    }
+
+    connected_users += "<br>"+user_status+": "+key+ " "+"<form method='GET' action='http://44.fameshow.co:3000/queueupnext'><input name='upnext' type='hidden' value='"+key+"' /><input type='submit' value='UpNext' /></form>"
     connected_size += 1
   }
 
-  res.send("<h1>Connected Users</h1> #: "+connected_size+" " + connected_users + "<h1>Broadcasters</h1> #: "+streamer_users.length+"<br>" + streamer_users)
+  res.send("Current streamer: "+idToUser[streamId]+"<br> Upnext: "+idToUser[upNextId]+" "+user_selection+"<br><h1>Connected Users</h1> #: "+connected_size+" " + connected_users + "<h1>Broadcasters</h1> #: "+streamer_users.length+"<br>" + streamer_users)
 
 })
 
@@ -801,12 +1181,115 @@ app.get('/queueupnext', function(req, res)
   queueupnext = req.query.upnext
   upnext_queue = true
 
+  res.send("Done!")
+
 })
 
 app.get('/mbps', function(req, res) 
 {
 
   res.send(idToMbps)
+
+})
+
+app.get('/confetti', function(req, res) 
+{
+
+  emoji = req.query.emoji
+
+  io.sockets.emit('confetti', emoji)
+
+  console.log(emoji)
+
+  setTimeout(myFunction6, 3000);
+
+  function myFunction6(){
+
+    res.render("panel.html", { streaming: idToRoom[upNextId], threshold: threshold });
+
+  }
+
+})
+
+app.get('/start', function(req, res) 
+{
+
+  // start intro
+  liveRoom = "thefameshow44"
+  streamRoom = "thefameshow44"
+
+  io.sockets.emit('start_show', liveRoom)
+
+  setTimeout(myFunction44, 5000);
+
+    function myFunction44(){
+
+  var yourscript = exec('sh video.sh intro.mp4',
+        (error, stdout, stderr) => {
+            console.log(`${stdout}`);
+            console.log(`${stderr}`);
+            if (error !== null) {
+                console.log(`exec error: ${error}`);
+            }
+        });
+
+  }
+
+  // get first upnext
+
+  setTimeout(myFunction43, 5000);
+
+    function myFunction43(){
+
+      upNextId = getKeyByValue(idToUser, "vojtadrmota")
+
+      if (upNextId == null)
+      {
+        upNextId = getKeyByValue(idToUser, "mschrage")
+      }
+
+      io.sockets.connected[upNextId].emit("up_next");
+
+    }
+
+  // run genesis
+
+  setTimeout(myFunction42, 18000);
+
+    function myFunction42(){
+
+       nextExists = true
+
+    var potentialStreamers = map_users.slice(); // temporary
+
+    streamId = upNextId
+
+    potentialStreamers = potentialStreamers.filter(a => a !== streamId)
+
+    io.sockets.connected[streamId].emit("is_live");
+
+    // tell everybody what the new room is
+    io.sockets.emit('new_room', streamRoom)
+
+    upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
+    upNextId = potentialStreamers.splice(upNext)[0];
+
+    io.sockets.connected[upNextId].emit("up_next");
+
+    totalTime = 0
+    voteCounter = 0
+
+    // hid counter for 5 sec here
+    showCounter = false
+    setTimeout(function()
+      { 
+        counter = INTERVAL
+        showCounter = true
+      }, 3000);
+      
+    }
+
+    res.send("Show started!")
 
 })
 
