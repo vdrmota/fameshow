@@ -684,7 +684,7 @@ app.get('/cpanel', function(req, res)
 app.get('/next', function(req, res) 
 {
 
-  var potentialStreamers = map_users.slice(); // temporary
+  var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream);  // temporary
 
   potentialStreamers = potentialStreamers.filter(a => a !== streamId)
   potentialStreamers = potentialStreamers.filter(a => a !== upNextId)
@@ -712,7 +712,7 @@ app.get('/next', function(req, res)
 app.get('/promote', function(req, res) 
 {
 
-    var potentialStreamers = map_users.slice(); // temporary
+    var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream);  // temporary
 
     potentialStreamers = potentialStreamers.filter(a => a !== streamId)
 
@@ -1100,7 +1100,7 @@ app.get('/intervideo', function(req, res)
 
       function myFunction8(){
 
-                var potentialStreamers = map_users.slice();
+                var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
 
                 streamId = upNextId
 
