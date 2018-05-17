@@ -612,7 +612,13 @@ setInterval(function() {
             totalTime += INTERVAL
             if ( typeof io.sockets.connected[upNextId] !== 'undefined' && io.sockets.connected[upNextId] )
             {
-              io.sockets.connected[upNextId].emit('message', "The streamer was given more time. Your turn soon!")
+              io.sockets.connected[upNextId].emit('message', "The audience gave the streamer more time. Your turn soon!")
+            }
+
+            if ( typeof io.sockets.connected[streamId] !== 'undefined' && io.sockets.connected[streamId] )
+            {
+              io.sockets.emit('message', "The audience gave "+idToUser[streamId] + " more time to stream!")
+              io.sockets.connected[streamId].emit('message', "Congrats! The audience gave you more time to stream.")
             }
           }
           else
