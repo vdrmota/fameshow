@@ -27,7 +27,7 @@ var nextExists = false
 var potentialStreamers = []
 var voteCounter = 0
 var viewerCounter = 0
-const INTERVAL = 5
+const INTERVAL = 20
 var counter = INTERVAL
 const PAYOUT = 0.5
 var payout = 0
@@ -610,8 +610,10 @@ setInterval(function() {
             counter = INTERVAL
 
             totalTime += INTERVAL
-
-            io.sockets.connected[upNextId].emit('message', "The streamer was given more time. Your turn soon!")
+            if ( typeof io.sockets.connected[upNextId] !== 'undefined' && io.sockets.connected[upNextId] )
+            {
+              io.sockets.connected[upNextId].emit('message', "The streamer was given more time. Your turn soon!")
+            }
           }
           else
           {
@@ -874,6 +876,7 @@ app.get('/end', function(req, res)
 {
 
   io.sockets.emit('is_dead', streamRoom)
+  showCounter = false
 
   setTimeout(myFunction8, 1000);
 
@@ -1258,6 +1261,210 @@ app.get('/confetti', function(req, res)
     res.render("panel.html", { streaming: idToRoom[upNextId], threshold: threshold });
 
   }
+
+})
+
+app.get('/genesisstartvideos', function(req, res) 
+{
+
+  var video1 = req.query.video1
+  var video2 = req.query.video2
+  var video3 = req.query.video3
+  var video4 = req.query.video4
+  var video5 = req.query.video5
+
+  var length1 = parseInt(req.query.length1) * 1000
+  var length2 = parseInt(req.query.length2) * 1000
+  var length3 = parseInt(req.query.length3) * 1000
+  var length4 = parseInt(req.query.length4) * 1000
+  var length5 = parseInt(req.query.length5) * 1000
+
+  is_genesis = true
+
+
+
+  // start first video
+
+      var randomUser = getRandomUsername()
+      io.sockets.emit('message', randomUser + " was selected to stream!")
+
+
+      counter = INTERVAL // make sure this is longer than the length of video
+      showCounter = true
+
+      randnum = parseInt(Math.random() * 1000)
+      streamRoom = "thefameshow44" + randnum
+
+      var yourscript = exec('sh video.sh '+video1+' '+streamRoom,
+        (error, stdout, stderr) => {
+            console.log(`${stdout}`);
+            console.log(`${stderr}`);
+            if (error !== null) {
+                console.log(`exec error: ${error}`);
+            }
+        });
+
+      io.sockets.emit('new_room', streamRoom)
+
+      setTimeout(myFunction8, length1);
+
+      function myFunction8(){
+
+                  // start second video
+
+                  var randomUser = getRandomUsername()
+                  io.sockets.emit('message', randomUser + " was selected to stream!")
+
+
+                  counter = INTERVAL // make sure this is longer than the length of video
+                  showCounter = true
+
+                  randnum = parseInt(Math.random() * 1000)
+                  streamRoom = "thefameshow44" + randnum
+
+                  var yourscript = exec('sh video.sh '+video2+' '+streamRoom,
+                    (error, stdout, stderr) => {
+                        console.log(`${stdout}`);
+                        console.log(`${stderr}`);
+                        if (error !== null) {
+                            console.log(`exec error: ${error}`);
+                        }
+                    });
+
+                  io.sockets.emit('new_room', streamRoom)
+
+                  setTimeout(myFunction1, length2);
+
+                  function myFunction1(){
+
+                                  // start third video
+                                  var randomUser = getRandomUsername()
+                                  io.sockets.emit('message', randomUser + " was selected to stream!")
+
+
+                                  counter = INTERVAL // make sure this is longer than the length of video
+                                  showCounter = true
+
+                                  randnum = parseInt(Math.random() * 1000)
+                                  streamRoom = "thefameshow44" + randnum
+
+                                  var yourscript = exec('sh video.sh '+video3+' '+streamRoom,
+                                    (error, stdout, stderr) => {
+                                        console.log(`${stdout}`);
+                                        console.log(`${stderr}`);
+                                        if (error !== null) {
+                                            console.log(`exec error: ${error}`);
+                                        }
+                                    });
+
+                                  io.sockets.emit('new_room', streamRoom)
+
+                                  setTimeout(myFunction2, length3);
+
+                                  function myFunction2(){
+
+                                              // start fourth video
+
+                                              var randomUser = getRandomUsername()
+                                              io.sockets.emit('message', randomUser + " was selected to stream!")
+
+
+                                              counter = INTERVAL // make sure this is longer than the length of video
+                                              showCounter = true
+
+                                              randnum = parseInt(Math.random() * 1000)
+                                              streamRoom = "thefameshow44" + randnum
+
+                                              var yourscript = exec('sh video.sh '+video4+' '+streamRoom,
+                                                (error, stdout, stderr) => {
+                                                    console.log(`${stdout}`);
+                                                    console.log(`${stderr}`);
+                                                    if (error !== null) {
+                                                        console.log(`exec error: ${error}`);
+                                                    }
+                                                });
+
+                                              io.sockets.emit('new_room', streamRoom)
+
+                                              setTimeout(myFunction3, length4);
+
+                                              function myFunction3(){
+
+                                                           // pick an up next person here
+                                                          var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
+                                                          streamId = upNext(upnext_queue, potentialStreamers, queueupnext)
+
+                                                          // start fifth video
+
+                                                          var randomUser = getRandomUsername()
+                                                          io.sockets.emit('message', randomUser + " was selected to stream!")
+
+
+                                                          counter = INTERVAL // make sure this is longer than the length of video
+                                                          showCounter = true
+
+                                                          randnum = parseInt(Math.random() * 1000)
+                                                          streamRoom = "thefameshow44" + randnum
+
+                                                          var yourscript = exec('sh video.sh '+video5+' '+streamRoom,
+                                                            (error, stdout, stderr) => {
+                                                                console.log(`${stdout}`);
+                                                                console.log(`${stderr}`);
+                                                                if (error !== null) {
+                                                                    console.log(`exec error: ${error}`);
+                                                                }
+                                                            });
+
+                                                          io.sockets.emit('new_room', streamRoom)
+
+                                                          setTimeout(myFunction4, length5);
+
+                                                          function myFunction4(){
+
+                                                              // start show, promote to streamer, and pick new upnext
+                                                              console.log("[!BEGIN_SHOW!]")
+
+                                                                  is_genesis = true
+
+                                                                  nextExists = true
+
+                                                                  var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
+                                                                  potentialStreamers = potentialStreamers.filter(a => a !== streamId)
+
+                                                                    streamer_users = streamer_users.filter(a => a !== streamId)
+
+                                                                  console.log("Genesis, streamid: "+streamId)
+
+
+                                                                  io.sockets.connected[streamId].emit("is_live");
+
+                                                                  // tell everybody what the new room is
+                                                                  io.sockets.emit('new_room', streamRoom)
+
+
+
+                                                                    upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
+
+                                                                  totalTime = 0
+                                                                  voteCounter = 0
+
+                                                                              // hid counter for 5 sec here
+                                                                                showCounter = false
+                                                                                setTimeout(function()
+                                                                                  { 
+                                                                                    counter = INTERVAL
+                                                                                    showCounter = true
+                                                                                  }, 3000);
+
+                                                          }
+
+                                              }
+
+                                  }
+
+                  }
+
+      }
 
 })
 
