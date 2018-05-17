@@ -47,6 +47,7 @@ var no_stream = []
 var is_genesis = false
 var all_users = []
 const VERSION = "1.1"
+var no_streamers = false // false = there exist potential streamers; true = there don't
 var badWords = ["nigger", "negro", "fuck", "nudes", "boobs", "cock", "penis", "vagina", "suicide"];
 
 function getKeyByValue(object, value) 
@@ -59,20 +60,56 @@ function countUnique(iterable)
   return new Set(iterable).size;
 }
 
-function upNext(upnext_queue, potentialStreamers, queueupnext)
+function noStreamers()
 {
-      if (upnext_queue === true)
+  // this code is triggered at the end of the countdown when there are no potential streamers
+
+  // run the nostreamers video in a new room
+
+  // point everone to that new room
+
+  // run a loop that constantly checks the length of potentialStreamesr
+
+  // once there exist potential streamers, break out of this function and put the upnext person live directly
+
+  // check if there are more potential streamers, if yes, set variables accordingly
+
+  no_streamers = false
+  nextExists = true
+
+  // if no more potential streamers, set variables accordingly
+
+  no_streamers = true
+  nextExists = false
+}
+
+function upNext(upnext_queuez, potentialStreamersz, queueupnextz)
+{
+      // check if there exist potential streamers
+      if (potentialStreamersz.length < 1)
       {
-        upNextId = queueupnext
-        upnext_queue = false
+        // there are no potential streamers
+        no_streamers = true
+        nextExists = false
+
+        return ""
       }
       else
       {
-        upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-        upNextId = potentialStreamers.splice(upNext)[0];
-      }
+        // there exist potential streamers
+        if (upnext_queuez === true)
+        {
+          var upNextIdz = queueupnextz
+          upnext_queue = false
+        }
+        else
+        {
+          var upNext = Math.floor(Math.random() * Math.floor(potentialStreamersz.length));
+          var upNextIdz = potentialStreamersz.splice(upNext)[0];
+        }
 
-      return upNextId
+        return upNextIdz
+      }
 }
 
 Array.prototype.diff = function(a) {
@@ -605,8 +642,11 @@ setInterval(function() {
               }
               else
               {
-                // genesis hasn't been called yet
-                //console.log('GENESIS NOT CALLED')
+                // if there are no potential streamers
+                if (no_streamers === true)
+                {
+                    noStreamers();
+                }
               }
           }
 
