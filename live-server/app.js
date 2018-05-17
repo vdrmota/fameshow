@@ -5,6 +5,7 @@ var io = require('socket.io')(server)
 var execPhp = require('exec-php');
 var apn = require('apn');
 const exec = require('child_process').exec;
+var fs = require('fs');
 
 app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/public/views');
@@ -27,7 +28,7 @@ var nextExists = false
 var potentialStreamers = []
 var voteCounter = 0
 var viewerCounter = 0
-const INTERVAL = 20
+const INTERVAL = 5
 var counter = INTERVAL
 const PAYOUT = 0.5
 var payout = 0
@@ -51,7 +52,7 @@ const VERSION = "1.1"
 var no_streamers = false // false = there exist potential streamers; true = there don't
 var badWords = ["nigger", "negro", "fuck", "nudes", "boobs", "cock", "penis", "vagina", "suicide"];
 var randomUsernames = ["FarRunning","FraserAngels","Gardware","Gigapho","GreeGrandMajor","HeavenMajor","Hesionwa","Hipposetter","Icychamin","Ikivoll","Imanadema","Incitymm","Inouthron","Interiorew","Jinjackya","Juzngable","Kiddooregra","KixBigg","Koldiers","LouYugi","LovelySnoReporter","Luvucksco","Magazinewt","Maplerate","MarkJameExpert","MatterTrust","Megstochel","Mintistarg","Miracleaf","Misterwrit","Miterso","AholicBizarre","Apritarch","Aquaticalog","Authoriece","Bannedmu","Bearacteki","Bentorkette","BestScorpion","BlondeHope","Boardercoun","ChampFly","ChronicleFunny","Conetche","Dramake","Eplandus","Extrand","Fainall","ParisRadiant","PeakRosa","Pedabri","PinchShinyForum","Postorchan","Quellait","RavenHulkTwist","Reheake","Rivielder","Samsayyid","Scoobyrnow","Shiesspl"];
-
+var randomVideos = fs.readdirSync("./videos/switch/")
 
 // start streaming to no_streamers
 var nostreamers_roomvideo = exec('sh loopvideo.sh nostreamers.mp4 fameshow44nostreamers',
@@ -72,6 +73,12 @@ var nostreamers_roomvideo = exec('sh loopvideo.sh endshow.mp4 fameshow44endshow'
           console.log(`exec error: ${error}`);
       }
   });
+
+function selectRandomVideo()
+{
+  var video = randomVideos[Math.floor(Math.random()*randomVideos.length)];
+  return video
+}
 
 function getKeyByValue(object, value) 
 {
@@ -166,18 +173,22 @@ function noStreamers()
       console.log("nostreamrs!")
 
       showCounter = false
+      if ( typeof io.sockets.connected[streamId] !== 'undefined' && io.sockets.connected[streamId] )
+      {
 
-      io.sockets.connected[streamId].emit("is_dead", streamRoom)
+        io.sockets.connected[streamId].emit("is_dead", streamRoom)
+
+        function myFunction8(){
+
+            io.sockets.connected[streamId].emit("new_room", "fameshow44nostreamers")
+
+        }
+      }
+
 
       io.sockets.emit('new_room', "fameshow44nostreamers")
 
       setTimeout(myFunction8, 2000);
-
-      function myFunction8(){
-
-            io.sockets.connected[streamId].emit("new_room", "fameshow44nostreamers")
-
-      }
 
 }
 
@@ -655,11 +666,8 @@ setInterval(function() {
 
                   //potentialStreamers = potentialStreamers.filter(a => a !== streamId)
 
-                  if ( typeof io.sockets.connected[streamId] !== 'undefined' && io.sockets.connected[streamId] )
-                  {
                     io.sockets.connected[streamId].emit("is_dead", streamRoom)
                     streamId = upNextId
-                  }
 
                   console.log("!DIED: " + streamRoom)
 
@@ -674,13 +682,10 @@ setInterval(function() {
 
                   potentialStreamers = potentialStreamers.filter(a => a !== streamId)
 
-                  if ( typeof io.sockets.connected[streamId] !== 'undefined' && io.sockets.connected[streamId] )
-                  {
                     io.sockets.connected[streamId].emit("is_live");
                     // tell everybody what the new room is
                     io.sockets.emit('new_room', streamRoom)
                     io.sockets.emit('message', idToUser[streamId] + " was selected to stream!")
-                  }
 
                   // no streamers availaible (create new room with clip saying no streamers)
                   upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
@@ -908,14 +913,11 @@ app.get('/videoswitch', function(req, res)
 {
 
 
-
       var randomUser = getRandomUsername()
       io.sockets.emit('message', randomUser + " was selected to stream!")
 
-      var randomVideoSelect = selectRandomVideo()
-      var randomVideo = randomVideoSelect[0]
-      var length = randomVideoSelect[1]
-
+      var randomVideo = selectRandomVideo()
+      var length = 20 * 1000 // switch videos only have a duration of 20s
 
       counter = INTERVAL // make sure this is longer than the length of video
       //showCounter = false
@@ -933,7 +935,7 @@ app.get('/videoswitch', function(req, res)
       io.sockets.connected[upNextId].emit('message', "The audience gave the streamer more time. Your turn soon!")
     }
 
-      var yourscript = exec('sh video.sh videos/'+randomVideo+' '+roomname,
+      var yourscript = exec('sh video.sh videos/switch/'+randomVideo+' '+roomname,
         (error, stdout, stderr) => {
             console.log(`${stdout}`);
             console.log(`${stderr}`);
@@ -971,7 +973,7 @@ app.get('/videoswitch', function(req, res)
                 io.sockets.emit('new_room', streamRoom)
 
 
-      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
+                upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
                 totalTime = 0
                 counter = INTERVAL
@@ -996,7 +998,7 @@ setTimeout(myFunction9, 5000);
 
     function myFunction9(){
 
-var yourscript = exec('sh video.sh videos/'+req.query.video+' '+liveRoom,
+var yourscript = exec('sh video.sh '+req.query.video+' '+liveRoom,
         (error, stdout, stderr) => {
             console.log(`${stdout}`);
             console.log(`${stderr}`);
@@ -1025,7 +1027,7 @@ setTimeout(myFunction9, 5000);
 
     function myFunction9(){
 
-var yourscript = exec('sh video.sh videos/'+req.query.video+' '+liveRoom,
+var yourscript = exec('sh video.sh '+req.query.video+' '+liveRoom,
         (error, stdout, stderr) => {
             console.log(`${stdout}`);
             console.log(`${stderr}`);
@@ -1441,7 +1443,7 @@ app.get('/genesisstartvideos', function(req, res)
 
                                                            // pick an up next person here
                                                           var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
-                                                          streamId = upNext(upnext_queue, potentialStreamers, queueupnext)
+                                                          upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
                                                           // start fifth video
 
@@ -1482,8 +1484,11 @@ app.get('/genesisstartvideos', function(req, res)
 
                                                                     streamer_users = streamer_users.filter(a => a !== streamId)
 
+                                                                    streamId = upNextId
+
                                                                   console.log("Genesis, streamid: "+streamId)
 
+                                                                  
 
                                                                   io.sockets.connected[streamId].emit("is_live");
 
@@ -1496,15 +1501,15 @@ app.get('/genesisstartvideos', function(req, res)
 
                                                                   totalTime = 0
                                                                   voteCounter = 0
-
+                                                                  counter = INTERVAL
                                                                               // hid counter for 5 sec here
                                                                                 showCounter = false
                                                                                 setTimeout(function()
                                                                                   { 
-                                                                                    counter = INTERVAL
+                                                                                    
                                                                                     showCounter = true
-                                                                                  }, 3000);
-
+                                                                                    return res.render("panel.html", { streaming: streamRoom, threshold: threshold });
+                                                                             }, 3000);
                                                           }
 
                                               }
