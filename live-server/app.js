@@ -27,7 +27,7 @@ var nextExists = false
 var potentialStreamers = []
 var voteCounter = 0
 var viewerCounter = 0
-const INTERVAL = 20
+const INTERVAL = 5
 var counter = INTERVAL
 const PAYOUT = 0.5
 var payout = 0
@@ -46,9 +46,21 @@ var have_streamed = []
 var no_stream = []
 var is_genesis = false
 var all_users = []
+var c = 0
 const VERSION = "1.1"
 var no_streamers = false // false = there exist potential streamers; true = there don't
 var badWords = ["nigger", "negro", "fuck", "nudes", "boobs", "cock", "penis", "vagina", "suicide"];
+
+
+// start streaming to no_streamers
+var nostreamers_roomvideo = exec('sh loopvideo.sh nostreamers.mp4 fameshow44nostreamers',
+  (error, stdout, stderr) => {
+      console.log(`${stdout}`);
+      console.log(`${stderr}`);
+      if (error !== null) {
+          console.log(`exec error: ${error}`);
+      }
+  });
 
 function getKeyByValue(object, value) 
 {
@@ -62,29 +74,36 @@ function countUnique(iterable)
 
 function upNext(upnext_queuez, potentialStreamersz, queueupnextz)
 {
+      console.log("Streaming rn: "+idToUser[streamId])
+      var potentialStreamersk = ((map_users.diff(have_streamed)).diff(no_stream)).filter(a => a !== streamId);
       // check if there exist potential streamers
-      if (potentialStreamersz.length < 1)
+      if (potentialStreamersk.length < 1)
       {
-        // there are no potential streamers
-        no_streamers = true
-        nextExists = false
+        // check if there are any potential streamers at all
+        var potentialStreamersk = (map_users.diff(no_stream)).filter(a => a !== streamId);
+        if (potentialStreamersk.length < 1)
+        {
+                  // there are no potential streamers
+                  no_streamers = true
+                  nextExists = false
 
-        return ""
+                  return ""
+        }
       }
-      else
-      {
         // there exist potential streamers
-        if (upnext_queuez === true)
+        if (upnext_queuez)
         {
           var upNextIdz = queueupnextz
           upnext_queue = false
         }
         else
         {
-          console.log("!POTENTIAL: " + potentialStreamers)
-          var upNext = Math.floor(Math.random() * Math.floor(potentialStreamersz.length));
-          var upNextIdz = potentialStreamersz.splice(upNext)[0];
+          console.log("!POTENTIAL: " + potentialStreamersk)
+          var upNext = Math.floor(Math.random() * Math.floor(potentialStreamersk.length));
+          var upNextIdz = potentialStreamersk.splice(upNext)[0];
         }
+
+        console.log("Coming up is: "+idToUser[upNextIdz])
 
         io.sockets.connected[upNextIdz].emit("up_next");
 
@@ -92,52 +111,21 @@ function upNext(upnext_queuez, potentialStreamersz, queueupnextz)
         nextExists = true
 
         return upNextIdz
-      }
 }
 
-function noStreamers()
+function checkStreamers()
 {
-  // this code is triggered at the end of the countdown when there are no potential streamers
+  var potentialStreamers = map_users.diff(no_stream);
 
-      showCounter = false
-
-      randnum = parseInt(Math.random() * 1000)
-      roomname = "thefameshow44" + randnum
-
-      io.sockets.connected[streamId].emit("is_dead", streamRoom)
-
-      // change this to loopvideo.sh
-      var yourscript = exec('sh video.sh '+req.query.video+' '+roomname,
-        (error, stdout, stderr) => {
-            console.log(`${stdout}`);
-            console.log(`${stderr}`);
-            if (error !== null) {
-                console.log(`exec error: ${error}`);
-            }
-        });
-
-      io.sockets.emit('new_room', roomname)
-
-      while (true)
-      {
-
-        var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream);
-        if (potentialStreamers.length >= 1)
-        {
-          break
-        }
-
-      }
-
-      var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream);
-
-      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
+  if (potentialStreamers.length >= 2)
+  {
+          upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
                 streamId = upNextId
 
-                potentialStreamers = potentialStreamers.filter(a => a !== streamId)
-
                 io.sockets.connected[streamId].emit("is_live");
+
+                potentialStreamers = potentialStreamers.filter(a => a !== streamId)
 
                 // tell everybody what the new room is
                 io.sockets.emit('new_room', streamRoom)
@@ -149,6 +137,29 @@ function noStreamers()
                 counter = INTERVAL
                 percentage = 0
                 showCounter = true
+                c = 0
+  }
+}
+
+function noStreamers()
+{
+  // this code is triggered at the end of the countdown when there are no potential streamers
+
+      console.log("nostreamrs!")
+
+      showCounter = false
+
+      io.sockets.connected[streamId].emit("is_dead", streamRoom)
+
+      io.sockets.emit('new_room', "fameshow44nostreamers")
+
+      setTimeout(myFunction8, 2000);
+
+      function myFunction8(){
+
+            io.sockets.connected[streamId].emit("new_room", "fameshow44nostreamers")
+
+      }
 
 }
 
@@ -338,12 +349,19 @@ io.on('connection', function(socket) {
 
       potentialStreamers = potentialStreamers.filter(a => a !== streamId)
 
-      io.sockets.connected[streamId].emit("is_live");
+      if ( typeof io.sockets.connected[streamId] !== 'undefined' && io.sockets.connected[streamId] )
+      {
+        io.sockets.connected[streamId].emit("is_live");
+        // tell everybody what the new room is
+        io.sockets.emit('new_room', streamRoom)
 
-      // tell everybody what the new room is
-      io.sockets.emit('new_room', streamRoom)
+        upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
+      }
 
-      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
+      if (no_streamers === true)
+      {
+        noStreamers()
+      }
 
       totalTime = 0
       voteCounter = 0
@@ -423,6 +441,11 @@ io.on('connection', function(socket) {
 
 
       upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
+
+      if (no_streamers === true)
+      {
+        noStreamers()
+      }
 
       totalTime = 0
       voteCounter = 0
@@ -538,6 +561,12 @@ setInterval(function() {
         {
           percentage = 0
         }
+
+        if (c == 1)
+        {
+          // check if new streamers are on
+          checkStreamers();
+        }
         
 
         var result2 = {"viewers": viewerCounter, "votes": voteCounter, "time": counter, "%": percentage, "counter": showCounter};
@@ -573,6 +602,8 @@ setInterval(function() {
             totalTime += INTERVAL
 
             payout = (totalTime / INTERVAL) * PAYOUT
+
+            console.log("DOES NEXT EXIST? "+nextExists)
 
               if (nextExists === true)
               {
@@ -650,10 +681,17 @@ setInterval(function() {
               }
               else
               {
+
+                console.log("!NO UPNEXT")
+                console.log(no_streamers)
                 // if there are no potential streamers
-                if (no_streamers === true)
+                if (no_streamers)
                 {
-                    noStreamers();
+                    if (c == 0)
+                    {
+                      noStreamers();
+                      c = 1
+                    }
                 }
               }
           }
