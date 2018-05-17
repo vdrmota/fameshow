@@ -45,6 +45,7 @@ var updateRoom = true
 var have_streamed = []
 var no_stream = []
 var is_genesis = false
+var all_users = []
 const VERSION = "1.1"
 var badWords = ["nigger", "negro", "fuck", "nudes", "boobs", "cock", "penis", "vagina", "suicide"];
 
@@ -56,6 +57,22 @@ function getKeyByValue(object, value)
 function countUnique(iterable) 
 {
   return new Set(iterable).size;
+}
+
+function upNext(upnext_queue, potentialStreamers, queueupnext)
+{
+      if (upnext_queue === true)
+      {
+        upNextId = queueupnext
+        upnext_queue = false
+      }
+      else
+      {
+        upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
+        upNextId = potentialStreamers.splice(upNext)[0];
+      }
+
+      return upNextId
 }
 
 Array.prototype.diff = function(a) {
@@ -77,41 +94,6 @@ app.get('/rooms', function(req, res)
 
 })
 
-
-app.get('/genesis', function(req, res) {
-
-  //potentialStreamers = streamer_users.slice()
-
-  potentialStreamers = map_users.slice()
-
-  var winner = Math.floor(Math.random() * Math.floor(potentialStreamers.length))
-  var winnerId = potentialStreamers.splice(winner)[0]
-
-  var upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length))
-  upNextId = potentialStreamers.splice(upNext)[0]
-
-  nextExists = true
-
-  io.sockets.emit('is_dead');
-  io.sockets.connected[winnerId].emit("winner");
-  io.sockets.connected[upNextId].emit("up_next");
-
-  showCounter = true
-
-  setTimeout(myFunction, 5000);
-
-  function myFunction(){
-
-    streamId = winnerId
-
-    io.sockets.emit('new_room', idToRoom[winnerId])
-
-    res.send("Winner: " + winnerId + ", Up next: " + upNextId);
-
-  }
-
-})
-
 io.on('connection', function(socket) {
 
   //users_authenticated[socket.id] = false
@@ -127,6 +109,8 @@ io.on('connection', function(socket) {
 
     idToUser[socket.id] = username
     idToMbps[socket.id] = 1
+
+    all_users.push(username)
 
     //if (token == "welcometothefameshow")
     //{
@@ -254,16 +238,7 @@ io.on('connection', function(socket) {
 
       streamer_users = streamer_users.filter(a => a !== streamId)
 
-      if (upnext_queue === true)
-      {
-        upNextId = queueupnext
-        upnext_queue = false
-      }
-      else
-      {
-        upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-        upNextId = potentialStreamers.splice(upNext)[0];
-      }
+      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
       io.sockets.connected[upNextId].emit("up_next");
 
@@ -293,16 +268,7 @@ io.on('connection', function(socket) {
       // tell everybody what the new room is
       io.sockets.emit('new_room', streamRoom)
 
-      if (upnext_queue === true)
-      {
-        upNextId = queueupnext
-        upnext_queue = false
-      }
-      else
-      {
-        upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-        upNextId = potentialStreamers.splice(upNext)[0];
-      }
+      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
       io.sockets.connected[upNextId].emit("up_next");
 
@@ -357,16 +323,8 @@ io.on('connection', function(socket) {
 
       streamer_users = streamer_users.filter(a => a !== streamId)
 
-      if (upnext_queue === true)
-      {
-        upNextId = queueupnext
-        upnext_queue = false
-      }
-      else
-      {
-        upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-        upNextId = potentialStreamers.splice(upNext)[0];
-      }
+
+      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
       io.sockets.connected[upNextId].emit("up_next");
 
@@ -392,16 +350,8 @@ io.on('connection', function(socket) {
       // tell everybody what the new room is
       io.sockets.emit('new_room', streamRoom)
 
-      if (upnext_queue === true)
-      {
-        upNextId = queueupnext
-        upnext_queue = false
-      }
-      else
-      {
-        upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-        upNextId = potentialStreamers.splice(upNext)[0];
-      }
+
+      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
       io.sockets.connected[upNextId].emit("up_next");
 
@@ -601,6 +551,7 @@ setInterval(function() {
                   // tell everybody what the new room is
 
                   io.sockets.emit('new_room', streamRoom)
+                  //io.sockets.emit('message', idToUser[streamId] + " was selected to stream!")
 
                   // no streamers availaible (create new room with clip saying no streamers)
                   if (potentialStreamers.length < 1)
@@ -693,8 +644,7 @@ app.get('/next', function(req, res)
 
   //io.sockets.connected[upNextId].emit('new_room', streamRoom)
 
-  upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-  upNextId = potentialStreamers.splice(upNext)[0];
+      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
   io.sockets.connected[upNextId].emit("up_next");
 
@@ -737,16 +687,7 @@ app.get('/promote', function(req, res)
     // tell everybody what the new room is
     io.sockets.emit('new_room', streamRoom)
 
-    if (upnext_queue === true)
-    {
-      upNextId = queueupnext
-      upnext_queue = false
-    }
-    else
-    {
-      upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-      upNextId = potentialStreamers.splice(upNext)[0];
-    }
+      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
     
     io.sockets.connected[upNextId].emit("up_next");
 
@@ -839,7 +780,7 @@ app.get('/end', function(req, res)
 
   liveRoom = ""
 
-  res.send("It's done, it's over :)")
+  res.send("It's done, it's over :) All users: "+ all_users)
 
 })
 
@@ -944,10 +885,9 @@ app.get('/fake_comment', function(req, res)
 app.get('/genesisupnext', function(req, res) 
 {
 
-  var potentialStreamers = map_users.slice(); // temporary
+var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
 
-  upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-  upNextId = potentialStreamers.splice(upNext)[0];
+      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
   io.sockets.connected[upNextId].emit("up_next");
 
@@ -1006,7 +946,10 @@ app.get('/genesisstart', function(req, res)
 
     nextExists = true
 
-    var potentialStreamers = map_users.slice(); // temporary
+    var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
+    potentialStreamers = potentialStreamers.filter(a => a !== streamId)
+
+      streamer_users = streamer_users.filter(a => a !== streamId)
 
     console.log("Genesis, upnext: "+upNextId)
 
@@ -1014,23 +957,15 @@ app.get('/genesisstart', function(req, res)
 
     console.log("Genesis, streamid: "+streamId)
 
-    potentialStreamers = potentialStreamers.filter(a => a !== streamId)
 
     io.sockets.connected[streamId].emit("is_live");
 
     // tell everybody what the new room is
     io.sockets.emit('new_room', streamRoom)
 
-    if (upnext_queue === true)
-    {
-      upNextId = queueupnext
-      upnext_queue = false
-    }
-    else
-    {
-      upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-      upNextId = potentialStreamers.splice(upNext)[0];
-    }
+
+
+      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
     io.sockets.connected[upNextId].emit("up_next");
 
@@ -1111,16 +1046,8 @@ app.get('/intervideo', function(req, res)
                 // tell everybody what the new room is
                 io.sockets.emit('new_room', streamRoom)
 
-                if (upnext_queue === true)
-                {
-                  upNextId = queueupnext
-                  upnext_queue = false
-                }
-                else
-                {
-                  upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-                  upNextId = potentialStreamers.splice(upNext)[0];
-                }
+
+      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
                 io.sockets.connected[upNextId].emit("up_next");
 
@@ -1192,6 +1119,13 @@ app.get('/mbps', function(req, res)
 
 })
 
+app.get('/seestream', function(req, res) 
+{
+
+  res.render("stream.html", { streaming: idToRoom[streamId] });
+
+})
+
 app.get('/confetti', function(req, res) 
 {
 
@@ -1208,88 +1142,6 @@ app.get('/confetti', function(req, res)
     res.render("panel.html", { streaming: idToRoom[upNextId], threshold: threshold });
 
   }
-
-})
-
-app.get('/start', function(req, res) 
-{
-
-  // start intro
-  liveRoom = "thefameshow44"
-  streamRoom = "thefameshow44"
-
-  io.sockets.emit('start_show', liveRoom)
-
-  setTimeout(myFunction44, 5000);
-
-    function myFunction44(){
-
-  var yourscript = exec('sh video.sh intro.mp4',
-        (error, stdout, stderr) => {
-            console.log(`${stdout}`);
-            console.log(`${stderr}`);
-            if (error !== null) {
-                console.log(`exec error: ${error}`);
-            }
-        });
-
-  }
-
-  // get first upnext
-
-  setTimeout(myFunction43, 5000);
-
-    function myFunction43(){
-
-      upNextId = getKeyByValue(idToUser, "vojtadrmota")
-
-      if (upNextId == null)
-      {
-        upNextId = getKeyByValue(idToUser, "mschrage")
-      }
-
-      io.sockets.connected[upNextId].emit("up_next");
-
-    }
-
-  // run genesis
-
-  setTimeout(myFunction42, 18000);
-
-    function myFunction42(){
-
-       nextExists = true
-
-    var potentialStreamers = map_users.slice(); // temporary
-
-    streamId = upNextId
-
-    potentialStreamers = potentialStreamers.filter(a => a !== streamId)
-
-    io.sockets.connected[streamId].emit("is_live");
-
-    // tell everybody what the new room is
-    io.sockets.emit('new_room', streamRoom)
-
-    upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-    upNextId = potentialStreamers.splice(upNext)[0];
-
-    io.sockets.connected[upNextId].emit("up_next");
-
-    totalTime = 0
-    voteCounter = 0
-
-    // hid counter for 5 sec here
-    showCounter = false
-    setTimeout(function()
-      { 
-        counter = INTERVAL
-        showCounter = true
-      }, 3000);
-      
-    }
-
-    res.send("Show started!")
 
 })
 
