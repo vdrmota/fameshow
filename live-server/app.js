@@ -50,6 +50,7 @@ var c = 0
 const VERSION = "1.1"
 var no_streamers = false // false = there exist potential streamers; true = there don't
 var badWords = ["nigger", "negro", "fuck", "nudes", "boobs", "cock", "penis", "vagina", "suicide"];
+var randomUsernames = ["FarRunning","FraserAngels","Gardware","Gigapho","GreeGrandMajor","HeavenMajor","Hesionwa","Hipposetter","Icychamin","Ikivoll","Imanadema","Incitymm","Inouthron","Interiorew","Jinjackya","Juzngable","Kiddooregra","KixBigg","Koldiers","LouYugi","LovelySnoReporter","Luvucksco","Magazinewt","Maplerate","MarkJameExpert","MatterTrust","Megstochel","Mintistarg","Miracleaf","Misterwrit","Miterso","AholicBizarre","Apritarch","Aquaticalog","Authoriece","Bannedmu","Bearacteki","Bentorkette","BestScorpion","BlondeHope","Boardercoun","ChampFly","ChronicleFunny","Conetche","Dramake","Eplandus","Extrand","Fainall","ParisRadiant","PeakRosa","Pedabri","PinchShinyForum","Postorchan","Quellait","RavenHulkTwist","Reheake","Rivielder","Samsayyid","Scoobyrnow","Shiesspl"];
 
 
 // start streaming to no_streamers
@@ -80,6 +81,13 @@ function getKeyByValue(object, value)
 function countUnique(iterable) 
 {
   return new Set(iterable).size;
+}
+
+function getRandomUsername()
+{
+
+  return randomUsernames[Math.floor(Math.random()*randomUsernames.length)];
+
 }
 
 function upNext(upnext_queuez, potentialStreamersz, queueupnextz)
@@ -661,7 +669,7 @@ setInterval(function() {
                   // tell everybody what the new room is
 
                   io.sockets.emit('new_room', streamRoom)
-                  //io.sockets.emit('message', idToUser[streamId] + " was selected to stream!")
+                  io.sockets.emit('message', idToUser[streamId] + " was selected to stream!")
 
                   // no streamers availaible (create new room with clip saying no streamers)
                   upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
@@ -1118,6 +1126,9 @@ app.get('/intervideo', function(req, res)
     {
 
       io.sockets.connected[upNextId].emit('message', "The streamer was given more time. Your turn soon!")
+      var randomUser = getRandomUsername()
+      io.sockets.emit('message', randomUser + " was selected to stream!")
+
 
       counter = INTERVAL // make sure this is longer than the length of video
       //showCounter = false
