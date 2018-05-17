@@ -62,6 +62,16 @@ var nostreamers_roomvideo = exec('sh loopvideo.sh nostreamers.mp4 fameshow44nost
       }
   });
 
+// start streaming to end_show
+var nostreamers_roomvideo = exec('sh loopvideo.sh endshow.mp4 fameshow44endshow',
+  (error, stdout, stderr) => {
+      console.log(`${stdout}`);
+      console.log(`${stderr}`);
+      if (error !== null) {
+          console.log(`exec error: ${error}`);
+      }
+  });
+
 function getKeyByValue(object, value) 
 {
   return Object.keys(object).find(key => object[key] === value);
@@ -857,12 +867,31 @@ app.get('/end', function(req, res)
 
   io.sockets.emit('is_dead', streamRoom)
 
+  setTimeout(myFunction8, 1000);
+
+  function myFunction8(){
+    showCounter = false
+    nextExists = false
+    no_streamers = false
+
+        io.sockets.emit('new_room', "fameshow44endshow")
+  }
+
+  res.send("Broadcasting outro. <a href='http://44.fameshow.co:3000/endshow'><button>End show</button></a>")
+
+})
+
+app.get('/endshow', function(req, res) 
+{
+
+  io.sockets.emit('is_dead', streamRoom)
+
   streamRoom = ""
   io.sockets.emit('terminate', session)
 
   liveRoom = ""
 
-  res.send("It's done, it's over :) All users: "+ all_users)
+  res.send("It's done, it's over :)")
 
 })
 
