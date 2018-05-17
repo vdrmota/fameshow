@@ -60,29 +60,6 @@ function countUnique(iterable)
   return new Set(iterable).size;
 }
 
-function noStreamers()
-{
-  // this code is triggered at the end of the countdown when there are no potential streamers
-
-  // run the nostreamers video in a new room
-
-  // point everone to that new room
-
-  // run a loop that constantly checks the length of potentialStreamesr
-
-  // once there exist potential streamers, break out of this function and put the upnext person live directly
-
-  // check if there are more potential streamers, if yes, set variables accordingly
-
-  no_streamers = false
-  nextExists = true
-
-  // if no more potential streamers, set variables accordingly
-
-  no_streamers = true
-  nextExists = false
-}
-
 function upNext(upnext_queuez, potentialStreamersz, queueupnextz)
 {
       // check if there exist potential streamers
@@ -104,12 +81,75 @@ function upNext(upnext_queuez, potentialStreamersz, queueupnextz)
         }
         else
         {
+          console.log("!POTENTIAL: " + potentialStreamers)
           var upNext = Math.floor(Math.random() * Math.floor(potentialStreamersz.length));
           var upNextIdz = potentialStreamersz.splice(upNext)[0];
         }
 
+        io.sockets.connected[upNextIdz].emit("up_next");
+
+        no_streamers = false
+        nextExists = true
+
         return upNextIdz
       }
+}
+
+function noStreamers()
+{
+  // this code is triggered at the end of the countdown when there are no potential streamers
+
+      showCounter = false
+
+      randnum = parseInt(Math.random() * 1000)
+      roomname = "thefameshow44" + randnum
+
+      io.sockets.connected[streamId].emit("is_dead", streamRoom)
+
+      // change this to loopvideo.sh
+      var yourscript = exec('sh video.sh '+req.query.video+' '+roomname,
+        (error, stdout, stderr) => {
+            console.log(`${stdout}`);
+            console.log(`${stderr}`);
+            if (error !== null) {
+                console.log(`exec error: ${error}`);
+            }
+        });
+
+      io.sockets.emit('new_room', roomname)
+
+      while (true)
+      {
+
+        var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream);
+        if (potentialStreamers.length >= 1)
+        {
+          break
+        }
+
+      }
+
+      var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream);
+
+      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
+
+                streamId = upNextId
+
+                potentialStreamers = potentialStreamers.filter(a => a !== streamId)
+
+                io.sockets.connected[streamId].emit("is_live");
+
+                // tell everybody what the new room is
+                io.sockets.emit('new_room', streamRoom)
+
+
+      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
+
+                totalTime = 0
+                counter = INTERVAL
+                percentage = 0
+                showCounter = true
+
 }
 
 Array.prototype.diff = function(a) {
@@ -277,8 +317,6 @@ io.on('connection', function(socket) {
 
       upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
-      io.sockets.connected[upNextId].emit("up_next");
-
       io.sockets.connected[old_upNextId].emit("terminate", session);
 
     }
@@ -306,8 +344,6 @@ io.on('connection', function(socket) {
       io.sockets.emit('new_room', streamRoom)
 
       upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
-
-      io.sockets.connected[upNextId].emit("up_next");
 
       totalTime = 0
       voteCounter = 0
@@ -363,8 +399,6 @@ io.on('connection', function(socket) {
 
       upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
-      io.sockets.connected[upNextId].emit("up_next");
-
     }
 
     // check if user is streaming rn
@@ -389,8 +423,6 @@ io.on('connection', function(socket) {
 
 
       upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
-
-      io.sockets.connected[upNextId].emit("up_next");
 
       totalTime = 0
       voteCounter = 0
@@ -591,29 +623,7 @@ setInterval(function() {
                   //io.sockets.emit('message', idToUser[streamId] + " was selected to stream!")
 
                   // no streamers availaible (create new room with clip saying no streamers)
-                  if (potentialStreamers.length < 1)
-                  {
-                    upNextId = getKeyByValue(idToUser, "vojtadrmota")
-
-                    if (upNextId == null)
-                    {
-                      upNextId = getKeyByValue(idToUser, "mschrage")
-                    }
-                  }
-                  else
-                  {
-                    if (upnext_queue === true)
-                    {
-                      upNextId = queueupnext
-                      upnext_queue = false
-                    }
-                    else
-                    {
-                      console.log("!POTENTIAL: " + potentialStreamers)
-                      upNext = Math.floor(Math.random() * Math.floor(potentialStreamers.length));
-                      upNextId = potentialStreamers.splice(upNext)[0];
-                    }
-                  }
+                  upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
                   // CHANGED: check if person upnext is still connected
 
@@ -626,8 +636,6 @@ setInterval(function() {
                       upNextId = getKeyByValue(idToUser, "mschrage")
                     }
                   }
-
-                  io.sockets.connected[upNextId].emit("up_next");
 
                   totalTime = 0
                   voteCounter = 0
@@ -686,8 +694,6 @@ app.get('/next', function(req, res)
 
       upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
-  io.sockets.connected[upNextId].emit("up_next");
-
   setTimeout(myFunction2, 3000);
 
   function myFunction2(){
@@ -729,8 +735,6 @@ app.get('/promote', function(req, res)
 
       upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
     
-    io.sockets.connected[upNextId].emit("up_next");
-
     totalTime = 0
     voteCounter = 0
     counter = INTERVAL
@@ -929,8 +933,6 @@ var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream);
 
       upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 
-  io.sockets.connected[upNextId].emit("up_next");
-
   setTimeout(myFunction6, 3000);
 
   function myFunction6(){
@@ -1006,8 +1008,6 @@ app.get('/genesisstart', function(req, res)
 
 
       upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
-
-    io.sockets.connected[upNextId].emit("up_next");
 
     totalTime = 0
     voteCounter = 0
@@ -1088,8 +1088,6 @@ app.get('/intervideo', function(req, res)
 
 
       upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
-
-                io.sockets.connected[upNextId].emit("up_next");
 
                 totalTime = 0
                 counter = INTERVAL
