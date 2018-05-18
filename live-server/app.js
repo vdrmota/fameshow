@@ -927,7 +927,8 @@ app.get('/endshow', function(req, res)
 app.get('/videoswitch', function(req, res) 
 {
 
- var randomUser = getRandomUsername()
+
+      var randomUser = getRandomUsername()
       io.sockets.emit('message', randomUser + " was selected to stream!")
 
       var randomVideo = selectRandomVideo()
@@ -960,7 +961,7 @@ app.get('/videoswitch', function(req, res)
 
       io.sockets.emit('new_room', roomname)
 
-      setTimeout(videoswitchfunc, (20+5)*1000);
+      setTimeout(videoswitchfunc, length);
 
       function videoswitchfunc(){
 
@@ -973,7 +974,7 @@ app.get('/videoswitch', function(req, res)
                     else
                     {
                       streamId = upNext(upnext_queue, potentialStreamers, queueupnext)   
-                      if ( typeof io.sockets.connected[upNextId] === 'undefined' )
+                      if ( typeof io.sockets.connected[upNextId] === 'undefined' || !io.sockets.connected[upNextId] )
                       {
                         return noStreamers();
                       }         
@@ -998,8 +999,8 @@ app.get('/videoswitch', function(req, res)
 
       }
 
-
 })
+
 
 app.get('/video', function(req, res) 
 {
@@ -1341,11 +1342,11 @@ app.get('/genesisstartvideos', function(req, res)
   var video4 = "videos/"+req.query.video4
   var video5 = "videos/"+req.query.video5
 
-  var length1 = (parseInt(req.query.length1) + 5) * 1000
-  var length2 = (parseInt(req.query.length2) + 5) * 1000
-  var length3 = (parseInt(req.query.length3) + 5) * 1000
-  var length4 = (parseInt(req.query.length4) + 5) * 1000
-  var length5 = (parseInt(req.query.length5) + 5) * 1000
+  var length1 = (parseInt(req.query.length1)+3) * 1000
+  var length2 = (parseInt(req.query.length2)+3) * 1000
+  var length3 = (parseInt(req.query.length3)+3) * 1000
+  var length4 = (parseInt(req.query.length4)+3) * 1000
+  var length5 = (parseInt(req.query.length5)+3) * 1000
 
   is_genesis = true
 
@@ -1557,12 +1558,12 @@ app.get('/genesisstartvideos', function(req, res)
 
                                                                   
                                                                   if (typeof io.sockets.connected[upNextId] !== 'undefined'){
-                                                                  //io.sockets.connected[upNextId].emit("is_live");
-                                                                  //io.sockets.emit('message', idToUser[upNextId] + " was selected to stream!")
+                                                                  io.sockets.connected[upNextId].emit("is_live");
+                                                                  io.sockets.emit('message', idToUser[upNextId] + " was selected to stream!")
 
                                                                   // tell everybody what the new room is
-                                                                  //io.sockets.emit('new_room', streamRoom)
-                                                                  //upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
+                                                                  io.sockets.emit('new_room', streamRoom)
+                                                                  upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
                                                                   counter = INTERVAL
 
                                                                   totalTime = 0
