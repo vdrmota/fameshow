@@ -51,7 +51,7 @@ var c = 0
 const VERSION = "1.1"
 var no_streamers = false // false = there exist potential streamers; true = there don't
 var badWords = ["nigger", "negro", "fuck", "nudes", "boobs", "cock", "penis", "vagina", "suicide"];
-var randomUsernames = ["FarRunning","FraserAngels","Gardware","Gigapho","GreeGrandMajor","HeavenMajor","Hesionwa","Hipposetter","Icychamin","Ikivoll","Imanadema","Incitymm","Inouthron","Interiorew","Jinjackya","Juzngable","Kiddooregra","KixBigg","Koldiers","LouYugi","LovelySnoReporter","Luvucksco","Magazinewt","Maplerate","MarkJameExpert","MatterTrust","Megstochel","Mintistarg","Miracleaf","Misterwrit","Miterso","AholicBizarre","Apritarch","Aquaticalog","Authoriece","Bannedmu","Bearacteki","Bentorkette","BestScorpion","BlondeHope","Boardercoun","ChampFly","ChronicleFunny","Conetche","Dramake","Eplandus","Extrand","Fainall","ParisRadiant","PeakRosa","Pedabri","PinchShinyForum","Postorchan","Quellait","RavenHulkTwist","Reheake","Rivielder","Samsayyid","Scoobyrnow","Shiesspl"];
+var randomUsernames = ["FarRunning","FraserAngels","Gardware","gigapho","greegrandMajor","heavenMajor","hesionwa","hipposetter","icychamin","ikivoll","imanadema","incitymm","inouthron","interiorew","jinjackya","juzngable","Kiddooregra","kixBigg","Koldiers","LouYugi","LovelySnoReporter","Luvucksco","Magazinewt","maplerate","markJameExpert","matterTrust","megstochel","Mintistarg","Miracleaf","Misterwrit","Miterso","AholicBizarre","apritarch","aquaticalog","authoriece","bannedmu","bearacteki","bentorkette","bestScorpion","blondeHope","Boardercoun","champFly","chronicleFunny","conetche","Dramake","Eplandus","extrand","fainall","parisradiant","peakposa","pedabri","pinchShinyForum","postorchan","quellait","ravenHulkTwist","reheake","rivielder","samsayyid","scoobyrnow","Shiesspl"];
 var randomVideos = fs.readdirSync("./videos/switch/")
 var finishedRandomVideos = []
 
@@ -74,6 +74,10 @@ var nostreamers_roomvideo = exec('sh loopvideo.sh endshow.mp4 fameshow44endshow'
           console.log(`exec error: ${error}`);
       }
   });
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 function selectRandomVideo()
 {
@@ -301,10 +305,12 @@ io.on('connection', function(socket) {
   if (streamer === false)
   {
     no_stream.push(socket.id)
+    console.log("!toggle off: " + idToUser[socket.id])
   }
   else
   {
     no_stream = no_stream.filter(a => a !== socket.id)
+    console.log("!toggle on: " + idToUser[socket.id])
   }
 })
 
@@ -831,15 +837,13 @@ app.get('/addvotes', function(req, res)
 
   for (var i = 0; i < votes; i++)
   {
+    setTimeout(function () { 
     console.log('upvote:', idToRoom[streamId])
     voteCounter++
 
     io.sockets.emit('upvote')
-    setTimeout(addvotesfunc, 600);
-
-    function addvotesfunc(){
-
-    }
+    
+    }, 100)
   }
 
   res.render("panel.html", { streaming: streamRoom, threshold: threshold });
@@ -1347,6 +1351,8 @@ app.get('/genesisstartvideos', function(req, res)
   var length3 = (parseInt(req.query.length3)+3) * 1000
   var length4 = (parseInt(req.query.length4)+3) * 1000
   var length5 = (parseInt(req.query.length5)+3) * 1000
+
+  nextExists = false
 
   is_genesis = true
 
