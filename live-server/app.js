@@ -54,6 +54,7 @@ var badWords = ["nigger", "negro", "fuck", "nudes", "boobs", "cock", "penis", "v
 var randomUsernames = ["FarRunning","FraserAngels","Gardware","gigapho","greegrandMajor","heavenMajor","hesionwa","hipposetter","icychamin","ikivoll","imanadema","incitymm","inouthron","interiorew","jinjackya","juzngable","Kiddooregra","kixBigg","Koldiers","LouYugi","LovelySnoReporter","Luvucksco","Magazinewt","maplerate","markJameExpert","matterTrust","megstochel","Mintistarg","Miracleaf","Misterwrit","Miterso","AholicBizarre","apritarch","aquaticalog","authoriece","bannedmu","bearacteki","bentorkette","bestScorpion","blondeHope","Boardercoun","champFly","chronicleFunny","conetche","Dramake","Eplandus","extrand","fainall","parisradiant","peakposa","pedabri","pinchShinyForum","postorchan","quellait","ravenHulkTwist","reheake","rivielder","samsayyid","scoobyrnow","Shiesspl"];
 var randomVideos = fs.readdirSync("./videos/switch/")
 var finishedRandomVideos = []
+var payouts = {}
 
 // start streaming to no_streamers
 var nostreamers_roomvideo = exec('sh loopvideo.sh nostreamers.mp4 fameshow44nostreamers',
@@ -281,14 +282,9 @@ io.on('connection', function(socket) {
 
     socket.join(roomKey)
 
-    // store room in database
-    execPhp('create.php', function(error, php, outprint)
-    {
-      php.my_function(roomKey, socket.id, idToUser[socket.id], session, function(err, result, output, printed)
-      {
-        console.log('!created: ' + roomKey)
-      });
-    });
+
+    console.log('!created: ' + roomKey)
+
 
   })
 
@@ -549,7 +545,7 @@ io.on('connection', function(socket) {
   })
 
   socket.on('comment', function(data) {
-    if (badWords.some(function(v) { return data === v; })) 
+    if (badWords.some(function(v) { return data.text.indexOf(v) >= 0; })) 
     {
       // if bad words, tell that person
       io.sockets.connected[socket.id].emit('message', "Inappropriate comment!")
@@ -569,14 +565,6 @@ io.on('connection', function(socket) {
     broadcaster = idToUser[getKeyByValue(idToRoom, currentRoom)]
     subscriber = idToUser[socket.id]
 
-    // store room in database
-    execPhp('subscribe.php', function(error, php, outprint)
-    {
-      php.my_function(broadcaster, subscriber, session, function(err, result, output, printed)
-      {
-
-      });
-    });
 
   })
 
@@ -687,14 +675,9 @@ setInterval(function() {
 
                   console.log("!DIED: " + streamRoom)
 
-                  // store results in database
-                  execPhp('store.php', function(error, php, outprint)
-                  {
-                    php.my_function(totalTime, streamId, payout, idToUser[streamId], function(err, result, output, printed)
-                    {
-                      console.log('!stored: ' + idToUser[streamId] + " " + payout)
-                    });
-                  });
+                  // store payouts
+                  payouts[idToUser[streamId]] = payout
+                  console.log('!stored: ' + idToUser[streamId] + " " + payout)
 
                   
                     streamId = upNextId
@@ -756,77 +739,6 @@ app.get('/cpanel', function(req, res)
 {
 
   res.render("panel.html", { streaming: streamRoom, threshold: threshold });
-
-})
-
-// gets a new up-next person
-
-app.get('/next', function(req, res) 
-{
-
-  var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream);  // temporary
-
-  potentialStreamers = potentialStreamers.filter(a => a !== streamId)
-  potentialStreamers = potentialStreamers.filter(a => a !== upNextId)
-
-  io.sockets.connected[upNextId].emit("is_dead", streamRoom)
-
-  //io.sockets.connected[upNextId].emit('new_room', streamRoom)
-
-      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
-
-  setTimeout(upnextFunc, 3000);
-
-  function upnextFunc(){
-
-    res.render("panel.html", { streaming: idToRoom[upNextId], threshold: threshold });
-
-  }
-})
-
-// promotes up-next to broadcaster and re-runs lottery
-
-app.get('/promote', function(req, res) 
-{
-
-    var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream);  // temporary
-
-    potentialStreamers = potentialStreamers.filter(a => a !== streamId)
-
-    var prevStreamerId = streamId
-    io.sockets.connected[streamId].emit("is_dead", streamRoom)
-
-    // store results in database
-    execPhp('store.php', function(error, php, outprint)
-    {
-      php.my_function(totalTime, streamId, PAYOUT, idToUser[streamId], function(err, result, output, printed)
-      {
-        console.log('stored')
-      });
-    });
-
-    streamId = upNextId
-
-    potentialStreamers = potentialStreamers.filter(a => a !== streamId)
-
-    io.sockets.connected[streamId].emit("is_live");
-
-    // tell everybody what the new room is
-    io.sockets.emit('new_room', streamRoom)
-
-      upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
-    
-    totalTime = 0
-    voteCounter = 0
-    counter = INTERVAL
-
-    setTimeout(promotefunc, 3000);
-
-    function promotefunc(){
-
-      res.render("panel.html", { streaming: idToRoom[upNextId], threshold: threshold });
-
-    }
 
 })
 
@@ -907,8 +819,21 @@ app.get('/end', function(req, res)
     nextExists = false
     no_streamers = false
 
-        io.sockets.emit('new_room', "fameshow44endshow")
+      io.sockets.emit('new_room', "fameshow44endshow")
   }
+
+  console.log("[!PAYOUTS!]")
+  console.log(payouts)
+  console.log("[!END_PAYOUTS!]")
+
+  //store payouts
+  execPhp('store.php', function(error, php, outprint)
+  {
+    php.my_function(payouts, function(err, result, output, printed)
+    {
+      console.log('!payouts: paid')
+    });
+  });
 
   res.send("Broadcasting outro. <a href='http://44.fameshow.co:3000/endshow'><button>End show</button></a>")
 
