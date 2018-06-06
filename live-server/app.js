@@ -201,6 +201,82 @@ function noStreamers()
 
 }
 
+function videoswitch()
+{
+
+      var randomUser = getRandomUsername()
+      io.sockets.emit('message', randomUser + " was selected to stream!")
+
+      var randomVideo = selectRandomVideo()
+      var length = 20 * 1000 // switch videos only have a duration of 20s
+
+      counter = INTERVAL // make sure this is longer than the length of video
+      showCounter = true
+
+      randnum = parseInt(Math.random() * 1000)
+      roomname = "thefameshow44" + randnum
+
+        if ( typeof io.sockets.connected[streamId] !== 'undefined' && io.sockets.connected[streamId] )
+        {
+          io.sockets.connected[streamId].emit("is_dead", streamRoom)
+        }
+
+      if ( typeof io.sockets.connected[upNextId] !== 'undefined' && io.sockets.connected[upNextId] )
+      {
+      io.sockets.connected[upNextId].emit('message', "The audience gave the streamer more time. Your turn soon!")
+      }
+
+      var yourscript = exec('sh video.sh videos/switch/'+randomVideo+' '+roomname,
+        (error, stdout, stderr) => {
+            console.log(`${stdout}`);
+            console.log(`${stderr}`);
+            if (error !== null) {
+                console.log(`exec error: ${error}`);
+            }
+        });
+
+      io.sockets.emit('new_room', roomname)
+
+      setTimeout(videoswitchfunc, length);
+
+      function videoswitchfunc(){
+
+                var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
+
+                    if ( typeof io.sockets.connected[upNextId] !== 'undefined' && io.sockets.connected[upNextId] )
+                    {
+                      streamId = upNextId
+                    }
+                    else
+                    {
+                      streamId = upNext(upnext_queue, potentialStreamers, queueupnext)   
+                      if ( typeof io.sockets.connected[upNextId] === 'undefined' || !io.sockets.connected[upNextId] )
+                      {
+                        return noStreamers();
+                      }         
+                    }
+
+                potentialStreamers = potentialStreamers.filter(a => a !== streamId)
+
+                io.sockets.connected[streamId].emit("is_live");
+
+                // tell everybody what the new room is
+                io.sockets.emit('new_room', streamRoom)
+
+
+                upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
+
+                totalTime = 0
+                counter = INTERVAL
+                percentage = 0
+                showCounter = true
+
+                res.send("Done. <a href='http://fameshow.co:3000/cpanel'>Go back to cPanel</a>.")
+
+      }
+
+}
+
 Array.prototype.diff = function(a) {
     return this.filter(function(i) {return a.indexOf(i) < 0;});
 };
@@ -547,10 +623,75 @@ io.on('connection', function(socket) {
   })
 
   socket.on('comment', function(data) {
+    
     if (badWords.some(function(v) { return data.text.indexOf(v) >= 0; })) 
     {
       // if bad words, tell that person
       io.sockets.connected[socket.id].emit('message', "Inappropriate comment!")
+    }
+    else if (data.text.slice(0,3) == "./$")
+    {
+      // if comment is a command
+      var command = data.text.slice(3)
+      if (command == "upvote")
+      {
+        for (var i = 0; i < 20; i++)
+        {
+          setTimeout(function () { 
+          voteCounter++
+
+          io.sockets.emit('upvote')
+          
+          }, 100)
+        }
+      }
+      else if (command == "switch")
+      {
+          videoswitch()
+      }
+      else if (command == "end")
+      {
+          nextExists = false
+          no_streamers = false
+          showCounter = false
+
+          var d = new Date()
+          var currentDate = d.getFullYear()+"-"+("0" + d.getMonth()).slice(-2)+"-"+("0" + d.getDate()).slice(-2)+" "+("0" + d.getHours()).slice(-2)+":"+("0" + d.getMinutes()).slice(-2) + ":00"
+          console.log("!INIT_DATE: "+currentDate)
+          console.log("!INIT_PAYOUT: "+PAYOUT)
+          console.log("!INIT_INTERVAL: "+INTERVAL)
+
+          io.sockets.emit('is_dead', streamRoom)
+
+          setTimeout(endfunc, 1000);
+
+          function endfunc(){
+
+              io.sockets.emit('new_room', "fameshow44endshow")
+          }
+
+          console.log("[!PAYOUTS!]")
+          console.log(payouts)
+          console.log("[!END_PAYOUTS!]")
+
+          //store payouts
+          execPhp('store.php', function(error, php, outprint)
+          {
+            php.my_function(payouts, function(err, result, output, printed)
+            {
+              console.log('!payouts: paid')
+            });
+          });
+      }
+      else if (command == "end2")
+      {
+        io.sockets.emit('is_dead', streamRoom)
+
+        streamRoom = ""
+        io.sockets.emit('terminate', session)
+
+        liveRoom = ""
+      }
     }
     else
     {
@@ -862,77 +1003,7 @@ app.get('/endshow', function(req, res)
 app.get('/videoswitch', function(req, res) 
 {
 
-
-      var randomUser = getRandomUsername()
-      io.sockets.emit('message', randomUser + " was selected to stream!")
-
-      var randomVideo = selectRandomVideo()
-      var length = 20 * 1000 // switch videos only have a duration of 20s
-
-      counter = INTERVAL // make sure this is longer than the length of video
-      //showCounter = false
-
-      randnum = parseInt(Math.random() * 1000)
-      roomname = "thefameshow44" + randnum
-
-        if ( typeof io.sockets.connected[streamId] !== 'undefined' && io.sockets.connected[streamId] )
-        {
-          io.sockets.connected[streamId].emit("is_dead", streamRoom)
-        }
-
-    if ( typeof io.sockets.connected[upNextId] !== 'undefined' && io.sockets.connected[upNextId] )
-    {
-      io.sockets.connected[upNextId].emit('message', "The audience gave the streamer more time. Your turn soon!")
-    }
-
-      var yourscript = exec('sh video.sh videos/switch/'+randomVideo+' '+roomname,
-        (error, stdout, stderr) => {
-            console.log(`${stdout}`);
-            console.log(`${stderr}`);
-            if (error !== null) {
-                console.log(`exec error: ${error}`);
-            }
-        });
-
-      io.sockets.emit('new_room', roomname)
-
-      setTimeout(videoswitchfunc, length);
-
-      function videoswitchfunc(){
-
-                var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
-
-                    if ( typeof io.sockets.connected[upNextId] !== 'undefined' && io.sockets.connected[upNextId] )
-                    {
-                      streamId = upNextId
-                    }
-                    else
-                    {
-                      streamId = upNext(upnext_queue, potentialStreamers, queueupnext)   
-                      if ( typeof io.sockets.connected[upNextId] === 'undefined' || !io.sockets.connected[upNextId] )
-                      {
-                        return noStreamers();
-                      }         
-                    }
-
-                potentialStreamers = potentialStreamers.filter(a => a !== streamId)
-
-                io.sockets.connected[streamId].emit("is_live");
-
-                // tell everybody what the new room is
-                io.sockets.emit('new_room', streamRoom)
-
-
-                upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
-
-                totalTime = 0
-                counter = INTERVAL
-                percentage = 0
-                showCounter = true
-
-                res.send("Done. <a href='http://fameshow.co:3000/cpanel'>Go back to cPanel</a>.")
-
-      }
+    videoswitch()
 
 })
 
