@@ -236,6 +236,8 @@ io.on('connection', function(socket) {
     idToUser[socket.id] = username
     idToMbps[socket.id] = 1
 
+    console.log("!connected: "+idToUser[socket.id])
+
     all_users.push(username)
 
     //if (token == "welcometothefameshow")
@@ -750,7 +752,6 @@ app.get('/addvotes', function(req, res)
   for (var i = 0; i < votes; i++)
   {
     setTimeout(function () { 
-    console.log('upvote:', idToRoom[streamId])
     voteCounter++
 
     io.sockets.emit('upvote')
@@ -808,16 +809,21 @@ app.get('/messageupnext', function(req, res)
 app.get('/end', function(req, res) 
 {
 
+  nextExists = false
+  no_streamers = false
   showCounter = false
+
+  var d = new Date()
+  var currentDate = d.getFullYear()+"-"+("0" + d.getMonth()).slice(-2)+"-"+("0" + d.getDate()).slice(-2)+" "+("0" + d.getHours()).slice(-2)+":"+("0" + d.getMinutes()).slice(-2) + ":00"
+  console.log("!INIT_DATE: "+currentDate)
+  console.log("!INIT_PAYOUT: "+PAYOUT)
+  console.log("!INIT_INTERVAL: "+INTERVAL)
 
   io.sockets.emit('is_dead', streamRoom)
 
   setTimeout(endfunc, 1000);
 
   function endfunc(){
-    showCounter = false
-    nextExists = false
-    no_streamers = false
 
       io.sockets.emit('new_room', "fameshow44endshow")
   }
