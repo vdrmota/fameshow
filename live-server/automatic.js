@@ -669,6 +669,17 @@ io.on('connection', function(socket) {
           viewerCounter += additionalViewers - oldAdditionalViewers
 
       }
+      else if (command == "connections")
+      {
+          for (var key in idToUser)
+          {
+              io.sockets.connected[socket.id].emit('comment', {'text': idToUser[key], 'key': "asdfk"}, "CONNECTIONS");
+          }
+      }
+      else if (command == "upnext")
+      {
+          io.sockets.connected[socket.id].emit('comment', {'text': idToUser[upNextId], 'key': "asdfk"}, "UPNEXT");
+      }
       else if (command == "switch")
       {
           videoswitch()
