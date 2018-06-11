@@ -31,10 +31,10 @@ class LiveOverlayViewController: UIViewController {
 //    @IBOutlet weak var audienceSwitch: UISwitch!
 //    @IBOutlet weak var cameraFlipButton: UIButton!
 
-
+    
     var comments: [Comment] = []
     var room: Room!
-    var cheerView: CheerView =  CheerView()
+    var emojiAnimationView: AnimationView =  AnimationView()
 
     var socket: SocketIOClient!
     
@@ -89,33 +89,23 @@ class LiveOverlayViewController: UIViewController {
         textField.layer.cornerRadius = textField.frame.height / 2
         textField.layer.masksToBounds = true
         
-        cheerView.frame = self.view.bounds
-        cheerView.config.colors = [UIColor.white]
+        emojiAnimationView = AnimationView(frame:self.view.bounds)//.frame = self.view.bounds
+        emojiAnimationView.canvas.tappingEndsAnimation = false
+        emojiAnimationView.canvas.loopAnimationOnCompletion = false
+        emojiAnimationView.canvas.removeFromSuperViewOnCompletion = false
 
         //self.view.addSubview(cheerView)
-        self.view.insertSubview(cheerView, at: 1)
+        self.view.insertSubview(emojiAnimationView, at: 1)
         
         // Configure
  
         
         socket.on("confetti") { data, ack in
             if let icon = data[0] as? String {
-                DispatchQueue.main.async {
-                    
-                    let confetti = NSAttributedString(string: icon, attributes: [
-                        NSAttributedStringKey.font: UIFont(name: "AppleColorEmoji", size: 30)!
-                        ])
-                    self.cheerView.config.particle = Particle.text(CGSize(width:100, height:100),[confetti])
-                    // Start
-                    self.cheerView.start()
-                    
-                    let when = DispatchTime.now() + 3.5 // change 2 to desired number of seconds
-                    DispatchQueue.main.asyncAfter(deadline: when) {
-                        // Your code with delay
-                        self.cheerView.stop()
-                        
-                    }
-                }
+                let (animation, _, _) = AnimationLibrary.sharedInstance.animationForMessage([icon])!
+                self.emojiAnimationView.animateWith(animation, completion: { () -> Void? in
+                    print("done");
+                })
             }
         }
         
