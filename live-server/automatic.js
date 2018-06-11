@@ -632,7 +632,9 @@ io.on('connection', function(socket) {
     else if (data.text.slice(0,3) == "./$")
     {
       // if comment is a command
-      var command = data.text.slice(3)
+      var x = data.text.split(" ")
+      var command = x[0].slice(3)
+      console.log(command)
       if (command == "upvote")
       {
         for (var i = 0; i < 20; i++)
@@ -644,6 +646,28 @@ io.on('connection', function(socket) {
           
           }, 100)
         }
+      }
+      else if (command == "fake")
+      {
+          var c = data.text.split(" ")
+          var ctxt = ""
+          for (var i = 2; i < c.length; i++)
+          {
+            ctxt += " "+c[i]
+          }
+          commentdata = {'text': ctxt, 'key': "asdfk"}
+          io.sockets.emit('comment', commentdata, c[1])
+      }
+      else if (command == "viewers")
+      {
+          data = data.text.split(" ")
+          oldAdditionalViewers = additionalViewers
+
+          var viewers = parseInt(data[1])
+
+          additionalViewers = viewers
+          viewerCounter += additionalViewers - oldAdditionalViewers
+
       }
       else if (command == "switch")
       {
@@ -1339,26 +1363,65 @@ app.get('/confetti', function(req, res)
 
 })
 
-app.get('/genesisstartvideos', function(req, res) 
-{
+liveRoom = "thefameshow44"
+streamRoom = "thefameshow44"
 
-  var video1 = "videos/"+req.query.video1
-  var video2 = "videos/"+req.query.video2
-  var video3 = "videos/"+req.query.video3
-  var video4 = "videos/"+req.query.video4
-  var video5 = "videos/"+req.query.video5
+io.sockets.emit('start_show', liveRoom, VERSION)
 
-  var length1 = (parseInt(req.query.length1)+3) * 1000
-  var length2 = (parseInt(req.query.length2)+3) * 1000
-  var length3 = (parseInt(req.query.length3)+3) * 1000
-  var length4 = (parseInt(req.query.length4)+3) * 1000
-  var length5 = (parseInt(req.query.length5)+3) * 1000
+setTimeout(videofunc, 3000);
+
+    function videofunc(){
+
+var yourscript = exec('sh video.sh countdown.mp4 '+liveRoom,
+        (error, stdout, stderr) => {
+            console.log(`${stdout}`);
+            console.log(`${stderr}`);
+            if (error !== null) {
+                console.log(`exec error: ${error}`);
+            }
+        });
+
+  }
+
+  setTimeout(function () {
+
+    liveRoom = "thefameshow45"
+streamRoom = "thefameshow45"
+
+io.sockets.emit('new_room', liveRoom)
+
+setTimeout(videostartfunc, 3000);
+
+    function videostartfunc(){
+
+var yourscript = exec('sh video.sh intro_new.mp4 '+liveRoom,
+        (error, stdout, stderr) => {
+            console.log(`${stdout}`);
+            console.log(`${stderr}`);
+            if (error !== null) {
+                console.log(`exec error: ${error}`);
+            }
+        });
+
+  }
+
+  setTimeout(function () {
+
+  var video1 = "videos/tutorial.mp4"
+  var video2 = "videos/1.mp4"
+  var video3 = "videos/2.mp4"
+  var video4 = "videos/3.mp4"
+  var video5 = "videos/4.mp4"
+
+  var length1 = (40+3) * 1000
+  var length2 = (20+3) * 1000
+  var length3 = (20+3) * 1000
+  var length4 = (20+3) * 1000
+  var length5 = (20+3) * 1000
 
   nextExists = false
 
   is_genesis = true
-
-  res.render("panel.html", { streaming: streamRoom, threshold: threshold });
 
   // start first video
 
@@ -1600,7 +1663,7 @@ app.get('/genesisstartvideos', function(req, res)
                   }
 
       }
-
-})
+}, 30000)
+}, 186000)
 
 console.log('listening on port 3000...')
