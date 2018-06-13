@@ -611,6 +611,8 @@ io.on('connection', function(socket) {
       else
       {
         // user has already upvoted -- notify that user
+        console.log('!upvote:', roomKey)
+        voteCounter++
         
       }
 
