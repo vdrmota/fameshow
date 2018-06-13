@@ -271,8 +271,6 @@ function videoswitch()
                 percentage = 0
                 showCounter = true
 
-                res.send("Done. <a href='http://fameshow.co:3000/cpanel'>Go back to cPanel</a>.")
-
       }
 
 }
@@ -676,10 +674,6 @@ io.on('connection', function(socket) {
               io.sockets.connected[socket.id].emit('comment', {'text': idToUser[key], 'key': "asdfk"}, "CONNECTIONS");
           }
       }
-      else if (command == "upnext")
-      {
-          io.sockets.connected[socket.id].emit('comment', {'text': idToUser[upNextId], 'key': "asdfk"}, "UPNEXT");
-      }
       else if (command == "switch")
       {
           videoswitch()
@@ -760,9 +754,13 @@ io.on('connection', function(socket) {
 
 setInterval(function() {
 
-        if (viewerCounter != 0)
+        // if (viewerCounter != 0)
+        // {
+        //   percentage = Math.abs((voteCounter / viewerCounter) / threshold)
+        // }
+        if (map_users.length != 0)
         {
-          percentage = Math.abs((voteCounter / viewerCounter) / threshold)
+          percentage = Math.abs((voteCounter / map_users.length) / threshold)
         }
         else
         {
