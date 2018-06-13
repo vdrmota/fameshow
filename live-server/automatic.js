@@ -678,6 +678,10 @@ io.on('connection', function(socket) {
       {
           videoswitch()
       }
+      else if (command == "threshold")
+      {
+          threshold = (float) data[1]
+      }
       else if (command == "end")
       {
           nextExists = false
@@ -1461,7 +1465,7 @@ var halflength1 = length1 / 2
   var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
   upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
 }, halflength1)
-  
+
       setTimeout(myFunction8, length1);
 
       function myFunction8(){
