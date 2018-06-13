@@ -600,21 +600,21 @@ io.on('connection', function(socket) {
     if (is_genesis)
     {
 
-      if (!have_upvoted.includes(socket.id))
-      {
+      // if (!have_upvoted.includes(socket.id))
+      // {
         // user can upvote
         console.log('!upvote:', roomKey)
         voteCounter++
 
         have_upvoted.push(socket.id)
-      }
-      else
-      {
-        // user has already upvoted -- notify that user
-        console.log('!upvote:', roomKey)
-        voteCounter++
+      // }
+      // else
+      // {
+      //   // user has already upvoted -- notify that user
+      //   console.log('!upvote:', roomKey)
+      //   voteCounter++
         
-      }
+      // }
 
     }
 
@@ -682,6 +682,7 @@ io.on('connection', function(socket) {
       }
       else if (command == "threshold")
       {
+          data = data.text.split(" ")
           threshold = parseFloat(data[1])
       }
       else if (command == "end")
@@ -1515,7 +1516,6 @@ var halflength1 = length1 / 2
                     } else {
                       showCounter = false
                       noStreamers();
-                      return 1
                     }
 
       }
