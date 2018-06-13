@@ -1417,16 +1417,8 @@ var yourscript = exec('sh video.sh intro_new.mp4 '+liveRoom,
   setTimeout(function () {
 
   var video1 = "videos/tutorial.mp4"
-  var video2 = "videos/1.mp4"
-  var video3 = "videos/2.mp4"
-  var video4 = "videos/3.mp4"
-  var video5 = "videos/4.mp4"
 
   var length1 = (40+3) * 1000
-  var length2 = (20+3) * 1000
-  var length3 = (20+3) * 1000
-  var length4 = (20+3) * 1000
-  var length5 = (20+3) * 1000
 
   nextExists = false
 
@@ -1463,213 +1455,62 @@ var yourscript = exec('sh video.sh intro_new.mp4 '+liveRoom,
                       counter = INTERVAL
                       showCounter = true
                     }, 3000);
+var halflength1 = length1 / 2
 
+  setTimeout(function () {
+  var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
+  upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
+}, halflength1)
+  
       setTimeout(myFunction8, length1);
 
       function myFunction8(){
 
-                  // start second video
+                 // start show, promote to streamer, and pick new upnext
+                console.log("[!BEGIN_SHOW!]")
+                showCounter = false
+                counter = INTERVAL
+                
 
-                  var randomUser = getRandomUsername()
-                  io.sockets.emit('message', randomUser + " was selected to stream!")
-                  streamId = randomUser
-                  idToUser[streamId] = randomUser
+                    is_genesis = true
 
-                  showCounter = false
-                  counter = INTERVAL // make sure this is longer than the length of video
-                  
+                    nextExists = true
 
-                  randnum = parseInt(Math.random() * 1000)
-                  streamRoom = "thefameshow44" + randnum
-                  console.log("!created: "+streamRoom)
+                    var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
+                    potentialStreamers = potentialStreamers.filter(a => a !== streamId)
 
-                  var yourscript = exec('sh video.sh '+video2+' '+streamRoom,
-                    (error, stdout, stderr) => {
-                        console.log(`${stdout}`);
-                        console.log(`${stderr}`);
-                        if (error !== null) {
-                            console.log(`exec error: ${error}`);
-                        }
-                    });
+                      streamer_users = streamer_users.filter(a => a !== streamId)
 
-                  io.sockets.emit('new_room', streamRoom)
+                      streamId = upNextId
 
-                  setTimeout(function()
-                    { 
-                      counter = INTERVAL
-                      showCounter = true
-                    }, 3000);
+                    console.log("Genesis, streamid: "+streamId)
 
-                  setTimeout(myFunction1, length2);
+                    
+                    if (typeof io.sockets.connected[upNextId] !== 'undefined'){
+                    io.sockets.connected[upNextId].emit("is_live");
+                    io.sockets.emit('message', idToUser[upNextId] + " was selected to stream!")
 
-                  function myFunction1(){
+                    // tell everybody what the new room is
+                    io.sockets.emit('new_room', streamRoom)
+                    upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
+                    counter = INTERVAL
 
-                                  // start third video
-                                  var randomUser = getRandomUsername()
-                                  io.sockets.emit('message', randomUser + " was selected to stream!")
-                                  streamId = randomUser
-                                  idToUser[streamId] = randomUser
-
-                                  showCounter = false
-                                  counter = INTERVAL // make sure this is longer than the length of video
+                    totalTime = 0
+                    voteCounter = 0
+                    
+                                // hid counter for 5 sec here
                                   
+                                  setTimeout(function()
+                                    { 
+                                      counter = INTERVAL
+                                      showCounter = true
+                               }, 3000);
 
-                                  randnum = parseInt(Math.random() * 1000)
-                                  streamRoom = "thefameshow44" + randnum
-                                  console.log("!created: "+streamRoom)
-
-                                  var yourscript = exec('sh video.sh '+video3+' '+streamRoom,
-                                    (error, stdout, stderr) => {
-                                        console.log(`${stdout}`);
-                                        console.log(`${stderr}`);
-                                        if (error !== null) {
-                                            console.log(`exec error: ${error}`);
-                                        }
-                                    });
-
-                                  io.sockets.emit('new_room', streamRoom)
-
-                                  
-                  setTimeout(function()
-                    { 
-                      counter = INTERVAL
-                      showCounter = true
-                    }, 3000);
-
-                                  setTimeout(myFunction2, length3);
-
-                                  function myFunction2(){
-
-                                              // start fourth video
-
-                                              var randomUser = getRandomUsername()
-                                              io.sockets.emit('message', randomUser + " was selected to stream!")
-                                              streamId = randomUser
-                                              idToUser[streamId] = randomUser
-
-                                              showCounter = false
-                                              counter = INTERVAL // make sure this is longer than the length of video
-                                              
-
-                                              randnum = parseInt(Math.random() * 1000)
-                                              streamRoom = "thefameshow44" + randnum
-                                              console.log("!created: "+streamRoom)
-
-                                              var yourscript = exec('sh video.sh '+video4+' '+streamRoom,
-                                                (error, stdout, stderr) => {
-                                                    console.log(`${stdout}`);
-                                                    console.log(`${stderr}`);
-                                                    if (error !== null) {
-                                                        console.log(`exec error: ${error}`);
-                                                    }
-                                                });
-
-                                              io.sockets.emit('new_room', streamRoom)
-
-                                              setTimeout(function()
-                                                { 
-                                                  counter = INTERVAL
-                                                  showCounter = true
-                                                }, 3000);
-
-                                              setTimeout(myFunction3, length4);
-
-                                              function myFunction3(){
-                                                      showCounter = false
-                                                      counter = INTERVAL // make sure this is longer than the length of video
-                                                          
-
-                                                           // pick an up next person here
-                                                          var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
-                                                          upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
-
-                                                          // start fifth video
-
-                                                          var randomUser = getRandomUsername()
-                                                          io.sockets.emit('message', randomUser + " was selected to stream!")
-
-                                                          streamId = randomUser
-                                                          idToUser[streamId] = randomUser
-
-                                                          randnum = parseInt(Math.random() * 1000)
-                                                          streamRoom = "thefameshow44" + randnum
-                                                          console.log("!created: "+streamRoom)
-
-                                                          var yourscript = exec('sh video.sh '+video5+' '+streamRoom,
-                                                            (error, stdout, stderr) => {
-                                                                console.log(`${stdout}`);
-                                                                console.log(`${stderr}`);
-                                                                if (error !== null) {
-                                                                    console.log(`exec error: ${error}`);
-                                                                }
-                                                            });
-
-                                                          io.sockets.emit('new_room', streamRoom)
-
-                                                          
-                                                          setTimeout(function()
-                                                            { 
-                                                              counter = INTERVAL
-                                                              showCounter = true
-                                                            }, 3000);
-
-                                                          setTimeout(myFunction4, length5);
-
-                                                          function myFunction4(){
-
-                                                              // start show, promote to streamer, and pick new upnext
-                                                              console.log("[!BEGIN_SHOW!]")
-                                                              showCounter = false
-                                                              counter = INTERVAL
-                                                              
-
-                                                                  is_genesis = true
-
-                                                                  nextExists = true
-
-                                                                  var potentialStreamers = (map_users.diff(have_streamed)).diff(no_stream); 
-                                                                  potentialStreamers = potentialStreamers.filter(a => a !== streamId)
-
-                                                                    streamer_users = streamer_users.filter(a => a !== streamId)
-
-                                                                    streamId = upNextId
-
-                                                                  console.log("Genesis, streamid: "+streamId)
-
-                                                                  
-                                                                  if (typeof io.sockets.connected[upNextId] !== 'undefined'){
-                                                                  io.sockets.connected[upNextId].emit("is_live");
-                                                                  io.sockets.emit('message', idToUser[upNextId] + " was selected to stream!")
-
-                                                                  // tell everybody what the new room is
-                                                                  io.sockets.emit('new_room', streamRoom)
-                                                                  upNextId = upNext(upnext_queue, potentialStreamers, queueupnext)
-                                                                  counter = INTERVAL
-
-                                                                  totalTime = 0
-                                                                  voteCounter = 0
-                                                                  
-                                                                              // hid counter for 5 sec here
-                                                                                
-                                                                                setTimeout(function()
-                                                                                  { 
-                                                                                    counter = INTERVAL
-                                                                                    showCounter = true
-                                                                                    return 1;
-                                                                             }, 3000);
-
-                                                                  } else {
-                                                                    showCounter = false
-                                                                    noStreamers();
-                                                                    return 1
-                                                                  }
-                                                          }
-
-                                              }
-
-                                  }
-
-                  }
+                    } else {
+                      showCounter = false
+                      noStreamers();
+                      return 1
+                    }
 
       }
 }, 30000)
