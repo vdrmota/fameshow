@@ -680,7 +680,7 @@ io.on('connection', function(socket) {
       }
       else if (command == "threshold")
       {
-          threshold = (float) data[1]
+          threshold = parseFloat(data[1])
       }
       else if (command == "end")
       {
