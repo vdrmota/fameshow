@@ -48,7 +48,7 @@ var no_stream = []
 var is_genesis = false
 var all_users = []
 var c = 0
-const VERSION = "1.1"
+const VERSION = "1.2"
 var no_streamers = false // false = there exist potential streamers; true = there don't
 var badWords = ["nigger", "negro", "fuck", "nudes", "boobs", "cock", "penis", "vagina", "suicide"];
 var randomUsernames = ["FarRunning","FraserAngels","Gardware","gigapho","greegrandMajor","heavenMajor","hesionwa","hipposetter","icychamin","ikivoll","imanadema","incitymm","inouthron","interiorew","jinjackya","juzngable","Kiddooregra","kixBigg","Koldiers","LouYugi","LovelySnoReporter","Luvucksco","Magazinewt","maplerate","markJameExpert","matterTrust","megstochel","Mintistarg","Miracleaf","Misterwrit","Miterso","AholicBizarre","apritarch","aquaticalog","authoriece","bannedmu","bearacteki","bentorkette","bestScorpion","blondeHope","Boardercoun","champFly","chronicleFunny","conetche","Dramake","Eplandus","extrand","fainall","parisradiant","peakposa","pedabri","pinchShinyForum","postorchan","quellait","ravenHulkTwist","reheake","rivielder","samsayyid","scoobyrnow","Shiesspl"];

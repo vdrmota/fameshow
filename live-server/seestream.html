@@ -1,0 +1,23 @@
+<div id='stage'></div>
+
+<script>
+
+
+        $('#stage').empty();
+        $('#stage').append("<div id='player'></player>");
+
+        var url = "rtmp://159.65.189.19/live/"
+        var stream = $_GET['stream']
+        var player = jwplayer('player');
+
+        player.setup({
+            'flashplayer': 'player.swf',
+            'id': 'player',
+            'width': 640,
+            'height': 360,
+            'autoplay': true,
+            'streamer': url,
+            'file': stream
+        });
+
+    </script>

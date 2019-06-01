@@ -1,0 +1,100 @@
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Users</title>
+<style>
+* {
+	font-family : "Avenir"
+}
+
+.chartjs-wrapper {
+	height: 770px
+	width:385px;
+	box-sizing:border-box;
+
+}
+.content {
+	width:35%
+}
+
+@media only screen and (max-width: 600px) {
+	.content {
+		width:70%
+	}
+}
+
+</style>
+<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+<script>
+var options = 
+	{
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    };
+
+  	console.log("hi")
+
+    $.getJSON('http://44.fameshow.co/fame/analytics_users.php', function(data) {
+    	console.log("Hello")
+  		var user_data = data
+  		console.log(user_data.map(e => e.count))
+
+		//Daily User Growth chart
+  		var ctx = document.getElementById("dug");
+		var myLineChart = new Chart(ctx, {
+		    type: 'line',
+	    	data: {
+		        labels: user_data.map(e => e.day),
+		        datasets: [{
+		            label: 'Daily New Users',
+		            data: user_data.map(e => e.count),
+		            backgroundColor: ['rgba(255, 99, 132, 0.2)'],
+		            borderColor: ['rgba(255,99,132,1)'],
+		            borderWidth: 1
+		        }]
+		    },
+	    	options: options
+		});
+
+		var ctx = document.getElementById("cug");
+		var myLineChart = new Chart(ctx, {
+		    type: 'line',
+	    	data: {
+		        labels: user_data.map(e => e.day),
+		        datasets: [{
+		            label: 'Total Users',
+		            data: user_data.map(function(e,i,arr) { return arr.slice(0,i).reduce((acc,curr) => acc+curr.count, 0)}),//user_data.map(e => e.count),
+		            backgroundColor: ['rgba(255, 99, 132, 0.2)'],
+		            borderColor: ['rgba(255,99,132,1)'],
+		            borderWidth: 1
+		        }]
+		    },
+	    	options: options
+		});
+	});
+
+
+
+</script>
+
+</head>
+<body>
+	<center>
+		<div class = "content">
+		<h5>Daily User Growth</h5>
+		<canvas id="dug" width="400" height="400"></canvas>
+		<h5>Cumulative User Growth</h5>
+		<canvas id="cug" width="400" height="400"></canvas>
+		</div>
+	</center>
+</body>
+</html>

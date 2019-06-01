@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+    <script type="text/javascript" src="jwplayer.js"></script>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+  <script type="text/javascript">
+  var $_GET = {};
+if(document.location.toString().indexOf('?') !== -1) {
+    var query = document.location
+                   .toString()
+                   // get the query string
+                   .replace(/^.*?\?/, '')
+                   // and remove any existing hash string (thanks, @vrijdenker)
+                   .replace(/#.*$/, '')
+                   .split('&');
+
+    for(var i=0, l=query.length; i<l; i++) {
+       var aux = decodeURIComponent(query[i]).split('=');
+       $_GET[aux[0]] = aux[1];
+    }
+}
+</script>
+
+<h1>Fameshow Control Panel</h1>
+
+    <a href="http://44.fameshow.co:3000/videoswitch"><button>Video Switch</button></a>
+
+<div id='stage'></div>
+
+    <br><br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/queueupnext">
+    Queue <input type='text' name='upnext' placeholder='socket.id' /> <input type='submit' value='Upnext' />
+    </form>
+
+    <br><br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/addvotes">
+    Add <input type='text' name='votes' /> <input type='submit' value='Votes' />
+    </form>
+
+    <form method="GET" action="http://44.fameshow.co:3000/addviewers">
+    Add <input type='text' name='viewers' /> <input type='submit' value='Viewers' />
+    </form>
+
+    <br><br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/threshold">
+    Update 
+    <script>
+    document.write("<input type='text' name='threshold' value='"+$_GET['threshold']+"' />");
+    </script>
+    <input type='submit' value='Threshold' />
+    </form>
+
+    <br><br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/message">
+    Send message to ALL: <input type='text' name='message' /> <input type='submit' value='Send' />
+    </form>
+
+    <form method="GET" action="http://44.fameshow.co:3000/messageupnext">
+    Send message to UPNEXT: <input type='text' name='message' /> <input type='submit' value='Send' />
+    </form>
+
+    <br><br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/video">
+    Play countdown/intro video: <input type='text' name='video' placeholder='countdown.mp4' /> <input type='submit' value='Play' />
+    </form>
+
+    <form method="GET" action="http://44.fameshow.co:3000/video_start">
+    [Iff above played] Play intro video: <input type='text' name='video' placeholder='intro.mp4' /> <input type='submit' value='Play' />
+    </form>
+
+    <br><br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/intervideo">
+    Play intermission video: <input type='text' name='video' placeholder='filename.mp4' /> <input type='text' name='length' placeholder='length (s)' /> <input type='submit' value='Play' />
+    </form>
+
+    <br><br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/genesisupnext">
+    <input type='submit' value='Genesis: Upnext, Random' />
+    </form>
+
+    <form method="GET" action="http://44.fameshow.co:3000/genesisupnext_vojta">
+    <input type='submit' value='Genesis: Upnext, Vojta' />
+    </form>
+
+    <form method="GET" action="http://44.fameshow.co:3000/genesisupnext_matt">
+    <input type='submit' value='Genesis: Upnext, Matt' />
+    </form>
+
+    <br>
+    <br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/genesisstart">
+    <input type='submit' value='Genesis: Start' />
+    </form>
+
+    <br><br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/seeconnections">
+    <input type='submit' value='See Connections' />
+    </form>
+
+    <form method="GET" action="http://44.fameshow.co:3000/seestream">
+    <input type='submit' value='See Stream' />
+    </form>
+
+    <br><br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/genesisstartvideos">
+        <input type="text" name="video1" value="tutorial.mp4" /><input type="text" name="length1" value="40" placeholder="length (s)"/><br>
+        <input type="text" name="video2" value="1.mp4" /><input type="text" name="length2" placeholder="length (s)"/><br>
+        <input type="text" name="video3" value="2.mp4" /><input type="text" name="length3" placeholder="length (s)"/><br>
+        <input type="text" name="video4" value="3.mp4" /><input type="text" name="length4" placeholder="length (s)"/><br>
+        <input type="text" name="video5" value="4.mp4" /><input type="text" name="length5" placeholder="length (s)"/><br>
+        <input type="submit" value='Genesis: Videos' />
+    </form>
+
+    <br><br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/fake_comment">
+    Fake Comments: <input type="text" name="username" placeholder="Username" /> <input type="text" name="comment" placeholder="Comment" /> <input type='submit' value='Send' />
+    </form>
+
+    <br><br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/confetti">
+    <input type="text" placeholder="emoji" name="emoji" /><input type='submit' value='Confetti!' />
+    </form>
+
+    <br><br>
+
+     <form method="GET" action="http://44.fameshow.co:3000/textscreen">
+        <input type="text" name="textscreen" placeholder="text to be displayed,2" />
+    <input type='submit' value='Text appear in center' />
+    </form>
+
+    <br><br>
+
+    <form method="GET" action="http://44.fameshow.co:3000/end">
+    <input type='submit' value='END the show' />
+    </form>
+
+    <script>
+
+
+        $('#stage').empty();
+        $('#stage').append("<div id='player'></player>");
+
+        var url = "rtmp://159.65.189.19/live/"
+        var stream = $_GET['stream']
+        var player = jwplayer('player');
+
+        player.setup({
+            'flashplayer': 'player.swf',
+            'id': 'player',
+            'width': 640,
+            'height': 360,
+            'autoplay': true,
+            'streamer': url,
+            'file': stream
+        });
+
+    </script>
+
+</body>
+
+</html>

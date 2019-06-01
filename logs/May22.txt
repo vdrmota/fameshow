@@ -1,0 +1,2119 @@
+listening on port 3000...
+!Tick: {"viewers":0,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{}
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":0,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":13,"%":0,"counter":false}
+[!CONNECTIONS!]
+{ 'AEUxt2r9NBgn-XZEAAAA': 'mschrage' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'AEUxt2r9NBgn-XZEAAAA': 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+!toggle on: mschrage
+!Tick: {"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+!leave:  mschrage
+!Tick: {"viewers":0,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":78,"votes":0,"time":5,"%":0,"counter":false}
+[!CONNECTIONS!]
+{ 'AEUxt2r9NBgn-XZEAAAA': 'mschrage',
+  'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":79,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":79,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":79,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":79,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":79,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'AEUxt2r9NBgn-XZEAAAA': 'mschrage',
+  'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":79,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":79,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":79,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":79,"votes":0,"time":17,"%":0,"counter":false}
+[!CONNECTIONS!]
+{ 'AEUxt2r9NBgn-XZEAAAA': 'mschrage',
+  'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":80,"votes":0,"time":16,"%":0,"counter":false}
+!toggle on: vojtadrmota
+!Tick: {"viewers":80,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'AEUxt2r9NBgn-XZEAAAA': 'mschrage',
+  'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":80,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":80,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":81,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":81,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":81,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":82,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":82,"votes":0,"time":13,"%":0,"counter":false}
+[!CONNECTIONS!]
+{ 'AEUxt2r9NBgn-XZEAAAA': 'mschrage',
+  'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":82,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":82,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":82,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":82,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":82,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":82,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":82,"votes":0,"time":6,"%":0,"counter":false}
+!reconnect:  mschrage
+!Tick: {"viewers":83,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":83,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":83,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":83,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":83,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'AEUxt2r9NBgn-XZEAAAA': 'mschrage',
+  'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":84,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":18,"%":0,"counter":false}
+[!CONNECTIONS!]
+{ 'AEUxt2r9NBgn-XZEAAAA': 'mschrage',
+  'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV' }
+[!END_CONNECTIONS!]
+!toggle on: CJVV
+!Tick: {"viewers":84,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":16,"%":0,"counter":false}
+!leave:  mschrage
+!Tick: {"viewers":83,"votes":0,"time":15,"%":0,"counter":false}
+!toggle on: CJVV
+!Tick: {"viewers":83,"votes":0,"time":14,"%":0,"counter":false}
+!disconnect:  mschrage
+!Tick: {"viewers":83,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":83,"votes":0,"time":12,"%":0,"counter":false}
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage' }
+[!END_CONNECTIONS!]
+!toggle on: mschrage
+!Tick: {"viewers":84,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":84,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":11,"%":0,"counter":false}
+!comment by CJVV: { text: 'hola', roomKey: 'thefameshow44' }
+!comment by CJVV: { text: 'hola', roomKey: 'thefameshow44' }
+!Tick: {"viewers":84,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":2,"%":0,"counter":false}
+!leave:  murdog0214
+!Tick: {"viewers":83,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":83,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!reconnect:  murdog0214
+!Tick: {"viewers":84,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":17,"%":0,"counter":false}
+!comment by murdog0214: { text: 'qva caremonda', roomKey: 'thefameshow44' }
+!Tick: {"viewers":84,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":84,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":18,"%":0,"counter":false}
+!comment by mschrage: { text: 'hii', roomKey: 'thefameshow44' }
+!Tick: {"viewers":84,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":13,"%":0,"counter":false}
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":85,"votes":0,"time":12,"%":0,"counter":false}
+!comment by mschrage: { text: 'what’s pup ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":85,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":6,"%":0,"counter":false}
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  DTGRskMymoBnUfGvAAAH: 'wescash11' }
+[!END_CONNECTIONS!]
+!toggle on: wescash11
+!Tick: {"viewers":86,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":4,"%":0,"counter":false}
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  DTGRskMymoBnUfGvAAAH: 'wescash11',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme' }
+[!END_CONNECTIONS!]
+!toggle on: njoyme
+!reconnect:  njoyme
+!Tick: {"viewers":87,"votes":0,"time":3,"%":0,"counter":false}
+!toggle off: wescash11
+!Tick: {"viewers":87,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":87,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":87,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  DTGRskMymoBnUfGvAAAH: 'wescash11',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":87,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":87,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":87,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":87,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":87,"votes":0,"time":16,"%":0,"counter":false}
+!comment by youssefs: { text: 'whoop', roomKey: 'thefameshow44' }
+!Tick: {"viewers":87,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":87,"votes":0,"time":14,"%":0,"counter":false}
+!leave:  wescash11
+!Tick: {"viewers":86,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":12,"%":0,"counter":false}
+!disconnect:  wescash11
+!leave:  murdog0214
+!Tick: {"viewers":85,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":4,"%":0,"counter":false}
+!toggle off: youssefs
+!Tick: {"viewers":85,"votes":0,"time":3,"%":0,"counter":false}
+!toggle on: youssefs
+!Tick: {"viewers":85,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":85,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":8,"%":0,"counter":false}
+!comment by njoyme: { text: 'heeeyyyy', roomKey: 'thefameshow44' }
+!Tick: {"viewers":85,"votes":0,"time":7,"%":0,"counter":false}
+!leave:  njoyme
+!Tick: {"viewers":84,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":5,"%":0,"counter":false}
+!reconnect:  murdog0214
+!Tick: {"viewers":85,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":2,"%":0,"counter":false}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'countdown.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41
+    creation_time   : 2018-04-03T17:37:09.000000Z
+  Duration: 00:03:00.03, start: 0.000000, bitrate: 904 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 750x1334, 582 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : AVC Coding
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 317 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 750x1334, q=2-31, 200 kb/s, 29.97 fps, 1k tbn, 29.97 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(eng): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x55fac5d1cce0] Failed to update header with correct duration.67.1kbits/s speed=   1x     
+[flv @ 0x55fac5d1cce0] Failed to update header with correct filesize.
+frame= 5394 fps= 30 q=0.0 Lsize=   23491kB time=00:03:00.00 bitrate=1069.1kbits/s speed=   1x    
+video:20476kB audio:2813kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.866790%
+
+!Tick: {"viewers":85,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":85,"votes":0,"time":20,"%":0,"counter":false}
+!leave:  murdog0214
+!Tick: {"viewers":84,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":18,"%":0,"counter":false}
+!reconnect:  murdog0214
+!Tick: {"viewers":85,"votes":0,"time":17,"%":0,"counter":false}
+!leave:  murdog0214
+!reconnect:  murdog0214
+!Tick: {"viewers":85,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":2,"%":0,"counter":false}
+!reconnect:  njoyme
+!Tick: {"viewers":86,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":14,"%":0,"counter":false}
+!toggle off: vojtadrmota
+!Tick: {"viewers":86,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":8,"%":0,"counter":false}
+!created: thefameshow44237
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":18,"%":0,"counter":false}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'intro_new.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+  Duration: 00:00:30.33, start: 0.000000, bitrate: 1049 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 540x960 [SAR 1:1 DAR 9:16], 935 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 60k tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 104 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow45':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 540x960 [SAR 1:1 DAR 9:16], q=2-31, 200 kb/s, 29.97 fps, 1k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x564aadde3200] Failed to update header with correct duration.88.3kbits/s speed=0.999x    
+[flv @ 0x564aadde3200] Failed to update header with correct filesize.
+frame=  909 fps= 30 q=0.0 Lsize=   24831kB time=00:00:30.33 bitrate=6705.1kbits/s speed=0.999x    
+video:24322kB audio:474kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.138566%
+
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":15,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":15,"time":14,"%":0.5285412262156448,"counter":true}
+!Tick: {"viewers":86,"votes":15,"time":13,"%":0.5285412262156448,"counter":true}
+!Tick: {"viewers":86,"votes":15,"time":12,"%":0.5285412262156448,"counter":true}
+!Tick: {"viewers":86,"votes":15,"time":11,"%":0.5285412262156448,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":86,"votes":16,"time":10,"%":0.5637773079633545,"counter":true}
+!Tick: {"viewers":86,"votes":31,"time":9,"%":1.0923185341789992,"counter":true}
+!Tick: {"viewers":86,"votes":31,"time":8,"%":1.0923185341789992,"counter":true}
+!comment by murdog0214: { text: 'choose meeee', roomKey: 'thefameshow44' }
+!Tick: {"viewers":86,"votes":31,"time":7,"%":1.0923185341789992,"counter":true}
+!Tick: {"viewers":86,"votes":31,"time":6,"%":1.0923185341789992,"counter":true}
+!Tick: {"viewers":86,"votes":31,"time":5,"%":1.0923185341789992,"counter":true}
+!Tick: {"viewers":86,"votes":31,"time":4,"%":1.0923185341789992,"counter":true}
+!Tick: {"viewers":86,"votes":31,"time":3,"%":1.0923185341789992,"counter":true}
+!Tick: {"viewers":86,"votes":31,"time":2,"%":1.0923185341789992,"counter":true}
+!Tick: {"viewers":86,"votes":31,"time":1,"%":1.0923185341789992,"counter":true}
+!Tick: {"viewers":86,"votes":31,"time":0,"%":1.0923185341789992,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":15,"%":0,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":86,"votes":1,"time":14,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":13,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":12,"%":0.035236081747709654,"counter":true}
+!leave:  mschrage
+!Tick: {"viewers":85,"votes":1,"time":11,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":10,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":9,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":8,"%":0.035650623885918,"counter":true}
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  In4mYbxoQHuksbBlAAAJ: 'mschrage' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":86,"votes":1,"time":7,"%":0.035236081747709654,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":86,"votes":2,"time":6,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":86,"votes":2,"time":5,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":86,"votes":2,"time":4,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":86,"votes":2,"time":3,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":86,"votes":2,"time":2,"%":0.07047216349541931,"counter":true}
+!created: thefameshow44909
+!Tick: {"viewers":86,"votes":2,"time":20,"%":0.07047216349541931,"counter":false}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'videos/tutorial.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+  Duration: 00:00:44.21, start: 0.000000, bitrate: 1333 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 540x960 [SAR 1:1 DAR 9:16], 1215 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 60k tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 108 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44237':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 540x960 [SAR 1:1 DAR 9:16], q=2-31, 200 kb/s, 29.97 fps, 1k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x55d39360b9a0] Failed to update header with correct duration.95.9kbits/s speed=0.999x    
+[flv @ 0x55d39360b9a0] Failed to update header with correct filesize.
+frame= 1325 fps= 30 q=0.0 Lsize=   18332kB time=00:00:44.20 bitrate=3396.9kbits/s speed=   1x    
+video:17591kB audio:691kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.272896%
+
+!Tick: {"viewers":86,"votes":2,"time":19,"%":0.07047216349541931,"counter":false}
+!Tick: {"viewers":86,"votes":2,"time":18,"%":0.07047216349541931,"counter":false}
+!Tick: {"viewers":86,"votes":2,"time":20,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":19,"%":0.06966213862765587,"counter":true}
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  In4mYbxoQHuksbBlAAAJ: 'mschrage',
+  incitymm: 'incitymm',
+  wm0VTAusVisyy9sNAAAK: 'gabeceder' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":87,"votes":2,"time":18,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":17,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":16,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":15,"%":0.06966213862765587,"counter":true}
+!comment by murdog0214: { text: 'choose mw', roomKey: 'thefameshow44' }
+!toggle off: gabeceder
+!Tick: {"viewers":87,"votes":12,"time":14,"%":0.4179728317659352,"counter":true}
+!Tick: {"viewers":87,"votes":12,"time":13,"%":0.4179728317659352,"counter":true}
+!Tick: {"viewers":87,"votes":12,"time":12,"%":0.4179728317659352,"counter":true}
+!Tick: {"viewers":87,"votes":12,"time":11,"%":0.4179728317659352,"counter":true}
+!Tick: {"viewers":87,"votes":12,"time":10,"%":0.4179728317659352,"counter":true}
+!Tick: {"viewers":87,"votes":12,"time":9,"%":0.4179728317659352,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":8,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":7,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":6,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":5,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":4,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":3,"%":1.114594218042494,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":87,"votes":33,"time":2,"%":1.1494252873563218,"counter":true}
+!Tick: {"viewers":87,"votes":33,"time":1,"%":1.1494252873563218,"counter":true}
+!comment by njoyme: { text: 'm', roomKey: 'thefameshow44' }
+!Tick: {"viewers":87,"votes":33,"time":0,"%":1.1494252873563218,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  In4mYbxoQHuksbBlAAAJ: 'mschrage',
+  incitymm: 'incitymm',
+  wm0VTAusVisyy9sNAAAK: 'gabeceder' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!upvote: thefameshow44
+!Tick: {"viewers":87,"votes":1,"time":20,"%":0.034831069313827935,"counter":true}
+!Tick: {"viewers":87,"votes":1,"time":19,"%":0.034831069313827935,"counter":true}
+!comment by vojtadrmota: { text: 'cool tunes ', roomKey: 'thefameshow44' }
+!upvote: thefameshow44
+!Tick: {"viewers":87,"votes":2,"time":18,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":17,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":16,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":15,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":14,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":13,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":17,"time":12,"%":0.5921281783350749,"counter":true}
+!Tick: {"viewers":87,"votes":17,"time":11,"%":0.5921281783350749,"counter":true}
+!Tick: {"viewers":87,"votes":17,"time":10,"%":0.5921281783350749,"counter":true}
+!Tick: {"viewers":87,"votes":17,"time":9,"%":0.5921281783350749,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":8,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":7,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":6,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":5,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":4,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":3,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":2,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":1,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":0,"%":1.114594218042494,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  In4mYbxoQHuksbBlAAAJ: 'mschrage',
+  incitymm: 'incitymm',
+  wm0VTAusVisyy9sNAAAK: 'gabeceder' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  '84OtP0YaAlfyXx5vAAAF': 'mschrage',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  In4mYbxoQHuksbBlAAAJ: 'mschrage',
+  incitymm: 'incitymm',
+  wm0VTAusVisyy9sNAAAK: 'gabeceder',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage' }
+[!END_CONNECTIONS!]
+!toggle off: mschrage
+!disconnect:  mschrage
+!Tick: {"viewers":87,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":17,"%":0,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":87,"votes":1,"time":16,"%":0.034831069313827935,"counter":true}
+!Tick: {"viewers":87,"votes":1,"time":15,"%":0.034831069313827935,"counter":true}
+!Tick: {"viewers":87,"votes":1,"time":14,"%":0.034831069313827935,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":87,"votes":2,"time":13,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":12,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":11,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":10,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":9,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":8,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":7,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":6,"%":0.06966213862765587,"counter":true}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'videos/1.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:01:00.10, start: 0.000000, bitrate: 835 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 640x640, 759 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 64 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44909':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(und): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 640x640, q=2-31, 200 kb/s, 30 fps, 1k tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x55976ee2c520] Failed to update header with correct duration.68.4kbits/s speed=   1x     
+[flv @ 0x55976ee2c520] Failed to update header with correct filesize.
+frame= 1802 fps= 30 q=0.0 Lsize=   24753kB time=00:01:00.07 bitrate=3375.5kbits/s speed=   1x    
+video:23747kB audio:939kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.274134%
+
+!Tick: {"viewers":87,"votes":2,"time":5,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":4,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":3,"%":0.06966213862765587,"counter":true}
+!created: thefameshow44542
+!Tick: {"viewers":87,"votes":2,"time":20,"%":0.06966213862765587,"counter":false}
+!Tick: {"viewers":87,"votes":2,"time":19,"%":0.06966213862765587,"counter":false}
+!Tick: {"viewers":87,"votes":2,"time":18,"%":0.06966213862765587,"counter":false}
+!Tick: {"viewers":87,"votes":2,"time":20,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":19,"%":0.06966213862765587,"counter":true}
+!toggle off: CJVV
+!Tick: {"viewers":87,"votes":2,"time":18,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":17,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":16,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":15,"%":0.06966213862765587,"counter":true}
+!comment by murdog0214: { text: 'choose me', roomKey: 'thefameshow44' }
+!Tick: {"viewers":87,"votes":2,"time":14,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":13,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":12,"%":0.06966213862765587,"counter":true}
+!disconnect:  mschrage
+!Tick: {"viewers":87,"votes":2,"time":11,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":10,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":17,"time":9,"%":0.5921281783350749,"counter":true}
+!Tick: {"viewers":87,"votes":17,"time":8,"%":0.5921281783350749,"counter":true}
+!Tick: {"viewers":87,"votes":17,"time":7,"%":0.5921281783350749,"counter":true}
+!Tick: {"viewers":87,"votes":17,"time":6,"%":0.5921281783350749,"counter":true}
+!Tick: {"viewers":87,"votes":17,"time":5,"%":0.5921281783350749,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":4,"%":1.114594218042494,"counter":true}
+!upvote: thefameshow44
+!toggle on: CJVV
+!toggle off: CJVV
+!toggle on: CJVV
+!Tick: {"viewers":87,"votes":33,"time":3,"%":1.1494252873563218,"counter":true}
+!comment by youssefs: { text: ' child abuse video ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":87,"votes":33,"time":2,"%":1.1494252873563218,"counter":true}
+!toggle off: CJVV
+!upvote: thefameshow45
+!Tick: {"viewers":87,"votes":34,"time":1,"%":1.1842563566701498,"counter":true}
+!Tick: {"viewers":87,"votes":34,"time":0,"%":1.1842563566701498,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  wm0VTAusVisyy9sNAAAK: 'gabeceder',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage',
+  heavenMajor: 'heavenMajor' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!upvote: thefameshow45
+!upvote: thefameshow44
+!Tick: {"viewers":87,"votes":2,"time":20,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":2,"time":19,"%":0.06966213862765587,"counter":true}
+!comment by vojtadrmota: { text: 'his can’t end well', roomKey: 'thefameshow44' }
+!Tick: {"viewers":87,"votes":2,"time":18,"%":0.06966213862765587,"counter":true}
+!toggle on: CJVV
+!Tick: {"viewers":87,"votes":2,"time":17,"%":0.06966213862765587,"counter":true}
+!comment by youssefs: { text: 'this was a YouTube controversy ',
+  roomKey: 'thefameshow44' }
+!Tick: {"viewers":87,"votes":2,"time":16,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":17,"time":15,"%":0.5921281783350749,"counter":true}
+!Tick: {"viewers":87,"votes":17,"time":14,"%":0.5921281783350749,"counter":true}
+!Tick: {"viewers":87,"votes":17,"time":13,"%":0.5921281783350749,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":12,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":11,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":10,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":9,"%":1.114594218042494,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":87,"votes":33,"time":8,"%":1.1494252873563218,"counter":true}
+!comment by youssefs: { text: 'famous case ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":87,"votes":33,"time":7,"%":1.1494252873563218,"counter":true}
+!Tick: {"viewers":87,"votes":33,"time":6,"%":1.1494252873563218,"counter":true}
+!Tick: {"viewers":87,"votes":33,"time":5,"%":1.1494252873563218,"counter":true}
+!Tick: {"viewers":87,"votes":33,"time":4,"%":1.1494252873563218,"counter":true}
+!Tick: {"viewers":87,"votes":33,"time":3,"%":1.1494252873563218,"counter":true}
+!Tick: {"viewers":87,"votes":33,"time":2,"%":1.1494252873563218,"counter":true}
+!Tick: {"viewers":87,"votes":33,"time":1,"%":1.1494252873563218,"counter":true}
+!leave:  terezadrmotova
+!Tick: {"viewers":86,"votes":33,"time":0,"%":1.1627906976744187,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'ZevLgaQKUAa-LfNxAAAB': 'terezadrmotova',
+  '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  wm0VTAusVisyy9sNAAAK: 'gabeceder',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage',
+  heavenMajor: 'heavenMajor' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":true}
+!disconnect:  terezadrmotova
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":15,"%":0,"counter":true}
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  wm0VTAusVisyy9sNAAAK: 'gabeceder',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage',
+  heavenMajor: 'heavenMajor',
+  't9sVWKM-hg1ub393AAAM': 'blake' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":87,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":13,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":12,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":11,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":10,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":9,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":8,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":7,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":6,"%":0,"counter":true}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'videos/2.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:01:00.10, start: 0.000000, bitrate: 1142 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 640x640, 1067 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 63 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44542':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(und): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 640x640, q=2-31, 200 kb/s, 30 fps, 1k tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x562c7109ac60] Failed to update header with correct duration.92.7kbits/s speed=   1x     
+[flv @ 0x562c7109ac60] Failed to update header with correct filesize.
+frame= 1801 fps= 30 q=0.0 Lsize=   32268kB time=00:01:00.08 bitrate=4399.7kbits/s speed=   1x    
+video:31264kB audio:936kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.209768%
+
+!Tick: {"viewers":87,"votes":0,"time":5,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":4,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":3,"%":0,"counter":true}
+!created: thefameshow44401
+!Tick: {"viewers":87,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":87,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":87,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":87,"votes":0,"time":20,"%":0,"counter":true}
+!comment by youssefs: { text: 'I am pretty sure, could be way wrong about that, reminds me of the video.',
+  roomKey: 'thefameshow44' }
+!Tick: {"viewers":87,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":15,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":87,"votes":0,"time":13,"%":0,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":87,"votes":1,"time":12,"%":0.034831069313827935,"counter":true}
+!Tick: {"viewers":87,"votes":1,"time":11,"%":0.034831069313827935,"counter":true}
+!upvote: thefameshow45
+!Tick: {"viewers":87,"votes":2,"time":10,"%":0.06966213862765587,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":9,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":8,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":7,"%":1.114594218042494,"counter":true}
+!Tick: {"viewers":87,"votes":32,"time":6,"%":1.114594218042494,"counter":true}
+!upvote: thefameshow45
+!Tick: {"viewers":87,"votes":33,"time":5,"%":1.1494252873563218,"counter":true}
+!Tick: {"viewers":87,"votes":33,"time":4,"%":1.1494252873563218,"counter":true}
+!Tick: {"viewers":87,"votes":33,"time":3,"%":1.1494252873563218,"counter":true}
+!Tick: {"viewers":87,"votes":33,"time":2,"%":1.1494252873563218,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":87,"votes":34,"time":1,"%":1.1842563566701498,"counter":true}
+!Tick: {"viewers":87,"votes":34,"time":0,"%":1.1842563566701498,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  wm0VTAusVisyy9sNAAAK: 'gabeceder',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage',
+  heavenMajor: 'heavenMajor',
+  't9sVWKM-hg1ub393AAAM': 'blake',
+  matterTrust: 'matterTrust' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!upvote: thefameshow45
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":87,"votes":3,"time":20,"%":0.1044932079414838,"counter":true}
+!Tick: {"viewers":87,"votes":3,"time":19,"%":0.1044932079414838,"counter":true}
+!Tick: {"viewers":87,"votes":3,"time":18,"%":0.1044932079414838,"counter":true}
+!comment by youssefs: { text: 'I’ll be honest, I’m confused',
+  roomKey: 'thefameshow44' }
+!Tick: {"viewers":87,"votes":3,"time":17,"%":0.1044932079414838,"counter":true}
+!upvote: thefameshow45
+!Tick: {"viewers":87,"votes":4,"time":16,"%":0.13932427725531174,"counter":true}
+!Tick: {"viewers":87,"votes":4,"time":15,"%":0.13932427725531174,"counter":true}
+!Tick: {"viewers":87,"votes":4,"time":14,"%":0.13932427725531174,"counter":true}
+!Tick: {"viewers":87,"votes":4,"time":13,"%":0.13932427725531174,"counter":true}
+!leave:  njoyme
+!Tick: {"viewers":86,"votes":4,"time":12,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":11,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":10,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":9,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":8,"%":0.14094432699083861,"counter":true}
+!reconnect:  njoyme
+!Tick: {"viewers":87,"votes":4,"time":7,"%":0.13932427725531174,"counter":true}
+!Tick: {"viewers":88,"votes":4,"time":6,"%":0.13774104683195593,"counter":true}
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  wm0VTAusVisyy9sNAAAK: 'gabeceder',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage',
+  heavenMajor: 'heavenMajor',
+  't9sVWKM-hg1ub393AAAM': 'blake',
+  matterTrust: 'matterTrust',
+  AecTtXnnX7MaVFdIAAAN: 'Slashdot' }
+[!END_CONNECTIONS!]
+!toggle on: Slashdot
+!Tick: {"viewers":88,"votes":4,"time":5,"%":0.13774104683195593,"counter":true}
+!Tick: {"viewers":88,"votes":4,"time":4,"%":0.13774104683195593,"counter":true}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'videos/3.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+  Duration: 00:00:41.07, start: 0.000000, bitrate: 1651 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 640x800, 1578 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 64 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44401':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(und): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 640x800, q=2-31, 200 kb/s, 30 fps, 1k tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(eng): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x55e8ce1cde60] Failed to update header with correct duration.81.9kbits/s speed=   1x     
+[flv @ 0x55e8ce1cde60] Failed to update header with correct filesize.
+frame= 1231 fps= 30 q=0.0 Lsize=   34011kB time=00:00:41.01 bitrate=6792.7kbits/s speed=   1x    
+video:33323kB audio:641kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.136448%
+
+!Tick: {"viewers":89,"votes":4,"time":3,"%":0.1361933946203609,"counter":true}
+!Tick: {"viewers":89,"votes":4,"time":2,"%":0.1361933946203609,"counter":true}
+Streaming rn: matterTrust
+!POTENTIAL: Q33yuCR7ovn2m7dFAAAE,gwKrSet4wYPiKJncAAAG,MPlE-jVNhUQRO3CaAAAD,t9sVWKM-hg1ub393AAAM,ZY_FqOAw1X3RLoaVAAAI,AecTtXnnX7MaVFdIAAAN,eN47yDpf6HWMkPqeAAAO
+Coming up is: youssefs
+!created: thefameshow44344
+!created: xbvs
+!leave:  youssefs
+IT WAS UPNEXT
+Streaming rn: pinchShinyForum
+!POTENTIAL: Q33yuCR7ovn2m7dFAAAE,MPlE-jVNhUQRO3CaAAAD,t9sVWKM-hg1ub393AAAM,ZY_FqOAw1X3RLoaVAAAI,AecTtXnnX7MaVFdIAAAN,eN47yDpf6HWMkPqeAAAO
+Coming up is: Slashdot
+!Tick: {"viewers":88,"votes":4,"time":20,"%":0.13774104683195593,"counter":false}
+!created: uufl
+!leave:  Slashdot
+IT WAS UPNEXT
+Streaming rn: pinchShinyForum
+!POTENTIAL: Q33yuCR7ovn2m7dFAAAE,MPlE-jVNhUQRO3CaAAAD,t9sVWKM-hg1ub393AAAM,ZY_FqOAw1X3RLoaVAAAI,eN47yDpf6HWMkPqeAAAO
+Coming up is: murdog0214
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  Q33yuCR7ovn2m7dFAAAE: 'CJVV',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  wm0VTAusVisyy9sNAAAK: 'gabeceder',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage',
+  heavenMajor: 'heavenMajor',
+  't9sVWKM-hg1ub393AAAM': 'blake',
+  matterTrust: 'matterTrust',
+  AecTtXnnX7MaVFdIAAAN: 'Slashdot',
+  pinchShinyForum: 'pinchShinyForum',
+  eN47yDpf6HWMkPqeAAAO: 'tomxie235' }
+[!END_CONNECTIONS!]
+!leave:  tomxie235
+!Tick: {"viewers":86,"votes":4,"time":19,"%":0.14094432699083861,"counter":false}
+!created: uunq
+!Tick: {"viewers":86,"votes":4,"time":18,"%":0.14094432699083861,"counter":false}
+!reconnect:  Slashdot
+!leave:  Slashdot
+!Tick: {"viewers":86,"votes":4,"time":20,"%":0.14094432699083861,"counter":true}
+!reconnect:  youssefs
+!reconnect:  Slashdot
+!leave:  youssefs
+!Tick: {"viewers":87,"votes":4,"time":19,"%":0.13932427725531174,"counter":true}
+!Tick: {"viewers":87,"votes":4,"time":18,"%":0.13932427725531174,"counter":true}
+!disconnect:  CJVV
+!reconnect:  youssefs
+!Tick: {"viewers":87,"votes":4,"time":17,"%":0.13932427725531174,"counter":true}
+!Tick: {"viewers":87,"votes":4,"time":16,"%":0.13932427725531174,"counter":true}
+!leave:  gabeceder
+!Tick: {"viewers":86,"votes":4,"time":15,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":14,"%":0.14094432699083861,"counter":true}
+!disconnect:  tomxie235
+!leave:  Slashdot
+!Tick: {"viewers":86,"votes":4,"time":13,"%":0.14094432699083861,"counter":true}
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  wm0VTAusVisyy9sNAAAK: 'gabeceder',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage',
+  heavenMajor: 'heavenMajor',
+  't9sVWKM-hg1ub393AAAM': 'blake',
+  matterTrust: 'matterTrust',
+  AecTtXnnX7MaVFdIAAAN: 'Slashdot',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff' }
+[!END_CONNECTIONS!]
+!disconnect:  gabeceder
+!disconnect:  Slashdot
+!toggle on: terezasaff
+!Tick: {"viewers":86,"votes":4,"time":12,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":11,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":10,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":9,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":8,"%":0.14094432699083861,"counter":true}
+!toggle off: terezasaff
+!Tick: {"viewers":86,"votes":4,"time":7,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":6,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":5,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":4,"%":0.14094432699083861,"counter":true}
+!comment by blake: { text: 'lol', roomKey: 'thefameshow45' }
+!Tick: {"viewers":86,"votes":4,"time":3,"%":0.14094432699083861,"counter":true}
+!Tick: {"viewers":86,"votes":4,"time":2,"%":0.14094432699083861,"counter":true}
+!upvote: thefameshow44344
+!Tick: {"viewers":86,"votes":5,"time":1,"%":0.17618040873854826,"counter":true}
+[!BEGIN_SHOW!]
+Genesis, streamid: MPlE-jVNhUQRO3CaAAAD
+Streaming rn: murdog0214
+!POTENTIAL: t9sVWKM-hg1ub393AAAM,ZY_FqOAw1X3RLoaVAAAI,gwKrSet4wYPiKJncAAAG
+Coming up is: njoyme
+!created: bwty
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":16,"%":0,"counter":true}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'videos/4.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:30.88, start: 0.000000, bitrate: 801 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 640x640, 732 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 63 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44344':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(und): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 640x640, q=2-31, 200 kb/s, 30 fps, 1k tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 44100 Hz, mono, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x55e709512100] Failed to update header with correct duration.77.3kbits/s speed=0.999x    
+[flv @ 0x55e709512100] Failed to update header with correct filesize.
+frame=  922 fps= 30 q=0.0 Lsize=   11903kB time=00:00:30.85 bitrate=3160.5kbits/s speed=   1x    
+video:11628kB audio:241kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.280263%
+
+!Tick: {"viewers":86,"votes":0,"time":15,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":15,"time":13,"%":0.5285412262156448,"counter":true}
+!Tick: {"viewers":86,"votes":15,"time":12,"%":0.5285412262156448,"counter":true}
+!comment by blake: { text: 'even better', roomKey: 'thefameshow45' }
+!Tick: {"viewers":86,"votes":15,"time":11,"%":0.5285412262156448,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":10,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":9,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":8,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":7,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":6,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":5,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":4,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":3,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":2,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":1,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":0,"%":1.0570824524312896,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage',
+  heavenMajor: 'heavenMajor',
+  't9sVWKM-hg1ub393AAAM': 'blake',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":true}
+!upvote: thefameshow45
+!Tick: {"viewers":86,"votes":1,"time":18,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":17,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":16,"%":0.035236081747709654,"counter":true}
+!comment by youssefs: { text: 'yeah I thought that video wasn’t live. I thought it was prerecorded somehow. but I know that’s not exactly possible to do in the app ',
+  roomKey: 'thefameshow44' }
+!Tick: {"viewers":86,"votes":1,"time":15,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":14,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":13,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":12,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":11,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":10,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":9,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":8,"%":0.035236081747709654,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":86,"votes":2,"time":7,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":86,"votes":2,"time":6,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":86,"votes":2,"time":5,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":86,"votes":2,"time":4,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":86,"votes":2,"time":3,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":86,"votes":2,"time":2,"%":0.07047216349541931,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":86,"votes":3,"time":1,"%":0.10570824524312895,"counter":true}
+!Tick: {"viewers":86,"votes":3,"time":0,"%":0.10570824524312895,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  'MPlE-jVNhUQRO3CaAAAD': 'murdog0214',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage',
+  heavenMajor: 'heavenMajor',
+  't9sVWKM-hg1ub393AAAM': 'blake',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: bwty
+!stored: murdog0214 1
+Streaming rn: njoyme
+!POTENTIAL: t9sVWKM-hg1ub393AAAM,gwKrSet4wYPiKJncAAAG
+Coming up is: blake
+[!END_ANALYTICS!]
+!upvote: thefameshow44
+!created: sneq
+!Tick: {"viewers":86,"votes":1,"time":20,"%":0.035236081747709654,"counter":false}
+!Tick: {"viewers":86,"votes":1,"time":19,"%":0.035236081747709654,"counter":false}
+!Tick: {"viewers":86,"votes":1,"time":20,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":19,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":18,"%":0.035236081747709654,"counter":true}
+!leave:  murdog0214
+!Tick: {"viewers":85,"votes":1,"time":17,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":16,"%":0.035650623885918,"counter":true}
+!disconnect:  murdog0214
+!Tick: {"viewers":85,"votes":1,"time":15,"%":0.035650623885918,"counter":true}
+!disconnect:  blake
+Streaming rn: njoyme
+!POTENTIAL: gwKrSet4wYPiKJncAAAG
+Coming up is: youssefs
+!Tick: {"viewers":84,"votes":1,"time":14,"%":0.03607503607503607,"counter":true}
+!created: qnpp
+!Tick: {"viewers":84,"votes":1,"time":13,"%":0.03607503607503607,"counter":true}
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  gYqZ5Ha6NPQTsYkaAAAQ: 'murdog0214' }
+[!END_CONNECTIONS!]
+!toggle on: murdog0214
+!Tick: {"viewers":85,"votes":1,"time":12,"%":0.035650623885918,"counter":true}
+!leave:  mschrage
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  gYqZ5Ha6NPQTsYkaAAAQ: 'murdog0214',
+  xtcUQTjSxCR9K2pdAAAR: 'blake' }
+[!END_CONNECTIONS!]
+!leave:  murdog0214
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  JVOn0Yz5lrsjebWVAAAL: 'mschrage',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  gYqZ5Ha6NPQTsYkaAAAQ: 'murdog0214',
+  xtcUQTjSxCR9K2pdAAAR: 'blake',
+  dmkQGq4nZT29fDUdAAAS: 'petnov15' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":85,"votes":1,"time":11,"%":0.035650623885918,"counter":true}
+!disconnect:  murdog0214
+!Tick: {"viewers":85,"votes":1,"time":10,"%":0.035650623885918,"counter":true}
+!disconnect:  mschrage
+!Tick: {"viewers":85,"votes":1,"time":9,"%":0.035650623885918,"counter":true}
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  xtcUQTjSxCR9K2pdAAAR: 'blake',
+  dmkQGq4nZT29fDUdAAAS: 'petnov15',
+  euAV7IZU6Ys6SI4cAAAT: 'mschrage' }
+[!END_CONNECTIONS!]
+!toggle on: mschrage
+!Tick: {"viewers":86,"votes":1,"time":8,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":7,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":6,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":5,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":87,"votes":1,"time":4,"%":0.034831069313827935,"counter":true}
+!disconnect:  blake
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  dmkQGq4nZT29fDUdAAAS: 'petnov15',
+  euAV7IZU6Ys6SI4cAAAT: 'mschrage',
+  pLqgBQ7BpYDipbJPAAAU: 'CJVV' }
+[!END_CONNECTIONS!]
+!upvote: bwty
+!Tick: {"viewers":86,"votes":2,"time":3,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":86,"votes":2,"time":2,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":86,"votes":2,"time":1,"%":0.07047216349541931,"counter":true}
+!Tick: {"viewers":86,"votes":6,"time":0,"%":0.2114164904862579,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  dmkQGq4nZT29fDUdAAAS: 'petnov15',
+  euAV7IZU6Ys6SI4cAAAT: 'mschrage',
+  pLqgBQ7BpYDipbJPAAAU: 'CJVV' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: qnpp
+!stored: njoyme 0.5
+Streaming rn: youssefs
+!POTENTIAL: dmkQGq4nZT29fDUdAAAS,euAV7IZU6Ys6SI4cAAAT,pLqgBQ7BpYDipbJPAAAU
+Coming up is: petnov15
+[!END_ANALYTICS!]
+!created: uand
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":false}
+!leave:  petnov15
+IT WAS UPNEXT
+Streaming rn: youssefs
+!POTENTIAL: euAV7IZU6Ys6SI4cAAAT,pLqgBQ7BpYDipbJPAAAU
+Coming up is: mschrage
+!created: adng
+!Tick: {"viewers":85,"votes":0,"time":19,"%":0,"counter":false}
+!reconnect:  petnov15
+!leave:  petnov15
+!Tick: {"viewers":85,"votes":0,"time":20,"%":0,"counter":true}
+!reconnect:  petnov15
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":15,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":13,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":12,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":11,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":10,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":9,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":8,"%":1.0570824524312896,"counter":true}
+!Tick: {"viewers":86,"votes":30,"time":7,"%":1.0570824524312896,"counter":true}
+!upvote: thefameshow44344
+!Tick: {"viewers":86,"votes":31,"time":6,"%":1.0923185341789992,"counter":true}
+!Tick: {"viewers":86,"votes":31,"time":5,"%":1.0923185341789992,"counter":true}
+!upvote: bwty
+!Tick: {"viewers":86,"votes":32,"time":4,"%":1.127554615926709,"counter":true}
+!Tick: {"viewers":86,"votes":32,"time":3,"%":1.127554615926709,"counter":true}
+!Tick: {"viewers":86,"votes":32,"time":2,"%":1.127554615926709,"counter":true}
+!Tick: {"viewers":86,"votes":32,"time":1,"%":1.127554615926709,"counter":true}
+!Tick: {"viewers":86,"votes":32,"time":0,"%":1.127554615926709,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  dmkQGq4nZT29fDUdAAAS: 'petnov15',
+  euAV7IZU6Ys6SI4cAAAT: 'mschrage',
+  pLqgBQ7BpYDipbJPAAAU: 'CJVV' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":true}
+!upvote: thefameshow44344
+!Tick: {"viewers":86,"votes":1,"time":18,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":17,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":16,"%":0.035236081747709654,"counter":true}
+!leave:  mschrage
+IT WAS UPNEXT
+Streaming rn: youssefs
+!POTENTIAL: pLqgBQ7BpYDipbJPAAAU,dmkQGq4nZT29fDUdAAAS
+Coming up is: CJVV
+!Tick: {"viewers":85,"votes":1,"time":15,"%":0.035650623885918,"counter":true}
+!upvote: bwty
+!Tick: {"viewers":85,"votes":2,"time":14,"%":0.071301247771836,"counter":true}
+!Tick: {"viewers":85,"votes":2,"time":13,"%":0.071301247771836,"counter":true}
+!reconnect:  mschrage
+!Tick: {"viewers":86,"votes":2,"time":12,"%":0.07047216349541931,"counter":true}
+!created: xdls
+!created: kqyz
+!upvote: bwty
+!Tick: {"viewers":86,"votes":3,"time":11,"%":0.10570824524312895,"counter":true}
+!Tick: {"viewers":86,"votes":3,"time":10,"%":0.10570824524312895,"counter":true}
+!Tick: {"viewers":86,"votes":3,"time":9,"%":0.10570824524312895,"counter":true}
+!Tick: {"viewers":86,"votes":3,"time":8,"%":0.10570824524312895,"counter":true}
+!Tick: {"viewers":86,"votes":3,"time":7,"%":0.10570824524312895,"counter":true}
+!Tick: {"viewers":86,"votes":3,"time":6,"%":0.10570824524312895,"counter":true}
+!Tick: {"viewers":86,"votes":3,"time":5,"%":0.10570824524312895,"counter":true}
+!Tick: {"viewers":86,"votes":3,"time":4,"%":0.10570824524312895,"counter":true}
+!Tick: {"viewers":86,"votes":3,"time":3,"%":0.10570824524312895,"counter":true}
+!Tick: {"viewers":86,"votes":3,"time":2,"%":0.10570824524312895,"counter":true}
+!Tick: {"viewers":86,"votes":3,"time":1,"%":0.10570824524312895,"counter":true}
+!Tick: {"viewers":86,"votes":3,"time":0,"%":0.10570824524312895,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  dmkQGq4nZT29fDUdAAAS: 'petnov15',
+  euAV7IZU6Ys6SI4cAAAT: 'mschrage',
+  pLqgBQ7BpYDipbJPAAAU: 'CJVV' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: kqyz
+!stored: youssefs 1
+Streaming rn: CJVV
+!POTENTIAL: dmkQGq4nZT29fDUdAAAS,euAV7IZU6Ys6SI4cAAAT
+Coming up is: petnov15
+[!END_ANALYTICS!]
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":false}
+!leave:  njoyme
+!Tick: {"viewers":85,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":85,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":17,"%":0,"counter":true}
+!upvote: bwty
+!Tick: {"viewers":85,"votes":1,"time":16,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":15,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":14,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":13,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":12,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":11,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":10,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":9,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":8,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":7,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":6,"%":0.035650623885918,"counter":true}
+!Tick: {"viewers":85,"votes":1,"time":5,"%":0.035650623885918,"counter":true}
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  dmkQGq4nZT29fDUdAAAS: 'petnov15',
+  euAV7IZU6Ys6SI4cAAAT: 'mschrage',
+  pLqgBQ7BpYDipbJPAAAU: 'CJVV',
+  wZjGNgQzGZTJbdxiAAAV: 'murdog0214' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":86,"votes":1,"time":4,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":3,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":2,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":1,"%":0.035236081747709654,"counter":true}
+!Tick: {"viewers":86,"votes":1,"time":0,"%":0.035236081747709654,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  dmkQGq4nZT29fDUdAAAS: 'petnov15',
+  euAV7IZU6Ys6SI4cAAAT: 'mschrage',
+  pLqgBQ7BpYDipbJPAAAU: 'CJVV',
+  wZjGNgQzGZTJbdxiAAAV: 'murdog0214' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: kqyz
+!stored: CJVV 0.5
+Streaming rn: petnov15
+!POTENTIAL: euAV7IZU6Ys6SI4cAAAT,wZjGNgQzGZTJbdxiAAAV
+Coming up is: murdog0214
+[!END_ANALYTICS!]
+!created: xzhh
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":86,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":true}
+!leave:  youssefs
+!Tick: {"viewers":85,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":17,"%":0,"counter":true}
+!leave:  mschrage
+!Tick: {"viewers":84,"votes":0,"time":16,"%":0,"counter":true}
+!disconnect:  mschrage
+!Tick: {"viewers":84,"votes":0,"time":15,"%":0,"counter":true}
+!reconnect:  youssefs
+!Tick: {"viewers":85,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":20,"%":0,"counter":true}
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  dmkQGq4nZT29fDUdAAAS: 'petnov15',
+  pLqgBQ7BpYDipbJPAAAU: 'CJVV',
+  wZjGNgQzGZTJbdxiAAAV: 'murdog0214',
+  IFFMJThmhZ47S9QuAAAW: 'mschrage' }
+[!END_CONNECTIONS!]
+!toggle on: mschrage
+!Tick: {"viewers":86,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":86,"votes":0,"time":15,"%":0,"counter":true}
+!disconnect:  CJVV
+!Tick: {"viewers":85,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":13,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":12,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":11,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":10,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":9,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":8,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":7,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":6,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":5,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":4,"%":0,"counter":true}
+!leave:  murdog0214
+IT WAS UPNEXT
+Streaming rn: petnov15
+!POTENTIAL: IFFMJThmhZ47S9QuAAAW
+Coming up is: mschrage
+!Tick: {"viewers":84,"votes":0,"time":3,"%":0,"counter":true}
+!created: mcia
+!disconnect:  murdog0214
+!Tick: {"viewers":84,"votes":0,"time":2,"%":0,"counter":true}
+!Tick: {"viewers":84,"votes":0,"time":1,"%":0,"counter":true}
+Streaming rn: mschrage
+!POTENTIAL: dmkQGq4nZT29fDUdAAAS
+Coming up is: petnov15
+!Tick: {"viewers":84,"votes":0,"time":20,"%":0,"counter":true}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'videos/switch/5.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:20.00, start: 0.000000, bitrate: 1327 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 640x800, 1324 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow447':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(und): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p, 640x800, q=2-31, 200 kb/s, 30 fps, 1k tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+[flv @ 0x55ee80fe8680] Failed to update header with correct duration.91.7kbits/s speed=0.999x    
+[flv @ 0x55ee80fe8680] Failed to update header with correct filesize.
+frame=  600 fps= 30 q=0.0 Lsize=   18677kB time=00:00:19.96 bitrate=7662.2kbits/s speed=   1x    
+video:18667kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.051745%
+
+!Tick: {"viewers":84,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":84,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":84,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":84,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":84,"votes":0,"time":15,"%":0,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":84,"votes":1,"time":14,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":13,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":12,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":11,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":10,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":9,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":8,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":7,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":6,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":85,"votes":31,"time":5,"%":1.105169340463458,"counter":true}
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  dmkQGq4nZT29fDUdAAAS: 'petnov15',
+  IFFMJThmhZ47S9QuAAAW: 'mschrage',
+  W9xlFnDkPMZ2mkP1AAAX: 'murdog0214' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":85,"votes":31,"time":4,"%":1.105169340463458,"counter":true}
+!Tick: {"viewers":85,"votes":31,"time":3,"%":1.105169340463458,"counter":true}
+!Tick: {"viewers":85,"votes":31,"time":2,"%":1.105169340463458,"counter":true}
+!Tick: {"viewers":85,"votes":31,"time":1,"%":1.105169340463458,"counter":true}
+!Tick: {"viewers":85,"votes":31,"time":0,"%":1.105169340463458,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  ZY_FqOAw1X3RLoaVAAAI: 'njoyme',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  dmkQGq4nZT29fDUdAAAS: 'petnov15',
+  IFFMJThmhZ47S9QuAAAW: 'mschrage',
+  W9xlFnDkPMZ2mkP1AAAX: 'murdog0214' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!Tick: {"viewers":85,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":15,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":13,"%":0,"counter":true}
+!Tick: {"viewers":85,"votes":0,"time":12,"%":0,"counter":true}
+!disconnect:  petnov15
+Streaming rn: mschrage
+!POTENTIAL: W9xlFnDkPMZ2mkP1AAAX
+Coming up is: murdog0214
+!Tick: {"viewers":84,"votes":0,"time":11,"%":0,"counter":true}
+!Tick: {"viewers":84,"votes":0,"time":10,"%":0,"counter":true}
+!Tick: {"viewers":84,"votes":0,"time":9,"%":0,"counter":true}
+!created: hudy
+!Tick: {"viewers":84,"votes":0,"time":8,"%":0,"counter":true}
+!disconnect:  njoyme
+!Tick: {"viewers":84,"votes":0,"time":7,"%":0,"counter":true}
+!Tick: {"viewers":84,"votes":0,"time":6,"%":0,"counter":true}
+!Tick: {"viewers":84,"votes":0,"time":5,"%":0,"counter":true}
+!Tick: {"viewers":84,"votes":0,"time":4,"%":0,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":84,"votes":1,"time":3,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":2,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":1,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":0,"%":0.03607503607503607,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  IFFMJThmhZ47S9QuAAAW: 'mschrage',
+  W9xlFnDkPMZ2mkP1AAAX: 'murdog0214' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: hudy
+!stored: mschrage 1
+Streaming rn: murdog0214
+!POTENTIAL: gwKrSet4wYPiKJncAAAG,IFFMJThmhZ47S9QuAAAW
+Coming up is: mschrage
+[!END_ANALYTICS!]
+!created: lzti
+!Tick: {"viewers":84,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":84,"votes":0,"time":20,"%":0,"counter":true}
+!leave:  mschrage
+IT WAS UPNEXT
+Streaming rn: murdog0214
+!POTENTIAL: gwKrSet4wYPiKJncAAAG
+Coming up is: youssefs
+!created: sybr
+!Tick: {"viewers":83,"votes":0,"time":19,"%":0,"counter":true}
+[!PAYOUTS!]
+{ murdog0214: 1, njoyme: 0.5, youssefs: 1, CJVV: 0.5, mschrage: 1 }
+[!END_PAYOUTS!]
+!disconnect:  mschrage
+!payouts: paid
+!Tick: {"viewers":83,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":83,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":83,"votes":0,"time":16,"%":0,"counter":false}
+!leave:  murdog0214
+Streaming rn: youssefs
+nostreamrs!
+!Tick: {"viewers":82,"votes":0,"time":20,"%":0,"counter":true}
+!disconnect:  murdog0214
+!Tick: {"viewers":82,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":83,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":83,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":83,"votes":0,"time":16,"%":0,"counter":true}
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  JoALsqRgsXM39EITAAAY: 'murdog0214' }
+[!END_CONNECTIONS!]
+!toggle on: murdog0214
+!Tick: {"viewers":83,"votes":0,"time":15,"%":0,"counter":true}
+!Tick: {"viewers":83,"votes":0,"time":14,"%":0,"counter":true}
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  JoALsqRgsXM39EITAAAY: 'murdog0214',
+  '7VKzAIT-dXEI9hPxAAAZ': 'mschrage' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":84,"votes":0,"time":13,"%":0,"counter":true}
+!toggle on: mschrage
+!leave:  murdog0214
+!Tick: {"viewers":83,"votes":0,"time":12,"%":0,"counter":true}
+!disconnect:  murdog0214
+!Tick: {"viewers":83,"votes":0,"time":11,"%":0,"counter":true}
+!upvote: hudy
+!Tick: {"viewers":84,"votes":1,"time":10,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":9,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":8,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":7,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":6,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":5,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":4,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":3,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":2,"%":0.03607503607503607,"counter":true}
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  '7VKzAIT-dXEI9hPxAAAZ': 'mschrage',
+  p1sSNQRx65knti5lAAAa: 'murdog0214' }
+[!END_CONNECTIONS!]
+!toggle on: murdog0214
+!Tick: {"viewers":84,"votes":1,"time":1,"%":0.03607503607503607,"counter":true}
+!Tick: {"viewers":84,"votes":1,"time":0,"%":0.03607503607503607,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ '450c1pL40kZBeoAoAAAC': 'vojtadrmota',
+  gwKrSet4wYPiKJncAAAG: 'youssefs',
+  mattschrage: 'mattschrage',
+  incitymm: 'incitymm',
+  heavenMajor: 'heavenMajor',
+  matterTrust: 'matterTrust',
+  pinchShinyForum: 'pinchShinyForum',
+  VwcGvyr92gnTUddIAAAP: 'terezasaff',
+  '7VKzAIT-dXEI9hPxAAAZ': 'mschrage',
+  p1sSNQRx65knti5lAAAa: 'murdog0214' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+true
+nostreamrs!
+[!END_ANALYTICS!]
+Streaming rn: youssefs
+!POTENTIAL: 7VKzAIT-dXEI9hPxAAAZ,p1sSNQRx65knti5lAAAa
+Coming up is: mschrage
+Streaming rn: mschrage
+!POTENTIAL: p1sSNQRx65knti5lAAAa
+Coming up is: murdog0214
+!Tick: {"viewers":84,"votes":0,"time":20,"%":0,"counter":true}
+!leave:  terezasaff
+!leave:  youssefs
+!Tick: {"viewers":82,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":82,"votes":0,"time":18,"%":0,"counter":true}
+!leave:  murdog0214
+IT WAS UPNEXT
+Streaming rn: mschrage
+!disconnect:  murdog0214
+!Tick: {"viewers":81,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":81,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":81,"votes":0,"time":15,"%":0,"counter":true}
+!INIT_DATE: 2018-04-22 18:57
+!INIT_PAYOUT: 0.5
+!INIT_INTERVAL: 20

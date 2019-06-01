@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Report Abuse</title>
+<meta scrollable = "false" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<meta charset="utf-8" /> 
+<style>
+* {
+	font-family: "Avenir";
+/*	-webkit-user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);*/
+/*	-webkit-touch-callout: none;
+*/}
+.table {
+	position:absolute;
+	bottom:0;
+  }
+ul#footer {
+/*min-width: 320px;*/
+list-style: none;
+padding-top: 20px;
+}
+ul#footer li {
+	display: inline;
+}
+h3 {
+	font-size: 1.9em
+}
+
+.content {
+        position:absolute; /*it can be fixed too*/
+        left: 50%;
+        top: 50%; /* position the left edge of the element at the middle of the parent */
+
+        min-width: 250px;
+
+        transform: translate(-50%, -50%); 
+    }
+
+</style>
+</head>
+<body>
+<div class="content" style="padding:10%;">
+<form action="success.php" method="POST">
+Type of abuse: <select><option>Abusive User</option><option>Abusive Content</option><option>Other</option></select><br>
+Your email (optional): <input type="email" name="email" /><br>
+Message:<br> <textarea></textarea><br>
+<input type="submit" value="Send" /><br>
+<em>We will get back to you within 24 hours.</em>
+</form>
+</div>
+</body>
+<html>

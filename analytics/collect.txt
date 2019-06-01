@@ -1,0 +1,8 @@
+- total unique users
+- amount of users at every given point in time
+- record which user was on in the database
+- total amount of comments
+- total time of the show
+- total amount of users streamed
+
+-- remake the show from the recorded videos.

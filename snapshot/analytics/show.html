@@ -1,0 +1,141 @@
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Show</title>
+<style>
+* {
+	font-family : "Avenir"
+}
+
+.chartjs-wrapper {
+	height: 770px
+	width:385px;
+	box-sizing:border-box;
+
+}
+.content {
+	width:35%
+}
+
+@media only screen and (max-width: 600px) {
+	.content {
+		width:70%
+	}
+}
+
+</style>
+<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+<script>
+var options = 
+	{
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    };
+
+//var showDate = (!window.location.hash) ? "" : decodeURIComponent(window.location.hash.split('#')[1]);//2018-05-20 18:58:00
+
+Array.range = (start, end) => Array.from({length: (end - start)}, (v, k) => k + start);
+
+
+$.getJSON("http://44.fameshow.co/fame/db.php?q=SELECT showDate FROM glance",function(data) {
+	data.forEach(function(showDate){
+		$("#schedule").append(`<a href = "./show.html?date=${showDate.showDate}">${showDate.showDate}</a><br>`)
+	})
+	//(new Date(showDate.showDate)).toLocaleDateString("en-US")
+	//onClick="window.location.reload(false);"
+});
+
+let query = new URLSearchParams(window.location.search)
+
+if (query.has('date')){
+	var showDate =  decodeURIComponent(query.get('date'))
+$.when(
+    $.get("http://44.fameshow.co/fame/db.php?q=SELECT COUNT(userOnline) count FROM `totalUsers` WHERE showDate ='"+showDate+"'"),
+    $.get("http://44.fameshow.co/fame/db.php?q=SELECT timeElapsed, COUNT(DISTINCT userOnline) count FROM `intervalUsers` WHERE showDate = '"+showDate+"' GROUP BY timeElapsed"),
+    $.get("http://44.fameshow.co/fame/db.php?q=SELECT timeElapsed, potentialStreamers FROM `potentialStreamers` WHERE showDate ='"+showDate+"'"),
+    $.get("http://44.fameshow.co/fame/db.php?q=SELECT timeElapsed, user FROM `comments` WHERE showDate = '"+showDate+"' ORDER BY timeElapsed ASC"),
+    $.get("http://44.fameshow.co/fame/db.php?q=SELECT showLength FROM `glance` WHERE showDate = '"+showDate+"'")
+    )
+    .done(function(totalUsers, usersOverTime, potentialStreamersOverTime, commentsOverTime, showLength){
+        //do something
+        console.log(totalUsers, usersOverTime, potentialStreamersOverTime, commentsOverTime)
+
+        totalUsers                 = JSON.parse(totalUsers[0])
+        usersOverTime              = JSON.parse(usersOverTime[0])
+        potentialStreamersOverTime = JSON.parse(potentialStreamersOverTime[0])
+        commentsOverTime           = JSON.parse(commentsOverTime[0])
+        showLength                 = JSON.parse(showLength[0])[0].showLength
+
+        console.log(Array.range(0, showLength))
+        console.log(totalUsers, usersOverTime, potentialStreamersOverTime, commentsOverTime)
+        var ctx = document.getElementById("show");
+		var myLineChart = new Chart(ctx, {
+		    type: 'line',
+	    	data: {
+		        labels: Array.range(0, showLength + 100),
+		        datasets: [{
+		            label: 'Audience',
+		            data: usersOverTime.map(function(e) { 
+		            	return {x:e.timeElapsed, y: e.count}
+		            }),
+		            backgroundColor: ['rgba(255, 99, 132, 0.2)'],
+		            borderColor: ['rgba(255,99,132,1)'],
+		            borderWidth: 1,
+		            lineTension: 0
+		        },
+		        {
+		            label: 'Potential Streamers',
+		            data: potentialStreamersOverTime.map(function(e) { 
+		            	return {x:e.timeElapsed, y: e.potentialStreamers}
+		            }),
+		            backgroundColor: ['rgba(150, 99, 132, 0.2)'],
+		            borderColor: ['rgba(150,99,132,1)'],
+		            borderWidth: 1,
+		            lineTension: 0
+		        },{
+		            label: 'Comments',
+		            data: commentsOverTime.map(function(e) { 
+		            	return {x:e.timeElapsed, y: 0.5}
+		            }),
+		            backgroundColor: ['rgba(0, 180, 45, 0.2)'],
+		            borderColor: ['rgba(0,180,45,1)'],
+		            borderWidth: 1,
+		            showLine: false
+		        }]
+		    },
+	    	options: options
+		});
+    })
+    .fail(function(){
+    	console.log('fail')
+        //handle errors
+    });
+
+
+
+    }
+
+
+
+</script>
+
+</head>
+<body>
+	<center>
+		<div class = "content">
+		<div id = "schedule"></div>
+		<h5>Show Overview</h5>
+		<canvas id="show" width="400" height="400"></canvas>
+		</div>
+	</center>
+</body>
+</html>

@@ -1,0 +1,1 @@
+ffmpeg -re -y -i $1 -qscale 0 -pix_fmt yuv420p -f flv "rtmp://159.65.189.19/live/$2"

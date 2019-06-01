@@ -1,0 +1,1 @@
+ffmpeg -re -y -stream_loop -1 -i $1 -b:v 600k -r 25 -s 640x360 -filter:v yadif -ab 64k -ac 1 -ar 44100 -f flv "rtmp://159.65.189.19/live/$2"

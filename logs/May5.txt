@@ -1,0 +1,3223 @@
+listening on port 3000...
+{"viewers":0,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":0,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":0,"votes":0,"time":18,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  bkc7H6OJIYd1261XAAAB: 'vojtadrmota' }
+{"viewers":2,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  bkc7H6OJIYd1261XAAAB: 'vojtadrmota' }
+GENESIS NOT CALLED
+{"viewers":2,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":15,"%":0,"counter":false}
+disconnect:  vojtadrmota
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  '2MIwiCBolze2m9N1AAAC': 'screwdogus3169' }
+{"viewers":2,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  '2MIwiCBolze2m9N1AAAC': 'screwdogus3169' }
+GENESIS NOT CALLED
+{"viewers":2,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  '2MIwiCBolze2m9N1AAAC': 'screwdogus3169' }
+GENESIS NOT CALLED
+{"viewers":2,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  '2MIwiCBolze2m9N1AAAC': 'screwdogus3169' }
+GENESIS NOT CALLED
+{"viewers":2,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  '2MIwiCBolze2m9N1AAAC': 'screwdogus3169' }
+GENESIS NOT CALLED
+{"viewers":2,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":7,"%":0,"counter":false}
+disconnect:  screwdogus3169
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35' }
+GENESIS NOT CALLED
+{"viewers":1,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":15,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  'zDIWLnAuVSGu-wojAAAD': 'murdog0214' }
+{"viewers":2,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  'zDIWLnAuVSGu-wojAAAD': 'murdog0214' }
+GENESIS NOT CALLED
+{"viewers":2,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  'zDIWLnAuVSGu-wojAAAD': 'murdog0214' }
+GENESIS NOT CALLED
+{"viewers":2,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  'zDIWLnAuVSGu-wojAAAD': 'murdog0214' }
+GENESIS NOT CALLED
+{"viewers":2,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  'zDIWLnAuVSGu-wojAAAD': 'murdog0214' }
+GENESIS NOT CALLED
+{"viewers":2,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  'zDIWLnAuVSGu-wojAAAD': 'murdog0214' }
+GENESIS NOT CALLED
+{"viewers":2,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":2,"votes":0,"time":17,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  'zDIWLnAuVSGu-wojAAAD': 'murdog0214',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04' }
+{"viewers":3,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":3,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":3,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":3,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":3,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":3,"votes":0,"time":11,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  'zDIWLnAuVSGu-wojAAAD': 'murdog0214',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo' }
+{"viewers":4,"votes":0,"time":10,"%":0,"counter":false}
+disconnect:  murdog0214
+{"viewers":3,"votes":0,"time":9,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214' }
+{"viewers":4,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":4,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":4,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":4,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":4,"votes":0,"time":4,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  RH_hBSVe9CsvJ6whAAAH: 'mybrotherisamoron' }
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  RH_hBSVe9CsvJ6whAAAH: 'mybrotherisamoron',
+  sL5tvQgRehrbGWXBAAAI: 'andrewmorley' }
+{"viewers":6,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":6,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":6,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":6,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  RH_hBSVe9CsvJ6whAAAH: 'mybrotherisamoron',
+  sL5tvQgRehrbGWXBAAAI: 'andrewmorley' }
+GENESIS NOT CALLED
+{"viewers":6,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":6,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":6,"votes":0,"time":18,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  RH_hBSVe9CsvJ6whAAAH: 'mybrotherisamoron',
+  sL5tvQgRehrbGWXBAAAI: 'andrewmorley',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2' }
+{"viewers":7,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":7,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":7,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":7,"votes":0,"time":14,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  RH_hBSVe9CsvJ6whAAAH: 'mybrotherisamoron',
+  sL5tvQgRehrbGWXBAAAI: 'andrewmorley',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota' }
+{"viewers":8,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":8,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":8,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":8,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":8,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":8,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":18,"votes":0,"time":7,"%":0,"counter":false}
+disconnect:  mybrotherisamoron
+{"viewers":17,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":17,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":17,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":17,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":17,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":17,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":17,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  sL5tvQgRehrbGWXBAAAI: 'andrewmorley',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota' }
+GENESIS NOT CALLED
+{"viewers":17,"votes":0,"time":20,"%":0,"counter":false}
+disconnect:  andrewmorley
+{"viewers":16,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":16,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":16,"votes":0,"time":17,"%":0,"counter":false}
+comment by abreeyane35: { text: 'hey ', roomKey: 'thefameshow44' }
+{"viewers":16,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":16,"votes":0,"time":15,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley' }
+{"viewers":17,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":17,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":17,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":17,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":17,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":17,"votes":0,"time":9,"%":0,"counter":false}
+comment by andrewmorley: { text: 'wowed wow wow ', roomKey: 'thefameshow44' }
+{"viewers":17,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":25,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":25,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":25,"votes":0,"time":5,"%":0,"counter":false}
+comment by murdog0214: { text: 'wasuppp', roomKey: 'thefameshow44' }
+{"viewers":25,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":25,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":25,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":25,"votes":0,"time":1,"%":0,"counter":false}
+comment by abreeyane35: { text: 'nothing much chilling ', roomKey: 'thefameshow44' }
+{"viewers":25,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley' }
+GENESIS NOT CALLED
+{"viewers":25,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":32,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":32,"votes":0,"time":18,"%":0,"counter":false}
+comment by falky2: { text: 'matt I swear to god stop using so many fake accounts ',
+  roomKey: 'thefameshow44' }
+{"viewers":32,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":32,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":32,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":32,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":32,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":32,"votes":0,"time":12,"%":0,"counter":false}
+comment by andrewmorley: { text: '^', roomKey: 'thefameshow44' }
+{"viewers":32,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":32,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":32,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":32,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":32,"votes":0,"time":7,"%":0,"counter":false}
+comment by falky2: { text: 'but hi Anastasia how are you ;)',
+  roomKey: 'thefameshow44' }
+{"viewers":32,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":32,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":36,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":36,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":36,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":36,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":43,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley' }
+GENESIS NOT CALLED
+{"viewers":43,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":46,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":46,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":46,"votes":0,"time":17,"%":0,"counter":false}
+comment by abreeyane35: { text: 'what’s everyone up to tonight ',
+  roomKey: 'thefameshow44' }
+{"viewers":46,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":46,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":46,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":46,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":46,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":46,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":46,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":46,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":46,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":46,"votes":0,"time":7,"%":0,"counter":false}
+upvote: thefameshow44
+{"viewers":46,"votes":1,"time":6,"%":0.06587615283267456,"counter":false}
+{"viewers":46,"votes":1,"time":5,"%":0.06587615283267456,"counter":false}
+{"viewers":46,"votes":1,"time":4,"%":0.06587615283267456,"counter":false}
+comment by falky2: { text: 'Schrage when’s the big launch for this?  ',
+  roomKey: 'thefameshow44' }
+{"viewers":46,"votes":1,"time":3,"%":0.06587615283267456,"counter":false}
+{"viewers":44,"votes":1,"time":2,"%":0.06887052341597796,"counter":false}
+{"viewers":44,"votes":1,"time":1,"%":0.06887052341597796,"counter":false}
+{"viewers":44,"votes":1,"time":0,"%":0.06887052341597796,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley' }
+GENESIS NOT CALLED
+upvote: thefameshow44
+{"viewers":46,"votes":1,"time":20,"%":0.06587615283267456,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  aCQrNoJ5niM62sNWAAAF: 'alexyo',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333' }
+{"viewers":47,"votes":1,"time":19,"%":0.06447453255963893,"counter":false}
+upvote: thefameshow44
+{"viewers":47,"votes":2,"time":18,"%":0.12894906511927787,"counter":false}
+{"viewers":51,"votes":2,"time":17,"%":0.11883541295306001,"counter":false}
+{"viewers":51,"votes":2,"time":16,"%":0.11883541295306001,"counter":false}
+{"viewers":51,"votes":2,"time":15,"%":0.11883541295306001,"counter":false}
+{"viewers":51,"votes":2,"time":14,"%":0.11883541295306001,"counter":false}
+upvote: thefameshow44
+{"viewers":51,"votes":3,"time":13,"%":0.17825311942959002,"counter":false}
+{"viewers":55,"votes":3,"time":12,"%":0.16528925619834708,"counter":false}
+{"viewers":55,"votes":3,"time":11,"%":0.16528925619834708,"counter":false}
+{"viewers":55,"votes":3,"time":10,"%":0.16528925619834708,"counter":false}
+{"viewers":55,"votes":3,"time":9,"%":0.16528925619834708,"counter":false}
+{"viewers":55,"votes":3,"time":8,"%":0.16528925619834708,"counter":false}
+{"viewers":58,"votes":3,"time":7,"%":0.1567398119122257,"counter":false}
+{"viewers":58,"votes":3,"time":6,"%":0.1567398119122257,"counter":false}
+{"viewers":58,"votes":3,"time":5,"%":0.1567398119122257,"counter":false}
+{"viewers":58,"votes":3,"time":4,"%":0.1567398119122257,"counter":false}
+disconnect:  alexyo
+{"viewers":57,"votes":3,"time":3,"%":0.15948963317384368,"counter":false}
+{"viewers":57,"votes":3,"time":2,"%":0.15948963317384368,"counter":false}
+{"viewers":57,"votes":3,"time":1,"%":0.15948963317384368,"counter":false}
+{"viewers":57,"votes":3,"time":0,"%":0.15948963317384368,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333' }
+GENESIS NOT CALLED
+{"viewers":57,"votes":0,"time":20,"%":0,"counter":false}
+comment by falky2: { text: 'get some celebs on board and get them tweeting about it',
+  roomKey: 'thefameshow44' }
+upvote: thefameshow44
+{"viewers":57,"votes":1,"time":19,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":18,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":17,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":16,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":15,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":14,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":13,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":12,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":11,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":10,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":9,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":8,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":7,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":6,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":5,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":4,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":3,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":2,"%":0.05316321105794789,"counter":false}
+comment by falky2: { text: 'seriously get kimmy k on ', roomKey: 'thefameshow44' }
+{"viewers":57,"votes":1,"time":1,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":0,"%":0.05316321105794789,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333' }
+GENESIS NOT CALLED
+{"viewers":57,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":57,"votes":0,"time":19,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169' }
+{"viewers":58,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":10,"%":0,"counter":false}
+comment by murdog0214: { text: 'what do you want for today', roomKey: 'thefameshow44' }
+{"viewers":58,"votes":0,"time":9,"%":0,"counter":false}
+upvote: thefameshow44
+{"viewers":58,"votes":1,"time":8,"%":0.0522466039707419,"counter":false}
+{"viewers":58,"votes":1,"time":7,"%":0.0522466039707419,"counter":false}
+{"viewers":58,"votes":1,"time":6,"%":0.0522466039707419,"counter":false}
+upvote: thefameshow44
+{"viewers":58,"votes":2,"time":5,"%":0.1044932079414838,"counter":false}
+upvote: thefameshow44
+{"viewers":58,"votes":3,"time":4,"%":0.1567398119122257,"counter":false}
+{"viewers":58,"votes":3,"time":3,"%":0.1567398119122257,"counter":false}
+{"viewers":58,"votes":3,"time":2,"%":0.1567398119122257,"counter":false}
+{"viewers":58,"votes":3,"time":1,"%":0.1567398119122257,"counter":false}
+{"viewers":58,"votes":3,"time":0,"%":0.1567398119122257,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169' }
+GENESIS NOT CALLED
+{"viewers":58,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":16,"%":0,"counter":false}
+comment by falky2: { text: 'who do you have in mind ', roomKey: 'thefameshow44' }
+{"viewers":58,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":13,"%":0,"counter":false}
+comment by andrewmorley: { text: '^^^schrage have u looked into paying him as a consultant ',
+  roomKey: 'thefameshow44' }
+{"viewers":58,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":8,"%":0,"counter":false}
+comment by falky2: { text: '60people is sick though ', roomKey: 'thefameshow44' }
+{"viewers":58,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169' }
+GENESIS NOT CALLED
+{"viewers":58,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":12,"%":0,"counter":false}
+comment by falky2: { text: 'hiya folks ', roomKey: 'thefameshow44' }
+{"viewers":58,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":1,"%":0,"counter":false}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'countdown.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41
+    creation_time   : 2018-04-03T17:37:09.000000Z
+  Duration: 00:03:00.03, start: 0.000000, bitrate: 904 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 750x1334, 582 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : AVC Coding
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 317 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 750x1334, q=2-31, 200 kb/s, 29.97 fps, 1k tbn, 29.97 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(eng): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x558582244ce0] Failed to update header with correct duration.66.9kbits/s speed=   1x     
+[flv @ 0x558582244ce0] Failed to update header with correct filesize.
+frame= 5394 fps= 30 q=0.0 Lsize=   23491kB time=00:03:00.00 bitrate=1069.1kbits/s speed=   1x    
+video:20476kB audio:2813kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.866790%
+
+{"viewers":58,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169' }
+GENESIS NOT CALLED
+{"viewers":58,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":false}
+comment by screwdogus3169: { text: 'hola', roomKey: 'thefameshow44' }
+{"viewers":58,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":13,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":12,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":11,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":10,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":9,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":8,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":7,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":6,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":3,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":2,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":1,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":0,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169' }
+GENESIS NOT CALLED
+created
+{"viewers":58,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":18,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":17,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":16,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":15,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":14,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":13,"%":0,"counter":false}
+upvote: thefameshow44
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'intro.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41
+    creation_time   : 2018-02-18T03:49:31.000000Z
+  Duration: 00:00:22.61, start: 0.000000, bitrate: 4867 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt470bg), 768x576, 4538 kb/s, 25 fps, 25 tbr, 25k tbn, 50 tbc (default)
+    Metadata:
+      creation_time   : 2018-02-18T03:49:31.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : AVC Coding
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 317 kb/s (default)
+    Metadata:
+      creation_time   : 2018-02-18T03:49:31.000000Z
+      handler_name    : Alias Data Handler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow45':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 768x576, q=2-31, 200 kb/s, 25 fps, 1k tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2018-02-18T03:49:31.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(eng): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      creation_time   : 2018-02-18T03:49:31.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x555d1f403480] Failed to update header with correct duration.20.1kbits/s speed=0.999x    
+[flv @ 0x555d1f403480] Failed to update header with correct filesize.
+frame=  564 fps= 25 q=0.0 Lsize=    5230kB time=00:00:22.58 bitrate=1896.9kbits/s speed=   1x    
+video:4853kB audio:353kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.459337%
+
+{"viewers":58,"votes":1,"time":12,"%":0.0522466039707419,"counter":false}
+{"viewers":58,"votes":1,"time":11,"%":0.0522466039707419,"counter":false}
+upvote: thefameshow44
+{"viewers":58,"votes":2,"time":10,"%":0.1044932079414838,"counter":false}
+{"viewers":58,"votes":2,"time":9,"%":0.1044932079414838,"counter":false}
+{"viewers":58,"votes":2,"time":8,"%":0.1044932079414838,"counter":false}
+{"viewers":58,"votes":2,"time":7,"%":0.1044932079414838,"counter":false}
+Genesis, upnext: Gf5gI_Fv1SSFmL3cAAAK
+Genesis, streamid: Gf5gI_Fv1SSFmL3cAAAK
+{"viewers":58,"votes":0,"time":6,"%":0,"counter":false}
+created
+{"viewers":58,"votes":0,"time":5,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":4,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":14,"%":0,"counter":true}
+comment by andrewmorley: { text: '“starting NOW! ... *wait* in 3... 2... 1...”',
+  roomKey: 'thefameshow44' }
+{"viewers":58,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":12,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":11,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":10,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":9,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":8,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":7,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":6,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":5,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":4,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":3,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":2,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":1,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":0,"%":0,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169' }
+DIED: zzwf
+POTENTIAL: R7dy_vqOYimAW7yxAAAA,nTZhZP1PKZC6rK79AAAE,TtZDYBJ-XG4F_rW7AAAG,6kiJVlLk6714Wl0OAAAJ
+stored: trebors3333 0.5
+{"viewers":58,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":false}
+created
+{"viewers":58,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":14,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":12,"%":0,"counter":true}
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+{"viewers":58,"votes":20,"time":11,"%":1.044932079414838,"counter":true}
+upvote: thefameshow44
+{"viewers":58,"votes":21,"time":10,"%":1.09717868338558,"counter":true}
+comment by falky2: { text: 'wait get that guy back I like him ',
+  roomKey: 'thefameshow44' }
+comment by screwdogus3169: { text: 'quality content', roomKey: 'thefameshow44' }
+{"viewers":58,"votes":21,"time":9,"%":1.09717868338558,"counter":true}
+{"viewers":58,"votes":21,"time":8,"%":1.09717868338558,"counter":true}
+{"viewers":58,"votes":21,"time":7,"%":1.09717868338558,"counter":true}
+upvote: thefameshow44
+{"viewers":58,"votes":22,"time":6,"%":1.1494252873563218,"counter":true}
+{"viewers":58,"votes":22,"time":5,"%":1.1494252873563218,"counter":true}
+{"viewers":58,"votes":22,"time":4,"%":1.1494252873563218,"counter":true}
+{"viewers":58,"votes":22,"time":3,"%":1.1494252873563218,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron' }
+{"viewers":59,"votes":22,"time":2,"%":1.1299435028248588,"counter":true}
+{"viewers":59,"votes":22,"time":1,"%":1.1299435028248588,"counter":true}
+{"viewers":59,"votes":22,"time":0,"%":1.1299435028248588,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron' }
+upvote: thefameshow44
+{"viewers":59,"votes":1,"time":20,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":19,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":18,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":17,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":16,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":15,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":14,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":13,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":12,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":11,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":10,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":9,"%":0.05136106831022085,"counter":true}
+comment by andrewmorley: { text: 'how deep r his lungs ', roomKey: 'thefameshow44' }
+{"viewers":59,"votes":1,"time":8,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":7,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":6,"%":0.05136106831022085,"counter":true}
+comment by andrewmorley: { text: 'let’s find out', roomKey: 'thefameshow44' }
+{"viewers":59,"votes":1,"time":5,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":4,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":3,"%":0.05136106831022085,"counter":true}
+upvote: thefameshow44
+{"viewers":59,"votes":2,"time":2,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":20,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":19,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":18,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":17,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":16,"%":0.1027221366204417,"counter":true}
+comment by falky2: { text: 'oh my god ', roomKey: 'thefameshow44' }
+{"viewers":59,"votes":2,"time":15,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":14,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":13,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":12,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":11,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":10,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":9,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":8,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":7,"%":0.1027221366204417,"counter":true}
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+{"viewers":59,"votes":31,"time":6,"%":1.5921931176168465,"counter":true}
+upvote: thefameshow44
+{"viewers":59,"votes":32,"time":5,"%":1.6435541859270673,"counter":true}
+upvote: thefameshow44
+{"viewers":59,"votes":33,"time":4,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":3,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":2,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":1,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":0,"%":1.6949152542372878,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron' }
+{"viewers":59,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":17,"%":0,"counter":true}
+comment by mybrotherisamoron: { text: 'wtf', roomKey: 'thefameshow44' }
+{"viewers":59,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":15,"%":0,"counter":true}
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+{"viewers":59,"votes":29,"time":14,"%":1.4894709809964046,"counter":true}
+{"viewers":59,"votes":29,"time":13,"%":1.4894709809964046,"counter":true}
+upvote: thefameshow44
+{"viewers":59,"votes":30,"time":12,"%":1.5408320493066254,"counter":true}
+{"viewers":59,"votes":30,"time":11,"%":1.5408320493066254,"counter":true}
+{"viewers":59,"votes":30,"time":10,"%":1.5408320493066254,"counter":true}
+{"viewers":59,"votes":30,"time":9,"%":1.5408320493066254,"counter":true}
+{"viewers":59,"votes":30,"time":8,"%":1.5408320493066254,"counter":true}
+{"viewers":59,"votes":30,"time":7,"%":1.5408320493066254,"counter":true}
+{"viewers":59,"votes":30,"time":6,"%":1.5408320493066254,"counter":true}
+{"viewers":59,"votes":30,"time":5,"%":1.5408320493066254,"counter":true}
+{"viewers":59,"votes":30,"time":4,"%":1.5408320493066254,"counter":true}
+{"viewers":59,"votes":30,"time":3,"%":1.5408320493066254,"counter":true}
+comment by trebors3333: { text: 'did you like my whistle', roomKey: 'thefameshow44' }
+{"viewers":59,"votes":30,"time":2,"%":1.5408320493066254,"counter":true}
+{"viewers":59,"votes":30,"time":1,"%":1.5408320493066254,"counter":true}
+{"viewers":59,"votes":30,"time":0,"%":1.5408320493066254,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  hmf8AtbrwTJ7RpksAAAL: 'andrewmorley',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron' }
+upvote: thefameshow44
+{"viewers":59,"votes":1,"time":20,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":19,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":18,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":17,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":16,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":15,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":14,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":13,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":12,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":11,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":10,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":9,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":8,"%":0.05136106831022085,"counter":true}
+disconnect:  andrewmorley
+{"viewers":58,"votes":1,"time":7,"%":0.0522466039707419,"counter":true}
+comment by trebors3333: { text: 'play wagon wheel', roomKey: 'thefameshow44' }
+{"viewers":58,"votes":1,"time":6,"%":0.0522466039707419,"counter":true}
+{"viewers":58,"votes":1,"time":5,"%":0.0522466039707419,"counter":true}
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+upvote: zzwf
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  '6IljzdqxpUr4sAdvAAAP': 'CJVV' }
+{"viewers":59,"votes":21,"time":4,"%":1.0785824345146378,"counter":true}
+{"viewers":59,"votes":21,"time":3,"%":1.0785824345146378,"counter":true}
+created
+{"viewers":59,"votes":21,"time":20,"%":1.0785824345146378,"counter":true}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '1.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:01:00.13, start: 0.000000, bitrate: 1211 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 640x800, 1138 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 64 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44556':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(und): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 640x800, q=2-31, 200 kb/s, 30 fps, 1k tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(eng): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x5572dced8f40] Failed to update header with correct duration.26.7kbits/s speed=0.999x    
+[flv @ 0x5572dced8f40] Failed to update header with correct filesize.
+frame= 1804 fps= 30 q=0.0 Lsize=   49447kB time=00:01:00.10 bitrate=6739.8kbits/s speed=   1x    
+video:48440kB audio:939kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.137109%
+
+{"viewers":59,"votes":21,"time":19,"%":1.0785824345146378,"counter":true}
+{"viewers":59,"votes":21,"time":18,"%":1.0785824345146378,"counter":true}
+{"viewers":59,"votes":21,"time":17,"%":1.0785824345146378,"counter":true}
+{"viewers":59,"votes":21,"time":16,"%":1.0785824345146378,"counter":true}
+{"viewers":59,"votes":21,"time":15,"%":1.0785824345146378,"counter":true}
+created
+{"viewers":59,"votes":21,"time":14,"%":1.0785824345146378,"counter":true}
+{"viewers":59,"votes":21,"time":13,"%":1.0785824345146378,"counter":true}
+{"viewers":59,"votes":21,"time":12,"%":1.0785824345146378,"counter":true}
+{"viewers":59,"votes":21,"time":11,"%":1.0785824345146378,"counter":true}
+{"viewers":59,"votes":21,"time":10,"%":1.0785824345146378,"counter":true}
+{"viewers":59,"votes":21,"time":9,"%":1.0785824345146378,"counter":true}
+{"viewers":59,"votes":21,"time":8,"%":1.0785824345146378,"counter":true}
+{"viewers":59,"votes":21,"time":7,"%":1.0785824345146378,"counter":true}
+stored
+{"viewers":59,"votes":0,"time":20,"%":0,"counter":true}
+created
+{"viewers":59,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":14,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":13,"%":0,"counter":true}
+comment by murdog0214: { text: ' choose meeee', roomKey: 'thefameshow44' }
+{"viewers":59,"votes":0,"time":12,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":11,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":10,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":9,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":8,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":7,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":6,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":5,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":4,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":3,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":2,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":59,"votes":1,"time":1,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":0,"%":0.05136106831022085,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  '6IljzdqxpUr4sAdvAAAP': 'CJVV' }
+DIED: ivaw
+POTENTIAL: R7dy_vqOYimAW7yxAAAA,nTZhZP1PKZC6rK79AAAE,TtZDYBJ-XG4F_rW7AAAG,tuwdEMm5tibl585SAAAM,No9DjNcqS7tISd0CAAAO,6IljzdqxpUr4sAdvAAAP
+stored: falky2 0.5
+comment by CJVV: { text: 'Choose me', roomKey: 'zzwf' }
+upvote: thefameshow44
+created
+{"viewers":59,"votes":1,"time":20,"%":0.05136106831022085,"counter":false}
+upvote: zzwf
+{"viewers":59,"votes":2,"time":19,"%":0.1027221366204417,"counter":false}
+{"viewers":59,"votes":2,"time":20,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":19,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":18,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":17,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":16,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":15,"%":0.1027221366204417,"counter":true}
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: thefameshow44
+upvote: thefameshow44
+{"viewers":59,"votes":33,"time":14,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":13,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":12,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":11,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":10,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":9,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":8,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":7,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":6,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":5,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":4,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":3,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":2,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":1,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":0,"%":1.6949152542372878,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  '6IljzdqxpUr4sAdvAAAP': 'CJVV' }
+upvote: thefameshow44
+{"viewers":59,"votes":1,"time":20,"%":0.05136106831022085,"counter":true}
+upvote: hshi
+{"viewers":59,"votes":2,"time":19,"%":0.1027221366204417,"counter":true}
+upvote: zzwf
+{"viewers":59,"votes":3,"time":18,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":17,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":16,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":15,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":14,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":13,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":12,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":11,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":10,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":9,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":8,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":7,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":6,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":5,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":4,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":3,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":2,"%":0.15408320493066255,"counter":true}
+upvote: thefameshow44
+{"viewers":59,"votes":4,"time":1,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":20,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":19,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":18,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":17,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":16,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":15,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":14,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":13,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":12,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":11,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":10,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":9,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":8,"%":0.2054442732408834,"counter":true}
+{"viewers":59,"votes":4,"time":7,"%":0.2054442732408834,"counter":true}
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+upvote: ivaw
+{"viewers":59,"votes":33,"time":6,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":5,"%":1.6949152542372878,"counter":true}
+comment by abreeyane35: { text: 'nice voice ', roomKey: 'thefameshow44' }
+{"viewers":59,"votes":33,"time":4,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":3,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":2,"%":1.6949152542372878,"counter":true}
+comment by CJVV: { text: 'puta', roomKey: 'zzwf' }
+{"viewers":59,"votes":33,"time":1,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":0,"%":1.6949152542372878,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  '6IljzdqxpUr4sAdvAAAP': 'CJVV' }
+{"viewers":59,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":19,"%":0,"counter":true}
+comment by murdog0214: { text: 'choose me', roomKey: 'thefameshow44' }
+{"viewers":59,"votes":0,"time":18,"%":0,"counter":true}
+upvote: hshi
+{"viewers":59,"votes":1,"time":17,"%":0.05136106831022085,"counter":true}
+comment by CJVV: { text: 'quítate de allí', roomKey: 'zzwf' }
+{"viewers":59,"votes":1,"time":16,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":15,"%":0.05136106831022085,"counter":true}
+comment by CJVV: { text: 'gay', roomKey: 'zzwf' }
+{"viewers":59,"votes":1,"time":14,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":13,"%":0.05136106831022085,"counter":true}
+upvote: thefameshow44
+{"viewers":59,"votes":2,"time":12,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":11,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":10,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":9,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":8,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":7,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":6,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":5,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":4,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":3,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":2,"%":0.1027221366204417,"counter":true}
+created
+{"viewers":59,"votes":2,"time":20,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":19,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":18,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":17,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":16,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":15,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":14,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":13,"%":0.1027221366204417,"counter":true}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '2.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:47.62, start: 0.000000, bitrate: 839 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 640x1162, 768 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 64 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44839':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(und): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 640x1162, q=2-31, 200 kb/s, 30 fps, 1k tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x562a6cfa54e0] Failed to update header with correct duration.30.8kbits/s speed=0.999x    
+[flv @ 0x562a6cfa54e0] Failed to update header with correct filesize.
+frame= 1425 fps= 30 q=0.0 Lsize=   28011kB time=00:00:47.59 bitrate=4821.4kbits/s speed=   1x    
+video:27213kB audio:744kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.191922%
+
+{"viewers":59,"votes":2,"time":12,"%":0.1027221366204417,"counter":true}
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+upvote: hshi
+{"viewers":59,"votes":31,"time":11,"%":1.5921931176168465,"counter":true}
+{"viewers":59,"votes":31,"time":10,"%":1.5921931176168465,"counter":true}
+{"viewers":59,"votes":31,"time":9,"%":1.5921931176168465,"counter":true}
+{"viewers":59,"votes":31,"time":8,"%":1.5921931176168465,"counter":true}
+{"viewers":59,"votes":31,"time":7,"%":1.5921931176168465,"counter":true}
+{"viewers":59,"votes":31,"time":6,"%":1.5921931176168465,"counter":true}
+upvote: thefameshow44
+{"viewers":59,"votes":32,"time":5,"%":1.6435541859270673,"counter":true}
+{"viewers":59,"votes":32,"time":4,"%":1.6435541859270673,"counter":true}
+upvote: zzwf
+{"viewers":59,"votes":33,"time":3,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":2,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":1,"%":1.6949152542372878,"counter":true}
+{"viewers":59,"votes":33,"time":0,"%":1.6949152542372878,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  '6IljzdqxpUr4sAdvAAAP': 'CJVV' }
+comment by falky2: { text: 'oh my god ', roomKey: 'thefameshow44' }
+upvote: hshi
+{"viewers":59,"votes":1,"time":20,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":19,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":18,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":17,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":16,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":15,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":14,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":13,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":12,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":11,"%":0.05136106831022085,"counter":true}
+upvote: thefameshow44
+{"viewers":59,"votes":2,"time":10,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":9,"%":0.1027221366204417,"counter":true}
+upvote: thefameshow44
+{"viewers":59,"votes":3,"time":8,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":7,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":6,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":5,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":4,"%":0.15408320493066255,"counter":true}
+disconnect:  CJVV
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  TpZYE9fj_A48y6VaAAAQ: 'murdog0214' }
+{"viewers":59,"votes":3,"time":3,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":2,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":1,"%":0.15408320493066255,"counter":true}
+comment by screwdogus3169: { text: 'violence is bad kids', roomKey: 'thefameshow44' }
+{"viewers":59,"votes":3,"time":0,"%":0.15408320493066255,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  TpZYE9fj_A48y6VaAAAQ: 'murdog0214' }
+DIED: ltka
+POTENTIAL: R7dy_vqOYimAW7yxAAAA,TtZDYBJ-XG4F_rW7AAAG,6kiJVlLk6714Wl0OAAAJ,No9DjNcqS7tISd0CAAAO,TpZYE9fj_A48y6VaAAAQ
+stored: trebors3333 1
+upvote: hshi
+upvote: thefameshow44
+created
+{"viewers":59,"votes":2,"time":20,"%":0.1027221366204417,"counter":false}
+{"viewers":59,"votes":2,"time":19,"%":0.1027221366204417,"counter":false}
+{"viewers":59,"votes":2,"time":20,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":19,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":18,"%":0.1027221366204417,"counter":true}
+upvote: thefameshow44
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  '6kiJVlLk6714Wl0OAAAJ': 'falky2',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  TpZYE9fj_A48y6VaAAAQ: 'murdog0214',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV' }
+{"viewers":60,"votes":3,"time":17,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":16,"%":0.15151515151515152,"counter":true}
+disconnect:  falky2
+created
+{"viewers":59,"votes":3,"time":15,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":14,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":13,"%":0.15408320493066255,"counter":true}
+{"viewers":59,"votes":3,"time":12,"%":0.15408320493066255,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  TpZYE9fj_A48y6VaAAAQ: 'murdog0214',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2' }
+{"viewers":60,"votes":3,"time":11,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":10,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":9,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":8,"%":0.15151515151515152,"counter":true}
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+{"viewers":60,"votes":32,"time":7,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":6,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":5,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":4,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":3,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":2,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":1,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":0,"%":1.6161616161616161,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  TpZYE9fj_A48y6VaAAAQ: 'murdog0214',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2' }
+{"viewers":60,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":19,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":60,"votes":1,"time":18,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":17,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":16,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":15,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":14,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":13,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":12,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":11,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":10,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":9,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":8,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":7,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":6,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":5,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":4,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":3,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":2,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":1,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":20,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":19,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":18,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":17,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":16,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":15,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":14,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":13,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":12,"%":0.050505050505050504,"counter":true}
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+{"viewers":60,"votes":30,"time":11,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":10,"%":1.5151515151515151,"counter":true}
+upvote: thefameshow44
+{"viewers":60,"votes":31,"time":9,"%":1.5656565656565657,"counter":true}
+upvote: ltka
+{"viewers":60,"votes":32,"time":8,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":7,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":6,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":5,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":4,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":3,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":2,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":1,"%":1.6161616161616161,"counter":true}
+{"viewers":60,"votes":32,"time":0,"%":1.6161616161616161,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  'TtZDYBJ-XG4F_rW7AAAG': 'murdog0214',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  TpZYE9fj_A48y6VaAAAQ: 'murdog0214',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2' }
+upvote: thefameshow44
+{"viewers":60,"votes":1,"time":20,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":19,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":18,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":17,"%":0.050505050505050504,"counter":true}
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+upvote: ltka
+{"viewers":60,"votes":30,"time":16,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":15,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":14,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":13,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":12,"%":1.5151515151515151,"counter":true}
+upvote: morz
+{"viewers":60,"votes":31,"time":11,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":10,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":9,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":8,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":7,"%":1.5656565656565657,"counter":true}
+disconnect:  murdog0214
+{"viewers":59,"votes":31,"time":6,"%":1.5921931176168465,"counter":true}
+{"viewers":59,"votes":31,"time":5,"%":1.5921931176168465,"counter":true}
+{"viewers":59,"votes":31,"time":4,"%":1.5921931176168465,"counter":true}
+{"viewers":59,"votes":31,"time":3,"%":1.5921931176168465,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  TpZYE9fj_A48y6VaAAAQ: 'murdog0214',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  'JeWJdkwt8jo-WUiPAAAT': 'balkan' }
+{"viewers":60,"votes":31,"time":2,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":1,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":0,"%":1.5656565656565657,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  TpZYE9fj_A48y6VaAAAQ: 'murdog0214',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  'JeWJdkwt8jo-WUiPAAAT': 'balkan' }
+upvote: thefameshow44
+{"viewers":60,"votes":1,"time":20,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":19,"%":0.050505050505050504,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  TpZYE9fj_A48y6VaAAAQ: 'murdog0214',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  'JeWJdkwt8jo-WUiPAAAT': 'balkan',
+  sW_dKb8KpuCN5QwZAAAU: 'Jotto787' }
+{"viewers":61,"votes":1,"time":18,"%":0.04967709885742673,"counter":true}
+{"viewers":61,"votes":1,"time":17,"%":0.04967709885742673,"counter":true}
+{"viewers":61,"votes":1,"time":16,"%":0.04967709885742673,"counter":true}
+{"viewers":61,"votes":1,"time":15,"%":0.04967709885742673,"counter":true}
+disconnect:  murdog0214
+{"viewers":60,"votes":1,"time":14,"%":0.050505050505050504,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  'JeWJdkwt8jo-WUiPAAAT': 'balkan',
+  sW_dKb8KpuCN5QwZAAAU: 'Jotto787',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214' }
+{"viewers":61,"votes":1,"time":13,"%":0.04967709885742673,"counter":true}
+{"viewers":61,"votes":1,"time":12,"%":0.04967709885742673,"counter":true}
+{"viewers":61,"votes":1,"time":11,"%":0.04967709885742673,"counter":true}
+{"viewers":61,"votes":1,"time":10,"%":0.04967709885742673,"counter":true}
+created
+{"viewers":61,"votes":1,"time":9,"%":0.04967709885742673,"counter":true}
+{"viewers":61,"votes":1,"time":8,"%":0.04967709885742673,"counter":true}
+{"viewers":61,"votes":1,"time":7,"%":0.04967709885742673,"counter":true}
+{"viewers":61,"votes":1,"time":6,"%":0.04967709885742673,"counter":true}
+disconnect:  balkan
+created
+comment by falky2: { text: 'say fameshow ', roomKey: 'ltka' }
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '5.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:57.61, start: 0.000000, bitrate: 958 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 640x800, 887 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 63 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44734':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(und): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 640x800, q=2-31, 200 kb/s, 30 fps, 1k tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 44100 Hz, mono, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x564f22363300] Failed to update header with correct duration.65.3kbits/s speed=0.998x    
+[flv @ 0x564f22363300] Failed to update header with correct filesize.
+frame= 1725 fps= 30 q=0.0 Lsize=   41187kB time=00:00:57.57 bitrate=5860.3kbits/s speed=   1x    
+video:40675kB audio:450kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.150265%
+
+{"viewers":60,"votes":1,"time":5,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":4,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":20,"%":0.050505050505050504,"counter":true}
+created
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  sW_dKb8KpuCN5QwZAAAU: 'Jotto787',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  'EjZiTUlcK-WoMTsuAAAW': 'balkan' }
+{"viewers":61,"votes":1,"time":19,"%":0.04967709885742673,"counter":true}
+{"viewers":61,"votes":1,"time":18,"%":0.04967709885742673,"counter":true}
+{"viewers":61,"votes":1,"time":17,"%":0.04967709885742673,"counter":true}
+{"viewers":61,"votes":1,"time":16,"%":0.04967709885742673,"counter":true}
+stored
+created
+{"viewers":61,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":61,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":61,"votes":0,"time":18,"%":0,"counter":true}
+disconnect:  balkan
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  sW_dKb8KpuCN5QwZAAAU: 'Jotto787',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  P2RfRd7MfO5f96dGAAAX: 'balkan' }
+{"viewers":61,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":61,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":61,"votes":0,"time":15,"%":0,"counter":true}
+upvote: xxcg
+upvote: thefameshow44
+{"viewers":61,"votes":2,"time":14,"%":0.09935419771485346,"counter":true}
+upvote: thefameshow44
+upvote: zzwf
+{"viewers":61,"votes":4,"time":13,"%":0.19870839542970692,"counter":true}
+{"viewers":61,"votes":4,"time":12,"%":0.19870839542970692,"counter":true}
+{"viewers":61,"votes":4,"time":11,"%":0.19870839542970692,"counter":true}
+{"viewers":61,"votes":4,"time":10,"%":0.19870839542970692,"counter":true}
+disconnect:  balkan
+{"viewers":60,"votes":4,"time":9,"%":0.20202020202020202,"counter":true}
+{"viewers":60,"votes":4,"time":8,"%":0.20202020202020202,"counter":true}
+{"viewers":60,"votes":4,"time":7,"%":0.20202020202020202,"counter":true}
+{"viewers":60,"votes":4,"time":6,"%":0.20202020202020202,"counter":true}
+{"viewers":60,"votes":4,"time":5,"%":0.20202020202020202,"counter":true}
+{"viewers":60,"votes":4,"time":4,"%":0.20202020202020202,"counter":true}
+{"viewers":60,"votes":4,"time":3,"%":0.20202020202020202,"counter":true}
+disconnect:  Jotto787
+{"viewers":59,"votes":4,"time":2,"%":0.2054442732408834,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  'qZKENOLusPc43bh-AAAY': 'lciv' }
+created
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  'qZKENOLusPc43bh-AAAY': 'lciv',
+  'u05DJfXyod-1PGpqAAAZ': 'Jotto787' }
+{"viewers":61,"votes":33,"time":1,"%":1.639344262295082,"counter":true}
+comment by falky2: { text: 'okay listen up kids ', roomKey: 'ltka' }
+{"viewers":61,"votes":33,"time":0,"%":1.639344262295082,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  No9DjNcqS7tISd0CAAAO: 'mybrotherisamoron',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  'qZKENOLusPc43bh-AAAY': 'lciv',
+  'u05DJfXyod-1PGpqAAAZ': 'Jotto787' }
+upvote: thefameshow44
+{"viewers":61,"votes":1,"time":20,"%":0.04967709885742673,"counter":true}
+comment by trebors3333: { text: 'why fort nite dance', roomKey: 'thefameshow44' }
+{"viewers":61,"votes":1,"time":19,"%":0.04967709885742673,"counter":true}
+disconnect:  mybrotherisamoron
+{"viewers":60,"votes":1,"time":18,"%":0.050505050505050504,"counter":true}
+created
+{"viewers":60,"votes":1,"time":17,"%":0.050505050505050504,"counter":true}
+upvote: thefameshow44
+{"viewers":60,"votes":2,"time":16,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":15,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":14,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":13,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":12,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":11,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":10,"%":0.10101010101010101,"counter":true}
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+upvote: xxcg
+{"viewers":60,"votes":31,"time":9,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":8,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":7,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":6,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":5,"%":1.5656565656565657,"counter":true}
+comment by screwdogus3169: { text: 'nice moves', roomKey: 'thefameshow44' }
+{"viewers":60,"votes":31,"time":4,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":3,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":2,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":1,"%":1.5656565656565657,"counter":true}
+{"viewers":60,"votes":31,"time":0,"%":1.5656565656565657,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  'qZKENOLusPc43bh-AAAY': 'lciv',
+  'u05DJfXyod-1PGpqAAAZ': 'Jotto787' }
+upvote: thefameshow44
+comment by Jotto787: { text: 'faaaalky', roomKey: 'xxcg' }
+upvote: thefameshow44
+{"viewers":60,"votes":2,"time":20,"%":0.10101010101010101,"counter":true}
+comment by falky2: { text: 'say fameshow in a Spanish accent again ',
+  roomKey: 'ltka' }
+{"viewers":60,"votes":2,"time":19,"%":0.10101010101010101,"counter":true}
+upvote: zzwf
+{"viewers":60,"votes":3,"time":18,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":17,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":16,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":15,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":14,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":13,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":12,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":11,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":10,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":9,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":8,"%":0.15151515151515152,"counter":true}
+comment by falky2: { text: 'hilarious ', roomKey: 'ltka' }
+{"viewers":60,"votes":3,"time":7,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":6,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":5,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":4,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":3,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":2,"%":0.15151515151515152,"counter":true}
+{"viewers":60,"votes":3,"time":1,"%":0.15151515151515152,"counter":true}
+comment by Jotto787: { text: 'streeetfight', roomKey: 'xxcg' }
+{"viewers":60,"votes":3,"time":0,"%":0.15151515151515152,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  'qZKENOLusPc43bh-AAAY': 'lciv',
+  'u05DJfXyod-1PGpqAAAZ': 'Jotto787' }
+DIED: aglw
+POTENTIAL: R7dy_vqOYimAW7yxAAAA,tuwdEMm5tibl585SAAAM,eY3FW3HUEp4dArrAAAAR,lT6QTPuGenSrRr8aAAAS
+stored: lciv 1.5
+upvote: thefameshow44
+created
+{"viewers":60,"votes":1,"time":20,"%":0.050505050505050504,"counter":false}
+{"viewers":60,"votes":1,"time":19,"%":0.050505050505050504,"counter":false}
+{"viewers":60,"votes":1,"time":20,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":19,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":18,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":17,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":16,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":15,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":14,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":13,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":12,"%":0.050505050505050504,"counter":true}
+{"viewers":60,"votes":1,"time":11,"%":0.050505050505050504,"counter":true}
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+upvote: aglw
+{"viewers":60,"votes":30,"time":10,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":9,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":8,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":7,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":6,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":5,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":4,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":3,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":2,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":1,"%":1.5151515151515151,"counter":true}
+{"viewers":60,"votes":30,"time":0,"%":1.5151515151515151,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  'qZKENOLusPc43bh-AAAY': 'lciv',
+  'u05DJfXyod-1PGpqAAAZ': 'Jotto787' }
+upvote: aglw
+comment by abreeyane35: { text: 'he’s cute lol', roomKey: 'thefameshow44' }
+{"viewers":60,"votes":1,"time":20,"%":0.050505050505050504,"counter":true}
+upvote: thefameshow44
+{"viewers":60,"votes":2,"time":19,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":18,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":17,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":16,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":15,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":14,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":13,"%":0.10101010101010101,"counter":true}
+{"viewers":60,"votes":2,"time":12,"%":0.10101010101010101,"counter":true}
+disconnect:  lciv
+created
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  fF6P3dlw3bVXbiEVAAAN: 'screwdogus3169',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  'u05DJfXyod-1PGpqAAAZ': 'Jotto787',
+  '1jKxqytCNyZ8jzOfAAAa': 'lciv' }
+{"viewers":60,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":14,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":12,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":11,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":20,"%":0,"counter":true}
+disconnect:  screwdogus3169
+created
+{"viewers":59,"votes":0,"time":19,"%":0,"counter":true}
+comment by Jotto787: { text: 'sexy ', roomKey: 'xxcg' }
+{"viewers":59,"votes":0,"time":18,"%":0,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  'u05DJfXyod-1PGpqAAAZ': 'Jotto787',
+  '1jKxqytCNyZ8jzOfAAAa': 'lciv',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169' }
+{"viewers":60,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":14,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":12,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":11,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":10,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":9,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":8,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":7,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":6,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":5,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":4,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":3,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":2,"%":0,"counter":true}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '6.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf56.40.101
+  Duration: 00:00:18.44, start: 0.000000, bitrate: 448 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 640x640, 378 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 62 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow4473':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(und): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 640x640, q=2-31, 200 kb/s, 30 fps, 1k tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(eng): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+[flv @ 0x55958bcc0860] Failed to update header with correct duration.16.5kbits/s speed=0.998x    
+[flv @ 0x55958bcc0860] Failed to update header with correct filesize.
+frame=  550 fps= 30 q=0.0 Lsize=    3609kB time=00:00:18.41 bitrate=1605.7kbits/s speed=   1x    
+video:3306kB audio:282kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.577814%
+
+{"viewers":60,"votes":0,"time":1,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":20,"%":0,"counter":true}
+created
+{"viewers":60,"votes":0,"time":19,"%":0,"counter":true}
+comment by falky2: { text: 'oh my god is that the jotto', roomKey: 'ltka' }
+{"viewers":60,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":16,"%":0,"counter":true}
+comment by falky2: { text: '!!', roomKey: 'ltka' }
+{"viewers":60,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":14,"%":0,"counter":true}
+created
+{"viewers":60,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":12,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":11,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":10,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":9,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":8,"%":0,"counter":true}
+{"viewers":60,"votes":0,"time":7,"%":0,"counter":true}
+disconnect:  lciv
+{"viewers":59,"votes":0,"time":6,"%":0,"counter":true}
+upvote: xxcg
+{"viewers":59,"votes":1,"time":5,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":4,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":3,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":2,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":1,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":0,"%":0.05136106831022085,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  'u05DJfXyod-1PGpqAAAZ': 'Jotto787',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169' }
+DIED: ukpu
+POTENTIAL: R7dy_vqOYimAW7yxAAAA,eY3FW3HUEp4dArrAAAAR,lT6QTPuGenSrRr8aAAAS
+stored: screwdogus3169 0.5
+created
+{"viewers":59,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":59,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":59,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":17,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":59,"votes":1,"time":16,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":15,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":14,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":13,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":12,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":11,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":10,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":9,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":8,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":7,"%":0.05136106831022085,"counter":true}
+comment by trebors3333: { text: 'stop showing us the fan', roomKey: 'thefameshow44' }
+{"viewers":59,"votes":1,"time":6,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":5,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":4,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":3,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":2,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":1,"%":0.05136106831022085,"counter":true}
+{"viewers":59,"votes":1,"time":0,"%":0.05136106831022085,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  'u05DJfXyod-1PGpqAAAZ': 'Jotto787',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169' }
+DIED: izbn
+stored: falky2 0.5
+created
+{"viewers":59,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":59,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":59,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":59,"votes":0,"time":18,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":59,"votes":1,"time":17,"%":0.05136106831022085,"counter":true}
+disconnect:  Jotto787
+created
+{"viewers":58,"votes":1,"time":16,"%":0.0522466039707419,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  eY3FW3HUEp4dArrAAAAR: 'CJVV',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169',
+  '-B1N08iMoje642t_AAAc': 'lciv' }
+upvote: thefameshow44
+{"viewers":59,"votes":2,"time":15,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":14,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":13,"%":0.1027221366204417,"counter":true}
+{"viewers":59,"votes":2,"time":12,"%":0.1027221366204417,"counter":true}
+disconnect:  CJVV
+{"viewers":58,"votes":2,"time":11,"%":0.1044932079414838,"counter":true}
+{"viewers":58,"votes":2,"time":10,"%":0.1044932079414838,"counter":true}
+{"viewers":58,"votes":2,"time":9,"%":0.1044932079414838,"counter":true}
+{"viewers":58,"votes":2,"time":8,"%":0.1044932079414838,"counter":true}
+{"viewers":58,"votes":2,"time":7,"%":0.1044932079414838,"counter":true}
+{"viewers":58,"votes":2,"time":6,"%":0.1044932079414838,"counter":true}
+{"viewers":58,"votes":2,"time":5,"%":0.1044932079414838,"counter":true}
+{"viewers":58,"votes":2,"time":4,"%":0.1044932079414838,"counter":true}
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+upvote: izbn
+{"viewers":58,"votes":31,"time":3,"%":1.6196447230929987,"counter":true}
+{"viewers":58,"votes":31,"time":2,"%":1.6196447230929987,"counter":true}
+{"viewers":58,"votes":31,"time":1,"%":1.6196447230929987,"counter":true}
+{"viewers":58,"votes":31,"time":0,"%":1.6196447230929987,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169',
+  '-B1N08iMoje642t_AAAc': 'lciv' }
+{"viewers":58,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":14,"%":0,"counter":true}
+disconnect:  lciv
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169',
+  qml119OAwAjJk1bwAAAd: 'lciv' }
+{"viewers":58,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":12,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":11,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":10,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":9,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":8,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":7,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":6,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":5,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":4,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":3,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":2,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":1,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":0,"%":0,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169',
+  qml119OAwAjJk1bwAAAd: 'lciv' }
+DIED: yvyf
+POTENTIAL: qml119OAwAjJk1bwAAAd
+stored: abreeyane35 1
+created
+{"viewers":58,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":18,"%":0,"counter":true}
+disconnect:  lciv
+created
+{"viewers":57,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":16,"%":0,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169',
+  '66QKvfJK-RiYgNL-AAAe': 'lciv' }
+{"viewers":58,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":14,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":12,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":11,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":10,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":9,"%":0,"counter":true}
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+upvote: yvyf
+{"viewers":58,"votes":29,"time":8,"%":1.5151515151515151,"counter":true}
+{"viewers":58,"votes":29,"time":7,"%":1.5151515151515151,"counter":true}
+{"viewers":58,"votes":29,"time":6,"%":1.5151515151515151,"counter":true}
+comment by murdog0214: { text: 'chosseee', roomKey: 'ltka' }
+{"viewers":58,"votes":29,"time":5,"%":1.5151515151515151,"counter":true}
+{"viewers":58,"votes":29,"time":4,"%":1.5151515151515151,"counter":true}
+{"viewers":58,"votes":29,"time":3,"%":1.5151515151515151,"counter":true}
+{"viewers":58,"votes":29,"time":2,"%":1.5151515151515151,"counter":true}
+{"viewers":58,"votes":29,"time":1,"%":1.5151515151515151,"counter":true}
+comment by murdog0214: { text: 'chooose', roomKey: 'ltka' }
+{"viewers":58,"votes":29,"time":0,"%":1.5151515151515151,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169',
+  '66QKvfJK-RiYgNL-AAAe': 'lciv' }
+{"viewers":58,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":true}
+upvote: yvyf
+comment by murdog0214: { text: 'meeee', roomKey: 'ltka' }
+{"viewers":58,"votes":1,"time":18,"%":0.0522466039707419,"counter":true}
+{"viewers":58,"votes":1,"time":17,"%":0.0522466039707419,"counter":true}
+{"viewers":58,"votes":1,"time":16,"%":0.0522466039707419,"counter":true}
+{"viewers":58,"votes":1,"time":15,"%":0.0522466039707419,"counter":true}
+comment by murdog0214: { text: 'FORTNITE', roomKey: 'ltka' }
+{"viewers":58,"votes":1,"time":14,"%":0.0522466039707419,"counter":true}
+{"viewers":58,"votes":1,"time":13,"%":0.0522466039707419,"counter":true}
+disconnect:  lciv
+{"viewers":57,"votes":1,"time":12,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":11,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":10,"%":0.05316321105794789,"counter":true}
+comment by murdog0214: { text: 'DANCES', roomKey: 'ltka' }
+{"viewers":57,"votes":1,"time":9,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":8,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":7,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":6,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":5,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":4,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":3,"%":0.05316321105794789,"counter":true}
+comment by murdog0214: { text: 'SPANISH AT ALL', roomKey: 'ltka' }
+{"viewers":57,"votes":1,"time":2,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":1,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":0,"%":0.05316321105794789,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169' }
+DIED: xafj
+POTENTIAL: R7dy_vqOYimAW7yxAAAA,nTZhZP1PKZC6rK79AAAE,Gf5gI_Fv1SSFmL3cAAAK,tuwdEMm5tibl585SAAAM,6VDjpylPVh40IkJ-AAAV
+stored: falky2 1
+created
+{"viewers":57,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":57,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":57,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":14,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":57,"votes":1,"time":13,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":12,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":11,"%":0.05316321105794789,"counter":true}
+upvote: thefameshow44
+{"viewers":57,"votes":2,"time":10,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":9,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":8,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":7,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":6,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":5,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":4,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":3,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":2,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":1,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":0,"%":0.10632642211589578,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169' }
+DIED: mqwp
+stored: trebors3333 0.5
+created
+{"viewers":57,"votes":0,"time":20,"%":0,"counter":false}
+{"viewers":57,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":57,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":19,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":57,"votes":1,"time":18,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":17,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":16,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":15,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":14,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":13,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":12,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":11,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":10,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":9,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":8,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":7,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":6,"%":0.05316321105794789,"counter":true}
+comment by screwdogus3169: { text: 'I want the fan guy', roomKey: 'kpzp' }
+{"viewers":57,"votes":1,"time":5,"%":0.05316321105794789,"counter":true}
+created
+{"viewers":57,"votes":1,"time":4,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":3,"%":0.05316321105794789,"counter":true}
+upvote: ltka
+{"viewers":57,"votes":2,"time":2,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":1,"%":0.10632642211589578,"counter":true}
+upvote: mqwp
+{"viewers":57,"votes":3,"time":0,"%":0.15948963317384368,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169' }
+DIED: zxbm
+POTENTIAL: R7dy_vqOYimAW7yxAAAA,nTZhZP1PKZC6rK79AAAE,6VDjpylPVh40IkJ-AAAV
+stored: vojtadrmota 0.5
+created
+upvote: mqwp
+{"viewers":57,"votes":1,"time":20,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":19,"%":0.05316321105794789,"counter":false}
+{"viewers":57,"votes":1,"time":20,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":19,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":18,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":17,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":16,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":15,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":14,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":13,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":12,"%":0.05316321105794789,"counter":true}
+{"viewers":57,"votes":1,"time":11,"%":0.05316321105794789,"counter":true}
+upvote: thefameshow44
+{"viewers":57,"votes":2,"time":10,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":9,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":8,"%":0.10632642211589578,"counter":true}
+{"viewers":57,"votes":2,"time":7,"%":0.10632642211589578,"counter":true}
+{"viewers":58,"votes":2,"time":6,"%":0.1044932079414838,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '6VDjpylPVh40IkJ-AAAV': 'murdog0214',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169',
+  ikdVNgzAng5sBxXyAAAf: 'lciv' }
+{"viewers":58,"votes":2,"time":5,"%":0.1044932079414838,"counter":true}
+{"viewers":58,"votes":2,"time":4,"%":0.1044932079414838,"counter":true}
+{"viewers":58,"votes":2,"time":3,"%":0.1044932079414838,"counter":true}
+{"viewers":58,"votes":2,"time":2,"%":0.1044932079414838,"counter":true}
+{"viewers":58,"votes":2,"time":1,"%":0.1044932079414838,"counter":true}
+disconnect:  murdog0214
+created
+{"viewers":57,"votes":2,"time":0,"%":0.10632642211589578,"counter":true}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169',
+  ikdVNgzAng5sBxXyAAAf: 'lciv' }
+DIED: ngox
+POTENTIAL: R7dy_vqOYimAW7yxAAAA,nTZhZP1PKZC6rK79AAAE,ikdVNgzAng5sBxXyAAAf
+stored: screwdogus3169 0.5
+{"viewers":57,"votes":0,"time":20,"%":0,"counter":false}
+{ R7dy_vqOYimAW7yxAAAA: 'abreeyane35',
+  nTZhZP1PKZC6rK79AAAE: 'Pipech04',
+  Gf5gI_Fv1SSFmL3cAAAK: 'vojtadrmota',
+  tuwdEMm5tibl585SAAAM: 'trebors3333',
+  lT6QTPuGenSrRr8aAAAS: 'falky2',
+  '1zGSSMsQY2UkQt3BAAAb': 'screwdogus3169',
+  ikdVNgzAng5sBxXyAAAf: 'lciv',
+  '0w7ns0eL400PfMueAAAg': 'murdog0214' }
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":false}
+{"viewers":58,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":58,"votes":0,"time":19,"%":0,"counter":true}
+disconnect:  falky2
+{"viewers":57,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":14,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":57,"votes":0,"time":12,"%":0,"counter":true}

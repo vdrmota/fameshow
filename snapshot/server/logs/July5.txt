@@ -1,0 +1,2231 @@
+listening on port 3000...
+!Tick: {"viewers":0,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":16,"%":0,"counter":false}
+!connected: daydaylovesbeiber
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber' }
+[!END_CONNECTIONS!]
+!connected: AimeeWinter
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":2,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":13,"%":0,"counter":false}
+!connected: SkyeIsMe
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":3,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":1,"%":0,"counter":false}
+!toggle off: AimeeWinter
+!Tick: {"viewers":3,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!toggle on: AimeeWinter
+!Tick: {"viewers":3,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":15,"%":0,"counter":false}
+!connected: mschrage
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  fPmKXABnSMNnszXWAAAD: 'mschrage' }
+[!END_CONNECTIONS!]
+!leave:  AimeeWinter
+!Tick: {"viewers":3,"votes":0,"time":14,"%":0,"counter":false}
+!toggle on: mschrage
+!reconnect:  mschrage
+!Tick: {"viewers":3,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":9,"%":0,"counter":false}
+!connected: vojtadrmota
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  fPmKXABnSMNnszXWAAAD: 'mschrage',
+  AENB99mrsdq8q5JcAAAE: 'vojtadrmota' }
+[!END_CONNECTIONS!]
+!toggle on: vojtadrmota
+!Tick: {"viewers":4,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":2,"%":0,"counter":false}
+!comment by mschrage: { text: './viewers 12', roomKey: 'thefameshow44' }
+!Tick: {"viewers":4,"votes":0,"time":1,"%":0,"counter":false}
+!leave:  vojtadrmota
+!Tick: {"viewers":3,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  fPmKXABnSMNnszXWAAAD: 'mschrage',
+  AENB99mrsdq8q5JcAAAE: 'vojtadrmota' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":3,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":9,"%":0,"counter":false}
+!disconnect:  mschrage
+!Tick: {"viewers":2,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":3,"%":0,"counter":false}
+!reconnect:  AimeeWinter
+!Tick: {"viewers":3,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":3,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  AENB99mrsdq8q5JcAAAE: 'vojtadrmota' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!connected: mschrage
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  AENB99mrsdq8q5JcAAAE: 'vojtadrmota',
+  NnnOuOWJTo8BjWwgAAAF: 'mschrage' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":4,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  AENB99mrsdq8q5JcAAAE: 'vojtadrmota',
+  NnnOuOWJTo8BjWwgAAAF: 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":4,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":18,"%":0,"counter":false}
+!connected: mschrage
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  AENB99mrsdq8q5JcAAAE: 'vojtadrmota',
+  NnnOuOWJTo8BjWwgAAAF: 'mschrage',
+  '5-RYgG7nURWYxm47AAAG': 'mschrage' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":5,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":10,"%":0,"counter":false}
+!leave:  mschrage
+!Tick: {"viewers":4,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":4,"votes":0,"time":8,"%":0,"counter":false}
+!reconnect:  mschrage
+!Tick: {"viewers":5,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":5,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  AENB99mrsdq8q5JcAAAE: 'vojtadrmota',
+  NnnOuOWJTo8BjWwgAAAF: 'mschrage',
+  '5-RYgG7nURWYxm47AAAG': 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":5,"votes":0,"time":20,"%":0,"counter":false}
+viewers
+!Tick: {"viewers":55,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":55,"votes":0,"time":4,"%":0,"counter":false}
+!connected: ceecee926
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  AENB99mrsdq8q5JcAAAE: 'vojtadrmota',
+  NnnOuOWJTo8BjWwgAAAF: 'mschrage',
+  '5-RYgG7nURWYxm47AAAG': 'mschrage',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":56,"votes":0,"time":3,"%":0,"counter":false}
+!toggle on: ceecee926
+!reconnect:  ceecee926
+!Tick: {"viewers":56,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":56,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":56,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  AENB99mrsdq8q5JcAAAE: 'vojtadrmota',
+  NnnOuOWJTo8BjWwgAAAF: 'mschrage',
+  '5-RYgG7nURWYxm47AAAG': 'mschrage',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!disconnect:  vojtadrmota
+!Tick: {"viewers":56,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":56,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":56,"votes":0,"time":18,"%":0,"counter":false}
+viewers
+!Tick: {"viewers":76,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":76,"votes":0,"time":16,"%":0,"counter":false}
+!connected: vojtadrmota
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  NnnOuOWJTo8BjWwgAAAF: 'mschrage',
+  '5-RYgG7nURWYxm47AAAG': 'mschrage',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  vaC4ajMpFspF4nP1AAAI: 'vojtadrmota' }
+[!END_CONNECTIONS!]
+!reconnect:  vojtadrmota
+!leave:  mschrage
+!Tick: {"viewers":76,"votes":0,"time":15,"%":0,"counter":false}
+!disconnect:  mschrage
+!Tick: {"viewers":76,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":76,"votes":0,"time":13,"%":0,"counter":false}
+!connected: mschrage
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  NnnOuOWJTo8BjWwgAAAF: 'mschrage',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  vaC4ajMpFspF4nP1AAAI: 'vojtadrmota',
+  '5_RGOLfHat2QQzDyAAAJ': 'mschrage' }
+[!END_CONNECTIONS!]
+!toggle on: mschrage
+!Tick: {"viewers":77,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":4,"%":0,"counter":false}
+fake
+!Tick: {"viewers":77,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":2,"%":0,"counter":false}
+!comment by mschrage: { text: 'hello', roomKey: 'thefameshow44' }
+!Tick: {"viewers":77,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  NnnOuOWJTo8BjWwgAAAF: 'mschrage',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  vaC4ajMpFspF4nP1AAAI: 'vojtadrmota',
+  '5_RGOLfHat2QQzDyAAAJ': 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":false}
+!disconnect:  mschrage
+!Tick: {"viewers":76,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":76,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":76,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":76,"votes":0,"time":16,"%":0,"counter":false}
+!comment by mschrage: { text: 'what’s up', roomKey: 'thefameshow44' }
+!Tick: {"viewers":76,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":76,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":76,"votes":0,"time":13,"%":0,"counter":false}
+!connected: mybrotherisamoron
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  vaC4ajMpFspF4nP1AAAI: 'vojtadrmota',
+  '5_RGOLfHat2QQzDyAAAJ': 'mschrage',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":77,"votes":0,"time":12,"%":0,"counter":false}
+!toggle on: mybrotherisamoron
+!Tick: {"viewers":77,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":10,"%":0,"counter":false}
+!leave:  vojtadrmota
+!toggle off: mybrotherisamoron
+!disconnect:  vojtadrmota
+!Tick: {"viewers":76,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":76,"votes":0,"time":8,"%":0,"counter":false}
+!connected: vojtadrmota
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  '5_RGOLfHat2QQzDyAAAJ': 'mschrage',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota' }
+[!END_CONNECTIONS!]
+!toggle on: vojtadrmota
+!Tick: {"viewers":77,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  '5_RGOLfHat2QQzDyAAAJ': 'mschrage',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":14,"%":0,"counter":false}
+fake
+!Tick: {"viewers":77,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":6,"%":0,"counter":false}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'countdown.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41
+    creation_time   : 2018-04-03T17:37:09.000000Z
+  Duration: 00:03:00.03, start: 0.000000, bitrate: 904 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 750x1334, 582 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : AVC Coding
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 317 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 750x1334, q=2-31, 200 kb/s, 29.97 fps, 1k tbn, 29.97 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(eng): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : Lavc57.107.100 libmp3lame
+frame=   16 fps=0.0 q=0.0 size=      52kB time=00:00:00.50 bitrate= 841.0kbits/s speed=0.99x    frame=   31 fps= 31 q=0.0 size=     149kB time=00:00:01.00 bitrate=1220.5kbits/s speed=0.99x    frame=   46 fps= 30 q=0.0 size=     202kB time=00:00:01.50 bitrate=1098.7kbits/s speed=0.994x    frame=   61 fps= 30 q=0.0 size=     262kB time=00:00:02.00 bitrate=1072.7kbits/s speed=0.993x    frame=   76 fps= 30 q=0.0 size=     314kB time=00:00:02.50 bitrate=1025.7kbits/s speed=0.993x    frame=   91 fps= 30 q=0.0 size=     413kB time=00:00:03.00 bitrate=1126.4kbits/s speed=0.994x    frame=  106 fps= 30 q=0.0 size=     464kB time=00:00:03.50 bitrate=1085.1kbits/s speed=0.994x    frame=  121 fps= 30 q=0.0 size=     525kB time=00:00:04.00 bitrate=1074.2kbits/s speed=0.991x    frame=  137 fps= 30 q=0.0 size=     576kB time=00:00:04.53 bitrate=1039.9kbits/s speed=0.998x    frame=  152 fps= 30 q=0.0 size=     676kB time=00:00:05.03 bitrate=1098.9kbits/s speed=0.996x    frame=  167 fps= 30 q=0.0 size=     727kB time=00:00:05.54 bitrate=1075.1kbits/s speed=0.996x    frame=  182 fps= 30 q=0.0 size=     788kB time=00:00:06.04 bitrate=1068.1kbits/s speed=0.995x    frame=  197 fps= 30 q=0.0 size=     839kB time=00:00:06.54 bitrate=1050.5kbits/s speed=0.995x    frame=  213 fps= 30 q=0.0 size=     939kB time=00:00:07.07 bitrate=1087.3kbits/s speed=0.999x    frame=  228 fps= 30 q=0.0 size=     990kB time=00:00:07.57 bitrate=1070.5kbits/s speed=0.998x    frame=  243 fps= 30 q=0.0 size=    1051kB time=00:00:08.07 bitrate=1065.9kbits/s speed=0.997x    frame=  258 fps= 30 q=0.0 size=    1102kB time=00:00:08.57 bitrate=1052.4kbits/s speed=0.997x    frame=  274 fps= 30 q=0.0 size=    1201kB time=00:00:09.11 bitrate=1079.9kbits/s speed=   1x    frame=  289 fps= 30 q=0.0 size=    1252kB time=00:00:09.61 bitrate=1066.9kbits/s speed=0.999x    frame=  304 fps= 30 q=0.0 size=    1313kB time=00:00:10.11 bitrate=1063.4kbits/s speed=0.998x    frame=  319 fps= 30 q=0.0 size=    1365kB time=00:00:10.61 bitrate=1053.4kbits/s speed=0.997x    frame=  334 fps= 30 q=0.0 size=    1464kB time=00:00:11.11 bitrate=1079.4kbits/s speed=0.997x    frame=  349 fps= 30 q=0.0 size=    1475kB time=00:00:11.61 bitrate=1040.5kbits/s speed=0.997x    frame=  365 fps= 30 q=0.0 size=    1576kB time=00:00:12.14 bitrate=1062.8kbits/s speed=   1x    frame=  379 fps= 30 q=0.0 size=    1627kB time=00:00:12.61 bitrate=1056.5kbits/s speed=0.997x    frame=  395 fps= 30 q=0.0 size=    1725kB time=00:00:13.14 bitrate=1075.1kbits/s speed=0.998x    frame=  409 fps= 30 q=0.0 size=    1787kB time=00:00:13.61 bitrate=1075.3kbits/s speed=0.995x    frame=  426 fps= 30 q=0.0 size=    1837kB time=00:00:14.18 bitrate=1061.0kbits/s speed=   1x    frame=  439 fps= 30 q=0.0 size=    1937kB time=00:00:14.61 bitrate=1085.9kbits/s speed=0.995x    frame=  456 fps= 30 q=0.0 size=    1986kB time=00:00:15.18 bitrate=1071.6kbits/s speed=0.999x    frame=  470 fps= 30 q=0.0 size=    2049kB time=00:00:15.65 bitrate=1072.3kbits/s speed=0.996x    frame=  486 fps= 30 q=0.0 size=    2098kB time=00:00:16.18 bitrate=1061.9kbits/s speed=0.999x    frame=  501 fps= 30 q=0.0 size=    2199kB time=00:00:16.68 bitrate=1080.0kbits/s speed=0.998x    frame=  517 fps= 30 q=0.0 size=    2248kB time=00:00:17.21 bitrate=1069.7kbits/s speed=   1x    frame=  532 fps= 30 q=0.0 size=    2309kB time=00:00:17.71 bitrate=1067.5kbits/s speed=   1x    frame=  547 fps= 30 q=0.0 size=    2360kB time=00:00:18.21 bitrate=1061.0kbits/s speed=   1x    frame=  562 fps= 30 q=0.0 size=    2459kB time=00:00:18.72 bitrate=1076.2kbits/s speed=0.999x    frame=  577 fps= 30 q=0.0 size=    2508kB time=00:00:19.22 bitrate=1069.2kbits/s speed=0.999x    frame=  592 fps= 30 q=0.0 size=    2570kB time=00:00:19.72 bitrate=1067.6kbits/s speed=0.999x    frame=  607 fps= 30 q=0.0 size=    2620kB time=00:00:20.22 bitrate=1061.4kbits/s speed=0.999x    frame=  623 fps= 30 q=0.0 size=    2722kB time=00:00:20.75 bitrate=1074.4kbits/s speed=   1x    frame=  638 fps= 30 q=0.0 size=    2772kB time=00:00:21.25 bitrate=1068.4kbits/s speed=   1x    frame=  653 fps= 30 q=0.0 size=    2834kB time=00:00:21.75 bitrate=1067.2kbits/s speed=   1x    frame=  668 fps= 30 q=0.0 size=    2884kB time=00:00:22.25 bitrate=1061.7kbits/s speed=   1x    frame=  683 fps= 30 q=0.0 size=    2985kB time=00:00:22.75 bitrate=1074.6kbits/s speed=   1x    frame=  698 fps= 30 q=0.0 size=    3036kB time=00:00:23.25 bitrate=1069.2kbits/s speed=   1x    frame=  713 fps= 30 q=0.0 size=    3097kB time=00:00:23.75 bitrate=1068.0kbits/s speed=0.999x    frame=  728 fps= 30 q=0.0 size=    3147kB time=00:00:24.25 bitrate=1062.8kbits/s speed=0.999x    frame=  743 fps= 30 q=0.0 size=    3249kB time=00:00:24.75 bitrate=1074.9kbits/s speed=0.999x    frame=  758 fps= 30 q=0.0 size=    3299kB time=00:00:25.26 bitrate=1069.8kbits/s speed=0.999x    frame=  773 fps= 30 q=0.0 size=    3361kB time=00:00:25.76 bitrate=1068.7kbits/s speed=0.999x    frame=  789 fps= 30 q=0.0 size=    3410kB time=00:00:26.29 bitrate=1062.5kbits/s speed=   1x    frame=  804 fps= 30 q=0.0 size=    3512kB time=00:00:26.79 bitrate=1073.7kbits/s speed=   1x    frame=  819 fps= 30 q=0.0 size=    3562kB time=00:00:27.29 bitrate=1069.0kbits/s speed=   1x    frame=  834 fps= 30 q=0.0 size=    3624kB time=00:00:27.79 bitrate=1068.0kbits/s speed=   1x    frame=  849 fps= 30 q=0.0 size=    3674kB time=00:00:28.29 bitrate=1063.6kbits/s speed=0.999x    frame=  864 fps= 30 q=0.0 size=    3775kB time=00:00:28.79 bitrate=1073.8kbits/s speed=0.999x    frame=  879 fps= 30 q=0.0 size=    3824kB time=00:00:29.29 bitrate=1069.2kbits/s speed=0.999x    frame=  894 fps= 30 q=0.0 size=    3886kB time=00:00:29.79 bitrate=1068.4kbits/s speed=0.999x    frame=  909 fps= 30 q=0.0 size=    3936kB time=00:00:30.29 bitrate=1064.3kbits/s speed=0.999x    frame=  925 fps= 30 q=0.0 size=    4036kB time=00:00:30.83 bitrate=1072.3kbits/s speed=   1x    frame=  939 fps= 30 q=0.0 size=    4087kB time=00:00:31.29 bitrate=1069.7kbits/s speed=0.999x    frame=  955 fps= 30 q=0.0 size=    4147kB time=00:00:31.83 bitrate=1067.2kbits/s speed=   1x    frame=  969 fps= 30 q=0.0 size=    4199kB time=00:00:32.30 bitrate=1064.9kbits/s speed=0.999x    frame=  985 fps= 30 q=0.0 size=    4297kB time=00:00:32.83 bitrate=1072.1kbits/s speed=   1x    frame=  999 fps= 30 q=0.0 size=    4348kB time=00:00:33.30 bitrate=1069.6kbits/s speed=0.999x    frame= 1015 fps= 30 q=0.0 size=    4409kB time=00:00:33.83 bitrate=1067.4kbits/s speed=   1x    frame= 1029 fps= 30 q=0.0 size=    4502kB time=00:00:34.30 bitrate=1075.2kbits/s speed=0.999x    frame= 1045 fps= 30 q=0.0 size=    4559kB time=00:00:34.83 bitrate=1072.0kbits/s speed=0.999x    frame= 1059 fps= 30 q=0.0 size=    4614kB time=00:00:35.30 bitrate=1070.7kbits/s speed=0.999x    frame= 1075 fps= 30 q=0.0 size=    4670kB time=00:00:35.83 bitrate=1067.6kbits/s speed=0.999x    frame= 1090 fps= 30 q=0.0 size=    4770kB time=00:00:36.33 bitrate=1075.3kbits/s speed=0.999x    frame= 1106 fps= 30 q=0.0 size=    4820kB time=00:00:36.87 bitrate=1070.9kbits/s speed=   1x    frame= 1121 fps= 30 q=0.0 size=    4921kB time=00:00:37.37 bitrate=1078.6kbits/s speed=0.999x    frame= 1137 fps= 30 q=0.0 size=    4932kB time=00:00:37.90 bitrate=1065.8kbits/s speed=0.999x    frame= 1152 fps= 30 q=0.0 size=    5031kB time=00:00:38.40 bitrate=1073.1kbits/s speed=0.999x    frame= 1168 fps= 30 q=0.0 size=    5081kB time=00:00:38.94 bitrate=1068.8kbits/s speed=   1x    frame= 1183 fps= 30 q=0.0 size=    5181kB time=00:00:39.44 bitrate=1076.1kbits/s speed=   1x    frame= 1198 fps= 30 q=0.0 size=    5192kB time=00:00:39.94 bitrate=1064.9kbits/s speed=   1x    frame= 1213 fps= 30 q=0.0 size=    5291kB time=00:00:40.44 bitrate=1071.8kbits/s speed=   1x    frame= 1228 fps= 30 q=0.0 size=    5341kB time=00:00:40.94 bitrate=1068.6kbits/s speed=0.999x    frame= 1244 fps= 30 q=0.0 size=    5441kB time=00:00:41.47 bitrate=1074.7kbits/s speed=   1x    frame= 1259 fps= 30 q=0.0 size=    5452kB time=00:00:41.97 bitrate=1064.0kbits/s speed=   1x    frame= 1274 fps= 30 q=0.0 size=    5551kB time=00:00:42.47 bitrate=1070.5kbits/s speed=   1x    frame= 1289 fps= 30 q=0.0 size=    5600kB time=00:00:42.97 bitrate=1067.4kbits/s speed=   1x    frame= 1304 fps= 30 q=0.0 size=    5701kB time=00:00:43.47 bitrate=1074.2kbits/s speed=   1x    frame= 1319 fps= 30 q=0.0 size=    5712kB time=00:00:43.97 bitrate=1064.0kbits/s speed=   1x    frame= 1334 fps= 30 q=0.0 size=    5811kB time=00:00:44.47 bitrate=1070.2kbits/s speed=   1x    frame= 1349 fps= 30 q=0.0 size=    5861kB time=00:00:44.97 bitrate=1067.4kbits/s speed=   1x    frame= 1364 fps= 30 q=0.0 size=    5960kB time=00:00:45.48 bitrate=1073.6kbits/s speed=0.999x    frame= 1379 fps= 30 q=0.0 size=    5971kB time=00:00:45.98 bitrate=1063.9kbits/s speed=0.999x    frame= 1395 fps= 30 q=0.0 size=    6070kB time=00:00:46.51 bitrate=1069.1kbits/s speed=   1x    frame= 1409 fps= 30 q=0.0 size=    6120kB time=00:00:46.98 bitrate=1067.1kbits/s speed=0.999x    frame= 1425 fps= 30 q=0.0 size=    6220kB time=00:00:47.51 bitrate=1072.3kbits/s speed=   1x    frame= 1439 fps= 30 q=0.0 size=    6232kB time=00:00:47.98 bitrate=1064.0kbits/s speed=0.999x    frame= 1455 fps= 30 q=0.0 size=    6329kB time=00:00:48.51 bitrate=1068.7kbits/s speed=   1x    frame= 1469 fps= 30 q=0.0 size=    6426kB time=00:00:48.98 bitrate=1074.7kbits/s speed=0.999x    frame= 1486 fps= 30 q=0.0 size=    6478kB time=00:00:49.55 bitrate=1070.9kbits/s speed=   1x    frame= 1499 fps= 30 q=0.0 size=    6538kB time=00:00:49.98 bitrate=1071.6kbits/s speed=0.999x    frame= 1516 fps= 30 q=0.0 size=    6588kB time=00:00:50.55 bitrate=1067.6kbits/s speed=   1x    frame= 1529 fps= 30 q=0.0 size=    6689kB time=00:00:50.98 bitrate=1074.8kbits/s speed=0.998x    frame= 1546 fps= 30 q=0.0 size=    6740kB time=00:00:51.55 bitrate=1071.0kbits/s speed=   1x    frame= 1561 fps= 30 q=0.0 size=    6800kB time=00:00:52.05 bitrate=1070.2kbits/s speed=   1x    frame= 1576 fps= 30 q=0.0 size=    6851kB time=00:00:52.55 bitrate=1067.9kbits/s speed=0.999x    frame= 1592 fps= 30 q=0.0 size=    6950kB time=00:00:53.08 bitrate=1072.5kbits/s speed=   1x    frame= 1607 fps= 30 q=0.0 size=    7002kB time=00:00:53.58 bitrate=1070.3kbits/s speed=   1x    frame= 1622 fps= 30 q=0.0 size=    7063kB time=00:00:54.08 bitrate=1069.7kbits/s speed=   1x    frame= 1637 fps= 30 q=0.0 size=    7113kB time=00:00:54.58 bitrate=1067.4kbits/s speed=   1x    frame= 1652 fps= 30 q=0.0 size=    7213kB time=00:00:55.08 bitrate=1072.6kbits/s speed=   1x    frame= 1668 fps= 30 q=0.0 size=    7264kB time=00:00:55.62 bitrate=1069.8kbits/s speed=   1x    frame= 1683 fps= 30 q=0.0 size=    7325kB time=00:00:56.12 bitrate=1069.2kbits/s speed=   1x    frame= 1698 fps= 30 q=0.0 size=    7375kB time=00:00:56.62 bitrate=1067.0kbits/s speed=   1x    frame= 1713 fps= 30 q=0.0 size=    7475kB time=00:00:57.12 bitrate=1072.0kbits/s speed=   1x    frame= 1728 fps= 30 q=0.0 size=    7527kB time=00:00:57.62 bitrate=1070.0kbits/s speed=   1x    frame= 1743 fps= 30 q=0.0 size=    7587kB time=00:00:58.12 bitrate=1069.3kbits/s speed=   1x    frame= 1758 fps= 30 q=0.0 size=    7637kB time=00:00:58.62 bitrate=1067.1kbits/s speed=0.999x    frame= 1774 fps= 30 q=0.0 size=    7736kB time=00:00:59.16 bitrate=1071.3kbits/s speed=   1x    frame= 1789 fps= 30 q=0.0 size=    7788kB time=00:00:59.66 bitrate=1069.3kbits/s speed=   1x    frame= 1804 fps= 30 q=0.0 size=    7849kB time=00:01:00.16 bitrate=1068.7kbits/s speed=   1x    frame= 1819 fps= 30 q=0.0 size=    7898kB time=00:01:00.66 bitrate=1066.6kbits/s speed=   1x    frame= 1834 fps= 30 q=0.0 size=    7997kB time=00:01:01.16 bitrate=1071.1kbits/s speed=   1x    frame= 1849 fps= 30 q=0.0 size=    8048kB time=00:01:01.66 bitrate=1069.1kbits/s speed=   1x    frame= 1865 fps= 30 q=0.0 size=    8108kB time=00:01:02.19 bitrate=1068.0kbits/s speed=   1x    frame= 1879 fps= 30 q=0.0 size=    8159kB time=00:01:02.66 bitrate=1066.7kbits/s speed=0.999x    frame= 1895 fps= 30 q=0.0 size=    8256kB time=00:01:03.19 bitrate=1070.2kbits/s speed=   1x    frame= 1909 fps= 30 q=0.0 size=    8315kB time=00:01:03.66 bitrate=1069.9kbits/s speed=0.999x    frame= 1925 fps= 30 q=0.0 size=    8368kB time=00:01:04.19 bitrate=1067.8kbits/s speed=   1x    frame= 1939 fps= 30 q=0.0 size=    8424kB time=00:01:04.66 bitrate=1067.1kbits/s speed=0.999x    frame= 1955 fps= 30 q=0.0 size=    8518kB time=00:01:05.19 bitrate=1070.2kbits/s speed=   1x    frame= 1969 fps= 30 q=0.0 size=    8579kB time=00:01:05.66 bitrate=1070.2kbits/s speed=0.999x    frame= 1986 fps= 30 q=0.0 size=    8627kB time=00:01:06.23 bitrate=1067.1kbits/s speed=   1x    frame= 1999 fps= 30 q=0.0 size=    8729kB time=00:01:06.66 bitrate=1072.6kbits/s speed=0.999x    frame= 2016 fps= 30 q=0.0 size=    8778kB time=00:01:07.23 bitrate=1069.6kbits/s speed=   1x    frame= 2029 fps= 30 q=0.0 size=    8840kB time=00:01:07.66 bitrate=1070.2kbits/s speed=0.999x    frame= 2046 fps= 30 q=0.0 size=    8889kB time=00:01:08.23 bitrate=1067.2kbits/s speed=   1x    frame= 2061 fps= 30 q=0.0 size=    8988kB time=00:01:08.73 bitrate=1071.2kbits/s speed=   1x    frame= 2077 fps= 30 q=0.0 size=    9037kB time=00:01:09.27 bitrate=1068.8kbits/s speed=   1x    frame= 2092 fps= 30 q=0.0 size=    9098kB time=00:01:09.77 bitrate=1068.2kbits/s speed=   1x    frame= 2107 fps= 30 q=0.0 size=    9148kB time=00:01:10.27 bitrate=1066.5kbits/s speed=   1x    frame= 2122 fps= 30 q=0.0 size=    9248kB time=00:01:10.77 bitrate=1070.5kbits/s speed=   1x    frame= 2137 fps= 30 q=0.0 size=    9298kB time=00:01:11.27 bitrate=1068.7kbits/s speed=   1x    frame= 2152 fps= 30 q=0.0 size=    9359kB time=00:01:11.77 bitrate=1068.2kbits/s speed=   1x    frame= 2168 fps= 30 q=0.0 size=    9408kB time=00:01:12.30 bitrate=1065.9kbits/s speed=   1x    frame= 2183 fps= 30 q=0.0 size=    9507kB time=00:01:12.80 bitrate=1069.7kbits/s speed=   1x    frame= 2198 fps= 30 q=0.0 size=    9556kB time=00:01:13.30 bitrate=1067.9kbits/s speed=   1x    frame= 2213 fps= 30 q=0.0 size=    9619kB time=00:01:13.80 bitrate=1067.6kbits/s speed=   1x    frame= 2228 fps= 30 q=0.0 size=    9668kB time=00:01:14.30 bitrate=1065.9kbits/s speed=   1x    frame= 2244 fps= 30 q=0.0 size=    9767kB time=00:01:14.84 bitrate=1069.1kbits/s speed=   1x    frame= 2259 fps= 30 q=0.0 size=    9817kB time=00:01:15.34 bitrate=1067.4kbits/s speed=   1x    frame= 2274 fps= 30 q=0.0 size=    9878kB time=00:01:15.84 bitrate=1066.9kbits/s speed=   1x    frame= 2289 fps= 30 q=0.0 size=    9927kB time=00:01:16.34 bitrate=1065.2kbits/s speed=   1x    frame= 2304 fps= 30 q=0.0 size=   10027kB time=00:01:16.84 bitrate=1068.9kbits/s speed=   1x    frame= 2319 fps= 30 q=0.0 size=   10076kB time=00:01:17.34 bitrate=1067.2kbits/s speed=   1x    frame= 2335 fps= 30 q=0.0 size=   10137kB time=00:01:17.87 bitrate=1066.3kbits/s speed=   1x    frame= 2349 fps= 30 q=0.0 size=   10186kB time=00:01:18.34 bitrate=1065.1kbits/s speed=   1x    frame= 2365 fps= 30 q=0.0 size=   10285kB time=00:01:18.88 bitrate=1068.1kbits/s speed=   1x    frame= 2379 fps= 30 q=0.0 size=   10334kB time=00:01:19.34 bitrate=1066.9kbits/s speed=   1x    frame= 2395 fps= 30 q=0.0 size=   10395kB time=00:01:19.88 bitrate=1066.0kbits/s speed=   1x    frame= 2409 fps= 30 q=0.0 size=   10449kB time=00:01:20.34 bitrate=1065.3kbits/s speed=0.999x    frame= 2425 fps= 30 q=0.0 size=   10545kB time=00:01:20.88 bitrate=1068.1kbits/s speed=   1x    frame= 2439 fps= 30 q=0.0 size=   10600kB time=00:01:21.34 bitrate=1067.4kbits/s speed=0.999x    frame= 2455 fps= 30 q=0.0 size=   10656kB time=00:01:21.88 bitrate=1066.1kbits/s speed=   1x    frame= 2469 fps= 30 q=0.0 size=   10755kB time=00:01:22.35 bitrate=1069.9kbits/s speed=0.999x    frame= 2485 fps= 30 q=0.0 size=   10806kB time=00:01:22.88 bitrate=1068.0kbits/s speed=   1x    frame= 2499 fps= 30 q=0.0 size=   10867kB time=00:01:23.35 bitrate=1068.1kbits/s speed=0.999x    frame= 2516 fps= 30 q=0.0 size=   10917kB time=00:01:23.91 bitrate=1065.7kbits/s speed=   1x    frame= 2529 fps= 30 q=0.0 size=   11018kB time=00:01:24.35 bitrate=1070.0kbits/s speed=0.999x    frame= 2546 fps= 30 q=0.0 size=   11067kB time=00:01:24.91 bitrate=1067.6kbits/s speed=   1x    frame= 2561 fps= 30 q=0.0 size=   11167kB time=00:01:25.42 bitrate=1071.0kbits/s speed=   1x    frame= 2576 fps= 30 q=0.0 size=   11178kB time=00:01:25.92 bitrate=1065.8kbits/s speed=   1x    frame= 2591 fps= 30 q=0.0 size=   11278kB time=00:01:26.42 bitrate=1069.1kbits/s speed=   1x    frame= 2606 fps= 30 q=0.0 size=   11329kB time=00:01:26.92 bitrate=1067.7kbits/s speed=   1x    frame= 2622 fps= 30 q=0.0 size=   11428kB time=00:01:27.45 bitrate=1070.5kbits/s speed=   1x    frame= 2637 fps= 30 q=0.0 size=   11439kB time=00:01:27.95 bitrate=1065.4kbits/s speed=   1x    frame= 2652 fps= 30 q=0.0 size=   11539kB time=00:01:28.45 bitrate=1068.6kbits/s speed=   1x    frame= 2667 fps= 30 q=0.0 size=   11588kB time=00:01:28.95 bitrate=1067.1kbits/s speed=   1x    frame= 2682 fps= 30 q=0.0 size=   11688kB time=00:01:29.45 bitrate=1070.3kbits/s speed=   1x    frame= 2697 fps= 30 q=0.0 size=   11699kB time=00:01:29.95 bitrate=1065.4kbits/s speed=   1x    frame= 2712 fps= 30 q=0.0 size=   11800kB time=00:01:30.45 bitrate=1068.6kbits/s speed=   1x    frame= 2728 fps= 30 q=0.0 size=   11849kB time=00:01:30.99 bitrate=1066.8kbits/s speed=   1x    frame= 2743 fps= 30 q=0.0 size=   11949kB time=00:01:31.49 bitrate=1069.9kbits/s speed=   1x    frame= 2758 fps= 30 q=0.0 size=   11960kB time=00:01:31.99 bitrate=1065.1kbits/s speed=   1x    frame= 2774 fps= 30 q=0.0 size=   12060kB time=00:01:32.52 bitrate=1067.7kbits/s speed=   1x    frame= 2789 fps= 30 q=0.0 size=   12109kB time=00:01:33.02 bitrate=1066.3kbits/s speed=   1x    frame= 2804 fps= 30 q=0.0 size=   12210kB time=00:01:33.52 bitrate=1069.4kbits/s speed=   1x    frame= 2819 fps= 30 q=0.0 size=   12220kB time=00:01:34.02 bitrate=1064.6kbits/s speed=   1x    frame= 2834 fps= 30 q=0.0 size=   12321kB time=00:01:34.52 bitrate=1067.7kbits/s speed=   1x    frame= 2849 fps= 30 q=0.0 size=   12370kB time=00:01:35.02 bitrate=1066.3kbits/s speed=   1x    frame= 2864 fps= 30 q=0.0 size=   12470kB time=00:01:35.53 bitrate=1069.3kbits/s speed=   1x    frame= 2879 fps= 30 q=0.0 size=   12480kB time=00:01:36.03 bitrate=1064.7kbits/s speed=   1x    frame= 2894 fps= 30 q=0.0 size=   12581kB time=00:01:36.53 bitrate=1067.7kbits/s speed=   1x    frame= 2909 fps= 30 q=0.0 size=   12630kB time=00:01:37.03 bitrate=1066.3kbits/s speed=   1x    frame= 2925 fps= 30 q=0.0 size=   12730kB time=00:01:37.56 bitrate=1068.9kbits/s speed=   1x    frame= 2939 fps= 30 q=0.0 size=   12741kB time=00:01:38.03 bitrate=1064.7kbits/s speed=   1x    frame= 2955 fps= 30 q=0.0 size=   12840kB time=00:01:38.56 bitrate=1067.2kbits/s speed=   1x    frame= 2969 fps= 30 q=0.0 size=   12893kB time=00:01:39.03 bitrate=1066.5kbits/s speed=   1x    frame= 2985 fps= 30 q=0.0 size=   12989kB time=00:01:39.56 bitrate=1068.7kbits/s speed=   1x    frame= 2999 fps= 30 q=0.0 size=   13048kB time=00:01:40.03 bitrate=1068.5kbits/s speed=0.999x    frame= 3015 fps= 30 q=0.0 size=   13099kB time=00:01:40.56 bitrate=1067.0kbits/s speed=   1x    frame= 3029 fps= 30 q=0.0 size=   13198kB time=00:01:41.03 bitrate=1070.1kbits/s speed=0.999x    frame= 3046 fps= 30 q=0.0 size=   13248kB time=00:01:41.60 bitrate=1068.1kbits/s speed=   1x    frame= 3059 fps= 30 q=0.0 size=   13308kB time=00:01:42.03 bitrate=1068.5kbits/s speed=0.999x    frame= 3076 fps= 30 q=0.0 size=   13358kB time=00:01:42.60 bitrate=1066.5kbits/s speed=   1x    frame= 3091 fps= 30 q=0.0 size=   13455kB time=00:01:43.10 bitrate=1069.1kbits/s speed=   1x    frame= 3106 fps= 30 q=0.0 size=   13506kB time=00:01:43.60 bitrate=1067.9kbits/s speed=   1x    frame= 3121 fps= 30 q=0.0 size=   13565kB time=00:01:44.10 bitrate=1067.4kbits/s speed=   1x    frame= 3137 fps= 30 q=0.0 size=   13616kB time=00:01:44.63 bitrate=1066.0kbits/s speed=   1x    frame= 3151 fps= 30 q=0.0 size=   13714kB time=00:01:45.10 bitrate=1068.8kbits/s speed=   1x    frame= 3167 fps= 30 q=0.0 size=   13763kB time=00:01:45.64 bitrate=1067.3kbits/s speed=   1x    frame= 3182 fps= 30 q=0.0 size=   13823kB time=00:01:46.14 bitrate=1066.9kbits/s speed=   1x    frame= 3198 fps= 30 q=0.0 size=   13874kB time=00:01:46.67 bitrate=1065.4kbits/s speed=   1x    frame= 3213 fps= 30 q=0.0 size=   13972kB time=00:01:47.17 bitrate=1068.0kbits/s speed=   1x    frame= 3228 fps= 30 q=0.0 size=   14022kB time=00:01:47.67 bitrate=1066.8kbits/s speed=   1x    frame= 3243 fps= 30 q=0.0 size=   14082kB time=00:01:48.17 bitrate=1066.4kbits/s speed=   1x    frame= 3258 fps= 30 q=0.0 size=   14132kB time=00:01:48.67 bitrate=1065.2kbits/s speed=   1x    frame= 3274 fps= 30 q=0.0 size=   14229kB time=00:01:49.21 bitrate=1067.3kbits/s speed=   1x    frame= 3289 fps= 30 q=0.0 size=   14279kB time=00:01:49.71 bitrate=1066.2kbits/s speed=   1x    frame= 3304 fps= 30 q=0.0 size=   14339kB time=00:01:50.21 bitrate=1065.8kbits/s speed=   1x    frame= 3319 fps= 30 q=0.0 size=   14390kB time=00:01:50.71 bitrate=1064.8kbits/s speed=   1x    frame= 3334 fps= 30 q=0.0 size=   14490kB time=00:01:51.21 bitrate=1067.3kbits/s speed=   1x    frame= 3349 fps= 30 q=0.0 size=   14540kB time=00:01:51.71 bitrate=1066.3kbits/s speed=   1x    frame= 3365 fps= 30 q=0.0 size=   14601kB time=00:01:52.24 bitrate=1065.6kbits/s speed=   1x    frame= 3379 fps= 30 q=0.0 size=   14696kB time=00:01:52.71 bitrate=1068.1kbits/s speed=   1x    frame= 3395 fps= 30 q=0.0 size=   14750kB time=00:01:53.24 bitrate=1067.0kbits/s speed=   1x    frame= 3409 fps= 30 q=0.0 size=   14805kB time=00:01:53.71 bitrate=1066.6kbits/s speed=   1x    frame= 3425 fps= 30 q=0.0 size=   14861kB time=00:01:54.24 bitrate=1065.6kbits/s speed=   1x    frame= 3439 fps= 30 q=0.0 size=   14960kB time=00:01:54.71 bitrate=1068.3kbits/s speed=   1x    frame= 3456 fps= 30 q=0.0 size=   15011kB time=00:01:55.28 bitrate=1066.7kbits/s speed=   1x    frame= 3469 fps= 30 q=0.0 size=   15072kB time=00:01:55.71 bitrate=1067.0kbits/s speed=0.999x    frame= 3486 fps= 30 q=0.0 size=   15122kB time=00:01:56.28 bitrate=1065.3kbits/s speed=   1x    frame= 3499 fps= 30 q=0.0 size=   15223kB time=00:01:56.71 bitrate=1068.4kbits/s speed=0.999x    frame= 3516 fps= 30 q=0.0 size=   15273kB time=00:01:57.28 bitrate=1066.7kbits/s speed=   1x    frame= 3531 fps= 30 q=0.0 size=   15334kB time=00:01:57.78 bitrate=1066.5kbits/s speed=   1x    frame= 3546 fps= 30 q=0.0 size=   15383kB time=00:01:58.28 bitrate=1065.4kbits/s speed=   1x    frame= 3560 fps= 30 q=0.0 size=   15483kB time=00:01:58.75 bitrate=1068.1kbits/s speed=0.999x    frame= 3577 fps= 30 q=0.0 size=   15532kB time=00:01:59.32 bitrate=1066.3kbits/s speed=   1x    frame= 3592 fps= 30 q=0.0 size=   15593kB time=00:01:59.82 bitrate=1066.1kbits/s speed=   1x    frame= 3607 fps= 30 q=0.0 size=   15643kB time=00:02:00.32 bitrate=1065.1kbits/s speed=   1x    frame= 3622 fps= 30 q=0.0 size=   15745kB time=00:02:00.82 bitrate=1067.6kbits/s speed=   1x    frame= 3637 fps= 30 q=0.0 size=   15796kB time=00:02:01.32 bitrate=1066.6kbits/s speed=   1x    frame= 3652 fps= 30 q=0.0 size=   15857kB time=00:02:01.82 bitrate=1066.3kbits/s speed=   1x    frame= 3668 fps= 30 q=0.0 size=   15908kB time=00:02:02.35 bitrate=1065.0kbits/s speed=   1x    frame= 3683 fps= 30 q=0.0 size=   16008kB time=00:02:02.85 bitrate=1067.4kbits/s speed=   1x    frame= 3698 fps= 30 q=0.0 size=   16058kB time=00:02:03.35 bitrate=1066.4kbits/s speed=   1x    frame= 3713 fps= 30 q=0.0 size=   16119kB time=00:02:03.85 bitrate=1066.1kbits/s speed=   1x    frame= 3728 fps= 30 q=0.0 size=   16169kB time=00:02:04.35 bitrate=1065.1kbits/s speed=   1x    frame= 3743 fps= 30 q=0.0 size=   16270kB time=00:02:04.85 bitrate=1067.5kbits/s speed=   1x    frame= 3758 fps= 30 q=0.0 size=   16320kB time=00:02:05.36 bitrate=1066.5kbits/s speed=   1x    frame= 3774 fps= 30 q=0.0 size=   16382kB time=00:02:05.89 bitrate=1066.0kbits/s speed=   1x    frame= 3789 fps= 30 q=0.0 size=   16432kB time=00:02:06.39 bitrate=1065.0kbits/s speed=   1x    frame= 3804 fps= 30 q=0.0 size=   16533kB time=00:02:06.89 bitrate=1067.3kbits/s speed=   1x    frame= 3819 fps= 30 q=0.0 size=   16583kB time=00:02:07.39 bitrate=1066.3kbits/s speed=   1x    frame= 3834 fps= 30 q=0.0 size=   16644kB time=00:02:07.89 bitrate=1066.1kbits/s speed=   1x    frame= 3849 fps= 30 q=0.0 size=   16693kB time=00:02:08.39 bitrate=1065.1kbits/s speed=   1x    frame= 3864 fps= 30 q=0.0 size=   16794kB time=00:02:08.89 bitrate=1067.4kbits/s speed=   1x    frame= 3879 fps= 30 q=0.0 size=   16843kB time=00:02:09.39 bitrate=1066.3kbits/s speed=   1x    frame= 3895 fps= 30 q=0.0 size=   16905kB time=00:02:09.93 bitrate=1065.9kbits/s speed=   1x    frame= 3909 fps= 30 q=0.0 size=   16958kB time=00:02:10.39 bitrate=1065.3kbits/s speed=   1x    frame= 3925 fps= 30 q=0.0 size=   17056kB time=00:02:10.93 bitrate=1067.2kbits/s speed=   1x    frame= 3939 fps= 30 q=0.0 size=   17110kB time=00:02:11.39 bitrate=1066.7kbits/s speed=   1x    frame= 3955 fps= 30 q=0.0 size=   17168kB time=00:02:11.93 bitrate=1066.0kbits/s speed=   1x    frame= 3969 fps= 30 q=0.0 size=   17265kB time=00:02:12.40 bitrate=1068.3kbits/s speed=   1x    frame= 3985 fps= 30 q=0.0 size=   17317kB time=00:02:12.93 bitrate=1067.1kbits/s speed=   1x    frame= 3999 fps= 30 q=0.0 size=   17371kB time=00:02:13.40 bitrate=1066.7kbits/s speed=   1x    frame= 4016 fps= 30 q=0.0 size=   17428kB time=00:02:13.96 bitrate=1065.7kbits/s speed=   1x    frame= 4029 fps= 30 q=0.0 size=   17528kB time=00:02:14.40 bitrate=1068.4kbits/s speed=0.999x    frame= 4046 fps= 30 q=0.0 size=   17577kB time=00:02:14.96 bitrate=1066.8kbits/s speed=   1x    frame= 4061 fps= 30 q=0.0 size=   17678kB time=00:02:15.47 bitrate=1069.0kbits/s speed=   1x    frame= 4077 fps= 30 q=0.0 size=   17689kB time=00:02:16.00 bitrate=1065.4kbits/s speed=   1x    frame= 4092 fps= 30 q=0.0 size=   17789kB time=00:02:16.50 bitrate=1067.6kbits/s speed=   1x    frame= 4107 fps= 30 q=0.0 size=   17839kB time=00:02:17.00 bitrate=1066.6kbits/s speed=   1x    frame= 4122 fps= 30 q=0.0 size=   17939kB time=00:02:17.50 bitrate=1068.7kbits/s speed=   1x    frame= 4137 fps= 30 q=0.0 size=   17950kB time=00:02:18.00 bitrate=1065.5kbits/s speed=   1x    frame= 4152 fps= 30 q=0.0 size=   18049kB time=00:02:18.50 bitrate=1067.5kbits/s speed=   1x    frame= 4167 fps= 30 q=0.0 size=   18099kB time=00:02:19.00 bitrate=1066.6kbits/s speed=   1x    frame= 4183 fps= 30 q=0.0 size=   18198kB time=00:02:19.54 bitrate=1068.4kbits/s speed=   1x    frame= 4198 fps= 30 q=0.0 size=   18209kB time=00:02:20.04 bitrate=1065.2kbits/s speed=   1x    frame= 4213 fps= 30 q=0.0 size=   18311kB time=00:02:20.54 bitrate=1067.3kbits/s speed=   1x    frame= 4228 fps= 30 q=0.0 size=   18361kB time=00:02:21.04 bitrate=1066.4kbits/s speed=   1x    frame= 4244 fps= 30 q=0.0 size=   18462kB time=00:02:21.57 bitrate=1068.3kbits/s speed=   1x    frame= 4259 fps= 30 q=0.0 size=   18473kB time=00:02:22.07 bitrate=1065.1kbits/s speed=   1x    frame= 4274 fps= 30 q=0.0 size=   18574kB time=00:02:22.57 bitrate=1067.2kbits/s speed=   1x    frame= 4289 fps= 30 q=0.0 size=   18624kB time=00:02:23.07 bitrate=1066.3kbits/s speed=   1x    frame= 4304 fps= 30 q=0.0 size=   18724kB time=00:02:23.57 bitrate=1068.3kbits/s speed=   1x    frame= 4319 fps= 30 q=0.0 size=   18736kB time=00:02:24.07 bitrate=1065.3kbits/s speed=   1x    frame= 4335 fps= 30 q=0.0 size=   18836kB time=00:02:24.61 bitrate=1067.0kbits/s speed=   1x    frame= 4349 fps= 30 q=0.0 size=   18886kB time=00:02:25.07 bitrate=1066.4kbits/s speed=   1x    frame= 4365 fps= 30 q=0.0 size=   18987kB time=00:02:25.61 bitrate=1068.2kbits/s speed=   1x    frame= 4379 fps= 30 q=0.0 size=   19042kB time=00:02:26.08 bitrate=1067.9kbits/s speed=   1x    frame= 4395 fps= 30 q=0.0 size=   19099kB time=00:02:26.61 bitrate=1067.2kbits/s speed=   1x    frame= 4409 fps= 30 q=0.0 size=   19155kB time=00:02:27.08 bitrate=1066.9kbits/s speed=   1x    frame= 4425 fps= 30 q=0.0 size=   19250kB time=00:02:27.61 bitrate=1068.3kbits/s speed=   1x    frame= 4439 fps= 30 q=0.0 size=   19311kB time=00:02:28.08 bitrate=1068.3kbits/s speed=   1x    frame= 4455 fps= 30 q=0.0 size=   19361kB time=00:02:28.61 bitrate=1067.2kbits/s speed=   1x    frame= 4469 fps= 30 q=0.0 size=   19459kB time=00:02:29.08 bitrate=1069.3kbits/s speed=   1x    frame= 4485 fps= 30 q=0.0 size=   19511kB time=00:02:29.61 bitrate=1068.3kbits/s speed=   1x    frame= 4499 fps= 30 q=0.0 size=   19572kB time=00:02:30.08 bitrate=1068.3kbits/s speed=   1x    frame= 4516 fps= 30 q=0.0 size=   19624kB time=00:02:30.65 bitrate=1067.1kbits/s speed=   1x    frame= 4529 fps= 30 q=0.0 size=   19724kB time=00:02:31.08 bitrate=1069.4kbits/s speed=   1x    frame= 4546 fps= 30 q=0.0 size=   19774kB time=00:02:31.65 bitrate=1068.2kbits/s speed=   1x    frame= 4560 fps= 30 q=0.0 size=   19835kB time=00:02:32.12 bitrate=1068.2kbits/s speed=   1x    frame= 4576 fps= 30 q=0.0 size=   19886kB time=00:02:32.65 bitrate=1067.1kbits/s speed=   1x    frame= 4591 fps= 30 q=0.0 size=   19985kB time=00:02:33.15 bitrate=1069.0kbits/s speed=   1x    frame= 4606 fps= 30 q=0.0 size=   20036kB time=00:02:33.65 bitrate=1068.2kbits/s speed=   1x    frame= 4622 fps= 30 q=0.0 size=   20096kB time=00:02:34.18 bitrate=1067.7kbits/s speed=   1x    frame= 4637 fps= 30 q=0.0 size=   20147kB time=00:02:34.68 bitrate=1067.0kbits/s speed=   1x    frame= 4652 fps= 30 q=0.0 size=   20246kB time=00:02:35.18 bitrate=1068.7kbits/s speed=   1x    frame= 4667 fps= 30 q=0.0 size=   20298kB time=00:02:35.69 bitrate=1068.0kbits/s speed=   1x    frame= 4682 fps= 30 q=0.0 size=   20358kB time=00:02:36.19 bitrate=1067.8kbits/s speed=   1x    frame= 4697 fps= 30 q=0.0 size=   20409kB time=00:02:36.69 bitrate=1067.0kbits/s speed=   1x    frame= 4713 fps= 30 q=0.0 size=   20509kB time=00:02:37.22 bitrate=1068.6kbits/s speed=   1x    frame= 4728 fps= 30 q=0.0 size=   20560kB time=00:02:37.72 bitrate=1067.9kbits/s speed=   1x    frame= 4743 fps= 30 q=0.0 size=   20621kB time=00:02:38.22 bitrate=1067.6kbits/s speed=   1x    frame= 4758 fps= 30 q=0.0 size=   20671kB time=00:02:38.72 bitrate=1066.8kbits/s speed=   1x    frame= 4773 fps= 30 q=0.0 size=   20770kB time=00:02:39.22 bitrate=1068.6kbits/s speed=   1x    frame= 4789 fps= 30 q=0.0 size=   20821kB time=00:02:39.76 bitrate=1067.6kbits/s speed=   1x    frame= 4804 fps= 30 q=0.0 size=   20881kB time=00:02:40.26 bitrate=1067.4kbits/s speed=   1x    frame= 4819 fps= 30 q=0.0 size=   20933kB time=00:02:40.76 bitrate=1066.7kbits/s speed=   1x    frame= 4834 fps= 30 q=0.0 size=   21031kB time=00:02:41.26 bitrate=1068.4kbits/s speed=   1x    frame= 4849 fps= 30 q=0.0 size=   21082kB time=00:02:41.76 bitrate=1067.6kbits/s speed=   1x    frame= 4865 fps= 30 q=0.0 size=   21142kB time=00:02:42.29 bitrate=1067.2kbits/s speed=   1x    frame= 4879 fps= 30 q=0.0 size=   21192kB time=00:02:42.76 bitrate=1066.6kbits/s speed=   1x    frame= 4895 fps= 30 q=0.0 size=   21291kB time=00:02:43.29 bitrate=1068.1kbits/s speed=   1x    frame= 4909 fps= 30 q=0.0 size=   21347kB time=00:02:43.76 bitrate=1067.8kbits/s speed=   1x    frame= 4925 fps= 30 q=0.0 size=   21402kB time=00:02:44.29 bitrate=1067.1kbits/s speed=   1x    frame= 4939 fps= 30 q=0.0 size=   21501kB time=00:02:44.76 bitrate=1069.0kbits/s speed=   1x    frame= 4956 fps= 30 q=0.0 size=   21552kB time=00:02:45.33 bitrate=1067.9kbits/s speed=   1x    frame= 4969 fps= 30 q=0.0 size=   21611kB time=00:02:45.76 bitrate=1068.0kbits/s speed=   1x    frame= 4986 fps= 30 q=0.0 size=   21662kB time=00:02:46.33 bitrate=1066.9kbits/s speed=   1x    frame= 4999 fps= 30 q=0.0 size=   21762kB time=00:02:46.76 bitrate=1069.0kbits/s speed=   1x    frame= 5016 fps= 30 q=0.0 size=   21812kB time=00:02:47.33 bitrate=1067.8kbits/s speed=   1x    frame= 5030 fps= 30 q=0.0 size=   21872kB time=00:02:47.80 bitrate=1067.8kbits/s speed=   1x    frame= 5046 fps= 30 q=0.0 size=   21922kB time=00:02:48.33 bitrate=1066.8kbits/s speed=   1x    frame= 5062 fps= 30 q=0.0 size=   22020kB time=00:02:48.87 bitrate=1068.2kbits/s speed=   1x    frame= 5077 fps= 30 q=0.0 size=   22068kB time=00:02:49.37 bitrate=1067.4kbits/s speed=   1x    frame= 5092 fps= 30 q=0.0 size=   22131kB time=00:02:49.87 bitrate=1067.3kbits/s speed=   1x    frame= 5107 fps= 30 q=0.0 size=   22182kB time=00:02:50.37 bitrate=1066.6kbits/s speed=   1x    frame= 5122 fps= 30 q=0.0 size=   22282kB time=00:02:50.87 bitrate=1068.2kbits/s speed=   1x    frame= 5138 fps= 30 q=0.0 size=   22333kB time=00:02:51.40 bitrate=1067.4kbits/s speed=   1x    frame= 5153 fps= 30 q=0.0 size=   22394kB time=00:02:51.90 bitrate=1067.2kbits/s speed=   1x    frame= 5168 fps= 30 q=0.0 size=   22445kB time=00:02:52.40 bitrate=1066.5kbits/s speed=   1x    frame= 5183 fps= 30 q=0.0 size=   22544kB time=00:02:52.90 bitrate=1068.1kbits/s speed=   1x    frame= 5198 fps= 30 q=0.0 size=   22596kB time=00:02:53.40 bitrate=1067.5kbits/s speed=   1x    frame= 5213 fps= 30 q=0.0 size=   22656kB time=00:02:53.90 bitrate=1067.2kbits/s speed=   1x    frame= 5228 fps= 30 q=0.0 size=   22707kB time=00:02:54.40 bitrate=1066.6kbits/s speed=   1x    frame= 5243 fps= 30 q=0.0 size=   22807kB time=00:02:54.90 bitrate=1068.2kbits/s speed=   1x    frame= 5258 fps= 30 q=0.0 size=   22858kB time=00:02:55.41 bitrate=1067.5kbits/s speed=   1x    frame= 5274 fps= 30 q=0.0 size=   22919kB time=00:02:55.94 bitrate=1067.1kbits/s speed=   1x    frame= 5289 fps= 30 q=0.0 size=   22970kB time=00:02:56.44 bitrate=1066.5kbits/s speed=   1x    frame= 5304 fps= 30 q=0.0 size=   23070kB time=00:02:56.94 bitrate=1068.1kbits/s speed=   1x    frame= 5319 fps= 30 q=0.0 size=   23122kB time=00:02:57.44 bitrate=1067.5kbits/s speed=   1x    frame= 5334 fps= 30 q=0.0 size=   23182kB time=00:02:57.94 bitrate=1067.2kbits/s speed=   1x    frame= 5349 fps= 30 q=0.0 size=   23234kB time=00:02:58.44 bitrate=1066.6kbits/s speed=   1x    frame= 5365 fps= 30 q=0.0 size=   23332kB time=00:02:58.98 bitrate=1067.9kbits/s speed=   1x    frame= 5379 fps= 30 q=0.0 size=   23338kB time=00:02:59.44 bitrate=1065.4kbits/s speed=   1x    frame= 5394 fps= 30 q=0.0 size=   23487kB time=00:02:59.94 bitrate=1069.2kbits/s speed=   1x    [flv @ 0x55af3e068ce0] Failed to update header with correct duration.
+[flv @ 0x55af3e068ce0] Failed to update header with correct filesize.
+frame= 5394 fps= 30 q=0.0 Lsize=   23491kB time=00:03:00.00 bitrate=1069.1kbits/s speed=   1x    
+video:20476kB audio:2813kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.866790%
+
+!Tick: {"viewers":77,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":4,"%":0,"counter":false}
+!comment by vojtadrmota: { text: 'what haha?', roomKey: 'thefameshow44' }
+!Tick: {"viewers":77,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  '5_RGOLfHat2QQzDyAAAJ': 'mschrage',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":11,"%":0,"counter":false}
+fake
+!Tick: {"viewers":77,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  '5_RGOLfHat2QQzDyAAAJ': 'mschrage',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":18,"%":0,"counter":false}
+!comment by AimeeWinter: { text: 'new here. ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":77,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":16,"%":0,"counter":false}
+fake
+!created: thefameshow44947
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":false}
+!toggle off: mschrage
+!Tick: {"viewers":77,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":true}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'intro_new.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+  Duration: 00:00:30.33, start: 0.000000, bitrate: 1049 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 540x960 [SAR 1:1 DAR 9:16], 935 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 60k tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 104 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow45':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 540x960 [SAR 1:1 DAR 9:16], q=2-31, 200 kb/s, 29.97 fps, 1k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+frame=   15 fps=0.0 q=0.0 size=      23kB time=00:00:00.46 bitrate= 402.6kbits/s speed=0.932x    frame=   30 fps= 30 q=0.0 size=      61kB time=00:00:00.96 bitrate= 517.5kbits/s speed=0.96x    frame=   45 fps= 30 q=0.0 size=      87kB time=00:00:01.46 bitrate= 486.0kbits/s speed=0.97x    frame=   61 fps= 30 q=0.0 size=     112kB time=00:00:02.00 bitrate= 458.2kbits/s speed=0.99x    frame=   76 fps= 30 q=0.0 size=     261kB time=00:00:02.50 bitrate= 852.8kbits/s speed=0.986x    frame=   91 fps= 30 q=0.0 size=     454kB time=00:00:03.00 bitrate=1238.8kbits/s speed=0.986x    frame=  107 fps= 30 q=0.0 size=     631kB time=00:00:03.53 bitrate=1460.1kbits/s speed=0.997x    frame=  121 fps= 30 q=0.0 size=     829kB time=00:00:04.00 bitrate=1696.4kbits/s speed=0.989x    frame=  137 fps= 30 q=0.0 size=     991kB time=00:00:04.53 bitrate=1788.1kbits/s speed=0.997x    frame=  151 fps= 30 q=0.0 size=    1164kB time=00:00:05.00 bitrate=1904.3kbits/s speed=0.989x    frame=  166 fps= 30 q=0.0 size=    1888kB time=00:00:05.50 bitrate=2807.9kbits/s speed=0.988x    frame=  182 fps= 30 q=0.0 size=    2543kB time=00:00:06.04 bitrate=3449.7kbits/s speed=0.992x    frame=  198 fps= 30 q=0.0 size=    3055kB time=00:00:06.57 bitrate=3807.2kbits/s speed=0.996x    frame=  212 fps= 30 q=0.0 size=    3462kB time=00:00:07.04 bitrate=4027.4kbits/s speed=0.992x    frame=  228 fps= 30 q=0.0 size=    3914kB time=00:00:07.57 bitrate=4232.5kbits/s speed=0.996x    frame=  243 fps= 30 q=0.0 size=    4405kB time=00:00:08.07 bitrate=4467.9kbits/s speed=0.996x    frame=  258 fps= 30 q=0.0 size=    4955kB time=00:00:08.57 bitrate=4733.3kbits/s speed=0.995x    frame=  274 fps= 30 q=0.0 size=    5575kB time=00:00:09.11 bitrate=5013.5kbits/s speed=0.999x    frame=  288 fps= 30 q=0.0 size=    6245kB time=00:00:09.57 bitrate=5342.2kbits/s speed=0.996x    frame=  304 fps= 30 q=0.0 size=    7069kB time=00:00:10.11 bitrate=5727.3kbits/s speed=0.999x    frame=  318 fps= 30 q=0.0 size=    7844kB time=00:00:10.57 bitrate=6074.5kbits/s speed=0.996x    frame=  334 fps= 30 q=0.0 size=    8558kB time=00:00:11.11 bitrate=6309.0kbits/s speed=0.999x    frame=  348 fps= 30 q=0.0 size=    9327kB time=00:00:11.57 bitrate=6598.5kbits/s speed=0.996x    frame=  364 fps= 30 q=0.0 size=   10201kB time=00:00:12.11 bitrate=6898.8kbits/s speed=0.998x    frame=  379 fps= 30 q=0.0 size=   10896kB time=00:00:12.61 bitrate=7076.4kbits/s speed=0.998x    frame=  394 fps= 30 q=0.0 size=   11330kB time=00:00:13.11 bitrate=7077.3kbits/s speed=0.998x    frame=  409 fps= 30 q=0.0 size=   11859kB time=00:00:13.61 bitrate=7135.3kbits/s speed=0.997x    frame=  424 fps= 30 q=0.0 size=   12435kB time=00:00:14.11 bitrate=7217.1kbits/s speed=0.997x    frame=  440 fps= 30 q=0.0 size=   13106kB time=00:00:14.64 bitrate=7329.3kbits/s speed=0.999x    frame=  455 fps= 30 q=0.0 size=   13632kB time=00:00:15.14 bitrate=7371.8kbits/s speed=0.999x    frame=  470 fps= 30 q=0.0 size=   14001kB time=00:00:15.65 bitrate=7328.9kbits/s speed=0.998x    frame=  485 fps= 30 q=0.0 size=   14416kB time=00:00:16.15 bitrate=7312.4kbits/s speed=0.998x    frame=  500 fps= 30 q=0.0 size=   14951kB time=00:00:16.65 bitrate=7355.9kbits/s speed=0.998x    frame=  515 fps= 30 q=0.0 size=   15372kB time=00:00:17.15 bitrate=7342.4kbits/s speed=0.998x    frame=  530 fps= 30 q=0.0 size=   15851kB time=00:00:17.65 bitrate=7356.2kbits/s speed=0.998x    frame=  545 fps= 30 q=0.0 size=   16424kB time=00:00:18.15 bitrate=7412.3kbits/s speed=0.998x    frame=  560 fps= 30 q=0.0 size=   17189kB time=00:00:18.65 bitrate=7549.2kbits/s speed=0.998x    frame=  575 fps= 30 q=0.0 size=   18144kB time=00:00:19.15 bitrate=7760.2kbits/s speed=0.998x    frame=  591 fps= 30 q=0.0 size=   19093kB time=00:00:19.68 bitrate=7945.0kbits/s speed=0.999x    frame=  605 fps= 30 q=0.0 size=   20009kB time=00:00:20.15 bitrate=8133.1kbits/s speed=0.998x    frame=  620 fps= 30 q=0.0 size=   20736kB time=00:00:20.65 bitrate=8224.3kbits/s speed=0.998x    frame=  636 fps= 30 q=0.0 size=   21668kB time=00:00:21.18 bitrate=8377.2kbits/s speed=0.999x    frame=  651 fps= 30 q=0.0 size=   22419kB time=00:00:21.68 bitrate=8467.6kbits/s speed=0.998x    frame=  667 fps= 30 q=0.0 size=   23006kB time=00:00:22.22 bitrate=8480.7kbits/s speed=0.999x    frame=  682 fps= 30 q=0.0 size=   23453kB time=00:00:22.72 bitrate=8454.7kbits/s speed=0.999x    frame=  697 fps= 30 q=0.0 size=   23999kB time=00:00:23.22 bitrate=8465.4kbits/s speed=0.999x    frame=  712 fps= 30 q=0.0 size=   24382kB time=00:00:23.72 bitrate=8419.0kbits/s speed=0.999x    frame=  727 fps= 30 q=0.0 size=   24433kB time=00:00:24.22 bitrate=8262.4kbits/s speed=0.999x    frame=  742 fps= 30 q=0.0 size=   24464kB time=00:00:24.72 bitrate=8105.2kbits/s speed=0.998x    frame=  757 fps= 30 q=0.0 size=   24494kB time=00:00:25.22 bitrate=7954.1kbits/s speed=0.998x    frame=  772 fps= 30 q=0.0 size=   24521kB time=00:00:25.72 bitrate=7808.1kbits/s speed=0.998x    frame=  787 fps= 30 q=0.0 size=   24567kB time=00:00:26.22 bitrate=7673.4kbits/s speed=0.998x    frame=  802 fps= 30 q=0.0 size=   24595kB time=00:00:26.72 bitrate=7538.1kbits/s speed=0.999x    frame=  818 fps= 30 q=0.0 size=   24624kB time=00:00:27.26 bitrate=7399.2kbits/s speed=   1x    frame=  833 fps= 30 q=0.0 size=   24668kB time=00:00:27.76 bitrate=7279.1kbits/s speed=0.999x    frame=  848 fps= 30 q=0.0 size=   24697kB time=00:00:28.26 bitrate=7158.3kbits/s speed=0.999x    frame=  863 fps= 30 q=0.0 size=   24725kB time=00:00:28.76 bitrate=7042.1kbits/s speed=0.999x    frame=  878 fps= 30 q=0.0 size=   24754kB time=00:00:29.26 bitrate=6929.4kbits/s speed=0.999x    frame=  893 fps= 30 q=0.0 size=   24798kB time=00:00:29.76 bitrate=6825.2kbits/s speed=0.999x    frame=  908 fps= 30 q=0.0 size=   24827kB time=00:00:30.26 bitrate=6720.2kbits/s speed=0.999x    [flv @ 0x55d235e1f200] Failed to update header with correct duration.
+[flv @ 0x55d235e1f200] Failed to update header with correct filesize.
+frame=  909 fps= 30 q=0.0 Lsize=   24831kB time=00:00:30.33 bitrate=6705.1kbits/s speed=   1x    
+video:24322kB audio:474kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.138566%
+
+!Tick: {"viewers":77,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":18,"%":0,"counter":true}
+!comment by AimeeWinter: { text: 'what do y’all wanna see?', roomKey: 'thefameshow44' }
+!Tick: {"viewers":77,"votes":0,"time":17,"%":0,"counter":true}
+upvote
+!Tick: {"viewers":77,"votes":20,"time":16,"%":7.575757575757575,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":21,"time":15,"%":7.954545454545454,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":21,"time":14,"%":7.954545454545454,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":21,"time":13,"%":7.954545454545454,"counter":true}
+!leave:  SkyeIsMe
+!Tick: {"viewers":76,"votes":21,"time":12,"%":9.09090909090909,"counter":true}
+!Tick: {"viewers":76,"votes":21,"time":11,"%":9.09090909090909,"counter":true}
+!Tick: {"viewers":76,"votes":21,"time":10,"%":9.09090909090909,"counter":true}
+!comment by mschrage: { text: 'hi aimee', roomKey: 'thefameshow44' }
+!Tick: {"viewers":76,"votes":21,"time":9,"%":9.09090909090909,"counter":true}
+!reconnect:  SkyeIsMe
+!toggle off: vojtadrmota
+!Tick: {"viewers":77,"votes":21,"time":8,"%":7.954545454545454,"counter":true}
+!Tick: {"viewers":77,"votes":21,"time":7,"%":7.954545454545454,"counter":true}
+!Tick: {"viewers":77,"votes":21,"time":6,"%":7.954545454545454,"counter":true}
+!Tick: {"viewers":77,"votes":21,"time":5,"%":7.954545454545454,"counter":true}
+!Tick: {"viewers":77,"votes":21,"time":4,"%":7.954545454545454,"counter":true}
+!Tick: {"viewers":77,"votes":21,"time":3,"%":7.954545454545454,"counter":true}
+!Tick: {"viewers":77,"votes":21,"time":2,"%":7.954545454545454,"counter":true}
+Streaming rn: mattschrage
+!POTENTIAL: kkCZlb7Z-_2Lro1OAAAB,w48wo65ts7GDVLf3AAAA,qd4PyC01im3Am3lrAAAH,qd4PyC01im3Am3lrAAAH,qJ1CEK5Zp74ihss6AAAC
+Coming up is: daydaylovesbeiber
+!created: tbqu
+!leave:  daydaylovesbeiber
+IT WAS UPNEXT
+Streaming rn: mattschrage
+!POTENTIAL: w48wo65ts7GDVLf3AAAA,qd4PyC01im3Am3lrAAAH,qd4PyC01im3Am3lrAAAH,qJ1CEK5Zp74ihss6AAAC
+Coming up is: ceecee926
+!Tick: {"viewers":76,"votes":21,"time":1,"%":9.09090909090909,"counter":true}
+!created: jryq
+!Tick: {"viewers":76,"votes":21,"time":0,"%":9.09090909090909,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  '5_RGOLfHat2QQzDyAAAJ': 'mschrage',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!Tick: {"viewers":76,"votes":0,"time":20,"%":0,"counter":true}
+threshold
+!Tick: {"viewers":76,"votes":0,"time":19,"%":0,"counter":true}
+!comment by mschrage: { text: 'introduce yourself', roomKey: 'thefameshow44' }
+!Tick: {"viewers":76,"votes":0,"time":18,"%":0,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":1,"time":17,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":16,"%":0.20408163265306123,"counter":true}
+!reconnect:  daydaylovesbeiber
+!Tick: {"viewers":77,"votes":1,"time":15,"%":0.17857142857142858,"counter":true}
+!leave:  daydaylovesbeiber
+!Tick: {"viewers":76,"votes":1,"time":14,"%":0.20408163265306123,"counter":true}
+!comment by mschrage: { text: 'when you stream', roomKey: 'thefameshow44' }
+!reconnect:  daydaylovesbeiber
+!Tick: {"viewers":77,"votes":1,"time":13,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":12,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":11,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":10,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":9,"%":0.17857142857142858,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":8,"%":0.17857142857142858,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":7,"%":0.17857142857142858,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":6,"%":0.17857142857142858,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":5,"%":0.17857142857142858,"counter":true}
+!toggle off: AimeeWinter
+!Tick: {"viewers":77,"votes":1,"time":4,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":3,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":2,"%":0.17857142857142858,"counter":true}
+[!BEGIN_SHOW!]
+Genesis, streamid: qd4PyC01im3Am3lrAAAH
+Streaming rn: ceecee926
+!POTENTIAL: qJ1CEK5Zp74ihss6AAAC,kkCZlb7Z-_2Lro1OAAAB
+Coming up is: SkyeIsMe
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":false}
+!created: qmlt
+!Tick: {"viewers":77,"votes":0,"time":19,"%":0,"counter":false}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'videos/tutorial.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+  Duration: 00:00:44.21, start: 0.000000, bitrate: 1333 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 540x960 [SAR 1:1 DAR 9:16], 1215 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 60k tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 108 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44947':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 540x960 [SAR 1:1 DAR 9:16], q=2-31, 200 kb/s, 29.97 fps, 1k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+frame=   15 fps=0.0 q=0.0 size=     153kB time=00:00:00.46 bitrate=2686.4kbits/s speed=0.934x    frame=   30 fps= 30 q=0.0 size=     404kB time=00:00:00.96 bitrate=3414.6kbits/s speed=0.957x    frame=   45 fps= 30 q=0.0 size=     593kB time=00:00:01.46 bitrate=3307.4kbits/s speed=0.964x    frame=   61 fps= 30 q=0.0 size=     855kB time=00:00:02.00 bitrate=3496.0kbits/s speed=0.985x    frame=   76 fps= 30 q=0.0 size=    1039kB time=00:00:02.50 bitrate=3398.8kbits/s speed=0.987x    frame=   91 fps= 30 q=0.0 size=    1278kB time=00:00:03.00 bitrate=3486.0kbits/s speed=0.989x    frame=  106 fps= 30 q=0.0 size=    1424kB time=00:00:03.50 bitrate=3329.0kbits/s speed=0.99x    frame=  121 fps= 30 q=0.0 size=    1677kB time=00:00:04.00 bitrate=3429.3kbits/s speed=0.991x    frame=  136 fps= 30 q=0.0 size=    1898kB time=00:00:04.50 bitrate=3451.2kbits/s speed=0.991x    frame=  151 fps= 30 q=0.0 size=    2130kB time=00:00:05.00 bitrate=3486.4kbits/s speed=0.99x    frame=  167 fps= 30 q=0.0 size=    2341kB time=00:00:05.54 bitrate=3462.3kbits/s speed=0.997x    frame=  182 fps= 30 q=0.0 size=    2524kB time=00:00:06.04 bitrate=3423.9kbits/s speed=0.996x    frame=  197 fps= 30 q=0.0 size=    2737kB time=00:00:06.54 bitrate=3427.7kbits/s speed=0.995x    frame=  212 fps= 30 q=0.0 size=    2927kB time=00:00:07.04 bitrate=3405.9kbits/s speed=0.993x    frame=  228 fps= 30 q=0.0 size=    3134kB time=00:00:07.57 bitrate=3389.3kbits/s speed=0.997x    frame=  243 fps= 30 q=0.0 size=    3327kB time=00:00:08.07 bitrate=3375.1kbits/s speed=0.996x    frame=  258 fps= 30 q=0.0 size=    3599kB time=00:00:08.57 bitrate=3437.5kbits/s speed=0.996x    frame=  273 fps= 30 q=0.0 size=    3837kB time=00:00:09.07 bitrate=3462.9kbits/s speed=0.996x    frame=  289 fps= 30 q=0.0 size=    4068kB time=00:00:09.61 bitrate=3467.4kbits/s speed=0.999x    frame=  304 fps= 30 q=0.0 size=    4281kB time=00:00:10.11 bitrate=3468.5kbits/s speed=0.998x    frame=  319 fps= 30 q=0.0 size=    4514kB time=00:00:10.61 bitrate=3484.4kbits/s speed=0.998x    frame=  334 fps= 30 q=0.0 size=    4730kB time=00:00:11.11 bitrate=3486.9kbits/s speed=0.997x    frame=  349 fps= 30 q=0.0 size=    4939kB time=00:00:11.61 bitrate=3484.3kbits/s speed=0.997x    frame=  364 fps= 30 q=0.0 size=    5130kB time=00:00:12.11 bitrate=3469.4kbits/s speed=0.997x    frame=  380 fps= 30 q=0.0 size=    5423kB time=00:00:12.64 bitrate=3512.8kbits/s speed=0.999x    frame=  395 fps= 30 q=0.0 size=    5676kB time=00:00:13.14 bitrate=3536.5kbits/s speed=0.998x    frame=  410 fps= 30 q=0.0 size=    5877kB time=00:00:13.64 bitrate=3527.5kbits/s speed=0.998x    frame=  425 fps= 30 q=0.0 size=    6137kB time=00:00:14.14 bitrate=3553.4kbits/s speed=0.997x    frame=  440 fps= 30 q=0.0 size=    6321kB time=00:00:14.64 bitrate=3535.1kbits/s speed=0.998x    frame=  455 fps= 30 q=0.0 size=    6484kB time=00:00:15.14 bitrate=3506.5kbits/s speed=0.997x    frame=  470 fps= 30 q=0.0 size=    6668kB time=00:00:15.65 bitrate=3490.5kbits/s speed=0.997x    frame=  486 fps= 30 q=0.0 size=    6909kB time=00:00:16.18 bitrate=3497.2kbits/s speed=0.999x    frame=  501 fps= 30 q=0.0 size=    7080kB time=00:00:16.68 bitrate=3476.4kbits/s speed=0.999x    frame=  516 fps= 30 q=0.0 size=    7257kB time=00:00:17.18 bitrate=3459.4kbits/s speed=0.998x    frame=  531 fps= 30 q=0.0 size=    7431kB time=00:00:17.68 bitrate=3442.2kbits/s speed=0.998x    frame=  546 fps= 30 q=0.0 size=    7691kB time=00:00:18.18 bitrate=3464.3kbits/s speed=0.998x    frame=  562 fps= 30 q=0.0 size=    7904kB time=00:00:18.72 bitrate=3459.0kbits/s speed=0.999x    frame=  577 fps= 30 q=0.0 size=    8122kB time=00:00:19.22 bitrate=3461.7kbits/s speed=0.998x    frame=  592 fps= 30 q=0.0 size=    8373kB time=00:00:19.72 bitrate=3477.9kbits/s speed=0.998x    frame=  607 fps= 30 q=0.0 size=    8578kB time=00:00:20.22 bitrate=3475.3kbits/s speed=0.998x    frame=  623 fps= 30 q=0.0 size=    8770kB time=00:00:20.75 bitrate=3461.5kbits/s speed=0.999x    frame=  638 fps= 30 q=0.0 size=    8994kB time=00:00:21.25 bitrate=3466.2kbits/s speed=0.999x    frame=  653 fps= 30 q=0.0 size=    9210kB time=00:00:21.75 bitrate=3467.9kbits/s speed=0.999x    frame=  668 fps= 30 q=0.0 size=    9425kB time=00:00:22.25 bitrate=3469.0kbits/s speed=0.999x    frame=  683 fps= 30 q=0.0 size=    9633kB time=00:00:22.75 bitrate=3467.6kbits/s speed=0.998x    frame=  698 fps= 30 q=0.0 size=    9854kB time=00:00:23.25 bitrate=3470.9kbits/s speed=0.998x    frame=  713 fps= 30 q=0.0 size=   10116kB time=00:00:23.75 bitrate=3488.1kbits/s speed=0.998x    frame=  729 fps= 30 q=0.0 size=   10334kB time=00:00:24.29 bitrate=3484.8kbits/s speed=0.999x    frame=  744 fps= 30 q=0.0 size=   10487kB time=00:00:24.79 bitrate=3465.1kbits/s speed=0.999x    frame=  759 fps= 30 q=0.0 size=   10740kB time=00:00:25.29 bitrate=3478.7kbits/s speed=0.999x    frame=  774 fps= 30 q=0.0 size=   10960kB time=00:00:25.79 bitrate=3480.9kbits/s speed=0.999x    frame=  789 fps= 30 q=0.0 size=   11111kB time=00:00:26.29 bitrate=3461.8kbits/s speed=0.999x    frame=  804 fps= 30 q=0.0 size=   11301kB time=00:00:26.79 bitrate=3455.3kbits/s speed=0.999x    frame=  819 fps= 30 q=0.0 size=   11553kB time=00:00:27.29 bitrate=3467.5kbits/s speed=0.999x    frame=  835 fps= 30 q=0.0 size=   11789kB time=00:00:27.82 bitrate=3470.3kbits/s speed=   1x    frame=  850 fps= 30 q=0.0 size=   11987kB time=00:00:28.32 bitrate=3466.2kbits/s speed=0.999x    frame=  865 fps= 30 q=0.0 size=   12212kB time=00:00:28.83 bitrate=3470.0kbits/s speed=0.999x    frame=  880 fps= 30 q=0.0 size=   12395kB time=00:00:29.33 bitrate=3461.9kbits/s speed=0.999x    frame=  895 fps= 30 q=0.0 size=   12636kB time=00:00:29.83 bitrate=3470.0kbits/s speed=0.999x    frame=  910 fps= 30 q=0.0 size=   12860kB time=00:00:30.33 bitrate=3473.3kbits/s speed=0.999x    frame=  925 fps= 30 q=0.0 size=   13076kB time=00:00:30.83 bitrate=3474.2kbits/s speed=0.999x    frame=  940 fps= 30 q=0.0 size=   13293kB time=00:00:31.33 bitrate=3475.5kbits/s speed=0.999x    frame=  956 fps= 30 q=0.0 size=   13469kB time=00:00:31.86 bitrate=3462.6kbits/s speed=   1x    frame=  971 fps= 30 q=0.0 size=   13677kB time=00:00:32.36 bitrate=3461.5kbits/s speed=0.999x    frame=  986 fps= 30 q=0.0 size=   13889kB time=00:00:32.86 bitrate=3461.8kbits/s speed=0.999x    frame= 1001 fps= 30 q=0.0 size=   14087kB time=00:00:33.36 bitrate=3458.4kbits/s speed=0.999x    frame= 1016 fps= 30 q=0.0 size=   14257kB time=00:00:33.86 bitrate=3448.4kbits/s speed=0.999x    frame= 1031 fps= 30 q=0.0 size=   14507kB time=00:00:34.36 bitrate=3457.7kbits/s speed=0.999x    frame= 1046 fps= 30 q=0.0 size=   14660kB time=00:00:34.86 bitrate=3444.3kbits/s speed=0.999x    frame= 1062 fps= 30 q=0.0 size=   14922kB time=00:00:35.40 bitrate=3452.8kbits/s speed=   1x    frame= 1077 fps= 30 q=0.0 size=   15134kB time=00:00:35.90 bitrate=3453.0kbits/s speed=   1x    frame= 1092 fps= 30 q=0.0 size=   15331kB time=00:00:36.40 bitrate=3450.0kbits/s speed=   1x    frame= 1107 fps= 30 q=0.0 size=   15466kB time=00:00:36.90 bitrate=3433.1kbits/s speed=0.999x    frame= 1122 fps= 30 q=0.0 size=   15715kB time=00:00:37.40 bitrate=3441.6kbits/s speed=0.999x    frame= 1137 fps= 30 q=0.0 size=   15906kB time=00:00:37.90 bitrate=3437.4kbits/s speed=0.999x    frame= 1153 fps= 30 q=0.0 size=   16083kB time=00:00:38.43 bitrate=3427.6kbits/s speed=   1x    frame= 1168 fps= 30 q=0.0 size=   16275kB time=00:00:38.94 bitrate=3423.9kbits/s speed=   1x    frame= 1183 fps= 30 q=0.0 size=   16481kB time=00:00:39.44 bitrate=3423.1kbits/s speed=0.999x    frame= 1198 fps= 30 q=0.0 size=   16625kB time=00:00:39.94 bitrate=3409.8kbits/s speed=0.999x    frame= 1213 fps= 30 q=0.0 size=   16781kB time=00:00:40.44 bitrate=3399.2kbits/s speed=0.999x    frame= 1228 fps= 30 q=0.0 size=   16969kB time=00:00:40.94 bitrate=3395.3kbits/s speed=0.999x    frame= 1244 fps= 30 q=0.0 size=   17161kB time=00:00:41.47 bitrate=3389.5kbits/s speed=   1x    frame= 1259 fps= 30 q=0.0 size=   17379kB time=00:00:41.97 bitrate=3391.7kbits/s speed=0.999x    frame= 1274 fps= 30 q=0.0 size=   17599kB time=00:00:42.47 bitrate=3394.1kbits/s speed=0.999x    frame= 1289 fps= 30 q=0.0 size=   17876kB time=00:00:42.97 bitrate=3407.4kbits/s speed=0.999x    frame= 1304 fps= 30 q=0.0 size=   18037kB time=00:00:43.47 bitrate=3398.5kbits/s speed=0.999x    frame= 1319 fps= 30 q=0.0 size=   18215kB time=00:00:43.97 bitrate=3393.0kbits/s speed=0.999x    [flv @ 0x5614f0c409a0] Failed to update header with correct duration.
+[flv @ 0x5614f0c409a0] Failed to update header with correct filesize.
+frame= 1325 fps= 30 q=0.0 Lsize=   18332kB time=00:00:44.20 bitrate=3396.9kbits/s speed=   1x    
+video:17591kB audio:691kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.272896%
+
+!Tick: {"viewers":77,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":15,"%":0,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":0,"time":14,"%":0,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":0,"time":13,"%":0,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":0,"time":12,"%":0,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":0,"time":11,"%":0,"counter":true}
+fake
+!leave:  mschrage
+!Tick: {"viewers":76,"votes":0,"time":10,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":9,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":8,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":7,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":6,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":5,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":4,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":3,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":2,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":1,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":0,"%":0,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  '5_RGOLfHat2QQzDyAAAJ': 'mschrage',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: qmlt
+!stored: ceecee926 0.5
+Streaming rn: SkyeIsMe
+!POTENTIAL: kkCZlb7Z-_2Lro1OAAAB
+Coming up is: daydaylovesbeiber
+[!END_ANALYTICS!]
+!created: texn
+!Tick: {"viewers":76,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":76,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":76,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":15,"%":0,"counter":true}
+!comment by ceecee926: { text: 'nooo', roomKey: 'thefameshow44' }
+!Tick: {"viewers":76,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":13,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":12,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":11,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":10,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":9,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":8,"%":0,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":1,"time":7,"%":0.20408163265306123,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":1,"time":6,"%":0.20408163265306123,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!disconnect:  mschrage
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":1,"time":5,"%":0.20408163265306123,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":1,"time":4,"%":0.20408163265306123,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":1,"time":3,"%":0.20408163265306123,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!connected: mschrage
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage' }
+[!END_CONNECTIONS!]
+!toggle on: mschrage
+!reconnect:  mschrage
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":2,"%":0.15873015873015872,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":1,"%":0.15873015873015872,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":0,"%":0.15873015873015872,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: texn
+!stored: SkyeIsMe 0.5
+Streaming rn: daydaylovesbeiber
+!POTENTIAL: hvy_cHbJZm6zxSHpAAAM,hvy_cHbJZm6zxSHpAAAM
+Coming up is: mschrage
+[!END_ANALYTICS!]
+!created: kntj
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":true}
+!leave:  mschrage
+IT WAS UPNEXT
+Streaming rn: daydaylovesbeiber
+!POTENTIAL: qd4PyC01im3Am3lrAAAH,qd4PyC01im3Am3lrAAAH,qJ1CEK5Zp74ihss6AAAC
+Coming up is: SkyeIsMe
+!created: zajv
+!Tick: {"viewers":76,"votes":0,"time":19,"%":0,"counter":true}
+!reconnect:  mschrage
+!Tick: {"viewers":77,"votes":0,"time":18,"%":0,"counter":true}
+!comment by ceecee926: { text: 'pick me again ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":77,"votes":0,"time":17,"%":0,"counter":true}
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":1,"time":16,"%":0.17857142857142858,"counter":true}
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":1,"time":15,"%":0.17857142857142858,"counter":true}
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":1,"time":14,"%":0.17857142857142858,"counter":true}
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":1,"time":13,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":12,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":11,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":10,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":9,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":8,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":7,"%":0.17857142857142858,"counter":true}
+upvote
+upvote
+!Tick: {"viewers":77,"votes":41,"time":6,"%":7.321428571428572,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":42,"time":5,"%":7.500000000000001,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":42,"time":4,"%":7.500000000000001,"counter":true}
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":42,"time":3,"%":7.500000000000001,"counter":true}
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":42,"time":2,"%":7.500000000000001,"counter":true}
+!Tick: {"viewers":77,"votes":42,"time":1,"%":7.500000000000001,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":42,"time":0,"%":7.500000000000001,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!upvote: thefameshow44
+!upvote: thefameshow44
+!toggle off: mschrage
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":20,"%":0.17857142857142858,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":19,"%":0.17857142857142858,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: qmlt
+!upvote: thefameshow44
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":2,"time":18,"%":0.35714285714285715,"counter":true}
+!upvote: qmlt
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":17,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":16,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":15,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":14,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":13,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":12,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":11,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":10,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":9,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":8,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":7,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":6,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":5,"%":0.35714285714285715,"counter":true}
+fake
+!Tick: {"viewers":77,"votes":2,"time":4,"%":0.35714285714285715,"counter":true}
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":2,"time":3,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":2,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":1,"%":0.35714285714285715,"counter":true}
+fake
+!Tick: {"viewers":77,"votes":2,"time":0,"%":0.35714285714285715,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: zajv
+!stored: daydaylovesbeiber 1
+Streaming rn: SkyeIsMe
+!POTENTIAL: qd4PyC01im3Am3lrAAAH,qd4PyC01im3Am3lrAAAH,kkCZlb7Z-_2Lro1OAAAB
+Coming up is: ceecee926
+[!END_ANALYTICS!]
+!upvote: thefameshow44
+!created: khnf
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":20,"%":0.17857142857142858,"counter":false}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":19,"%":0.17857142857142858,"counter":false}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":20,"%":0.17857142857142858,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":19,"%":0.17857142857142858,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":18,"%":0.17857142857142858,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":1,"time":17,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":16,"%":0.17857142857142858,"counter":true}
+!comment by mschrage: { text: 'yeah really good', roomKey: 'qmlt' }
+!Tick: {"viewers":77,"votes":1,"time":15,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":14,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":13,"%":0.17857142857142858,"counter":true}
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":2,"time":12,"%":0.35714285714285715,"counter":true}
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":2,"time":11,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":10,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":9,"%":0.35714285714285715,"counter":true}
+upvote
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":22,"time":8,"%":3.928571428571429,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":22,"time":7,"%":3.928571428571429,"counter":true}
+!Tick: {"viewers":77,"votes":22,"time":6,"%":3.928571428571429,"counter":true}
+!Tick: {"viewers":77,"votes":22,"time":5,"%":3.928571428571429,"counter":true}
+!Tick: {"viewers":77,"votes":22,"time":4,"%":3.928571428571429,"counter":true}
+!Tick: {"viewers":77,"votes":22,"time":3,"%":3.928571428571429,"counter":true}
+!Tick: {"viewers":77,"votes":22,"time":2,"%":3.928571428571429,"counter":true}
+!comment by vojtadrmota: { text: 'wow you are both so talented',
+  roomKey: 'thefameshow44' }
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":22,"time":1,"%":3.928571428571429,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":22,"time":0,"%":3.928571428571429,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  w48wo65ts7GDVLf3AAAA: 'AimeeWinter',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!leave:  AimeeWinter
+!Tick: {"viewers":76,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":19,"%":0,"counter":true}
+!disconnect:  AimeeWinter
+!Tick: {"viewers":76,"votes":0,"time":18,"%":0,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":1,"time":17,"%":0.20408163265306123,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":2,"time":16,"%":0.40816326530612246,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+fake
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":2,"time":15,"%":0.40816326530612246,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":2,"time":14,"%":0.40816326530612246,"counter":true}
+!upvote: thefameshow44
+!upvote: qmlt
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":3,"time":13,"%":0.6122448979591837,"counter":true}
+!upvote: qmlt
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":3,"time":12,"%":0.6122448979591837,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":3,"time":11,"%":0.6122448979591837,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":3,"time":10,"%":0.6122448979591837,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":3,"time":9,"%":0.6122448979591837,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":3,"time":8,"%":0.6122448979591837,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":3,"time":7,"%":0.6122448979591837,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":3,"time":6,"%":0.6122448979591837,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":3,"time":5,"%":0.6122448979591837,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":3,"time":4,"%":0.6122448979591837,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":3,"time":3,"%":0.6122448979591837,"counter":true}
+!Tick: {"viewers":76,"votes":3,"time":2,"%":0.6122448979591837,"counter":true}
+!Tick: {"viewers":76,"votes":3,"time":1,"%":0.6122448979591837,"counter":true}
+upvote
+!Tick: {"viewers":76,"votes":23,"time":0,"%":4.6938775510204085,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!Tick: {"viewers":76,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":76,"votes":0,"time":16,"%":0,"counter":true}
+!upvote: qmlt
+!Tick: {"viewers":76,"votes":1,"time":15,"%":0.20408163265306123,"counter":true}
+!upvote: qmlt
+!connected: AimeeWinter
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  '8XytAmDYnetjfs3wAAAN': 'AimeeWinter' }
+[!END_CONNECTIONS!]
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":1,"time":14,"%":0.17857142857142858,"counter":true}
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":1,"time":13,"%":0.17857142857142858,"counter":true}
+!disconnect:  AimeeWinter
+!Tick: {"viewers":76,"votes":1,"time":12,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":11,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":10,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":9,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":8,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":7,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":6,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":5,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":4,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":3,"%":0.20408163265306123,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":2,"time":2,"%":0.40816326530612246,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":2,"time":1,"%":0.40816326530612246,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":2,"time":0,"%":0.40816326530612246,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: khnf
+!stored: SkyeIsMe 1.5
+Streaming rn: ceecee926
+!POTENTIAL: qJ1CEK5Zp74ihss6AAAC,kkCZlb7Z-_2Lro1OAAAB
+Coming up is: SkyeIsMe
+[!END_ANALYTICS!]
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!created: dwot
+!Tick: {"viewers":76,"votes":1,"time":20,"%":0.20408163265306123,"counter":false}
+fake
+!Tick: {"viewers":76,"votes":1,"time":19,"%":0.20408163265306123,"counter":false}
+!Tick: {"viewers":76,"votes":1,"time":20,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":19,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":18,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":17,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":16,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":15,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":14,"%":0.20408163265306123,"counter":true}
+!connected: AimeeWinter
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  foF8wKzZZ4YFqUboAAAO: 'AimeeWinter' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":77,"votes":1,"time":13,"%":0.17857142857142858,"counter":true}
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":2,"time":12,"%":0.35714285714285715,"counter":true}
+!toggle on: AimeeWinter
+!Tick: {"viewers":77,"votes":2,"time":11,"%":0.35714285714285715,"counter":true}
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":2,"time":10,"%":0.35714285714285715,"counter":true}
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":2,"time":9,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":8,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":7,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":6,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":5,"%":0.35714285714285715,"counter":true}
+!comment by vojtadrmota: { text: 'I like it!', roomKey: 'thefameshow44' }
+!Tick: {"viewers":77,"votes":2,"time":4,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":3,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":2,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":1,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":0,"%":0.35714285714285715,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  foF8wKzZZ4YFqUboAAAO: 'AimeeWinter' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: dwot
+!stored: ceecee926 0.5
+Streaming rn: SkyeIsMe
+!POTENTIAL: foF8wKzZZ4YFqUboAAAO
+Coming up is: AimeeWinter
+[!END_ANALYTICS!]
+!created: jvnp
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":18,"%":0,"counter":true}
+
+!Tick: {"viewers":77,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":16,"%":0,"counter":true}
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":1,"time":15,"%":0.17857142857142858,"counter":true}
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":1,"time":14,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":13,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":12,"%":0.17857142857142858,"counter":true}
+!leave:  mschrage
+!Tick: {"viewers":76,"votes":1,"time":11,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":10,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":9,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":8,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":7,"%":0.20408163265306123,"counter":true}
+!connected: dessy
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  foF8wKzZZ4YFqUboAAAO: 'AimeeWinter',
+  ENxuvb2ADTb5E9lYAAAP: 'dessy' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":77,"votes":1,"time":6,"%":0.17857142857142858,"counter":true}
+!disconnect:  dessy
+!Tick: {"viewers":76,"votes":1,"time":5,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":4,"%":0.20408163265306123,"counter":true}
+!Tick: {"viewers":76,"votes":1,"time":3,"%":0.20408163265306123,"counter":true}
+!reconnect:  mschrage
+!Tick: {"viewers":77,"votes":1,"time":2,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":1,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":0,"%":0.17857142857142858,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  foF8wKzZZ4YFqUboAAAO: 'AimeeWinter' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: jvnp
+!stored: SkyeIsMe 0.5
+Streaming rn: AimeeWinter
+!POTENTIAL: hvy_cHbJZm6zxSHpAAAM
+Coming up is: mschrage
+[!END_ANALYTICS!]
+!upvote: qmlt
+!created: jcwz
+!Tick: {"viewers":77,"votes":1,"time":20,"%":0.17857142857142858,"counter":false}
+!Tick: {"viewers":77,"votes":1,"time":19,"%":0.17857142857142858,"counter":false}
+!Tick: {"viewers":77,"votes":1,"time":20,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":19,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":18,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":17,"%":0.17857142857142858,"counter":true}
+!comment by ceecee926: { text: 'pick meee', roomKey: 'thefameshow44' }
+!Tick: {"viewers":77,"votes":1,"time":16,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":15,"%":0.17857142857142858,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":14,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":13,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":12,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":11,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":10,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":9,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":8,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":7,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":6,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":5,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":4,"%":0.35714285714285715,"counter":true}
+!Tick: {"viewers":77,"votes":2,"time":3,"%":0.35714285714285715,"counter":true}
+!comment by ceecee926: { text: 'lol', roomKey: 'thefameshow44' }
+!Tick: {"viewers":77,"votes":2,"time":2,"%":0.35714285714285715,"counter":true}
+upvote
+!Tick: {"viewers":77,"votes":22,"time":1,"%":3.928571428571429,"counter":true}
+!Tick: {"viewers":77,"votes":22,"time":0,"%":3.928571428571429,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  foF8wKzZZ4YFqUboAAAO: 'AimeeWinter' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":15,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":77,"votes":0,"time":13,"%":0,"counter":true}
+!comment by ceecee926: { text: 'meeeee', roomKey: 'thefameshow44' }
+!upvote: jcwz
+!Tick: {"viewers":77,"votes":1,"time":12,"%":0.17857142857142858,"counter":true}
+!upvote: jcwz
+!upvote: jcwz
+!upvote: jcwz
+!Tick: {"viewers":77,"votes":1,"time":11,"%":0.17857142857142858,"counter":true}
+!upvote: jcwz
+!upvote: jcwz
+!Tick: {"viewers":77,"votes":1,"time":10,"%":0.17857142857142858,"counter":true}
+!upvote: jcwz
+!upvote: jcwz
+!upvote: jcwz
+!Tick: {"viewers":77,"votes":1,"time":9,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":8,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":7,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":6,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":5,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":4,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":3,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":2,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":1,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":0,"%":0.17857142857142858,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  foF8wKzZZ4YFqUboAAAO: 'AimeeWinter' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: jcwz
+!stored: AimeeWinter 1
+Streaming rn: mschrage
+!POTENTIAL: qd4PyC01im3Am3lrAAAH,qd4PyC01im3Am3lrAAAH,qJ1CEK5Zp74ihss6AAAC,kkCZlb7Z-_2Lro1OAAAB,foF8wKzZZ4YFqUboAAAO
+Coming up is: SkyeIsMe
+[!END_ANALYTICS!]
+!upvote: jcwz
+!created: zgsf
+!Tick: {"viewers":77,"votes":1,"time":20,"%":0.17857142857142858,"counter":false}
+!Tick: {"viewers":77,"votes":1,"time":19,"%":0.17857142857142858,"counter":false}
+!Tick: {"viewers":77,"votes":1,"time":20,"%":0.17857142857142858,"counter":true}
+!comment by ceecee926: { text: 'can pick me again ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":77,"votes":1,"time":19,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":18,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":17,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":16,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":15,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":14,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":13,"%":0.17857142857142858,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":12,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":11,"%":0.35714285714285715,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":3,"time":10,"%":0.5357142857142857,"counter":true}
+!upvote: thefameshow44
+!leave:  AimeeWinter
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":76,"votes":4,"time":9,"%":0.8163265306122449,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!reconnect:  AimeeWinter
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":4,"time":8,"%":0.7142857142857143,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":4,"time":7,"%":0.7142857142857143,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":4,"time":6,"%":0.7142857142857143,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: jcwz
+!Tick: {"viewers":77,"votes":4,"time":5,"%":0.7142857142857143,"counter":true}
+!upvote: thefameshow44
+!upvote: jcwz
+!upvote: thefameshow44
+!upvote: jcwz
+!upvote: thefameshow44
+!upvote: jcwz
+!upvote: thefameshow44
+!upvote: jcwz
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":4,"time":4,"%":0.7142857142857143,"counter":true}
+!upvote: thefameshow44
+!upvote: jcwz
+!upvote: jcwz
+!Tick: {"viewers":77,"votes":4,"time":3,"%":0.7142857142857143,"counter":true}
+!upvote: jcwz
+!Tick: {"viewers":77,"votes":4,"time":2,"%":0.7142857142857143,"counter":true}
+!Tick: {"viewers":77,"votes":4,"time":1,"%":0.7142857142857143,"counter":true}
+!Tick: {"viewers":77,"votes":4,"time":0,"%":0.7142857142857143,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  O5huiJC9Xs3MwpqiAAAK: 'mybrotherisamoron',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  foF8wKzZZ4YFqUboAAAO: 'AimeeWinter' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: zgsf
+!stored: mschrage 0.5
+Streaming rn: SkyeIsMe
+!POTENTIAL: qd4PyC01im3Am3lrAAAH,qd4PyC01im3Am3lrAAAH,kkCZlb7Z-_2Lro1OAAAB,hvy_cHbJZm6zxSHpAAAM,foF8wKzZZ4YFqUboAAAO
+Coming up is: daydaylovesbeiber
+[!END_ANALYTICS!]
+!created: kkeq
+!Tick: {"viewers":77,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":77,"votes":0,"time":19,"%":0,"counter":false}
+!upvote: qmlt
+!upvote: qmlt
+!Tick: {"viewers":77,"votes":1,"time":20,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":19,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":18,"%":0.17857142857142858,"counter":true}
+!Tick: {"viewers":77,"votes":1,"time":17,"%":0.17857142857142858,"counter":true}
+!comment by ceecee926: { text: 'meeee', roomKey: 'thefameshow44' }
+!Tick: {"viewers":77,"votes":1,"time":16,"%":0.17857142857142858,"counter":true}
+end
+!INIT_DATE: 2018-06-05 19:07:00
+!INIT_PAYOUT: 0.5
+!INIT_INTERVAL: 20
+[!PAYOUTS!]
+{ ceecee926: 0.5,
+  SkyeIsMe: 0.5,
+  daydaylovesbeiber: 1,
+  AimeeWinter: 1,
+  mschrage: 0.5 }
+[!END_PAYOUTS!]
+!upvote: thefameshow44
+!payouts: paid
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":10000,"%":0.35714285714285715,"counter":false}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":77,"votes":2,"time":9999,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9998,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9997,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9996,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9995,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9994,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9993,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9992,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9991,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9990,"%":0.35714285714285715,"counter":false}
+!toggle on: mybrotherisamoron
+!Tick: {"viewers":77,"votes":2,"time":9989,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9988,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9987,"%":0.35714285714285715,"counter":false}
+!comment by mschrage: { text: 'thanks for tuning in guys ', roomKey: 'qmlt' }
+!Tick: {"viewers":77,"votes":2,"time":9986,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9985,"%":0.35714285714285715,"counter":false}
+!comment by ceecee926: { text: 'aww', roomKey: 'thefameshow44' }
+!Tick: {"viewers":77,"votes":2,"time":9984,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9983,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9982,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9981,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9980,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9979,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9978,"%":0.35714285714285715,"counter":false}
+!comment by vojtadrmota: { text: 'thanks!!', roomKey: 'thefameshow44' }
+!Tick: {"viewers":77,"votes":2,"time":9977,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9976,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9975,"%":0.35714285714285715,"counter":false}
+!comment by mschrage: { text: 'sorry for a short show today', roomKey: 'qmlt' }
+!Tick: {"viewers":77,"votes":2,"time":9974,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9973,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9972,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9971,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9970,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9969,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9968,"%":0.35714285714285715,"counter":false}
+!Tick: {"viewers":77,"votes":2,"time":9967,"%":0.35714285714285715,"counter":false}
+!leave:  mybrotherisamoron
+!Tick: {"viewers":76,"votes":2,"time":9966,"%":0.40816326530612246,"counter":false}
+!leave:  ceecee926
+!disconnect:  mybrotherisamoron
+!Tick: {"viewers":75,"votes":2,"time":9965,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9964,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9963,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9962,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9961,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9960,"%":0.5714285714285715,"counter":false}
+!comment by mschrage: { text: 'well have some really cool updates coming soon',
+  roomKey: 'qmlt' }
+!Tick: {"viewers":75,"votes":2,"time":9959,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9958,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9957,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9956,"%":0.5714285714285715,"counter":false}
+!leave:  AimeeWinter
+!Tick: {"viewers":74,"votes":2,"time":9955,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":74,"votes":2,"time":9954,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":74,"votes":2,"time":9953,"%":0.7142857142857143,"counter":false}
+!disconnect:  AimeeWinter
+!Tick: {"viewers":74,"votes":2,"time":9952,"%":0.7142857142857143,"counter":false}
+!connected: AimeeWinter
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  qd4PyC01im3Am3lrAAAH: 'ceecee926',
+  ZxSDWUGgVar9rcqHAAAL: 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  WWKrDis9ZLviNBmzAAAQ: 'AimeeWinter' }
+[!END_CONNECTIONS!]
+!toggle on: AimeeWinter
+!Tick: {"viewers":75,"votes":2,"time":9951,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9950,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9949,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9948,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9947,"%":0.5714285714285715,"counter":false}
+!comment by mschrage: { text: 'so make sure you invite your friends and get the referral BONUS',
+  roomKey: 'qmlt' }
+!Tick: {"viewers":75,"votes":2,"time":9946,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9945,"%":0.5714285714285715,"counter":false}
+!Tick: {"viewers":75,"votes":2,"time":9944,"%":0.5714285714285715,"counter":false}
+!leave:  AimeeWinter
+!Tick: {"viewers":74,"votes":2,"time":9943,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":74,"votes":2,"time":9942,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":74,"votes":2,"time":9941,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":74,"votes":2,"time":9940,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":74,"votes":2,"time":9939,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":74,"votes":2,"time":9938,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":74,"votes":2,"time":9937,"%":0.7142857142857143,"counter":false}
+!disconnect:  AimeeWinter
+!Tick: {"viewers":74,"votes":2,"time":9936,"%":0.7142857142857143,"counter":false}
+!comment by mschrage: { text: '🔥💸📱', roomKey: 'qmlt' }
+!Tick: {"viewers":74,"votes":2,"time":9935,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":74,"votes":2,"time":9934,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":74,"votes":2,"time":9933,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":74,"votes":2,"time":9932,"%":0.7142857142857143,"counter":false}
+end2
+!Tick: {"viewers":74,"votes":2,"time":9931,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":74,"votes":2,"time":9930,"%":0.7142857142857143,"counter":false}
+!leave:  mschrage
+!Tick: {"viewers":73,"votes":2,"time":9929,"%":0.9523809523809524,"counter":false}
+!Tick: {"viewers":73,"votes":2,"time":9928,"%":0.9523809523809524,"counter":false}
+!Tick: {"viewers":73,"votes":2,"time":9927,"%":0.9523809523809524,"counter":false}
+!leave:  vojtadrmota
+!Tick: {"viewers":72,"votes":2,"time":9926,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9925,"%":1.4285714285714286,"counter":false}
+!disconnect:  vojtadrmota
+!Tick: {"viewers":72,"votes":2,"time":9924,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9923,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9922,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9921,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9920,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9919,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9918,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9917,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9916,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9915,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9914,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9913,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9912,"%":1.4285714285714286,"counter":false}
+!disconnect:  ceecee926
+!Tick: {"viewers":72,"votes":2,"time":9911,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9910,"%":1.4285714285714286,"counter":false}
+!connected: ceecee926
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  jvHhZQ85Sg5OgBO2AAAR: 'ceecee926' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":73,"votes":2,"time":9909,"%":0.9523809523809524,"counter":false}
+!reconnect:  ceecee926
+!Tick: {"viewers":73,"votes":2,"time":9908,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":73,"votes":2,"time":9907,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":73,"votes":2,"time":9906,"%":0.7142857142857143,"counter":false}
+!toggle off: ceecee926
+!Tick: {"viewers":73,"votes":2,"time":9905,"%":0.7142857142857143,"counter":false}
+!toggle on: ceecee926
+!Tick: {"viewers":73,"votes":2,"time":9904,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":73,"votes":2,"time":9903,"%":0.7142857142857143,"counter":false}
+!Tick: {"viewers":73,"votes":2,"time":9902,"%":0.7142857142857143,"counter":false}
+!leave:  ceecee926
+!Tick: {"viewers":72,"votes":2,"time":9901,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9900,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9899,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9898,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9897,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9896,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9895,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9894,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9893,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9892,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9891,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9890,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9889,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9888,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9887,"%":1.4285714285714286,"counter":false}
+!Tick: {"viewers":72,"votes":2,"time":9886,"%":1.4285714285714286,"counter":false}
+!connected: mybrotherisamoron
+[!CONNECTIONS!]
+{ 'kkCZlb7Z-_2Lro1OAAAB': 'daydaylovesbeiber',
+  qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  jvHhZQ85Sg5OgBO2AAAR: 'ceecee926',
+  sd_uOEvsM9o9ARf_AAAS: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":73,"votes":2,"time":9885,"%":0.9523809523809524,"counter":false}
+!Tick: {"viewers":73,"votes":2,"time":9884,"%":0.9523809523809524,"counter":false}
+!toggle off: mybrotherisamoron
+!Tick: {"viewers":73,"votes":2,"time":9883,"%":0.9523809523809524,"counter":false}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":3,"time":9882,"%":1.4285714285714286,"counter":false}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":3,"time":9881,"%":1.4285714285714286,"counter":false}
+!leave:  mybrotherisamoron
+!Tick: {"viewers":72,"votes":3,"time":9880,"%":2.142857142857143,"counter":false}
+!reconnect:  mybrotherisamoron
+!leave:  mybrotherisamoron
+!Tick: {"viewers":72,"votes":3,"time":9879,"%":2.142857142857143,"counter":false}
+!Tick: {"viewers":72,"votes":3,"time":9878,"%":2.142857142857143,"counter":false}
+!leave:  daydaylovesbeiber
+IT WAS UPNEXT
+Streaming rn: SkyeIsMe
+!reconnect:  mybrotherisamoron
+!Tick: {"viewers":72,"votes":3,"time":9877,"%":2.142857142857143,"counter":false}
+!leave:  SkyeIsMe
+nostreamrs!
+!Tick: {"viewers":71,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":19,"%":0,"counter":true}
+!disconnect:  daydaylovesbeiber
+!Tick: {"viewers":71,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":15,"%":0,"counter":true}
+!toggle on: mybrotherisamoron
+!Tick: {"viewers":71,"votes":0,"time":14,"%":0,"counter":true}
+!toggle off: mybrotherisamoron
+!Tick: {"viewers":71,"votes":0,"time":13,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":12,"%":0,"counter":true}
+!leave:  mybrotherisamoron
+!Tick: {"viewers":70,"votes":0,"time":11,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":10,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":9,"%":0,"counter":true}
+!disconnect:  mybrotherisamoron
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":7,"%":0,"counter":true}
+!connected: mybrotherisamoron
+[!CONNECTIONS!]
+{ qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  jvHhZQ85Sg5OgBO2AAAR: 'ceecee926',
+  _LGpF35t6ZflNkSAAAAT: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+!reconnect:  mybrotherisamoron
+!Tick: {"viewers":71,"votes":0,"time":6,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":5,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":4,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":3,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":2,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":1,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":0,"%":0,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  mattschrage: 'mattschrage',
+  hvy_cHbJZm6zxSHpAAAM: 'mschrage',
+  jvHhZQ85Sg5OgBO2AAAR: 'ceecee926',
+  _LGpF35t6ZflNkSAAAAT: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+true
+nostreamrs!
+[!END_ANALYTICS!]
+Streaming rn: undefined
+!POTENTIAL: _LGpF35t6ZflNkSAAAAT,_LGpF35t6ZflNkSAAAAT
+Coming up is: mybrotherisamoron
+Streaming rn: mybrotherisamoron
+!Tick: {"viewers":71,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":15,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":13,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":12,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":11,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":10,"%":0,"counter":true}
+!disconnect:  mschrage
+!Tick: {"viewers":71,"votes":0,"time":9,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":8,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":7,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":6,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":5,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":4,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":3,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":2,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":1,"%":0,"counter":true}
+!leave:  mybrotherisamoron
+nostreamrs!
+!disconnect:  mybrotherisamoron
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":15,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":13,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":12,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":11,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":10,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":9,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":7,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":6,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":5,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":2,"%":0,"counter":true}
+!disconnect:  ceecee926
+!Tick: {"viewers":70,"votes":0,"time":1,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":0,"%":0,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe', mattschrage: 'mattschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+true
+nostreamrs!
+[!END_ANALYTICS!]
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!connected: AimeeWinter
+[!CONNECTIONS!]
+{ qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  mattschrage: 'mattschrage',
+  '-X0Egg2NFn4rTUGZAAAU': 'AimeeWinter' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":71,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":14,"%":0,"counter":false}
+!leave:  AimeeWinter
+!disconnect:  AimeeWinter
+!Tick: {"viewers":70,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":12,"%":0,"counter":false}
+!connected: AimeeWinter
+[!CONNECTIONS!]
+{ qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  mattschrage: 'mattschrage',
+  WBz72Dz7tuaF28zFAAAV: 'AimeeWinter' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":71,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ qJ1CEK5Zp74ihss6AAAC: 'SkyeIsMe',
+  mattschrage: 'mattschrage',
+  WBz72Dz7tuaF28zFAAAV: 'AimeeWinter' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+true
+[!END_ANALYTICS!]
+!Tick: {"viewers":71,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":19,"%":0,"counter":false}
+!disconnect:  SkyeIsMe
+!Tick: {"viewers":71,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":6,"%":0,"counter":false}
+!leave:  AimeeWinter
+!Tick: {"viewers":70,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ mattschrage: 'mattschrage',
+  WBz72Dz7tuaF28zFAAAV: 'AimeeWinter' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+true
+[!END_ANALYTICS!]
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!connected: mybrotherisamoron
+[!CONNECTIONS!]
+{ mattschrage: 'mattschrage',
+  WBz72Dz7tuaF28zFAAAV: 'AimeeWinter',
+  '6HYcF9nGfS5HPl6GAAAW': 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+!reconnect:  mybrotherisamoron
+Streaming rn: undefined
+!POTENTIAL: 6HYcF9nGfS5HPl6GAAAW,6HYcF9nGfS5HPl6GAAAW
+Coming up is: mybrotherisamoron
+Streaming rn: mybrotherisamoron
+!Tick: {"viewers":71,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":71,"votes":0,"time":17,"%":0,"counter":true}
+!leave:  mybrotherisamoron
+nostreamrs!
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":15,"%":0,"counter":true}
+!reconnect:  mybrotherisamoron
+!Tick: {"viewers":71,"votes":0,"time":14,"%":0,"counter":true}
+!leave:  mybrotherisamoron
+!Tick: {"viewers":70,"votes":0,"time":13,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":12,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":11,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":10,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":9,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":7,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":6,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":5,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":2,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":1,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":0,"%":0,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ mattschrage: 'mattschrage',
+  WBz72Dz7tuaF28zFAAAV: 'AimeeWinter',
+  '6HYcF9nGfS5HPl6GAAAW': 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+true
+nostreamrs!
+[!END_ANALYTICS!]
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ mattschrage: 'mattschrage',
+  WBz72Dz7tuaF28zFAAAV: 'AimeeWinter',
+  '6HYcF9nGfS5HPl6GAAAW': 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+true
+[!END_ANALYTICS!]
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ mattschrage: 'mattschrage',
+  WBz72Dz7tuaF28zFAAAV: 'AimeeWinter',
+  '6HYcF9nGfS5HPl6GAAAW': 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+true
+[!END_ANALYTICS!]
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":11,"%":0,"counter":false}
+!disconnect:  AimeeWinter
+!Tick: {"viewers":70,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":2,"%":0,"counter":false}

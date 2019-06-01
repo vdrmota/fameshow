@@ -1,0 +1,1325 @@
+{"viewers":10,"votes":3,"time":25,"%":0.9090909090909091,"counter":false}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  RguKAqpwIQ5Uk5KZAAAP: 'lillyrumsey',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  '-3qLJpqCQVwCJttNAAAW': 'blake' }
+{"viewers":11,"votes":3,"time":24,"%":0.8264462809917354,"counter":false}
+{"viewers":11,"votes":0,"time":23,"%":0,"counter":false}
+created
+{"viewers":11,"votes":0,"time":22,"%":0,"counter":false}
+{"viewers":11,"votes":0,"time":21,"%":0,"counter":false}
+{"viewers":11,"votes":0,"time":30,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":27,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":26,"%":0,"counter":true}
+disconnect:  lillyrumsey
+{"viewers":10,"votes":0,"time":25,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":24,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":23,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":22,"%":0,"counter":true}
+comment: { text: 'yayyy Schrage ', roomKey: 'thefameshow44' }
+disconnect:  blake
+{"viewers":9,"votes":0,"time":21,"%":0,"counter":true}
+upvote: cpad
+upvote: cpad
+upvote: cpad
+upvote: cpad
+upvote: cpad
+upvote: cpad
+upvote: cpad
+upvote: cpad
+upvote: cpad
+upvote: cpad
+{"viewers":9,"votes":10,"time":20,"%":3.3670033670033668,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  bLxV2E_xpMRtzNwgAAAX: 'blake' }
+{"viewers":10,"votes":10,"time":19,"%":3.0303030303030303,"counter":true}
+{"viewers":10,"votes":10,"time":18,"%":3.0303030303030303,"counter":true}
+{"viewers":10,"votes":10,"time":17,"%":3.0303030303030303,"counter":true}
+{"viewers":10,"votes":10,"time":16,"%":3.0303030303030303,"counter":true}
+{"viewers":10,"votes":10,"time":15,"%":3.0303030303030303,"counter":true}
+{"viewers":11,"votes":10,"time":14,"%":2.7548209366391183,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  bLxV2E_xpMRtzNwgAAAX: 'blake',
+  kkZZSl6OUJQWYOCZAAAY: 'flora' }
+{"viewers":11,"votes":10,"time":13,"%":2.7548209366391183,"counter":true}
+{"viewers":11,"votes":10,"time":12,"%":2.7548209366391183,"counter":true}
+comment: { text: 'ur a dweeb', roomKey: 'thefameshow44' }
+disconnect:  blake
+{"viewers":10,"votes":10,"time":11,"%":3.0303030303030303,"counter":true}
+{"viewers":10,"votes":10,"time":10,"%":3.0303030303030303,"counter":true}
+{"viewers":10,"votes":10,"time":9,"%":3.0303030303030303,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  kkZZSl6OUJQWYOCZAAAY: 'flora',
+  EPWTwHpuUiKjJluaAAAZ: 'blake' }
+{"viewers":11,"votes":10,"time":8,"%":2.7548209366391183,"counter":true}
+{"viewers":11,"votes":10,"time":7,"%":2.7548209366391183,"counter":true}
+{"viewers":11,"votes":10,"time":6,"%":2.7548209366391183,"counter":true}
+{"viewers":11,"votes":10,"time":5,"%":2.7548209366391183,"counter":true}
+comment: { text: 'ok Schrage ', roomKey: 'thefameshow44' }
+disconnect:  blake
+{"viewers":10,"votes":10,"time":4,"%":3.0303030303030303,"counter":true}
+comment: { text: 'helllooo', roomKey: 'thefameshow44' }
+{"viewers":10,"votes":10,"time":3,"%":3.0303030303030303,"counter":true}
+{"viewers":10,"votes":10,"time":2,"%":3.0303030303030303,"counter":true}
+{"viewers":10,"votes":10,"time":1,"%":3.0303030303030303,"counter":true}
+{"viewers":10,"votes":10,"time":0,"%":3.0303030303030303,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  kkZZSl6OUJQWYOCZAAAY: 'flora' }
+comment: { text: '😍', roomKey: 'cpad' }
+{"viewers":10,"votes":0,"time":30,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":10,"votes":1,"time":29,"%":0.30303030303030304,"counter":true}
+{"viewers":10,"votes":1,"time":28,"%":0.30303030303030304,"counter":true}
+{"viewers":10,"votes":1,"time":27,"%":0.30303030303030304,"counter":true}
+{"viewers":10,"votes":1,"time":26,"%":0.30303030303030304,"counter":true}
+{"viewers":10,"votes":1,"time":25,"%":0.30303030303030304,"counter":true}
+comment: { text: 'yeeaahhhhh', roomKey: 'cpad' }
+{"viewers":10,"votes":1,"time":24,"%":0.30303030303030304,"counter":true}
+{"viewers":10,"votes":1,"time":23,"%":0.30303030303030304,"counter":true}
+comment: { text: 'boiiiis', roomKey: 'thefameshow44' }
+{"viewers":10,"votes":1,"time":22,"%":0.30303030303030304,"counter":true}
+{"viewers":10,"votes":1,"time":21,"%":0.30303030303030304,"counter":true}
+{"viewers":10,"votes":1,"time":20,"%":0.30303030303030304,"counter":true}
+upvote: thefameshow44
+{"viewers":10,"votes":2,"time":19,"%":0.6060606060606061,"counter":true}
+{"viewers":10,"votes":2,"time":18,"%":0.6060606060606061,"counter":true}
+{"viewers":10,"votes":2,"time":17,"%":0.6060606060606061,"counter":true}
+{"viewers":10,"votes":2,"time":16,"%":0.6060606060606061,"counter":true}
+upvote: cpad
+upvote: cpad
+upvote: cpad
+upvote: cpad
+upvote: cpad
+upvote: cpad
+upvote: cpad
+upvote: cpad
+{"viewers":10,"votes":10,"time":15,"%":3.0303030303030303,"counter":true}
+upvote: cpad
+{"viewers":10,"votes":11,"time":14,"%":3.3333333333333335,"counter":true}
+{"viewers":10,"votes":11,"time":13,"%":3.3333333333333335,"counter":true}
+{"viewers":10,"votes":11,"time":12,"%":3.3333333333333335,"counter":true}
+{"viewers":10,"votes":11,"time":11,"%":3.3333333333333335,"counter":true}
+{"viewers":10,"votes":11,"time":10,"%":3.3333333333333335,"counter":true}
+{"viewers":10,"votes":11,"time":9,"%":3.3333333333333335,"counter":true}
+comment: { text: 'downvote this fool', roomKey: 'thefameshow44' }
+{"viewers":10,"votes":11,"time":8,"%":3.3333333333333335,"counter":true}
+{"viewers":10,"votes":11,"time":7,"%":3.3333333333333335,"counter":true}
+{"viewers":10,"votes":11,"time":6,"%":3.3333333333333335,"counter":true}
+{"viewers":27,"votes":11,"time":5,"%":1.2345679012345678,"counter":true}
+{"viewers":27,"votes":11,"time":4,"%":1.2345679012345678,"counter":true}
+{"viewers":27,"votes":11,"time":3,"%":1.2345679012345678,"counter":true}
+{"viewers":27,"votes":11,"time":2,"%":1.2345679012345678,"counter":true}
+{"viewers":27,"votes":11,"time":1,"%":1.2345679012345678,"counter":true}
+{"viewers":27,"votes":11,"time":0,"%":1.2345679012345678,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  kkZZSl6OUJQWYOCZAAAY: 'flora' }
+upvote: cpad
+{"viewers":27,"votes":1,"time":30,"%":0.11223344556677889,"counter":true}
+{"viewers":27,"votes":1,"time":29,"%":0.11223344556677889,"counter":true}
+upvote: thefameshow44
+{"viewers":27,"votes":2,"time":28,"%":0.22446689113355778,"counter":true}
+{"viewers":27,"votes":2,"time":27,"%":0.22446689113355778,"counter":true}
+{"viewers":27,"votes":2,"time":26,"%":0.22446689113355778,"counter":true}
+{"viewers":27,"votes":2,"time":25,"%":0.22446689113355778,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  kkZZSl6OUJQWYOCZAAAY: 'flora',
+  KXybeQi7BAhSH00kAAAa: 'lillyrumsey' }
+{"viewers":28,"votes":2,"time":24,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":23,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":22,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":21,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":20,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":19,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":18,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":17,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":16,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":15,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":14,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":13,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":12,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":11,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":10,"%":0.21645021645021642,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  kkZZSl6OUJQWYOCZAAAY: 'flora',
+  KXybeQi7BAhSH00kAAAa: 'lillyrumsey',
+  '3xfB6Yqs8NbO3bgtAAAb': 'blake' }
+{"viewers":29,"votes":2,"time":9,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":8,"%":0.2089864158829676,"counter":true}
+stored
+{"viewers":29,"votes":0,"time":30,"%":0,"counter":true}
+created
+{"viewers":29,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":27,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":26,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":25,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":24,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":23,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":22,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":21,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":16,"%":0,"counter":true}
+comment: { text: 'leave', roomKey: 'thefameshow44' }
+comment: { text: 'apurensw', roomKey: 'thefameshow44' }
+{"viewers":29,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":14,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":12,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":11,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":10,"%":0,"counter":true}
+comment: { text: 'boooo', roomKey: 'cpad' }
+upvote: thefameshow44
+{"viewers":29,"votes":1,"time":9,"%":0.1044932079414838,"counter":true}
+stored
+created
+{"viewers":29,"votes":0,"time":30,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":27,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":26,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":25,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":24,"%":0,"counter":true}
+created
+{"viewers":29,"votes":0,"time":23,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":22,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":21,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":20,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":1,"time":19,"%":0.1044932079414838,"counter":true}
+{"viewers":29,"votes":1,"time":18,"%":0.1044932079414838,"counter":true}
+upvote: cpad
+{"viewers":29,"votes":2,"time":17,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":16,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":15,"%":0.2089864158829676,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":3,"time":14,"%":0.3134796238244514,"counter":true}
+upvote: thefameshow44
+upvote: thefameshow44
+upvote: thefameshow44
+{"viewers":29,"votes":6,"time":13,"%":0.6269592476489028,"counter":true}
+{"viewers":29,"votes":6,"time":12,"%":0.6269592476489028,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":7,"time":11,"%":0.7314524555903866,"counter":true}
+{"viewers":29,"votes":7,"time":10,"%":0.7314524555903866,"counter":true}
+{"viewers":29,"votes":7,"time":9,"%":0.7314524555903866,"counter":true}
+{"viewers":29,"votes":7,"time":8,"%":0.7314524555903866,"counter":true}
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+{"viewers":29,"votes":27,"time":7,"%":2.8213166144200623,"counter":true}
+{"viewers":29,"votes":27,"time":6,"%":2.8213166144200623,"counter":true}
+{"viewers":29,"votes":27,"time":5,"%":2.8213166144200623,"counter":true}
+{"viewers":29,"votes":27,"time":4,"%":2.8213166144200623,"counter":true}
+{"viewers":29,"votes":27,"time":3,"%":2.8213166144200623,"counter":true}
+{"viewers":29,"votes":27,"time":2,"%":2.8213166144200623,"counter":true}
+{"viewers":29,"votes":27,"time":1,"%":2.8213166144200623,"counter":true}
+{"viewers":29,"votes":27,"time":0,"%":2.8213166144200623,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  kkZZSl6OUJQWYOCZAAAY: 'flora',
+  KXybeQi7BAhSH00kAAAa: 'lillyrumsey',
+  '3xfB6Yqs8NbO3bgtAAAb': 'blake' }
+upvote: thefameshow44
+comment: { text: 'this is sick', roomKey: 'thefameshow44' }
+{"viewers":29,"votes":1,"time":30,"%":0.1044932079414838,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":2,"time":29,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":28,"%":0.2089864158829676,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":3,"time":27,"%":0.3134796238244514,"counter":true}
+upvote: cpad
+{"viewers":30,"votes":4,"time":26,"%":0.40404040404040403,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  kkZZSl6OUJQWYOCZAAAY: 'flora',
+  KXybeQi7BAhSH00kAAAa: 'lillyrumsey',
+  '3xfB6Yqs8NbO3bgtAAAb': 'blake',
+  Yz7uw7qlLivQb8GAAAAc: 'falky2' }
+{"viewers":30,"votes":4,"time":25,"%":0.40404040404040403,"counter":true}
+upvote: thefameshow44
+{"viewers":30,"votes":5,"time":24,"%":0.505050505050505,"counter":true}
+upvote: thefameshow44
+{"viewers":30,"votes":6,"time":23,"%":0.6060606060606061,"counter":true}
+{"viewers":30,"votes":6,"time":22,"%":0.6060606060606061,"counter":true}
+{"viewers":30,"votes":6,"time":21,"%":0.6060606060606061,"counter":true}
+{"viewers":30,"votes":6,"time":20,"%":0.6060606060606061,"counter":true}
+upvote: thefameshow44
+{"viewers":30,"votes":7,"time":19,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":18,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":17,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":16,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":15,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":14,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":13,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":12,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":11,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":10,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":9,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":8,"%":0.7070707070707071,"counter":true}
+comment: { text: 'keep it going', roomKey: 'cpad' }
+{"viewers":30,"votes":7,"time":7,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":6,"%":0.7070707070707071,"counter":true}
+{"viewers":30,"votes":7,"time":5,"%":0.7070707070707071,"counter":true}
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+upvote: rdmj
+{"viewers":30,"votes":22,"time":4,"%":2.222222222222222,"counter":true}
+{"viewers":30,"votes":22,"time":3,"%":2.222222222222222,"counter":true}
+{"viewers":30,"votes":22,"time":2,"%":2.222222222222222,"counter":true}
+{"viewers":30,"votes":22,"time":1,"%":2.222222222222222,"counter":true}
+{"viewers":30,"votes":22,"time":0,"%":2.222222222222222,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  kkZZSl6OUJQWYOCZAAAY: 'flora',
+  KXybeQi7BAhSH00kAAAa: 'lillyrumsey',
+  '3xfB6Yqs8NbO3bgtAAAb': 'blake',
+  Yz7uw7qlLivQb8GAAAAc: 'falky2' }
+upvote: thefameshow44
+upvote: thefameshow44
+{"viewers":30,"votes":2,"time":30,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":29,"%":0.20202020202020202,"counter":true}
+comment: { text: 'wooooo', roomKey: 'thefameshow44' }
+{"viewers":30,"votes":2,"time":28,"%":0.20202020202020202,"counter":true}
+comment: { text: 'what a talent', roomKey: 'thefameshow44' }
+{"viewers":30,"votes":2,"time":27,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":26,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":25,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":24,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":23,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":22,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":21,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":20,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":19,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":18,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":17,"%":0.20202020202020202,"counter":true}
+comment: { text: 'callate negro', roomKey: 'thefameshow44' }
+{"viewers":30,"votes":2,"time":16,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":15,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":14,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":13,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":12,"%":0.20202020202020202,"counter":true}
+{"viewers":30,"votes":2,"time":11,"%":0.20202020202020202,"counter":true}
+comment: { text: 'negro mk', roomKey: 'thefameshow44' }
+upvote: cpad
+{"viewers":30,"votes":3,"time":10,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":9,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":8,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":7,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":6,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":5,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":4,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":3,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":2,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":1,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":0,"%":0.30303030303030304,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  kkZZSl6OUJQWYOCZAAAY: 'flora',
+  KXybeQi7BAhSH00kAAAa: 'lillyrumsey',
+  '3xfB6Yqs8NbO3bgtAAAb': 'blake',
+  Yz7uw7qlLivQb8GAAAAc: 'falky2' }
+DIED: ychl
+POTENTIAL: 4g54BK-p-wX4OCwYAAAM,_3RI_EHiW0qQdheGAAAO,Gwi97ecbFg_S_58sAAAR,HFPRxj2F5VtANIkzAAAS,WEdqUapYovTuCOxRAAAT,HLhDqGgzEHoei-32AAAU,tM8MhIA5Fizl5XozAAAV,kkZZSl6OUJQWYOCZAAAY,KXybeQi7BAhSH00kAAAa,3xfB6Yqs8NbO3bgtAAAb,Yz7uw7qlLivQb8GAAAAc
+upvote: thefameshow44
+stored: aashay 1.5
+created
+{"viewers":30,"votes":1,"time":30,"%":0.10101010101010101,"counter":false}
+{"viewers":30,"votes":1,"time":29,"%":0.10101010101010101,"counter":false}
+{"viewers":30,"votes":1,"time":30,"%":0.10101010101010101,"counter":true}
+{"viewers":30,"votes":1,"time":29,"%":0.10101010101010101,"counter":true}
+{"viewers":30,"votes":1,"time":28,"%":0.10101010101010101,"counter":true}
+{"viewers":30,"votes":1,"time":27,"%":0.10101010101010101,"counter":true}
+{"viewers":30,"votes":1,"time":26,"%":0.10101010101010101,"counter":true}
+{"viewers":30,"votes":1,"time":25,"%":0.10101010101010101,"counter":true}
+{"viewers":30,"votes":1,"time":24,"%":0.10101010101010101,"counter":true}
+upvote: thefameshow44
+upvote: thefameshow44
+{"viewers":30,"votes":3,"time":23,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":22,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":21,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":20,"%":0.30303030303030304,"counter":true}
+comment: { text: 'fortnight ', roomKey: 'thefameshow44' }
+{"viewers":30,"votes":3,"time":19,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":18,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":17,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":16,"%":0.30303030303030304,"counter":true}
+{"viewers":30,"votes":3,"time":15,"%":0.30303030303030304,"counter":true}
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+upvote: ychl
+{"viewers":30,"votes":103,"time":14,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":13,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":12,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":11,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":10,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":9,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":8,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":7,"%":10.404040404040403,"counter":true}
+comment: { text: 'fort nite is not a talent ', roomKey: 'thefameshow44' }
+comment: { text: 'DO SOMETHING', roomKey: 'thefameshow44' }
+{"viewers":30,"votes":103,"time":6,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":5,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":4,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":3,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":2,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":1,"%":10.404040404040403,"counter":true}
+{"viewers":30,"votes":103,"time":0,"%":10.404040404040403,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  kkZZSl6OUJQWYOCZAAAY: 'flora',
+  KXybeQi7BAhSH00kAAAa: 'lillyrumsey',
+  '3xfB6Yqs8NbO3bgtAAAb': 'blake',
+  Yz7uw7qlLivQb8GAAAAc: 'falky2' }
+{"viewers":30,"votes":0,"time":30,"%":0,"counter":true}
+comment: { text: 'where’s the talent', roomKey: 'thefameshow44' }
+{"viewers":30,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":30,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":30,"votes":0,"time":27,"%":0,"counter":true}
+{"viewers":30,"votes":0,"time":26,"%":0,"counter":true}
+{"viewers":30,"votes":0,"time":25,"%":0,"counter":true}
+{"viewers":30,"votes":0,"time":24,"%":0,"counter":true}
+{"viewers":30,"votes":0,"time":23,"%":0,"counter":true}
+{"viewers":30,"votes":0,"time":22,"%":0,"counter":true}
+{"viewers":30,"votes":0,"time":21,"%":0,"counter":true}
+disconnect:  blake
+{"viewers":29,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":14,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":12,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":1,"time":11,"%":0.1044932079414838,"counter":true}
+{"viewers":29,"votes":1,"time":10,"%":0.1044932079414838,"counter":true}
+{"viewers":29,"votes":1,"time":9,"%":0.1044932079414838,"counter":true}
+{"viewers":29,"votes":1,"time":8,"%":0.1044932079414838,"counter":true}
+{"viewers":29,"votes":1,"time":7,"%":0.1044932079414838,"counter":true}
+{"viewers":29,"votes":1,"time":6,"%":0.1044932079414838,"counter":true}
+{"viewers":29,"votes":1,"time":5,"%":0.1044932079414838,"counter":true}
+{"viewers":29,"votes":1,"time":4,"%":0.1044932079414838,"counter":true}
+{"viewers":29,"votes":1,"time":3,"%":0.1044932079414838,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":2,"time":2,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":1,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":0,"%":0.2089864158829676,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  kkZZSl6OUJQWYOCZAAAY: 'flora',
+  KXybeQi7BAhSH00kAAAa: 'lillyrumsey',
+  Yz7uw7qlLivQb8GAAAAc: 'falky2' }
+DIED: ctld
+POTENTIAL: 4g54BK-p-wX4OCwYAAAM,_3RI_EHiW0qQdheGAAAO,Gwi97ecbFg_S_58sAAAR,HFPRxj2F5VtANIkzAAAS,WEdqUapYovTuCOxRAAAT,HLhDqGgzEHoei-32AAAU,tM8MhIA5Fizl5XozAAAV,kkZZSl6OUJQWYOCZAAAY,KXybeQi7BAhSH00kAAAa
+stored: falky2 1
+created
+{"viewers":29,"votes":0,"time":30,"%":0,"counter":false}
+{"viewers":29,"votes":0,"time":29,"%":0,"counter":false}
+{"viewers":29,"votes":0,"time":30,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":29,"votes":0,"time":27,"%":0,"counter":true}
+created
+{"viewers":29,"votes":0,"time":26,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":1,"time":25,"%":0.1044932079414838,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":2,"time":24,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":23,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":22,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":21,"%":0.2089864158829676,"counter":true}
+disconnect:  flora
+{"viewers":28,"votes":2,"time":20,"%":0.21645021645021642,"counter":true}
+created
+{"viewers":28,"votes":2,"time":19,"%":0.21645021645021642,"counter":true}
+{"viewers":28,"votes":2,"time":18,"%":0.21645021645021642,"counter":true}
+{"viewers":29,"votes":2,"time":17,"%":0.2089864158829676,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  KXybeQi7BAhSH00kAAAa: 'lillyrumsey',
+  Yz7uw7qlLivQb8GAAAAc: 'falky2',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora' }
+{"viewers":29,"votes":2,"time":16,"%":0.2089864158829676,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":3,"time":15,"%":0.3134796238244514,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":4,"time":14,"%":0.4179728317659352,"counter":true}
+{"viewers":29,"votes":4,"time":13,"%":0.4179728317659352,"counter":true}
+{"viewers":29,"votes":4,"time":12,"%":0.4179728317659352,"counter":true}
+{"viewers":29,"votes":4,"time":11,"%":0.4179728317659352,"counter":true}
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+upvote: juqc
+{"viewers":29,"votes":104,"time":10,"%":10.867293625914316,"counter":true}
+{"viewers":29,"votes":104,"time":9,"%":10.867293625914316,"counter":true}
+{"viewers":29,"votes":104,"time":8,"%":10.867293625914316,"counter":true}
+{"viewers":29,"votes":104,"time":7,"%":10.867293625914316,"counter":true}
+{"viewers":29,"votes":104,"time":6,"%":10.867293625914316,"counter":true}
+{"viewers":29,"votes":104,"time":5,"%":10.867293625914316,"counter":true}
+{"viewers":29,"votes":104,"time":4,"%":10.867293625914316,"counter":true}
+{"viewers":29,"votes":104,"time":3,"%":10.867293625914316,"counter":true}
+{"viewers":29,"votes":104,"time":2,"%":10.867293625914316,"counter":true}
+{"viewers":29,"votes":104,"time":1,"%":10.867293625914316,"counter":true}
+{"viewers":29,"votes":104,"time":0,"%":10.867293625914316,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  KXybeQi7BAhSH00kAAAa: 'lillyrumsey',
+  Yz7uw7qlLivQb8GAAAAc: 'falky2',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora' }
+{"viewers":29,"votes":0,"time":30,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":1,"time":29,"%":0.1044932079414838,"counter":true}
+{"viewers":29,"votes":1,"time":28,"%":0.1044932079414838,"counter":true}
+upvote: thefameshow44
+{"viewers":29,"votes":2,"time":27,"%":0.2089864158829676,"counter":true}
+comment: { text: 'yeah call', roomKey: 'thefameshow44' }
+{"viewers":29,"votes":2,"time":26,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":25,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":24,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":23,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":22,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":21,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":20,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":19,"%":0.2089864158829676,"counter":true}
+{"viewers":29,"votes":2,"time":18,"%":0.2089864158829676,"counter":true}
+{"viewers":18,"votes":2,"time":17,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":16,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":15,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":14,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":13,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":12,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":11,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":10,"%":0.33670033670033667,"counter":true}
+comment: { text: 'fuck Matt Schrage!', roomKey: 'thefameshow44' }
+{"viewers":18,"votes":2,"time":9,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":8,"%":0.33670033670033667,"counter":true}
+comment: { text: 'vape lord', roomKey: 'thefameshow44' }
+{"viewers":18,"votes":2,"time":7,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":6,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":5,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":4,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":3,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":2,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":1,"%":0.33670033670033667,"counter":true}
+{"viewers":18,"votes":2,"time":0,"%":0.33670033670033667,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  KXybeQi7BAhSH00kAAAa: 'lillyrumsey',
+  Yz7uw7qlLivQb8GAAAAc: 'falky2',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora' }
+DIED: juqc
+POTENTIAL: 4g54BK-p-wX4OCwYAAAM,_3RI_EHiW0qQdheGAAAO,Gwi97ecbFg_S_58sAAAR,HFPRxj2F5VtANIkzAAAS,WEdqUapYovTuCOxRAAAT,HLhDqGgzEHoei-32AAAU,tM8MhIA5Fizl5XozAAAV,KXybeQi7BAhSH00kAAAa,C0Ax9zyg-5jRL22pAAAd
+stored: falky2 1
+disconnect:  falky2
+created
+created
+{"viewers":17,"votes":0,"time":30,"%":0,"counter":false}
+{"viewers":17,"votes":0,"time":29,"%":0,"counter":false}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  utQrWbQlk4AFy0n6AAAQ: 'aashay',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'HLhDqGgzEHoei-32AAAU': 'murdog0214',
+  tM8MhIA5Fizl5XozAAAV: 'Jotto787',
+  KXybeQi7BAhSH00kAAAa: 'lillyrumsey',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  SeisRMW9ySQwivsyAAAe: 'andzuck' }
+{"viewers":18,"votes":0,"time":30,"%":0,"counter":true}
+{"viewers":18,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":18,"votes":0,"time":28,"%":0,"counter":true}
+disconnect:  Jotto787
+{"viewers":17,"votes":0,"time":30,"%":0,"counter":true}
+created
+{"viewers":17,"votes":0,"time":29,"%":0,"counter":true}
+created
+stored
+{"viewers":17,"votes":0,"time":30,"%":0,"counter":true}
+disconnect:  murdog0214
+{"viewers":16,"votes":0,"time":29,"%":0,"counter":true}
+created
+{"viewers":16,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":27,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":26,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":25,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":16,"votes":1,"time":24,"%":0.1893939393939394,"counter":true}
+{"viewers":16,"votes":1,"time":23,"%":0.1893939393939394,"counter":true}
+{"viewers":16,"votes":1,"time":22,"%":0.1893939393939394,"counter":true}
+{"viewers":16,"votes":1,"time":21,"%":0.1893939393939394,"counter":true}
+comment: { text: 'my screen is black ', roomKey: 'ypsz' }
+{"viewers":16,"votes":1,"time":20,"%":0.1893939393939394,"counter":true}
+{"viewers":16,"votes":1,"time":19,"%":0.1893939393939394,"counter":true}
+stored
+{"viewers":16,"votes":0,"time":30,"%":0,"counter":true}
+disconnect:  lillyrumsey
+created
+comment: { text: 'what’s happening ', roomKey: 'thefameshow44' }
+{"viewers":15,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":27,"%":0,"counter":true}
+disconnect:  aashay
+created
+{"viewers":14,"votes":0,"time":30,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":29,"%":0,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  SeisRMW9ySQwivsyAAAe: 'andzuck',
+  ek9PrbMXgix69cA5AAAf: 'falky2' }
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  SeisRMW9ySQwivsyAAAe: 'andzuck',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  fFQp58IwfmlF8XsoAAAg: 'lillyrumsey' }
+{"viewers":16,"votes":0,"time":28,"%":0,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  Gwi97ecbFg_S_58sAAAR: 'daltonfollows',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  WEdqUapYovTuCOxRAAAT: 'av777x',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  SeisRMW9ySQwivsyAAAe: 'andzuck',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  fFQp58IwfmlF8XsoAAAg: 'lillyrumsey',
+  'sTEwO-dCEwDtrpo2AAAh': 'Jotto787' }
+{"viewers":17,"votes":0,"time":27,"%":0,"counter":true}
+{"viewers":17,"votes":0,"time":26,"%":0,"counter":true}
+{"viewers":17,"votes":0,"time":25,"%":0,"counter":true}
+comment: { text: '😂😂😂', roomKey: 'thefameshow44' }
+{"viewers":17,"votes":0,"time":24,"%":0,"counter":true}
+{"viewers":17,"votes":0,"time":23,"%":0,"counter":true}
+{"viewers":17,"votes":0,"time":22,"%":0,"counter":true}
+created
+{"viewers":17,"votes":0,"time":21,"%":0,"counter":true}
+disconnect:  daltonfollows
+comment: { text: 'oops ', roomKey: 'thefameshow44' }
+{"viewers":16,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":16,"%":0,"counter":true}
+disconnect:  av777x
+created
+{"viewers":15,"votes":0,"time":30,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":27,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":26,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":25,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":24,"%":0,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  SeisRMW9ySQwivsyAAAe: 'andzuck',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  fFQp58IwfmlF8XsoAAAg: 'lillyrumsey',
+  'sTEwO-dCEwDtrpo2AAAh': 'Jotto787',
+  SVjfgPMdww_DKlugAAAi: 'av777x' }
+{"viewers":16,"votes":0,"time":23,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":22,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":21,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":14,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":12,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":11,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":10,"%":0,"counter":true}
+comment: { text: 'sick live stream from the coop', roomKey: 'cwrw' }
+{"viewers":16,"votes":0,"time":9,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":8,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":7,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":6,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":5,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":4,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":3,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":2,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":1,"%":0,"counter":true}
+{"viewers":16,"votes":0,"time":0,"%":0,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  SeisRMW9ySQwivsyAAAe: 'andzuck',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  fFQp58IwfmlF8XsoAAAg: 'lillyrumsey',
+  'sTEwO-dCEwDtrpo2AAAh': 'Jotto787',
+  SVjfgPMdww_DKlugAAAi: 'av777x' }
+DIED: cwrw
+POTENTIAL: _3RI_EHiW0qQdheGAAAO,HFPRxj2F5VtANIkzAAAS,C0Ax9zyg-5jRL22pAAAd,ek9PrbMXgix69cA5AAAf,fFQp58IwfmlF8XsoAAAg,sTEwO-dCEwDtrpo2AAAh,SVjfgPMdww_DKlugAAAi
+stored: andzuck 0.5
+created
+{"viewers":16,"votes":0,"time":30,"%":0,"counter":false}
+disconnect:  av777x
+{"viewers":15,"votes":0,"time":29,"%":0,"counter":false}
+{"viewers":15,"votes":0,"time":30,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":28,"%":0,"counter":true}
+disconnect:  lillyrumsey
+{"viewers":14,"votes":0,"time":27,"%":0,"counter":true}
+disconnect:  Jotto787
+{"viewers":13,"votes":0,"time":26,"%":0,"counter":true}
+{"viewers":13,"votes":0,"time":25,"%":0,"counter":true}
+{"viewers":13,"votes":0,"time":24,"%":0,"counter":true}
+{"viewers":13,"votes":0,"time":23,"%":0,"counter":true}
+{"viewers":13,"votes":0,"time":22,"%":0,"counter":true}
+{"viewers":13,"votes":0,"time":21,"%":0,"counter":true}
+{"viewers":13,"votes":0,"time":20,"%":0,"counter":true}
+upvote: thefameshow44
+{"viewers":13,"votes":1,"time":19,"%":0.2331002331002331,"counter":true}
+{"viewers":13,"votes":1,"time":18,"%":0.2331002331002331,"counter":true}
+{"viewers":13,"votes":1,"time":17,"%":0.2331002331002331,"counter":true}
+{"viewers":13,"votes":1,"time":16,"%":0.2331002331002331,"counter":true}
+{"viewers":13,"votes":1,"time":15,"%":0.2331002331002331,"counter":true}
+upvote: thefameshow44
+{"viewers":13,"votes":2,"time":14,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":13,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":12,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":11,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":10,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":9,"%":0.4662004662004662,"counter":true}
+created
+{"viewers":13,"votes":2,"time":8,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":7,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":6,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":5,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":4,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":3,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":2,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":1,"%":0.4662004662004662,"counter":true}
+{"viewers":13,"votes":2,"time":0,"%":0.4662004662004662,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  _3RI_EHiW0qQdheGAAAO: 'chesca',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  SeisRMW9ySQwivsyAAAe: 'andzuck',
+  ek9PrbMXgix69cA5AAAf: 'falky2' }
+DIED: dqnc
+POTENTIAL: _3RI_EHiW0qQdheGAAAO,C0Ax9zyg-5jRL22pAAAd,ek9PrbMXgix69cA5AAAf
+stored: vojtadrmota 0.5
+created
+created
+{"viewers":13,"votes":0,"time":30,"%":0,"counter":false}
+disconnect:  chesca
+{"viewers":12,"votes":0,"time":29,"%":0,"counter":false}
+created
+{"viewers":12,"votes":0,"time":30,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":27,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":26,"%":0,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  SeisRMW9ySQwivsyAAAe: 'andzuck',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca' }
+{"viewers":13,"votes":0,"time":25,"%":0,"counter":true}
+upvote: qsyb
+{"viewers":13,"votes":1,"time":24,"%":0.2331002331002331,"counter":true}
+disconnect:  andzuck
+created
+{"viewers":12,"votes":1,"time":23,"%":0.2525252525252525,"counter":true}
+{"viewers":12,"votes":1,"time":22,"%":0.2525252525252525,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca',
+  xppDpJwrQ1_0Twv0AAAk: 'av777x' }
+{"viewers":13,"votes":1,"time":21,"%":0.2331002331002331,"counter":true}
+{"viewers":13,"votes":1,"time":20,"%":0.2331002331002331,"counter":true}
+{"viewers":13,"votes":1,"time":19,"%":0.2331002331002331,"counter":true}
+{"viewers":13,"votes":1,"time":18,"%":0.2331002331002331,"counter":true}
+{"viewers":13,"votes":1,"time":17,"%":0.2331002331002331,"counter":true}
+{"viewers":13,"votes":1,"time":16,"%":0.2331002331002331,"counter":true}
+{"viewers":13,"votes":1,"time":15,"%":0.2331002331002331,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca',
+  xppDpJwrQ1_0Twv0AAAk: 'av777x',
+  S7s9iUKDQYojDufAAAAl: 'Jotto787' }
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca',
+  xppDpJwrQ1_0Twv0AAAk: 'av777x',
+  S7s9iUKDQYojDufAAAAl: 'Jotto787',
+  ovSMR0GQdoMUOtHNAAAm: 'andzuck' }
+{"viewers":15,"votes":1,"time":14,"%":0.20202020202020202,"counter":true}
+{"viewers":15,"votes":1,"time":13,"%":0.20202020202020202,"counter":true}
+{"viewers":15,"votes":1,"time":12,"%":0.20202020202020202,"counter":true}
+{"viewers":15,"votes":1,"time":11,"%":0.20202020202020202,"counter":true}
+{"viewers":15,"votes":1,"time":10,"%":0.20202020202020202,"counter":true}
+{"viewers":15,"votes":1,"time":9,"%":0.20202020202020202,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca',
+  xppDpJwrQ1_0Twv0AAAk: 'av777x',
+  S7s9iUKDQYojDufAAAAl: 'Jotto787',
+  ovSMR0GQdoMUOtHNAAAm: 'andzuck',
+  'xz3rB-PVFJSKYPt6AAAn': 'balkan' }
+disconnect:  av777x
+{"viewers":15,"votes":1,"time":8,"%":0.20202020202020202,"counter":true}
+{"viewers":15,"votes":1,"time":7,"%":0.20202020202020202,"counter":true}
+{"viewers":15,"votes":1,"time":6,"%":0.20202020202020202,"counter":true}
+{"viewers":15,"votes":1,"time":5,"%":0.20202020202020202,"counter":true}
+disconnect:  Jotto787
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca',
+  ovSMR0GQdoMUOtHNAAAm: 'andzuck',
+  'xz3rB-PVFJSKYPt6AAAn': 'balkan',
+  tYswnkQATMQ6s1TEAAAo: 'Jotto787' }
+{"viewers":15,"votes":1,"time":4,"%":0.20202020202020202,"counter":true}
+{"viewers":15,"votes":1,"time":3,"%":0.20202020202020202,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca',
+  ovSMR0GQdoMUOtHNAAAm: 'andzuck',
+  'xz3rB-PVFJSKYPt6AAAn': 'balkan',
+  tYswnkQATMQ6s1TEAAAo: 'Jotto787',
+  UkQMDnaSfI__UVy2AAAp: 'tomxie235' }
+{"viewers":16,"votes":1,"time":2,"%":0.1893939393939394,"counter":true}
+{"viewers":16,"votes":1,"time":1,"%":0.1893939393939394,"counter":true}
+{"viewers":16,"votes":1,"time":0,"%":0.1893939393939394,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca',
+  ovSMR0GQdoMUOtHNAAAm: 'andzuck',
+  'xz3rB-PVFJSKYPt6AAAn': 'balkan',
+  tYswnkQATMQ6s1TEAAAo: 'Jotto787',
+  UkQMDnaSfI__UVy2AAAp: 'tomxie235' }
+DIED: 
+POTENTIAL: C0Ax9zyg-5jRL22pAAAd,ek9PrbMXgix69cA5AAAf,Bn_3RMvQhOv9bcdPAAAj,ovSMR0GQdoMUOtHNAAAm,xz3rB-PVFJSKYPt6AAAn,tYswnkQATMQ6s1TEAAAo,UkQMDnaSfI__UVy2AAAp
+stored: mschrage 0.5
+{"viewers":16,"votes":0,"time":30,"%":0,"counter":false}
+{"viewers":16,"votes":0,"time":29,"%":0,"counter":false}
+disconnect:  Jotto787
+{"viewers":15,"votes":0,"time":30,"%":0,"counter":true}
+{ '4g54BK-p-wX4OCwYAAAM': 'mschrage',
+  '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  'C0Ax9zyg-5jRL22pAAAd': 'flora',
+  ek9PrbMXgix69cA5AAAf: 'falky2',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca',
+  ovSMR0GQdoMUOtHNAAAm: 'andzuck',
+  'xz3rB-PVFJSKYPt6AAAn': 'balkan',
+  UkQMDnaSfI__UVy2AAAp: 'tomxie235',
+  XcmuKN13hUb1x0FHAAAq: 'Jotto787' }
+{"viewers":16,"votes":0,"time":29,"%":0,"counter":true}
+disconnect:  flora
+{"viewers":15,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":27,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":26,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":25,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":24,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":23,"%":0,"counter":true}
+{"viewers":15,"votes":0,"time":22,"%":0,"counter":true}
+disconnect:  mschrage
+{"viewers":14,"votes":0,"time":30,"%":0,"counter":true}
+disconnect:  andzuck
+{"viewers":13,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":13,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":13,"votes":0,"time":27,"%":0,"counter":true}
+{"viewers":13,"votes":0,"time":26,"%":0,"counter":true}
+disconnect:  falky2
+{"viewers":12,"votes":0,"time":25,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":24,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":23,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":22,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":21,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":20,"%":0,"counter":true}
+disconnect:  Jotto787
+{"viewers":11,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":14,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":12,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":11,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":10,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":9,"%":0,"counter":true}
+disconnect:  tomxie235
+{"viewers":10,"votes":0,"time":8,"%":0,"counter":true}
+{ '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca',
+  'xz3rB-PVFJSKYPt6AAAn': 'balkan',
+  sbyi0M9riXaBd2vbAAAr: 'mschrage' }
+{"viewers":11,"votes":0,"time":7,"%":0,"counter":true}
+{"viewers":11,"votes":0,"time":6,"%":0,"counter":true}
+disconnect:  balkan
+{"viewers":10,"votes":0,"time":5,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":4,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":3,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":2,"%":0,"counter":true}
+{ '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca',
+  sbyi0M9riXaBd2vbAAAr: 'mschrage',
+  Ek9C4Job6srOw3tcAAAs: 'murdog0214' }
+{ '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca',
+  sbyi0M9riXaBd2vbAAAr: 'mschrage',
+  Ek9C4Job6srOw3tcAAAs: 'murdog0214',
+  QqODkzd6CqdOAGlhAAAt: 'donaldtrump' }
+{"viewers":12,"votes":0,"time":1,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":0,"%":0,"counter":true}
+{ '8GZM3mzNj32KRY1DAAAN': 'ianhy6',
+  HFPRxj2F5VtANIkzAAAS: 'vojtadrmota',
+  Bn_3RMvQhOv9bcdPAAAj: 'chesca',
+  sbyi0M9riXaBd2vbAAAr: 'mschrage',
+  Ek9C4Job6srOw3tcAAAs: 'murdog0214',
+  QqODkzd6CqdOAGlhAAAt: 'donaldtrump' }
+DIED: 
+POTENTIAL: sbyi0M9riXaBd2vbAAAr,Ek9C4Job6srOw3tcAAAs,QqODkzd6CqdOAGlhAAAt
+stored: ianhy6 0.5
+{"viewers":12,"votes":0,"time":30,"%":0,"counter":false}
+{"viewers":12,"votes":0,"time":29,"%":0,"counter":false}
+{"viewers":12,"votes":0,"time":30,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":27,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":26,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":25,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":24,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":23,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":22,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":21,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":15,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":14,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":13,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":12,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":11,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":10,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":9,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":8,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":7,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":6,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":5,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":4,"%":0,"counter":true}
+{"viewers":12,"votes":0,"time":3,"%":0,"counter":true}
+disconnect:  ianhy6
+disconnect:  mschrage
+created
+{"viewers":10,"votes":0,"time":30,"%":0,"counter":true}
+created
+{"viewers":10,"votes":0,"time":29,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":28,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":27,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":26,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":25,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":24,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":23,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":22,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":21,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":20,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":19,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":18,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":17,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":16,"%":0,"counter":true}
+{"viewers":10,"votes":0,"time":15,"%":0,"counter":true}

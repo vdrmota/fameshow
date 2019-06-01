@@ -1,0 +1,10 @@
+CUT LENGTH OF VIDEO:
+
+ffmpeg -i George_Lamberis_instagram.com_BjsBoZQlqwh.mp4 -ss 00:00:00 -t 00:00:25 -async 1 5.mp4
+
+CROP A VIDEO:
+
+ffmpeg -i in.mp4 -filter:v "crop=out_w:out_h:x:y" out.mp4
+
+IPHONE: 540:960 = 0.5625
+TARGET: W=H*0.5625;H=H

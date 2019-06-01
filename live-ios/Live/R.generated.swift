@@ -22,8 +22,10 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 8 files.
+  /// This `R.file` struct is generated, and contains static references to 9 files.
   struct file {
+    /// Resource file `Emoji-letter-92@2x.png`.
+    static let emojiLetter922xPng = Rswift.FileResource(bundle: R.hostingBundle, name: "Emoji-letter-92@2x", pathExtension: "png")
     /// Resource file `Fameshow-1024.png`.
     static let fameshow1024Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Fameshow-1024", pathExtension: "png")
     /// Resource file `Fameshow-160.png`.
@@ -40,6 +42,12 @@ struct R: Rswift.Validatable {
     static let flipIconShadowPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "flip-icon-shadow", pathExtension: "pdf")
     /// Resource file `flip-icon.pdf`.
     static let flipIconPdf = Rswift.FileResource(bundle: R.hostingBundle, name: "flip-icon", pathExtension: "pdf")
+    
+    /// `bundle.url(forResource: "Emoji-letter-92@2x", withExtension: "png")`
+    static func emojiLetter922xPng(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.emojiLetter922xPng
+      return fileResource.bundle.url(forResource: fileResource)
+    }
     
     /// `bundle.url(forResource: "Fameshow-1024", withExtension: "png")`
     static func fameshow1024Png(_: Void = ()) -> Foundation.URL? {
@@ -109,8 +117,10 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 15 images.
+  /// This `R.image` struct is generated, and contains static references to 16 images.
   struct image {
+    /// Image `Emoji-letter-92`.
+    static let emojiLetter92 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Emoji-letter-92")
     /// Image `Fameshow-1024`.
     static let fameshow1024 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Fameshow-1024")
     /// Image `Fameshow-160`.
@@ -141,6 +151,11 @@ struct R: Rswift.Validatable {
     static let person_small = Rswift.ImageResource(bundle: R.hostingBundle, name: "person_small")
     /// Image `star`.
     static let star = Rswift.ImageResource(bundle: R.hostingBundle, name: "star")
+    
+    /// `UIImage(named: "Emoji-letter-92", bundle: ..., traitCollection: ...)`
+    static func emojiLetter92(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.emojiLetter92, compatibleWith: traitCollection)
+    }
     
     /// `UIImage(named: "Fameshow-1024", bundle: ..., traitCollection: ...)`
     static func fameshow1024(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {

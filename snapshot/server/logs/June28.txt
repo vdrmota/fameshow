@@ -1,0 +1,2524 @@
+listening on port 3000...
+!Tick: {"viewers":0,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":0,"votes":0,"time":19,"%":0,"counter":false}
+!connected: ceecee926
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":1,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":1,"votes":0,"time":16,"%":0,"counter":false}
+!connected: vojtadrmota
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota' }
+[!END_CONNECTIONS!]
+!toggle on: vojtadrmota
+!Tick: {"viewers":2,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":10,"%":0,"counter":false}
+connections
+!Tick: {"viewers":2,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":2,"votes":0,"time":3,"%":0,"counter":false}
+viewers
+!Tick: {"viewers":17,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":17,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":17,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":17,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":17,"votes":0,"time":19,"%":0,"counter":false}
+viewers
+!Tick: {"viewers":28,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":28,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":28,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":28,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":28,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":28,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":28,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":28,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":28,"votes":0,"time":10,"%":0,"counter":false}
+viewers
+!Tick: {"viewers":41,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":41,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":41,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":41,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":41,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":41,"votes":0,"time":4,"%":0,"counter":false}
+viewers
+!Tick: {"viewers":39,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":39,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":39,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":39,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":39,"votes":0,"time":20,"%":0,"counter":false}
+!leave:  ceecee926
+!Tick: {"viewers":38,"votes":0,"time":19,"%":0,"counter":false}
+viewers
+!Tick: {"viewers":47,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":47,"votes":0,"time":17,"%":0,"counter":false}
+!reconnect:  ceecee926
+!Tick: {"viewers":48,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":48,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":48,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":48,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":48,"votes":0,"time":12,"%":0,"counter":false}
+viewers
+!Tick: {"viewers":60,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":60,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":60,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":60,"votes":0,"time":8,"%":0,"counter":false}
+!leave:  ceecee926
+!Tick: {"viewers":59,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":59,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":59,"votes":0,"time":5,"%":0,"counter":false}
+viewers
+!reconnect:  ceecee926
+!Tick: {"viewers":67,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":67,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":3,"%":0,"counter":false}
+!leave:  ceecee926
+!Tick: {"viewers":66,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":66,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":66,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":66,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":66,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":66,"votes":0,"time":18,"%":0,"counter":false}
+!reconnect:  ceecee926
+!Tick: {"viewers":67,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":68,"votes":0,"time":6,"%":0,"counter":false}
+!connected: sovereign
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  GbicYn7BqXrEguF4AAAC: 'sovereign' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":68,"votes":0,"time":5,"%":0,"counter":false}
+!leave:  sovereign
+!Tick: {"viewers":67,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":2,"%":0,"counter":false}
+!reconnect:  sovereign
+!Tick: {"viewers":68,"votes":0,"time":1,"%":0,"counter":false}
+connections
+!Tick: {"viewers":68,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  GbicYn7BqXrEguF4AAAC: 'sovereign' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":68,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":68,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":68,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":68,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":68,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":68,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":68,"votes":0,"time":14,"%":0,"counter":false}
+!toggle off: sovereign
+!Tick: {"viewers":68,"votes":0,"time":13,"%":0,"counter":false}
+!leave:  vojtadrmota
+!toggle on: sovereign
+!Tick: {"viewers":67,"votes":0,"time":12,"%":0,"counter":false}
+!toggle off: sovereign
+!Tick: {"viewers":67,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":9,"%":0,"counter":false}
+!toggle on: sovereign
+!Tick: {"viewers":67,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":67,"votes":0,"time":7,"%":0,"counter":false}
+!leave:  sovereign
+!leave:  ceecee926
+!Tick: {"viewers":65,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":5,"%":0,"counter":false}
+!disconnect:  sovereign
+!Tick: {"viewers":65,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":65,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":65,"votes":0,"time":2,"%":0,"counter":false}
+!reconnect:  ceecee926
+!Tick: {"viewers":66,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":66,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!connected: mybrotherisamoron
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+!reconnect:  mybrotherisamoron
+!toggle on: mybrotherisamoron
+!Tick: {"viewers":67,"votes":0,"time":20,"%":0,"counter":false}
+!connected: TravelingMagician
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician' }
+[!END_CONNECTIONS!]
+!toggle on: TravelingMagician
+!Tick: {"viewers":68,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":68,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":68,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":68,"votes":0,"time":16,"%":0,"counter":false}
+!connected: mschrage
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  _rSHT9X_nTOjHIGdAAAF: 'mschrage' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":69,"votes":0,"time":15,"%":0,"counter":false}
+!toggle on: mschrage
+!Tick: {"viewers":69,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":10,"%":0,"counter":false}
+!connected: murdog0214
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  _rSHT9X_nTOjHIGdAAAF: 'mschrage',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":70,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":5,"%":0,"counter":false}
+!toggle off: murdog0214
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":false}
+!reconnect:  vojtadrmota
+!leave:  murdog0214
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":false}
+!leave:  vojtadrmota
+!Tick: {"viewers":69,"votes":0,"time":2,"%":0,"counter":false}
+!toggle off: ceecee926
+!Tick: {"viewers":69,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  _rSHT9X_nTOjHIGdAAAF: 'mschrage',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":69,"votes":0,"time":20,"%":0,"counter":false}
+!comment by mschrage: { text: 'hiii', roomKey: 'thefameshow44' }
+!Tick: {"viewers":69,"votes":0,"time":19,"%":0,"counter":false}
+!comment by ceecee926: { text: 'hello', roomKey: 'thefameshow44' }
+!reconnect:  murdog0214
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":17,"%":0,"counter":false}
+!reconnect:  vojtadrmota
+!Tick: {"viewers":71,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":13,"%":0,"counter":false}
+!comment by murdog0214: { text: 'MURDOG BACK', roomKey: 'thefameshow44' }
+!Tick: {"viewers":71,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":9,"%":0,"counter":false}
+!connected: shawnbly
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  _rSHT9X_nTOjHIGdAAAF: 'mschrage',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":72,"votes":0,"time":8,"%":0,"counter":false}
+!toggle on: shawnbly
+!comment by mybrotherisamoron: { text: 'wow this is so cool', roomKey: 'thefameshow44' }
+!Tick: {"viewers":72,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":6,"%":0,"counter":false}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'countdown.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41
+    creation_time   : 2018-04-03T17:37:09.000000Z
+  Duration: 00:03:00.03, start: 0.000000, bitrate: 904 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 750x1334, 582 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : AVC Coding
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 317 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 750x1334, q=2-31, 200 kb/s, 29.97 fps, 1k tbn, 29.97 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(eng): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      creation_time   : 2018-04-03T17:37:09.000000Z
+      handler_name    : Alias Data Handler
+      encoder         : Lavc57.107.100 libmp3lame
+frame=   16 fps=0.0 q=0.0 size=      52kB time=00:00:00.50 bitrate= 841.0kbits/s speed=0.999x    frame=   30 fps= 30 q=0.0 size=     149kB time=00:00:00.96 bitrate=1262.1kbits/s speed=0.96x    frame=   46 fps= 30 q=0.0 size=     202kB time=00:00:01.50 bitrate=1098.7kbits/s speed=0.99x    frame=   61 fps= 30 q=0.0 size=     262kB time=00:00:02.00 bitrate=1072.7kbits/s speed=0.992x    frame=   76 fps= 30 q=0.0 size=     314kB time=00:00:02.50 bitrate=1025.7kbits/s speed=0.991x    frame=   91 fps= 30 q=0.0 size=     413kB time=00:00:03.00 bitrate=1126.4kbits/s speed=0.992x    frame=  106 fps= 30 q=0.0 size=     464kB time=00:00:03.50 bitrate=1085.1kbits/s speed=0.992x    frame=  121 fps= 30 q=0.0 size=     525kB time=00:00:04.00 bitrate=1074.2kbits/s speed=0.992x    frame=  137 fps= 30 q=0.0 size=     576kB time=00:00:04.53 bitrate=1039.9kbits/s speed=   1x    frame=  152 fps= 30 q=0.0 size=     676kB time=00:00:05.03 bitrate=1098.9kbits/s speed=0.999x    frame=  167 fps= 30 q=0.0 size=     727kB time=00:00:05.54 bitrate=1075.1kbits/s speed=0.999x    frame=  182 fps= 30 q=0.0 size=     788kB time=00:00:06.04 bitrate=1068.1kbits/s speed=0.998x    frame=  197 fps= 30 q=0.0 size=     839kB time=00:00:06.54 bitrate=1050.5kbits/s speed=0.997x    frame=  212 fps= 30 q=0.0 size=     939kB time=00:00:07.04 bitrate=1092.5kbits/s speed=0.996x    frame=  228 fps= 30 q=0.0 size=     990kB time=00:00:07.57 bitrate=1070.5kbits/s speed=   1x    frame=  243 fps= 30 q=0.0 size=    1051kB time=00:00:08.07 bitrate=1065.9kbits/s speed=   1x    frame=  258 fps= 30 q=0.0 size=    1102kB time=00:00:08.57 bitrate=1052.4kbits/s speed=0.999x    frame=  273 fps= 30 q=0.0 size=    1201kB time=00:00:09.07 bitrate=1083.8kbits/s speed=0.999x    frame=  288 fps= 30 q=0.0 size=    1252kB time=00:00:09.57 bitrate=1070.7kbits/s speed=0.998x    frame=  303 fps= 30 q=0.0 size=    1313kB time=00:00:10.07 bitrate=1066.9kbits/s speed=0.998x    frame=  318 fps= 30 q=0.0 size=    1365kB time=00:00:10.57 bitrate=1056.8kbits/s speed=0.998x    frame=  333 fps= 30 q=0.0 size=    1464kB time=00:00:11.07 bitrate=1082.6kbits/s speed=0.998x    frame=  349 fps= 30 q=0.0 size=    1475kB time=00:00:11.61 bitrate=1040.5kbits/s speed=   1x    frame=  364 fps= 30 q=0.0 size=    1576kB time=00:00:12.11 bitrate=1065.7kbits/s speed=0.999x    frame=  379 fps= 30 q=0.0 size=    1626kB time=00:00:12.61 bitrate=1056.2kbits/s speed=0.999x    frame=  394 fps= 30 q=0.0 size=    1725kB time=00:00:13.11 bitrate=1077.8kbits/s speed=0.998x    frame=  409 fps= 30 q=0.0 size=    1776kB time=00:00:13.61 bitrate=1068.8kbits/s speed=0.998x    frame=  425 fps= 30 q=0.0 size=    1837kB time=00:00:14.14 bitrate=1063.6kbits/s speed=   1x    frame=  439 fps= 30 q=0.0 size=    1933kB time=00:00:14.61 bitrate=1083.2kbits/s speed=0.997x    frame=  455 fps= 30 q=0.0 size=    1986kB time=00:00:15.14 bitrate=1074.0kbits/s speed=0.999x    frame=  469 fps= 30 q=0.0 size=    2048kB time=00:00:15.61 bitrate=1074.4kbits/s speed=0.997x    frame=  485 fps= 30 q=0.0 size=    2098kB time=00:00:16.15 bitrate=1064.1kbits/s speed=0.999x    frame=  499 fps= 30 q=0.0 size=    2199kB time=00:00:16.61 bitrate=1083.8kbits/s speed=0.997x    frame=  515 fps= 30 q=0.0 size=    2248kB time=00:00:17.15 bitrate=1073.9kbits/s speed=0.998x    frame=  529 fps= 30 q=0.0 size=    2309kB time=00:00:17.61 bitrate=1073.6kbits/s speed=0.996x    frame=  546 fps= 30 q=0.0 size=    2360kB time=00:00:18.18 bitrate=1062.9kbits/s speed=   1x    frame=  560 fps= 30 q=0.0 size=    2459kB time=00:00:18.65 bitrate=1080.0kbits/s speed=0.998x    frame=  576 fps= 30 q=0.0 size=    2508kB time=00:00:19.18 bitrate=1071.0kbits/s speed=0.999x    frame=  591 fps= 30 q=0.0 size=    2570kB time=00:00:19.68 bitrate=1069.5kbits/s speed=0.999x    frame=  606 fps= 30 q=0.0 size=    2620kB time=00:00:20.18 bitrate=1063.1kbits/s speed=0.999x    frame=  621 fps= 30 q=0.0 size=    2722kB time=00:00:20.68 bitrate=1077.8kbits/s speed=0.999x    frame=  636 fps= 30 q=0.0 size=    2772kB time=00:00:21.18 bitrate=1071.7kbits/s speed=0.999x    frame=  652 fps= 30 q=0.0 size=    2834kB time=00:00:21.72 bitrate=1068.8kbits/s speed=   1x    frame=  667 fps= 30 q=0.0 size=    2884kB time=00:00:22.22 bitrate=1063.3kbits/s speed=   1x    frame=  682 fps= 30 q=0.0 size=    2985kB time=00:00:22.72 bitrate=1076.2kbits/s speed=   1x    frame=  697 fps= 30 q=0.0 size=    3036kB time=00:00:23.22 bitrate=1070.7kbits/s speed=   1x    frame=  712 fps= 30 q=0.0 size=    3097kB time=00:00:23.72 bitrate=1069.4kbits/s speed=   1x    frame=  727 fps= 30 q=0.0 size=    3147kB time=00:00:24.22 bitrate=1064.3kbits/s speed=   1x    frame=  742 fps= 30 q=0.0 size=    3249kB time=00:00:24.72 bitrate=1076.3kbits/s speed=   1x    frame=  757 fps= 30 q=0.0 size=    3299kB time=00:00:25.22 bitrate=1071.3kbits/s speed=   1x    frame=  772 fps= 30 q=0.0 size=    3361kB time=00:00:25.72 bitrate=1070.1kbits/s speed=   1x    frame=  787 fps= 30 q=0.0 size=    3410kB time=00:00:26.22 bitrate=1065.2kbits/s speed=0.999x    frame=  803 fps= 30 q=0.0 size=    3512kB time=00:00:26.76 bitrate=1075.0kbits/s speed=   1x    frame=  818 fps= 30 q=0.0 size=    3562kB time=00:00:27.26 bitrate=1070.3kbits/s speed=   1x    frame=  833 fps= 30 q=0.0 size=    3624kB time=00:00:27.76 bitrate=1069.3kbits/s speed=   1x    frame=  848 fps= 30 q=0.0 size=    3674kB time=00:00:28.26 bitrate=1064.9kbits/s speed=   1x    frame=  863 fps= 30 q=0.0 size=    3775kB time=00:00:28.76 bitrate=1075.0kbits/s speed=   1x    frame=  878 fps= 30 q=0.0 size=    3824kB time=00:00:29.26 bitrate=1070.4kbits/s speed=   1x    frame=  893 fps= 30 q=0.0 size=    3886kB time=00:00:29.76 bitrate=1069.6kbits/s speed=0.999x    frame=  908 fps= 30 q=0.0 size=    3936kB time=00:00:30.26 bitrate=1065.4kbits/s speed=0.999x    frame=  923 fps= 30 q=0.0 size=    4036kB time=00:00:30.76 bitrate=1074.7kbits/s speed=0.999x    frame=  938 fps= 30 q=0.0 size=    4086kB time=00:00:31.26 bitrate=1070.6kbits/s speed=0.999x    frame=  954 fps= 30 q=0.0 size=    4147kB time=00:00:31.79 bitrate=1068.3kbits/s speed=   1x    frame=  969 fps= 30 q=0.0 size=    4198kB time=00:00:32.30 bitrate=1064.7kbits/s speed=   1x    frame=  984 fps= 30 q=0.0 size=    4297kB time=00:00:32.80 bitrate=1073.2kbits/s speed=   1x    frame=  999 fps= 30 q=0.0 size=    4347kB time=00:00:33.30 bitrate=1069.3kbits/s speed=   1x    frame= 1014 fps= 30 q=0.0 size=    4409kB time=00:00:33.80 bitrate=1068.5kbits/s speed=0.999x    frame= 1029 fps= 30 q=0.0 size=    4459kB time=00:00:34.30 bitrate=1064.8kbits/s speed=0.999x    frame= 1044 fps= 30 q=0.0 size=    4559kB time=00:00:34.80 bitrate=1073.0kbits/s speed=0.999x    frame= 1059 fps= 30 q=0.0 size=    4610kB time=00:00:35.30 bitrate=1069.6kbits/s speed=0.999x    frame= 1075 fps= 30 q=0.0 size=    4670kB time=00:00:35.83 bitrate=1067.6kbits/s speed=   1x    frame= 1089 fps= 30 q=0.0 size=    4721kB time=00:00:36.30 bitrate=1065.3kbits/s speed=0.999x    frame= 1105 fps= 30 q=0.0 size=    4820kB time=00:00:36.83 bitrate=1071.8kbits/s speed=   1x    frame= 1119 fps= 30 q=0.0 size=    4878kB time=00:00:37.30 bitrate=1071.1kbits/s speed=0.999x    frame= 1135 fps= 30 q=0.0 size=    4932kB time=00:00:37.83 bitrate=1067.7kbits/s speed=   1x    frame= 1149 fps= 30 q=0.0 size=    4982kB time=00:00:38.30 bitrate=1065.5kbits/s speed=0.999x    frame= 1165 fps= 30 q=0.0 size=    5081kB time=00:00:38.84 bitrate=1071.6kbits/s speed=   1x    frame= 1179 fps= 30 q=0.0 size=    5132kB time=00:00:39.30 bitrate=1069.6kbits/s speed=0.999x    frame= 1195 fps= 30 q=0.0 size=    5192kB time=00:00:39.84 bitrate=1067.6kbits/s speed=   1x    frame= 1209 fps= 30 q=0.0 size=    5288kB time=00:00:40.30 bitrate=1074.7kbits/s speed=0.999x    frame= 1225 fps= 30 q=0.0 size=    5341kB time=00:00:40.84 bitrate=1071.2kbits/s speed=   1x    frame= 1239 fps= 30 q=0.0 size=    5397kB time=00:00:41.30 bitrate=1070.2kbits/s speed=0.999x    frame= 1255 fps= 30 q=0.0 size=    5452kB time=00:00:41.84 bitrate=1067.4kbits/s speed=0.999x    frame= 1269 fps= 30 q=0.0 size=    5548kB time=00:00:42.31 bitrate=1074.1kbits/s speed=0.999x    frame= 1286 fps= 30 q=0.0 size=    5600kB time=00:00:42.87 bitrate=1069.9kbits/s speed=   1x    frame= 1299 fps= 30 q=0.0 size=    5701kB time=00:00:43.31 bitrate=1078.3kbits/s speed=0.998x    frame= 1316 fps= 30 q=0.0 size=    5712kB time=00:00:43.87 bitrate=1066.4kbits/s speed=   1x    frame= 1329 fps= 30 q=0.0 size=    5811kB time=00:00:44.31 bitrate=1074.3kbits/s speed=0.998x    frame= 1346 fps= 30 q=0.0 size=    5861kB time=00:00:44.87 bitrate=1069.8kbits/s speed=   1x    frame= 1360 fps= 30 q=0.0 size=    5960kB time=00:00:45.34 bitrate=1076.8kbits/s speed=0.999x    frame= 1376 fps= 30 q=0.0 size=    5970kB time=00:00:45.88 bitrate=1066.0kbits/s speed=   1x    frame= 1390 fps= 30 q=0.0 size=    6070kB time=00:00:46.34 bitrate=1073.0kbits/s speed=0.999x    frame= 1406 fps= 30 q=0.0 size=    6120kB time=00:00:46.88 bitrate=1069.4kbits/s speed=0.999x    frame= 1422 fps= 30 q=0.0 size=    6220kB time=00:00:47.41 bitrate=1074.6kbits/s speed=   1x    frame= 1437 fps= 30 q=0.0 size=    6231kB time=00:00:47.91 bitrate=1065.2kbits/s speed=   1x    frame= 1452 fps= 30 q=0.0 size=    6329kB time=00:00:48.41 bitrate=1070.9kbits/s speed=   1x    frame= 1467 fps= 30 q=0.0 size=    6378kB time=00:00:48.91 bitrate=1068.2kbits/s speed=   1x    frame= 1482 fps= 30 q=0.0 size=    6478kB time=00:00:49.41 bitrate=1073.8kbits/s speed=   1x    frame= 1497 fps= 30 q=0.0 size=    6489kB time=00:00:49.91 bitrate=1064.9kbits/s speed=   1x    frame= 1512 fps= 30 q=0.0 size=    6588kB time=00:00:50.41 bitrate=1070.5kbits/s speed=   1x    frame= 1527 fps= 30 q=0.0 size=    6638kB time=00:00:50.91 bitrate=1068.0kbits/s speed=0.999x    frame= 1542 fps= 30 q=0.0 size=    6740kB time=00:00:51.41 bitrate=1073.8kbits/s speed=0.999x    frame= 1557 fps= 30 q=0.0 size=    6751kB time=00:00:51.92 bitrate=1065.1kbits/s speed=0.999x    frame= 1573 fps= 30 q=0.0 size=    6851kB time=00:00:52.45 bitrate=1070.0kbits/s speed=   1x    frame= 1588 fps= 30 q=0.0 size=    6901kB time=00:00:52.95 bitrate=1067.5kbits/s speed=   1x    frame= 1603 fps= 30 q=0.0 size=    7002kB time=00:00:53.45 bitrate=1073.0kbits/s speed=   1x    frame= 1618 fps= 30 q=0.0 size=    7013kB time=00:00:53.95 bitrate=1064.8kbits/s speed=   1x    frame= 1633 fps= 30 q=0.0 size=    7113kB time=00:00:54.45 bitrate=1070.0kbits/s speed=   1x    frame= 1648 fps= 30 q=0.0 size=    7163kB time=00:00:54.95 bitrate=1067.7kbits/s speed=   1x    frame= 1663 fps= 30 q=0.0 size=    7264kB time=00:00:55.45 bitrate=1073.0kbits/s speed=   1x    frame= 1678 fps= 30 q=0.0 size=    7274kB time=00:00:55.95 bitrate=1064.9kbits/s speed=   1x    frame= 1694 fps= 30 q=0.0 size=    7375kB time=00:00:56.49 bitrate=1069.5kbits/s speed=   1x    frame= 1709 fps= 30 q=0.0 size=    7425kB time=00:00:56.99 bitrate=1067.3kbits/s speed=   1x    frame= 1724 fps= 30 q=0.0 size=    7527kB time=00:00:57.49 bitrate=1072.5kbits/s speed=   1x    frame= 1739 fps= 30 q=0.0 size=    7537kB time=00:00:57.99 bitrate=1064.7kbits/s speed=   1x    frame= 1754 fps= 30 q=0.0 size=    7637kB time=00:00:58.49 bitrate=1069.6kbits/s speed=0.999x    frame= 1769 fps= 30 q=0.0 size=    7688kB time=00:00:58.99 bitrate=1067.5kbits/s speed=0.999x    frame= 1785 fps= 30 q=0.0 size=    7788kB time=00:00:59.52 bitrate=1071.7kbits/s speed=   1x    frame= 1799 fps= 30 q=0.0 size=    7842kB time=00:00:59.99 bitrate=1070.8kbits/s speed=0.999x    frame= 1815 fps= 30 q=0.0 size=    7898kB time=00:01:00.52 bitrate=1068.9kbits/s speed=   1x    frame= 1829 fps= 30 q=0.0 size=    7997kB time=00:01:00.99 bitrate=1074.0kbits/s speed=0.999x    frame= 1845 fps= 30 q=0.0 size=    8048kB time=00:01:01.52 bitrate=1071.5kbits/s speed=   1x    frame= 1859 fps= 30 q=0.0 size=    8104kB time=00:01:01.99 bitrate=1070.9kbits/s speed=0.999x    frame= 1876 fps= 30 q=0.0 size=    8158kB time=00:01:02.56 bitrate=1068.1kbits/s speed=   1x    frame= 1890 fps= 30 q=0.0 size=    8256kB time=00:01:03.03 bitrate=1073.0kbits/s speed=0.999x    frame= 1906 fps= 30 q=0.0 size=    8307kB time=00:01:03.56 bitrate=1070.6kbits/s speed=   1x    frame= 1922 fps= 30 q=0.0 size=    8368kB time=00:01:04.09 bitrate=1069.5kbits/s speed=   1x    frame= 1937 fps= 30 q=0.0 size=    8419kB time=00:01:04.59 bitrate=1067.6kbits/s speed=   1x    frame= 1952 fps= 30 q=0.0 size=    8518kB time=00:01:05.09 bitrate=1071.9kbits/s speed=   1x    frame= 1967 fps= 30 q=0.0 size=    8568kB time=00:01:05.60 bitrate=1069.9kbits/s speed=   1x    frame= 1982 fps= 30 q=0.0 size=    8627kB time=00:01:06.10 bitrate=1069.2kbits/s speed=   1x    frame= 1997 fps= 30 q=0.0 size=    8679kB time=00:01:06.60 bitrate=1067.6kbits/s speed=   1x    frame= 2012 fps= 30 q=0.0 size=    8778kB time=00:01:07.10 bitrate=1071.7kbits/s speed=   1x    frame= 2027 fps= 30 q=0.0 size=    8829kB time=00:01:07.60 bitrate=1069.9kbits/s speed=   1x    frame= 2043 fps= 30 q=0.0 size=    8889kB time=00:01:08.13 bitrate=1068.7kbits/s speed=   1x    frame= 2058 fps= 30 q=0.0 size=    8939kB time=00:01:08.63 bitrate=1066.9kbits/s speed=   1x    frame= 2073 fps= 30 q=0.0 size=    9037kB time=00:01:09.13 bitrate=1070.8kbits/s speed=   1x    frame= 2088 fps= 30 q=0.0 size=    9088kB time=00:01:09.63 bitrate=1069.1kbits/s speed=   1x    frame= 2103 fps= 30 q=0.0 size=    9148kB time=00:01:10.13 bitrate=1068.5kbits/s speed=   1x    frame= 2118 fps= 30 q=0.0 size=    9199kB time=00:01:10.63 bitrate=1066.9kbits/s speed=   1x    frame= 2133 fps= 30 q=0.0 size=    9298kB time=00:01:11.13 bitrate=1070.7kbits/s speed=   1x    frame= 2149 fps= 30 q=0.0 size=    9349kB time=00:01:11.67 bitrate=1068.6kbits/s speed=   1x    frame= 2164 fps= 30 q=0.0 size=    9408kB time=00:01:12.17 bitrate=1067.9kbits/s speed=   1x    frame= 2179 fps= 30 q=0.0 size=    9458kB time=00:01:12.67 bitrate=1066.1kbits/s speed=   1x    frame= 2194 fps= 30 q=0.0 size=    9556kB time=00:01:13.17 bitrate=1069.9kbits/s speed=   1x    frame= 2209 fps= 30 q=0.0 size=    9608kB time=00:01:13.67 bitrate=1068.3kbits/s speed=   1x    frame= 2224 fps= 30 q=0.0 size=    9668kB time=00:01:14.17 bitrate=1067.8kbits/s speed=   1x    frame= 2239 fps= 30 q=0.0 size=    9719kB time=00:01:14.67 bitrate=1066.1kbits/s speed=   1x    frame= 2255 fps= 30 q=0.0 size=    9817kB time=00:01:15.20 bitrate=1069.3kbits/s speed=   1x    frame= 2269 fps= 30 q=0.0 size=    9873kB time=00:01:15.67 bitrate=1068.8kbits/s speed=0.999x    frame= 2285 fps= 30 q=0.0 size=    9927kB time=00:01:16.21 bitrate=1067.1kbits/s speed=   1x    frame= 2299 fps= 30 q=0.0 size=   10022kB time=00:01:16.67 bitrate=1070.7kbits/s speed=0.999x    frame= 2315 fps= 30 q=0.0 size=   10076kB time=00:01:17.21 bitrate=1069.0kbits/s speed=   1x    frame= 2329 fps= 30 q=0.0 size=   10134kB time=00:01:17.67 bitrate=1068.7kbits/s speed=0.999x    frame= 2345 fps= 30 q=0.0 size=   10186kB time=00:01:18.21 bitrate=1066.9kbits/s speed=   1x    frame= 2359 fps= 30 q=0.0 size=   10284kB time=00:01:18.68 bitrate=1070.7kbits/s speed=0.999x    frame= 2376 fps= 30 q=0.0 size=   10333kB time=00:01:19.24 bitrate=1068.2kbits/s speed=   1x    frame= 2389 fps= 30 q=0.0 size=   10395kB time=00:01:19.68 bitrate=1068.7kbits/s speed=0.999x    frame= 2406 fps= 30 q=0.0 size=   10443kB time=00:01:20.24 bitrate=1066.1kbits/s speed=   1x    frame= 2419 fps= 30 q=0.0 size=   10545kB time=00:01:20.68 bitrate=1070.7kbits/s speed=0.999x    frame= 2436 fps= 30 q=0.0 size=   10594kB time=00:01:21.24 bitrate=1068.2kbits/s speed=   1x    frame= 2451 fps= 30 q=0.0 size=   10656kB time=00:01:21.74 bitrate=1067.8kbits/s speed=   1x    frame= 2466 fps= 30 q=0.0 size=   10706kB time=00:01:22.25 bitrate=1066.3kbits/s speed=   1x    frame= 2481 fps= 30 q=0.0 size=   10806kB time=00:01:22.75 bitrate=1069.7kbits/s speed=   1x    frame= 2497 fps= 30 q=0.0 size=   10855kB time=00:01:23.28 bitrate=1067.7kbits/s speed=   1x    frame= 2512 fps= 30 q=0.0 size=   10917kB time=00:01:23.78 bitrate=1067.4kbits/s speed=   1x    frame= 2527 fps= 30 q=0.0 size=   10967kB time=00:01:24.28 bitrate=1066.0kbits/s speed=   1x    frame= 2542 fps= 30 q=0.0 size=   11067kB time=00:01:24.78 bitrate=1069.3kbits/s speed=   1x    frame= 2557 fps= 30 q=0.0 size=   11117kB time=00:01:25.28 bitrate=1067.8kbits/s speed=   1x    frame= 2573 fps= 30 q=0.0 size=   11178kB time=00:01:25.82 bitrate=1067.0kbits/s speed=   1x    frame= 2588 fps= 30 q=0.0 size=   11228kB time=00:01:26.32 bitrate=1065.5kbits/s speed=   1x    frame= 2603 fps= 30 q=0.0 size=   11329kB time=00:01:26.82 bitrate=1068.9kbits/s speed=   1x    frame= 2618 fps= 30 q=0.0 size=   11378kB time=00:01:27.32 bitrate=1067.4kbits/s speed=   1x    frame= 2633 fps= 30 q=0.0 size=   11439kB time=00:01:27.82 bitrate=1067.0kbits/s speed=   1x    frame= 2648 fps= 30 q=0.0 size=   11489kB time=00:01:28.32 bitrate=1065.6kbits/s speed=   1x    frame= 2664 fps= 30 q=0.0 size=   11588kB time=00:01:28.85 bitrate=1068.4kbits/s speed=   1x    frame= 2679 fps= 30 q=0.0 size=   11637kB time=00:01:29.35 bitrate=1066.9kbits/s speed=   1x    frame= 2694 fps= 30 q=0.0 size=   11699kB time=00:01:29.85 bitrate=1066.6kbits/s speed=   1x    frame= 2709 fps= 30 q=0.0 size=   11748kB time=00:01:30.35 bitrate=1065.1kbits/s speed=   1x    frame= 2724 fps= 30 q=0.0 size=   11849kB time=00:01:30.85 bitrate=1068.4kbits/s speed=   1x    frame= 2739 fps= 30 q=0.0 size=   11899kB time=00:01:31.35 bitrate=1066.9kbits/s speed=   1x    frame= 2755 fps= 30 q=0.0 size=   11960kB time=00:01:31.89 bitrate=1066.2kbits/s speed=   1x    frame= 2769 fps= 30 q=0.0 size=   12010kB time=00:01:32.36 bitrate=1065.3kbits/s speed=   1x    frame= 2785 fps= 30 q=0.0 size=   12109kB time=00:01:32.89 bitrate=1067.8kbits/s speed=   1x    frame= 2799 fps= 30 q=0.0 size=   12163kB time=00:01:33.36 bitrate=1067.2kbits/s speed=0.999x    frame= 2815 fps= 30 q=0.0 size=   12220kB time=00:01:33.89 bitrate=1066.1kbits/s speed=   1x    frame= 2829 fps= 30 q=0.0 size=   12315kB time=00:01:34.36 bitrate=1069.1kbits/s speed=0.999x    frame= 2845 fps= 30 q=0.0 size=   12370kB time=00:01:34.89 bitrate=1067.8kbits/s speed=   1x    frame= 2859 fps= 30 q=0.0 size=   12470kB time=00:01:35.36 bitrate=1071.2kbits/s speed=0.999x    frame= 2876 fps= 30 q=0.0 size=   12480kB time=00:01:35.93 bitrate=1065.8kbits/s speed=   1x    frame= 2889 fps= 30 q=0.0 size=   12581kB time=00:01:36.36 bitrate=1069.5kbits/s speed=0.999x    frame= 2906 fps= 30 q=0.0 size=   12630kB time=00:01:36.93 bitrate=1067.4kbits/s speed=   1x    frame= 2920 fps= 30 q=0.0 size=   12730kB time=00:01:37.39 bitrate=1070.7kbits/s speed=0.999x    frame= 2936 fps= 30 q=0.0 size=   12741kB time=00:01:37.93 bitrate=1065.8kbits/s speed=   1x    frame= 2951 fps= 30 q=0.0 size=   12840kB time=00:01:38.43 bitrate=1068.6kbits/s speed=   1x    frame= 2966 fps= 30 q=0.0 size=   12889kB time=00:01:38.93 bitrate=1067.3kbits/s speed=   1x    frame= 2982 fps= 30 q=0.0 size=   12989kB time=00:01:39.46 bitrate=1069.7kbits/s speed=   1x    frame= 2997 fps= 30 q=0.0 size=   13000kB time=00:01:39.96 bitrate=1065.3kbits/s speed=   1x    frame= 3012 fps= 30 q=0.0 size=   13099kB time=00:01:40.46 bitrate=1068.1kbits/s speed=   1x    frame= 3027 fps= 30 q=0.0 size=   13149kB time=00:01:40.96 bitrate=1066.8kbits/s speed=   1x    frame= 3042 fps= 30 q=0.0 size=   13248kB time=00:01:41.46 bitrate=1069.6kbits/s speed=   1x    frame= 3058 fps= 30 q=0.0 size=   13259kB time=00:01:42.00 bitrate=1064.8kbits/s speed=   1x    frame= 3073 fps= 30 q=0.0 size=   13358kB time=00:01:42.50 bitrate=1067.6kbits/s speed=   1x    frame= 3088 fps= 30 q=0.0 size=   13407kB time=00:01:43.00 bitrate=1066.2kbits/s speed=   1x    frame= 3103 fps= 30 q=0.0 size=   13506kB time=00:01:43.50 bitrate=1068.9kbits/s speed=   1x    frame= 3118 fps= 30 q=0.0 size=   13517kB time=00:01:44.00 bitrate=1064.6kbits/s speed=   1x    frame= 3134 fps= 30 q=0.0 size=   13616kB time=00:01:44.53 bitrate=1067.0kbits/s speed=   1x    frame= 3149 fps= 30 q=0.0 size=   13665kB time=00:01:45.03 bitrate=1065.7kbits/s speed=   1x    frame= 3164 fps= 30 q=0.0 size=   13763kB time=00:01:45.54 bitrate=1068.3kbits/s speed=   1x    frame= 3179 fps= 30 q=0.0 size=   13775kB time=00:01:46.04 bitrate=1064.2kbits/s speed=   1x    frame= 3194 fps= 30 q=0.0 size=   13874kB time=00:01:46.54 bitrate=1066.8kbits/s speed=   1x    frame= 3209 fps= 30 q=0.0 size=   13922kB time=00:01:47.04 bitrate=1065.5kbits/s speed=   1x    frame= 3224 fps= 30 q=0.0 size=   14022kB time=00:01:47.54 bitrate=1068.1kbits/s speed=   1x    frame= 3239 fps= 30 q=0.0 size=   14033kB time=00:01:48.04 bitrate=1064.0kbits/s speed=   1x    frame= 3255 fps= 30 q=0.0 size=   14132kB time=00:01:48.57 bitrate=1066.2kbits/s speed=   1x    frame= 3269 fps= 30 q=0.0 size=   14183kB time=00:01:49.04 bitrate=1065.5kbits/s speed=   1x    frame= 3285 fps= 30 q=0.0 size=   14279kB time=00:01:49.57 bitrate=1067.5kbits/s speed=   1x    frame= 3299 fps= 30 q=0.0 size=   14291kB time=00:01:50.04 bitrate=1063.9kbits/s speed=   1x    frame= 3315 fps= 30 q=0.0 size=   14390kB time=00:01:50.57 bitrate=1066.1kbits/s speed=   1x    frame= 3329 fps= 30 q=0.0 size=   14442kB time=00:01:51.04 bitrate=1065.4kbits/s speed=   1x    frame= 3345 fps= 30 q=0.0 size=   14540kB time=00:01:51.57 bitrate=1067.5kbits/s speed=   1x    frame= 3359 fps= 30 q=0.0 size=   14601kB time=00:01:52.04 bitrate=1067.5kbits/s speed=   1x    frame= 3375 fps= 30 q=0.0 size=   14651kB time=00:01:52.58 bitrate=1066.1kbits/s speed=   1x    frame= 3389 fps= 30 q=0.0 size=   14749kB time=00:01:53.04 bitrate=1068.8kbits/s speed=0.999x    frame= 3405 fps= 30 q=0.0 size=   14801kB time=00:01:53.58 bitrate=1067.5kbits/s speed=   1x    frame= 3419 fps= 30 q=0.0 size=   14861kB time=00:01:54.04 bitrate=1067.4kbits/s speed=0.999x    frame= 3436 fps= 30 q=0.0 size=   14911kB time=00:01:54.61 bitrate=1065.8kbits/s speed=   1x    frame= 3451 fps= 30 q=0.0 size=   15011kB time=00:01:55.11 bitrate=1068.2kbits/s speed=   1x    frame= 3466 fps= 30 q=0.0 size=   15061kB time=00:01:55.61 bitrate=1067.2kbits/s speed=   1x    frame= 3481 fps= 30 q=0.0 size=   15122kB time=00:01:56.11 bitrate=1066.9kbits/s speed=   1x    frame= 3497 fps= 30 q=0.0 size=   15173kB time=00:01:56.65 bitrate=1065.6kbits/s speed=   1x    frame= 3512 fps= 30 q=0.0 size=   15273kB time=00:01:57.15 bitrate=1068.0kbits/s speed=   1x    frame= 3527 fps= 30 q=0.0 size=   15323kB time=00:01:57.65 bitrate=1066.9kbits/s speed=   1x    frame= 3542 fps= 30 q=0.0 size=   15383kB time=00:01:58.15 bitrate=1066.6kbits/s speed=   1x    frame= 3558 fps= 30 q=0.0 size=   15434kB time=00:01:58.68 bitrate=1065.3kbits/s speed=   1x    frame= 3573 fps= 30 q=0.0 size=   15532kB time=00:01:59.18 bitrate=1067.5kbits/s speed=   1x    frame= 3588 fps= 30 q=0.0 size=   15583kB time=00:01:59.68 bitrate=1066.5kbits/s speed=   1x    frame= 3603 fps= 30 q=0.0 size=   15643kB time=00:02:00.18 bitrate=1066.2kbits/s speed=   1x    frame= 3618 fps= 30 q=0.0 size=   15696kB time=00:02:00.68 bitrate=1065.4kbits/s speed=   1x    frame= 3633 fps= 30 q=0.0 size=   15796kB time=00:02:01.18 bitrate=1067.8kbits/s speed=   1x    frame= 3649 fps= 30 q=0.0 size=   15847kB time=00:02:01.72 bitrate=1066.5kbits/s speed=   1x    frame= 3664 fps= 30 q=0.0 size=   15908kB time=00:02:02.22 bitrate=1066.2kbits/s speed=   1x    frame= 3679 fps= 30 q=0.0 size=   15959kB time=00:02:02.72 bitrate=1065.3kbits/s speed=   1x    frame= 3694 fps= 30 q=0.0 size=   16058kB time=00:02:03.22 bitrate=1067.5kbits/s speed=   1x    frame= 3709 fps= 30 q=0.0 size=   16109kB time=00:02:03.72 bitrate=1066.6kbits/s speed=   1x    frame= 3724 fps= 30 q=0.0 size=   16169kB time=00:02:04.22 bitrate=1066.3kbits/s speed=   1x    frame= 3739 fps= 30 q=0.0 size=   16219kB time=00:02:04.72 bitrate=1065.3kbits/s speed=   1x    frame= 3754 fps= 30 q=0.0 size=   16320kB time=00:02:05.22 bitrate=1067.6kbits/s speed=   1x    frame= 3769 fps= 30 q=0.0 size=   16371kB time=00:02:05.72 bitrate=1066.7kbits/s speed=   1x    frame= 3785 fps= 30 q=0.0 size=   16432kB time=00:02:06.26 bitrate=1066.1kbits/s speed=   1x    frame= 3799 fps= 30 q=0.0 size=   16484kB time=00:02:06.72 bitrate=1065.5kbits/s speed=   1x    frame= 3815 fps= 30 q=0.0 size=   16583kB time=00:02:07.26 bitrate=1067.5kbits/s speed=   1x    frame= 3829 fps= 30 q=0.0 size=   16643kB time=00:02:07.72 bitrate=1067.4kbits/s speed=   1x    frame= 3845 fps= 30 q=0.0 size=   16693kB time=00:02:08.26 bitrate=1066.2kbits/s speed=   1x    frame= 3859 fps= 30 q=0.0 size=   16794kB time=00:02:08.73 bitrate=1068.7kbits/s speed=   1x    frame= 3876 fps= 30 q=0.0 size=   16843kB time=00:02:09.29 bitrate=1067.2kbits/s speed=   1x    frame= 3889 fps= 30 q=0.0 size=   16902kB time=00:02:09.73 bitrate=1067.3kbits/s speed=0.999x    frame= 3906 fps= 30 q=0.0 size=   16955kB time=00:02:10.29 bitrate=1066.0kbits/s speed=   1x    frame= 3919 fps= 30 q=0.0 size=   17056kB time=00:02:10.73 bitrate=1068.8kbits/s speed=0.999x    frame= 3936 fps= 30 q=0.0 size=   17106kB time=00:02:11.29 bitrate=1067.3kbits/s speed=   1x    frame= 3949 fps= 30 q=0.0 size=   17168kB time=00:02:11.73 bitrate=1067.6kbits/s speed=0.999x    frame= 3966 fps= 30 q=0.0 size=   17217kB time=00:02:12.30 bitrate=1066.1kbits/s speed=   1x    frame= 3981 fps= 30 q=0.0 size=   17317kB time=00:02:12.80 bitrate=1068.2kbits/s speed=   1x    frame= 3996 fps= 30 q=0.0 size=   17366kB time=00:02:13.30 bitrate=1067.2kbits/s speed=   1x    frame= 4011 fps= 30 q=0.0 size=   17428kB time=00:02:13.80 bitrate=1067.0kbits/s speed=   1x    frame= 4027 fps= 30 q=0.0 size=   17478kB time=00:02:14.33 bitrate=1065.8kbits/s speed=   1x    frame= 4042 fps= 30 q=0.0 size=   17577kB time=00:02:14.83 bitrate=1067.9kbits/s speed=   1x    frame= 4057 fps= 30 q=0.0 size=   17628kB time=00:02:15.33 bitrate=1067.0kbits/s speed=   1x    frame= 4072 fps= 30 q=0.0 size=   17689kB time=00:02:15.83 bitrate=1066.8kbits/s speed=   1x    frame= 4087 fps= 30 q=0.0 size=   17738kB time=00:02:16.33 bitrate=1065.8kbits/s speed=   1x    frame= 4102 fps= 30 q=0.0 size=   17839kB time=00:02:16.83 bitrate=1067.9kbits/s speed=   1x    frame= 4117 fps= 30 q=0.0 size=   17889kB time=00:02:17.33 bitrate=1067.0kbits/s speed=   1x    frame= 4133 fps= 30 q=0.0 size=   17950kB time=00:02:17.87 bitrate=1066.5kbits/s speed=   1x    frame= 4148 fps= 30 q=0.0 size=   18000kB time=00:02:18.37 bitrate=1065.6kbits/s speed=   1x    frame= 4163 fps= 30 q=0.0 size=   18099kB time=00:02:18.87 bitrate=1067.6kbits/s speed=   1x    frame= 4179 fps= 30 q=0.0 size=   18148kB time=00:02:19.40 bitrate=1066.4kbits/s speed=   1x    frame= 4194 fps= 30 q=0.0 size=   18209kB time=00:02:19.90 bitrate=1066.2kbits/s speed=   1x    frame= 4209 fps= 30 q=0.0 size=   18262kB time=00:02:20.40 bitrate=1065.5kbits/s speed=   1x    frame= 4224 fps= 30 q=0.0 size=   18361kB time=00:02:20.90 bitrate=1067.5kbits/s speed=   1x    frame= 4239 fps= 30 q=0.0 size=   18411kB time=00:02:21.40 bitrate=1066.6kbits/s speed=   1x    frame= 4255 fps= 30 q=0.0 size=   18473kB time=00:02:21.94 bitrate=1066.1kbits/s speed=   1x    frame= 4269 fps= 30 q=0.0 size=   18523kB time=00:02:22.41 bitrate=1065.5kbits/s speed=   1x    frame= 4286 fps= 30 q=0.0 size=   18624kB time=00:02:22.97 bitrate=1067.1kbits/s speed=   1x    frame= 4299 fps= 30 q=0.0 size=   18683kB time=00:02:23.41 bitrate=1067.2kbits/s speed=   1x    frame= 4316 fps= 30 q=0.0 size=   18735kB time=00:02:23.97 bitrate=1066.0kbits/s speed=   1x    frame= 4329 fps= 30 q=0.0 size=   18836kB time=00:02:24.41 bitrate=1068.5kbits/s speed=0.999x    frame= 4346 fps= 30 q=0.0 size=   18885kB time=00:02:24.97 bitrate=1067.1kbits/s speed=   1x    frame= 4360 fps= 30 q=0.0 size=   18987kB time=00:02:25.44 bitrate=1069.4kbits/s speed=   1x    frame= 4376 fps= 30 q=0.0 size=   18998kB time=00:02:25.98 bitrate=1066.1kbits/s speed=   1x    frame= 4390 fps= 30 q=0.0 size=   19099kB time=00:02:26.44 bitrate=1068.4kbits/s speed=   1x    frame= 4406 fps= 30 q=0.0 size=   19149kB time=00:02:26.98 bitrate=1067.3kbits/s speed=   1x    frame= 4421 fps= 30 q=0.0 size=   19250kB time=00:02:27.48 bitrate=1069.3kbits/s speed=   1x    frame= 4437 fps= 30 q=0.0 size=   19261kB time=00:02:28.01 bitrate=1066.0kbits/s speed=   1x    frame= 4452 fps= 30 q=0.0 size=   19361kB time=00:02:28.51 bitrate=1068.0kbits/s speed=   1x    frame= 4467 fps= 30 q=0.0 size=   19410kB time=00:02:29.01 bitrate=1067.0kbits/s speed=   1x    frame= 4482 fps= 30 q=0.0 size=   19511kB time=00:02:29.51 bitrate=1069.0kbits/s speed=   1x    frame= 4497 fps= 30 q=0.0 size=   19522kB time=00:02:30.01 bitrate=1066.0kbits/s speed=   1x    frame= 4513 fps= 30 q=0.0 size=   19624kB time=00:02:30.55 bitrate=1067.8kbits/s speed=   1x    frame= 4528 fps= 30 q=0.0 size=   19674kB time=00:02:31.05 bitrate=1067.0kbits/s speed=   1x    frame= 4543 fps= 30 q=0.0 size=   19774kB time=00:02:31.55 bitrate=1068.9kbits/s speed=   1x    frame= 4558 fps= 30 q=0.0 size=   19785kB time=00:02:32.05 bitrate=1066.0kbits/s speed=   1x    frame= 4573 fps= 30 q=0.0 size=   19886kB time=00:02:32.55 bitrate=1067.8kbits/s speed=   1x    frame= 4588 fps= 30 q=0.0 size=   19936kB time=00:02:33.05 bitrate=1067.0kbits/s speed=   1x    frame= 4603 fps= 30 q=0.0 size=   20036kB time=00:02:33.55 bitrate=1068.9kbits/s speed=   1x    frame= 4618 fps= 30 q=0.0 size=   20047kB time=00:02:34.05 bitrate=1066.0kbits/s speed=   1x    frame= 4633 fps= 30 q=0.0 size=   20147kB time=00:02:34.55 bitrate=1067.9kbits/s speed=   1x    frame= 4649 fps= 30 q=0.0 size=   20197kB time=00:02:35.08 bitrate=1066.8kbits/s speed=   1x    frame= 4664 fps= 30 q=0.0 size=   20298kB time=00:02:35.59 bitrate=1068.7kbits/s speed=   1x    frame= 4679 fps= 30 q=0.0 size=   20309kB time=00:02:36.09 bitrate=1065.8kbits/s speed=   1x    frame= 4694 fps= 30 q=0.0 size=   20409kB time=00:02:36.59 bitrate=1067.7kbits/s speed=   1x    frame= 4709 fps= 30 q=0.0 size=   20460kB time=00:02:37.09 bitrate=1066.9kbits/s speed=   1x    frame= 4724 fps= 30 q=0.0 size=   20560kB time=00:02:37.59 bitrate=1068.8kbits/s speed=   1x    frame= 4739 fps= 30 q=0.0 size=   20571kB time=00:02:38.09 bitrate=1065.9kbits/s speed=   1x    frame= 4755 fps= 30 q=0.0 size=   20671kB time=00:02:38.62 bitrate=1067.5kbits/s speed=   1x    frame= 4769 fps= 30 q=0.0 size=   20720kB time=00:02:39.09 bitrate=1066.9kbits/s speed=   1x    frame= 4785 fps= 30 q=0.0 size=   20821kB time=00:02:39.62 bitrate=1068.5kbits/s speed=   1x    frame= 4799 fps= 30 q=0.0 size=   20874kB time=00:02:40.09 bitrate=1068.1kbits/s speed=   1x    frame= 4815 fps= 30 q=0.0 size=   20933kB time=00:02:40.62 bitrate=1067.6kbits/s speed=   1x    frame= 4829 fps= 30 q=0.0 size=   21030kB time=00:02:41.09 bitrate=1069.4kbits/s speed=   1x    frame= 4845 fps= 30 q=0.0 size=   21082kB time=00:02:41.62 bitrate=1068.5kbits/s speed=   1x    frame= 4859 fps= 30 q=0.0 size=   21141kB time=00:02:42.09 bitrate=1068.4kbits/s speed=   1x    frame= 4876 fps= 30 q=0.0 size=   21192kB time=00:02:42.66 bitrate=1067.2kbits/s speed=   1x    frame= 4889 fps= 30 q=0.0 size=   21291kB time=00:02:43.09 bitrate=1069.4kbits/s speed=   1x    frame= 4906 fps= 30 q=0.0 size=   21341kB time=00:02:43.66 bitrate=1068.2kbits/s speed=   1x    frame= 4920 fps= 30 q=0.0 size=   21402kB time=00:02:44.13 bitrate=1068.2kbits/s speed=   1x    frame= 4936 fps= 30 q=0.0 size=   21452kB time=00:02:44.66 bitrate=1067.2kbits/s speed=   1x    frame= 4950 fps= 30 q=0.0 size=   21552kB time=00:02:45.13 bitrate=1069.2kbits/s speed=   1x    frame= 4966 fps= 30 q=0.0 size=   21601kB time=00:02:45.66 bitrate=1068.1kbits/s speed=   1x    frame= 4982 fps= 30 q=0.0 size=   21662kB time=00:02:46.20 bitrate=1067.7kbits/s speed=   1x    frame= 4997 fps= 30 q=0.0 size=   21712kB time=00:02:46.70 bitrate=1067.0kbits/s speed=   1x    frame= 5012 fps= 30 q=0.0 size=   21812kB time=00:02:47.20 bitrate=1068.7kbits/s speed=   1x    frame= 5027 fps= 30 q=0.0 size=   21861kB time=00:02:47.70 bitrate=1067.9kbits/s speed=   1x    frame= 5042 fps= 30 q=0.0 size=   21922kB time=00:02:48.20 bitrate=1067.7kbits/s speed=   1x    frame= 5057 fps= 30 q=0.0 size=   21971kB time=00:02:48.70 bitrate=1066.9kbits/s speed=   1x    frame= 5072 fps= 30 q=0.0 size=   22068kB time=00:02:49.20 bitrate=1068.4kbits/s speed=   1x    frame= 5087 fps= 30 q=0.0 size=   22120kB time=00:02:49.70 bitrate=1067.8kbits/s speed=   1x    frame= 5103 fps= 30 q=0.0 size=   22182kB time=00:02:50.23 bitrate=1067.4kbits/s speed=   1x    frame= 5118 fps= 30 q=0.0 size=   22232kB time=00:02:50.73 bitrate=1066.7kbits/s speed=   1x    frame= 5133 fps= 30 q=0.0 size=   22333kB time=00:02:51.23 bitrate=1068.4kbits/s speed=   1x    frame= 5148 fps= 30 q=0.0 size=   22383kB time=00:02:51.73 bitrate=1067.7kbits/s speed=   1x    frame= 5163 fps= 30 q=0.0 size=   22445kB time=00:02:52.24 bitrate=1067.5kbits/s speed=   1x    frame= 5178 fps= 30 q=0.0 size=   22495kB time=00:02:52.74 bitrate=1066.8kbits/s speed=   1x    frame= 5194 fps= 30 q=0.0 size=   22596kB time=00:02:53.27 bitrate=1068.3kbits/s speed=   1x    frame= 5209 fps= 30 q=0.0 size=   22646kB time=00:02:53.77 bitrate=1067.5kbits/s speed=   1x    frame= 5224 fps= 30 q=0.0 size=   22707kB time=00:02:54.27 bitrate=1067.4kbits/s speed=   1x    frame= 5239 fps= 30 q=0.0 size=   22758kB time=00:02:54.77 bitrate=1066.7kbits/s speed=   1x    frame= 5254 fps= 30 q=0.0 size=   22858kB time=00:02:55.27 bitrate=1068.4kbits/s speed=   1x    frame= 5269 fps= 30 q=0.0 size=   22868kB time=00:02:55.77 bitrate=1065.8kbits/s speed=   1x    frame= 5284 fps= 30 q=0.0 size=   22970kB time=00:02:56.27 bitrate=1067.5kbits/s speed=   1x    frame= 5299 fps= 30 q=0.0 size=   23020kB time=00:02:56.77 bitrate=1066.8kbits/s speed=   1x    frame= 5314 fps= 30 q=0.0 size=   23122kB time=00:02:57.27 bitrate=1068.5kbits/s speed=   1x    frame= 5329 fps= 30 q=0.0 size=   23172kB time=00:02:57.77 bitrate=1067.7kbits/s speed=   1x    frame= 5345 fps= 30 q=0.0 size=   23233kB time=00:02:58.31 bitrate=1067.4kbits/s speed=   1x    frame= 5359 fps= 30 q=0.0 size=   23284kB time=00:02:58.78 bitrate=1066.9kbits/s speed=   1x    frame= 5375 fps= 30 q=0.0 size=   23338kB time=00:02:59.31 bitrate=1066.2kbits/s speed=   1x    frame= 5389 fps= 30 q=0.0 size=   23391kB time=00:02:59.78 bitrate=1065.8kbits/s speed=   1x    [flv @ 0x55565d66ece0] Failed to update header with correct duration.
+[flv @ 0x55565d66ece0] Failed to update header with correct filesize.
+frame= 5394 fps= 30 q=0.0 Lsize=   23491kB time=00:03:00.00 bitrate=1069.1kbits/s speed=   1x    
+video:20476kB audio:2813kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.866790%
+
+!Tick: {"viewers":72,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":1,"%":0,"counter":false}
+!toggle off: mybrotherisamoron
+!Tick: {"viewers":72,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  _rSHT9X_nTOjHIGdAAAF: 'mschrage',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!comment by ceecee926: { text: 'is it me? or is frozen', roomKey: 'thefameshow44' }
+!Tick: {"viewers":72,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":12,"%":0,"counter":false}
+!comment by mschrage: { text: 'it shouldn’t be', roomKey: 'thefameshow44' }
+!Tick: {"viewers":72,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":6,"%":0,"counter":false}
+!comment by murdog0214: { text: 'FORTNITE NEW MODE IS AMAZING',
+  roomKey: 'thefameshow44' }
+!Tick: {"viewers":72,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":3,"%":0,"counter":false}
+!comment by mschrage: { text: 'make sure you have good internet ',
+  roomKey: 'thefameshow44' }
+!Tick: {"viewers":72,"votes":0,"time":2,"%":0,"counter":false}
+!comment by ceecee926: { text: 'must b my phone ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":72,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  _rSHT9X_nTOjHIGdAAAF: 'mschrage',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":72,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":16,"%":0,"counter":false}
+!created: thefameshow44727
+!Tick: {"viewers":72,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":72,"votes":0,"time":20,"%":0,"counter":true}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'intro_new.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+  Duration: 00:00:30.33, start: 0.000000, bitrate: 1049 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 540x960 [SAR 1:1 DAR 9:16], 935 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 60k tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 104 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow45':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 540x960 [SAR 1:1 DAR 9:16], q=2-31, 200 kb/s, 29.97 fps, 1k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+frame=   15 fps=0.0 q=0.0 size=      24kB time=00:00:00.46 bitrate= 414.2kbits/s speed=0.934x    frame=   30 fps= 30 q=0.0 size=      61kB time=00:00:00.96 bitrate= 517.5kbits/s speed=0.965x    frame=   45 fps= 30 q=0.0 size=      87kB time=00:00:01.46 bitrate= 483.8kbits/s speed=0.974x    frame=   61 fps= 30 q=0.0 size=     112kB time=00:00:02.00 bitrate= 458.2kbits/s speed=0.992x    frame=   76 fps= 30 q=0.0 size=     260kB time=00:00:02.50 bitrate= 851.5kbits/s speed=0.992x    frame=   91 fps= 30 q=0.0 size=     450kB time=00:00:03.00 bitrate=1227.0kbits/s speed=0.991x    frame=  106 fps= 30 q=0.0 size=     616kB time=00:00:03.50 bitrate=1439.1kbits/s speed=0.991x    frame=  121 fps= 30 q=0.0 size=     829kB time=00:00:04.00 bitrate=1696.4kbits/s speed=0.99x    frame=  136 fps= 30 q=0.0 size=     991kB time=00:00:04.50 bitrate=1801.2kbits/s speed=0.991x    frame=  151 fps= 30 q=0.0 size=    1164kB time=00:00:05.00 bitrate=1904.3kbits/s speed=0.989x    frame=  167 fps= 30 q=0.0 size=    1888kB time=00:00:05.54 bitrate=2791.2kbits/s speed=0.995x    frame=  182 fps= 30 q=0.0 size=    2543kB time=00:00:06.04 bitrate=3449.7kbits/s speed=0.992x    frame=  197 fps= 30 q=0.0 size=    3055kB time=00:00:06.54 bitrate=3826.4kbits/s speed=0.993x    frame=  213 fps= 30 q=0.0 size=    3462kB time=00:00:07.07 bitrate=4008.0kbits/s speed=0.998x    frame=  227 fps= 30 q=0.0 size=    3914kB time=00:00:07.54 bitrate=4251.1kbits/s speed=0.993x    frame=  243 fps= 30 q=0.0 size=    4404kB time=00:00:08.07 bitrate=4467.5kbits/s speed=0.997x    frame=  258 fps= 30 q=0.0 size=    4955kB time=00:00:08.57 bitrate=4733.3kbits/s speed=0.996x    frame=  274 fps= 30 q=0.0 size=    5575kB time=00:00:09.11 bitrate=5013.5kbits/s speed=   1x    frame=  288 fps= 30 q=0.0 size=    6245kB time=00:00:09.57 bitrate=5342.2kbits/s speed=0.996x    frame=  303 fps= 30 q=0.0 size=    7069kB time=00:00:10.07 bitrate=5746.1kbits/s speed=0.995x    frame=  319 fps= 30 q=0.0 size=    7844kB time=00:00:10.61 bitrate=6055.1kbits/s speed=0.998x    frame=  334 fps= 30 q=0.0 size=    8614kB time=00:00:11.11 bitrate=6350.4kbits/s speed=0.997x    frame=  349 fps= 30 q=0.0 size=    9425kB time=00:00:11.61 bitrate=6648.7kbits/s speed=0.997x    frame=  364 fps= 30 q=0.0 size=   10248kB time=00:00:12.11 bitrate=6930.7kbits/s speed=0.997x    frame=  380 fps= 30 q=0.0 size=   10918kB time=00:00:12.64 bitrate=7072.1kbits/s speed=0.999x    frame=  395 fps= 30 q=0.0 size=   11358kB time=00:00:13.14 bitrate=7077.4kbits/s speed=0.999x    frame=  410 fps= 30 q=0.0 size=   11859kB time=00:00:13.64 bitrate=7118.0kbits/s speed=0.998x    frame=  425 fps= 30 q=0.0 size=   12477kB time=00:00:14.14 bitrate=7224.6kbits/s speed=0.997x    frame=  440 fps= 30 q=0.0 size=   13107kB time=00:00:14.64 bitrate=7329.5kbits/s speed=0.997x    frame=  455 fps= 30 q=0.0 size=   13632kB time=00:00:15.14 bitrate=7371.8kbits/s speed=0.997x    frame=  470 fps= 30 q=0.0 size=   14042kB time=00:00:15.65 bitrate=7350.5kbits/s speed=0.998x    frame=  485 fps= 30 q=0.0 size=   14454kB time=00:00:16.15 bitrate=7331.9kbits/s speed=0.996x    frame=  501 fps= 30 q=0.0 size=   15032kB time=00:00:16.68 bitrate=7380.9kbits/s speed=0.998x    frame=  516 fps= 30 q=0.0 size=   15433kB time=00:00:17.18 bitrate=7356.8kbits/s speed=0.997x    frame=  532 fps= 30 q=0.0 size=   15921kB time=00:00:17.71 bitrate=7360.6kbits/s speed=0.999x    frame=  547 fps= 30 q=0.0 size=   16463kB time=00:00:18.21 bitrate=7402.6kbits/s speed=0.999x    frame=  562 fps= 30 q=0.0 size=   17311kB time=00:00:18.72 bitrate=7575.4kbits/s speed=0.998x    frame=  577 fps= 30 q=0.0 size=   18211kB time=00:00:19.22 bitrate=7762.0kbits/s speed=0.998x    frame=  592 fps= 30 q=0.0 size=   19240kB time=00:00:19.72 bitrate=7992.2kbits/s speed=0.998x    frame=  608 fps= 30 q=0.0 size=   20105kB time=00:00:20.25 bitrate=8131.4kbits/s speed=0.999x    frame=  622 fps= 30 q=0.0 size=   20808kB time=00:00:20.72 bitrate=8226.0kbits/s speed=0.997x    frame=  638 fps= 30 q=0.0 size=   21800kB time=00:00:21.25 bitrate=8401.7kbits/s speed=0.998x    frame=  653 fps= 30 q=0.0 size=   22511kB time=00:00:21.75 bitrate=8476.2kbits/s speed=0.998x    frame=  668 fps= 30 q=0.0 size=   23025kB time=00:00:22.25 bitrate=8474.8kbits/s speed=0.998x    frame=  684 fps= 30 q=0.0 size=   23493kB time=00:00:22.79 bitrate=8444.8kbits/s speed=0.999x    frame=  699 fps= 30 q=0.0 size=   24058kB time=00:00:23.29 bitrate=8461.6kbits/s speed=0.999x    frame=  714 fps= 30 q=0.0 size=   24400kB time=00:00:23.79 bitrate=8401.7kbits/s speed=0.999x    frame=  729 fps= 30 q=0.0 size=   24436kB time=00:00:24.29 bitrate=8240.5kbits/s speed=0.999x    frame=  744 fps= 30 q=0.0 size=   24466kB time=00:00:24.79 bitrate=8084.3kbits/s speed=0.999x    frame=  759 fps= 30 q=0.0 size=   24495kB time=00:00:25.29 bitrate=7933.6kbits/s speed=0.999x    frame=  774 fps= 30 q=0.0 size=   24540kB time=00:00:25.79 bitrate=7794.1kbits/s speed=0.999x    frame=  789 fps= 30 q=0.0 size=   24568kB time=00:00:26.29 bitrate=7654.2kbits/s speed=0.999x    frame=  804 fps= 30 q=0.0 size=   24596kB time=00:00:26.79 bitrate=7520.1kbits/s speed=0.998x    frame=  820 fps= 30 q=0.0 size=   24625kB time=00:00:27.32 bitrate=7381.7kbits/s speed=   1x    frame=  835 fps= 30 q=0.0 size=   24670kB time=00:00:27.82 bitrate=7262.1kbits/s speed=   1x    frame=  850 fps= 30 q=0.0 size=   24698kB time=00:00:28.32 bitrate=7142.1kbits/s speed=0.999x    frame=  865 fps= 30 q=0.0 size=   24727kB time=00:00:28.83 bitrate=7026.1kbits/s speed=0.999x    frame=  880 fps= 30 q=0.0 size=   24755kB time=00:00:29.33 bitrate=6914.3kbits/s speed=0.999x    frame=  895 fps= 30 q=0.0 size=   24801kB time=00:00:29.83 bitrate=6810.6kbits/s speed=0.999x    [flv @ 0x55b9d5339200] Failed to update header with correct duration.
+[flv @ 0x55b9d5339200] Failed to update header with correct filesize.
+frame=  909 fps= 30 q=0.0 Lsize=   24831kB time=00:00:30.33 bitrate=6705.1kbits/s speed=   1x    
+video:24322kB audio:474kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.138566%
+
+!Tick: {"viewers":72,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":72,"votes":0,"time":18,"%":0,"counter":true}
+upvote
+!comment by ceecee926: { text: 'pick me guys ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":72,"votes":20,"time":17,"%":7.575757575757575,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":21,"time":16,"%":7.954545454545454,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!connected: samK
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  _rSHT9X_nTOjHIGdAAAF: 'mschrage',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly',
+  mattschrage: 'mattschrage',
+  'DrVPEna8D-kL3mj3AAAI': 'samK' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":73,"votes":21,"time":15,"%":7.070707070707071,"counter":true}
+!upvote: thefameshow44
+!toggle on: samK
+!toggle off: vojtadrmota
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":22,"time":14,"%":7.407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":22,"time":13,"%":7.407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!comment by mschrage: { text: 'try quitting the app and then restarting',
+  roomKey: 'thefameshow44' }
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":22,"time":12,"%":7.407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":22,"time":11,"%":7.407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":22,"time":10,"%":7.407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":22,"time":9,"%":7.407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!leave:  samK
+!Tick: {"viewers":72,"votes":22,"time":8,"%":8.333333333333332,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!leave:  shawnbly
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!comment by ceecee926: { text: 'ok', roomKey: 'thefameshow44' }
+!Tick: {"viewers":71,"votes":22,"time":7,"%":9.523809523809524,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":71,"votes":22,"time":6,"%":9.523809523809524,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":71,"votes":22,"time":5,"%":9.523809523809524,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":71,"votes":22,"time":4,"%":9.523809523809524,"counter":true}
+!reconnect:  shawnbly
+!disconnect:  samK
+!Tick: {"viewers":72,"votes":22,"time":3,"%":8.333333333333332,"counter":true}
+!Tick: {"viewers":72,"votes":22,"time":2,"%":8.333333333333332,"counter":true}
+Streaming rn: mattschrage
+!POTENTIAL: blYrtlgNxn7ie8kXAAAE,_rSHT9X_nTOjHIGdAAAF,m9xGyorFI0n4UM2wAAAG,TuHwLSuySgIKpLLIAAAH
+Coming up is: mschrage
+!created: cnto
+!Tick: {"viewers":72,"votes":22,"time":1,"%":8.333333333333332,"counter":true}
+!Tick: {"viewers":72,"votes":22,"time":0,"%":8.333333333333332,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  _rSHT9X_nTOjHIGdAAAF: 'mschrage',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly',
+  mattschrage: 'mattschrage' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!Tick: {"viewers":72,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":72,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":72,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":72,"votes":0,"time":17,"%":0,"counter":true}
+threshold
+!Tick: {"viewers":72,"votes":0,"time":16,"%":0,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":1,"time":15,"%":0.041666666666666664,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":1,"time":14,"%":0.041666666666666664,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!leave:  ceecee926
+!upvote: thefameshow44
+!reconnect:  ceecee926
+!Tick: {"viewers":72,"votes":2,"time":13,"%":0.08333333333333333,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!connected: samK
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  _rSHT9X_nTOjHIGdAAAF: 'mschrage',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly',
+  mattschrage: 'mattschrage',
+  PSXND7Y7bpO47CZjAAAJ: 'samK' }
+[!END_CONNECTIONS!]
+!toggle on: samK
+!Tick: {"viewers":73,"votes":2,"time":12,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":2,"time":11,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":2,"time":10,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!leave:  mschrage
+IT WAS UPNEXT
+Streaming rn: mattschrage
+!POTENTIAL: blYrtlgNxn7ie8kXAAAE,m9xGyorFI0n4UM2wAAAG,TuHwLSuySgIKpLLIAAAH,IDLsjcXBCPFc3VE-AAAA,PSXND7Y7bpO47CZjAAAJ
+Coming up is: samK
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":2,"time":9,"%":0.08333333333333333,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!created: fdtg
+!upvote: thefameshow44
+!upvote: thefameshow44
+!disconnect:  mschrage
+!Tick: {"viewers":72,"votes":2,"time":8,"%":0.08333333333333333,"counter":true}
+!leave:  shawnbly
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":71,"votes":2,"time":7,"%":0.09523809523809523,"counter":true}
+!connected: mschrage
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly',
+  mattschrage: 'mattschrage',
+  PSXND7Y7bpO47CZjAAAJ: 'samK',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage' }
+[!END_CONNECTIONS!]
+!toggle on: mschrage
+!Tick: {"viewers":72,"votes":2,"time":6,"%":0.08333333333333333,"counter":true}
+!upvote: thefameshow44
+!connected: shawnbly
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly',
+  mattschrage: 'mattschrage',
+  PSXND7Y7bpO47CZjAAAJ: 'samK',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly' }
+[!END_CONNECTIONS!]
+!upvote: thefameshow44
+!leave:  samK
+IT WAS UPNEXT
+Streaming rn: mattschrage
+!POTENTIAL: blYrtlgNxn7ie8kXAAAE,m9xGyorFI0n4UM2wAAAG,IDLsjcXBCPFc3VE-AAAA,mUIt5Yi6iQGa1AjsAAAK,8pMgPCKX4RRwiMZEAAAL
+Coming up is: TravelingMagician
+!Tick: {"viewers":72,"votes":2,"time":5,"%":0.08333333333333333,"counter":true}
+!reconnect:  shawnbly
+!upvote: thefameshow44
+!created: noks
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":2,"time":4,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":2,"time":3,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!toggle off: mschrage
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":2,"time":2,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+[!BEGIN_SHOW!]
+Genesis, streamid: blYrtlgNxn7ie8kXAAAE
+Streaming rn: TravelingMagician
+!POTENTIAL: m9xGyorFI0n4UM2wAAAG,IDLsjcXBCPFc3VE-AAAA,8pMgPCKX4RRwiMZEAAAL,8pMgPCKX4RRwiMZEAAAL
+Coming up is: shawnbly
+!upvote: thefameshow44
+!disconnect:  samK
+!Tick: {"viewers":72,"votes":0,"time":20,"%":0,"counter":false}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!created: hvos
+!created: mbxp
+!Tick: {"viewers":72,"votes":0,"time":19,"%":0,"counter":false}
+
+ffmpeg version 3.4.2-1~16.04.york0 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.6) 20160609
+  configuration: --prefix=/usr --extra-version='1~16.04.york0' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version='1~16.04.york0.2' --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'videos/tutorial.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+  Duration: 00:00:44.21, start: 0.000000, bitrate: 1333 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 540x960 [SAR 1:1 DAR 9:16], 1215 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 60k tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 108 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Please use -q:a or -q:v, -qscale is ambiguous
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> flv1 (flv))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://159.65.189.19/live/thefameshow44727':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p(progressive), 540x960 [SAR 1:1 DAR 9:16], q=2-31, 200 kb/s, 29.97 fps, 1k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc57.107.100 flv
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      handler_name    : SoundHandler
+      encoder         : Lavc57.107.100 libmp3lame
+frame=   15 fps=0.0 q=0.0 size=     153kB time=00:00:00.46 bitrate=2686.4kbits/s speed=0.933x    frame=   30 fps= 30 q=0.0 size=     404kB time=00:00:00.96 bitrate=3414.6kbits/s speed=0.963x    frame=   45 fps= 30 q=0.0 size=     593kB time=00:00:01.46 bitrate=3305.2kbits/s speed=0.971x    frame=   60 fps= 30 q=0.0 size=     855kB time=00:00:01.97 bitrate=3554.5kbits/s speed=0.976x    frame=   76 fps= 30 q=0.0 size=    1039kB time=00:00:02.50 bitrate=3397.5kbits/s speed=0.992x    frame=   91 fps= 30 q=0.0 size=    1270kB time=00:00:03.00 bitrate=3464.1kbits/s speed=0.99x    frame=  106 fps= 30 q=0.0 size=    1424kB time=00:00:03.50 bitrate=3329.0kbits/s speed=0.991x    frame=  121 fps= 30 q=0.0 size=    1677kB time=00:00:04.00 bitrate=3429.3kbits/s speed=0.991x    frame=  137 fps= 30 q=0.0 size=    1898kB time=00:00:04.53 bitrate=3426.1kbits/s speed=0.998x    frame=  152 fps= 30 q=0.0 size=    2130kB time=00:00:05.03 bitrate=3463.5kbits/s speed=0.997x    frame=  167 fps= 30 q=0.0 size=    2341kB time=00:00:05.54 bitrate=3462.3kbits/s speed=0.996x    frame=  182 fps= 30 q=0.0 size=    2524kB time=00:00:06.04 bitrate=3423.9kbits/s speed=0.996x    frame=  197 fps= 30 q=0.0 size=    2737kB time=00:00:06.54 bitrate=3427.7kbits/s speed=0.994x    frame=  213 fps= 30 q=0.0 size=    2927kB time=00:00:07.07 bitrate=3389.5kbits/s speed=0.998x    frame=  227 fps= 30 q=0.0 size=    3134kB time=00:00:07.54 bitrate=3404.2kbits/s speed=0.993x    frame=  243 fps= 30 q=0.0 size=    3327kB time=00:00:08.07 bitrate=3375.1kbits/s speed=0.998x    frame=  258 fps= 30 q=0.0 size=    3598kB time=00:00:08.57 bitrate=3437.1kbits/s speed=0.998x    frame=  273 fps= 30 q=0.0 size=    3822kB time=00:00:09.07 bitrate=3448.9kbits/s speed=0.998x    frame=  288 fps= 30 q=0.0 size=    4057kB time=00:00:09.57 bitrate=3470.3kbits/s speed=0.997x    frame=  303 fps= 30 q=0.0 size=    4267kB time=00:00:10.07 bitrate=3468.7kbits/s speed=0.997x    frame=  318 fps= 30 q=0.0 size=    4505kB time=00:00:10.57 bitrate=3488.9kbits/s speed=0.997x    frame=  333 fps= 30 q=0.0 size=    4711kB time=00:00:11.07 bitrate=3483.1kbits/s speed=0.997x    frame=  348 fps= 30 q=0.0 size=    4929kB time=00:00:11.57 bitrate=3487.3kbits/s speed=0.997x    frame=  364 fps= 30 q=0.0 size=    5116kB time=00:00:12.11 bitrate=3460.3kbits/s speed=0.999x    frame=  379 fps= 30 q=0.0 size=    5407kB time=00:00:12.61 bitrate=3511.2kbits/s speed=0.999x    frame=  394 fps= 30 q=0.0 size=    5655kB time=00:00:13.11 bitrate=3532.3kbits/s speed=0.998x    frame=  409 fps= 30 q=0.0 size=    5877kB time=00:00:13.61 bitrate=3536.1kbits/s speed=0.998x    frame=  424 fps= 30 q=0.0 size=    6088kB time=00:00:14.11 bitrate=3533.3kbits/s speed=0.998x    frame=  439 fps= 30 q=0.0 size=    6301kB time=00:00:14.61 bitrate=3531.5kbits/s speed=0.998x    frame=  454 fps= 30 q=0.0 size=    6479kB time=00:00:15.11 bitrate=3511.0kbits/s speed=0.998x    frame=  469 fps= 30 q=0.0 size=    6642kB time=00:00:15.61 bitrate=3484.0kbits/s speed=0.998x    frame=  484 fps= 30 q=0.0 size=    6900kB time=00:00:16.11 bitrate=3507.0kbits/s speed=0.997x    frame=  500 fps= 30 q=0.0 size=    7065kB time=00:00:16.65 bitrate=3475.9kbits/s speed=0.999x    frame=  515 fps= 30 q=0.0 size=    7243kB time=00:00:17.15 bitrate=3459.6kbits/s speed=0.999x    frame=  530 fps= 30 q=0.0 size=    7419kB time=00:00:17.65 bitrate=3442.9kbits/s speed=0.999x    frame=  545 fps= 30 q=0.0 size=    7669kB time=00:00:18.15 bitrate=3461.0kbits/s speed=0.998x    frame=  560 fps= 30 q=0.0 size=    7895kB time=00:00:18.65 bitrate=3467.3kbits/s speed=0.998x    frame=  576 fps= 30 q=0.0 size=    8122kB time=00:00:19.18 bitrate=3467.7kbits/s speed=0.999x    frame=  591 fps= 30 q=0.0 size=    8320kB time=00:00:19.68 bitrate=3462.1kbits/s speed=0.999x    frame=  606 fps= 30 q=0.0 size=    8562kB time=00:00:20.18 bitrate=3474.4kbits/s speed=0.999x    frame=  621 fps= 30 q=0.0 size=    8758kB time=00:00:20.68 bitrate=3468.1kbits/s speed=0.999x    frame=  636 fps= 30 q=0.0 size=    8982kB time=00:00:21.18 bitrate=3472.4kbits/s speed=0.998x    frame=  651 fps= 30 q=0.0 size=    9161kB time=00:00:21.68 bitrate=3460.0kbits/s speed=0.998x    frame=  667 fps= 30 q=0.0 size=    9414kB time=00:00:22.22 bitrate=3470.1kbits/s speed=0.999x    frame=  682 fps= 30 q=0.0 size=    9612kB time=00:00:22.72 bitrate=3465.0kbits/s speed=0.999x    frame=  697 fps= 30 q=0.0 size=    9828kB time=00:00:23.22 bitrate=3466.6kbits/s speed=0.999x    frame=  712 fps= 30 q=0.0 size=   10064kB time=00:00:23.72 bitrate=3475.2kbits/s speed=0.999x    frame=  727 fps= 30 q=0.0 size=   10312kB time=00:00:24.22 bitrate=3487.1kbits/s speed=0.999x    frame=  742 fps= 30 q=0.0 size=   10475kB time=00:00:24.72 bitrate=3470.6kbits/s speed=0.999x    frame=  757 fps= 30 q=0.0 size=   10727kB time=00:00:25.22 bitrate=3483.5kbits/s speed=0.998x    frame=  773 fps= 30 q=0.0 size=   10950kB time=00:00:25.76 bitrate=3482.3kbits/s speed=   1x    frame=  788 fps= 30 q=0.0 size=   11103kB time=00:00:26.26 bitrate=3463.5kbits/s speed=0.999x    frame=  803 fps= 30 q=0.0 size=   11287kB time=00:00:26.76 bitrate=3455.0kbits/s speed=0.999x    frame=  818 fps= 30 q=0.0 size=   11541kB time=00:00:27.26 bitrate=3468.0kbits/s speed=0.999x    frame=  833 fps= 30 q=0.0 size=   11773kB time=00:00:27.76 bitrate=3474.0kbits/s speed=0.999x    frame=  848 fps= 30 q=0.0 size=   11959kB time=00:00:28.26 bitrate=3466.3kbits/s speed=0.999x    frame=  863 fps= 30 q=0.0 size=   12203kB time=00:00:28.76 bitrate=3475.7kbits/s speed=0.999x    frame=  878 fps= 30 q=0.0 size=   12369kB time=00:00:29.26 bitrate=3462.4kbits/s speed=0.999x    frame=  893 fps= 30 q=0.0 size=   12624kB time=00:00:29.76 bitrate=3474.5kbits/s speed=0.998x    frame=  909 fps= 30 q=0.0 size=   12847kB time=00:00:30.29 bitrate=3473.7kbits/s speed=0.999x    frame=  924 fps= 30 q=0.0 size=   13056kB time=00:00:30.79 bitrate=3472.7kbits/s speed=0.999x    frame=  939 fps= 30 q=0.0 size=   13243kB time=00:00:31.29 bitrate=3466.2kbits/s speed=0.999x    frame=  954 fps= 30 q=0.0 size=   13443kB time=00:00:31.79 bitrate=3463.2kbits/s speed=0.999x    frame=  969 fps= 30 q=0.0 size=   13665kB time=00:00:32.30 bitrate=3465.8kbits/s speed=0.999x    frame=  984 fps= 30 q=0.0 size=   13877kB time=00:00:32.80 bitrate=3465.8kbits/s speed=0.999x    frame=  999 fps= 30 q=0.0 size=   14049kB time=00:00:33.30 bitrate=3456.1kbits/s speed=0.999x    frame= 1014 fps= 30 q=0.0 size=   14228kB time=00:00:33.80 bitrate=3448.2kbits/s speed=0.999x    frame= 1030 fps= 30 q=0.0 size=   14497kB time=00:00:34.33 bitrate=3458.8kbits/s speed=   1x    frame= 1045 fps= 30 q=0.0 size=   14642kB time=00:00:34.83 bitrate=3443.2kbits/s speed=0.999x    frame= 1060 fps= 30 q=0.0 size=   14868kB time=00:00:35.33 bitrate=3447.0kbits/s speed=0.999x    frame= 1075 fps= 30 q=0.0 size=   15105kB time=00:00:35.83 bitrate=3453.0kbits/s speed=0.999x    frame= 1090 fps= 30 q=0.0 size=   15324kB time=00:00:36.33 bitrate=3454.6kbits/s speed=0.999x    frame= 1104 fps= 30 q=0.0 size=   15452kB time=00:00:36.80 bitrate=3439.3kbits/s speed=0.998x    frame= 1121 fps= 30 q=0.0 size=   15688kB time=00:00:37.37 bitrate=3438.8kbits/s speed=   1x    frame= 1136 fps= 30 q=0.0 size=   15895kB time=00:00:37.87 bitrate=3438.2kbits/s speed=0.999x    frame= 1151 fps= 30 q=0.0 size=   16069kB time=00:00:38.37 bitrate=3430.5kbits/s speed=0.999x    frame= 1166 fps= 30 q=0.0 size=   16254kB time=00:00:38.87 bitrate=3425.3kbits/s speed=0.999x    frame= 1181 fps= 30 q=0.0 size=   16462kB time=00:00:39.37 bitrate=3424.9kbits/s speed=0.999x    frame= 1196 fps= 30 q=0.0 size=   16603kB time=00:00:39.87 bitrate=3411.1kbits/s speed=0.999x    frame= 1211 fps= 30 q=0.0 size=   16755kB time=00:00:40.37 bitrate=3399.6kbits/s speed=0.999x    frame= 1226 fps= 30 q=0.0 size=   16922kB time=00:00:40.87 bitrate=3391.4kbits/s speed=0.999x    frame= 1241 fps= 30 q=0.0 size=   17132kB time=00:00:41.37 bitrate=3392.0kbits/s speed=0.999x    frame= 1257 fps= 30 q=0.0 size=   17353kB time=00:00:41.91 bitrate=3392.0kbits/s speed=   1x    frame= 1272 fps= 30 q=0.0 size=   17581kB time=00:00:42.41 bitrate=3396.1kbits/s speed=0.999x    frame= 1287 fps= 30 q=0.0 size=   17808kB time=00:00:42.91 bitrate=3399.7kbits/s speed=0.999x    frame= 1302 fps= 30 q=0.0 size=   18015kB time=00:00:43.41 bitrate=3399.5kbits/s speed=0.999x    frame= 1317 fps= 30 q=0.0 size=   18203kB time=00:00:43.91 bitrate=3395.9kbits/s speed=0.999x    [flv @ 0x5559be36c9a0] Failed to update header with correct duration.
+[flv @ 0x5559be36c9a0] Failed to update header with correct filesize.
+frame= 1325 fps= 30 q=0.0 Lsize=   18332kB time=00:00:44.20 bitrate=3396.9kbits/s speed=   1x    
+video:17591kB audio:691kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.272896%
+
+!upvote: thefameshow44727
+!Tick: {"viewers":72,"votes":1,"time":18,"%":0.037037037037037035,"counter":false}
+!comment by ceecee926: { text: 'yess 🙏', roomKey: 'thefameshow44' }
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":72,"votes":1,"time":20,"%":0.037037037037037035,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":73,"votes":1,"time":19,"%":0.03333333333333333,"counter":true}
+!connected: JuliaB
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly',
+  mattschrage: 'mattschrage',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  qzxMFGC8FIpSkpfvAAAM: 'JuliaB' }
+[!END_CONNECTIONS!]
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":73,"votes":1,"time":18,"%":0.03333333333333333,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":73,"votes":1,"time":17,"%":0.03333333333333333,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44727
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":1,"time":16,"%":0.03333333333333333,"counter":true}
+!upvote: thefameshow44727
+!Tick: {"viewers":73,"votes":1,"time":15,"%":0.03333333333333333,"counter":true}
+!toggle on: JuliaB
+!Tick: {"viewers":73,"votes":1,"time":14,"%":0.03333333333333333,"counter":true}
+!Tick: {"viewers":73,"votes":1,"time":13,"%":0.03333333333333333,"counter":true}
+!leave:  murdog0214
+!Tick: {"viewers":72,"votes":1,"time":12,"%":0.037037037037037035,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":1,"time":11,"%":0.037037037037037035,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+upvote
+!Tick: {"viewers":72,"votes":21,"time":10,"%":0.7777777777777778,"counter":true}
+!Tick: {"viewers":72,"votes":21,"time":9,"%":0.7777777777777778,"counter":true}
+!Tick: {"viewers":72,"votes":21,"time":8,"%":0.7777777777777778,"counter":true}
+!Tick: {"viewers":72,"votes":21,"time":7,"%":0.7777777777777778,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":72,"votes":21,"time":6,"%":0.7777777777777778,"counter":true}
+!upvote: thefameshow44727
+!leave:  mschrage
+!Tick: {"viewers":71,"votes":21,"time":5,"%":0.875,"counter":true}
+upvote
+!Tick: {"viewers":71,"votes":41,"time":4,"%":1.7083333333333333,"counter":true}
+!reconnect:  mschrage
+!Tick: {"viewers":72,"votes":41,"time":3,"%":1.5185185185185184,"counter":true}
+!Tick: {"viewers":72,"votes":41,"time":2,"%":1.5185185185185184,"counter":true}
+!Tick: {"viewers":72,"votes":41,"time":1,"%":1.5185185185185184,"counter":true}
+!Tick: {"viewers":72,"votes":41,"time":0,"%":1.5185185185185184,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly',
+  mattschrage: 'mattschrage',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  qzxMFGC8FIpSkpfvAAAM: 'JuliaB' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!Tick: {"viewers":72,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":72,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":72,"votes":0,"time":18,"%":0,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":1,"time":17,"%":0.037037037037037035,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":1,"time":16,"%":0.037037037037037035,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!comment by mschrage: { text: 'can’t hear!', roomKey: 'thefameshow44727' }
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":1,"time":15,"%":0.037037037037037035,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":1,"time":14,"%":0.037037037037037035,"counter":true}
+!Tick: {"viewers":72,"votes":1,"time":13,"%":0.037037037037037035,"counter":true}
+!Tick: {"viewers":72,"votes":1,"time":12,"%":0.037037037037037035,"counter":true}
+!Tick: {"viewers":72,"votes":1,"time":11,"%":0.037037037037037035,"counter":true}
+upvote
+!Tick: {"viewers":72,"votes":21,"time":10,"%":0.7777777777777778,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":21,"time":9,"%":0.7777777777777778,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":21,"time":8,"%":0.7777777777777778,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":21,"time":7,"%":0.7777777777777778,"counter":true}
+!leave:  mschrage
+!Tick: {"viewers":71,"votes":21,"time":6,"%":0.875,"counter":true}
+!Tick: {"viewers":71,"votes":21,"time":5,"%":0.875,"counter":true}
+!reconnect:  mschrage
+upvote
+!Tick: {"viewers":72,"votes":41,"time":4,"%":1.5185185185185184,"counter":true}
+!Tick: {"viewers":72,"votes":41,"time":3,"%":1.5185185185185184,"counter":true}
+!comment by mybrotherisamoron: { text: '^^', roomKey: 'thefameshow44' }
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":72,"votes":42,"time":2,"%":1.5555555555555556,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":72,"votes":42,"time":1,"%":1.5555555555555556,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!comment by vojtadrmota: { text: 'dangerous!!', roomKey: 'thefameshow44' }
+!upvote: thefameshow44727
+!Tick: {"viewers":72,"votes":42,"time":0,"%":1.5555555555555556,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly',
+  mattschrage: 'mattschrage',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  qzxMFGC8FIpSkpfvAAAM: 'JuliaB' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!upvote: thefameshow44727
+!upvote: thefameshow44
+!upvote: thefameshow44727
+!Tick: {"viewers":72,"votes":2,"time":20,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":72,"votes":2,"time":19,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":2,"time":18,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!comment by ceecee926: { text: 'oook', roomKey: 'thefameshow44' }
+!Tick: {"viewers":72,"votes":2,"time":17,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44727
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":2,"time":16,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":72,"votes":2,"time":15,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":72,"votes":2,"time":14,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":72,"votes":2,"time":13,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44727
+!leave:  mschrage
+!upvote: thefameshow44727
+!Tick: {"viewers":71,"votes":2,"time":12,"%":0.08333333333333333,"counter":true}
+!reconnect:  mschrage
+!comment by vojtadrmota: { text: 'close your window hah', roomKey: 'thefameshow44' }
+!Tick: {"viewers":72,"votes":2,"time":11,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":72,"votes":2,"time":10,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":2,"time":9,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":2,"time":8,"%":0.06666666666666667,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44727
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":2,"time":7,"%":0.06666666666666667,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!connected: andrewmorley
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly',
+  mattschrage: 'mattschrage',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  qzxMFGC8FIpSkpfvAAAM: 'JuliaB',
+  'TlB07QU6PDljyf-yAAAN': 'andrewmorley' }
+[!END_CONNECTIONS!]
+!upvote: thefameshow44
+!disconnect:  JuliaB
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":2,"time":6,"%":0.07407407407407407,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":2,"time":5,"%":0.07407407407407407,"counter":true}
+!leave:  ceecee926
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":71,"votes":2,"time":4,"%":0.08333333333333333,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: hvos
+!upvote: hvos
+!upvote: hvos
+!upvote: hvos
+!upvote: hvos
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":71,"votes":3,"time":3,"%":0.125,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: hvos
+!upvote: thefameshow44
+!Tick: {"viewers":71,"votes":3,"time":2,"%":0.125,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":3,"time":1,"%":0.1111111111111111,"counter":true}
+!upvote: thefameshow44
+!connected: raphaelrk
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly',
+  mattschrage: 'mattschrage',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'TlB07QU6PDljyf-yAAAN': 'andrewmorley',
+  zbtIhjPW1UjtpW6AAAAO: 'raphaelrk' }
+[!END_CONNECTIONS!]
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":3,"time":0,"%":0.1111111111111111,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  TuHwLSuySgIKpLLIAAAH: 'shawnbly',
+  mattschrage: 'mattschrage',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'TlB07QU6PDljyf-yAAAN': 'andrewmorley',
+  zbtIhjPW1UjtpW6AAAAO: 'raphaelrk' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: mbxp
+!stored: TravelingMagician 1.5
+Streaming rn: shawnbly
+!POTENTIAL: mUIt5Yi6iQGa1AjsAAAK,TlB07QU6PDljyf-yAAAN,zbtIhjPW1UjtpW6AAAAO
+Coming up is: andrewmorley
+[!END_ANALYTICS!]
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":1,"time":20,"%":0.037037037037037035,"counter":false}
+!created: yrcg
+!Tick: {"viewers":72,"votes":1,"time":19,"%":0.037037037037037035,"counter":false}
+!Tick: {"viewers":72,"votes":1,"time":20,"%":0.037037037037037035,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":72,"votes":1,"time":19,"%":0.037037037037037035,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44727
+!upvote: thefameshow44
+!leave:  andrewmorley
+IT WAS UPNEXT
+Streaming rn: shawnbly
+!POTENTIAL: mUIt5Yi6iQGa1AjsAAAK,zbtIhjPW1UjtpW6AAAAO
+Coming up is: mschrage
+!upvote: thefameshow44
+!upvote: thefameshow44727
+!Tick: {"viewers":71,"votes":2,"time":18,"%":0.08333333333333333,"counter":true}
+!created: hjer
+!Tick: {"viewers":71,"votes":2,"time":17,"%":0.08333333333333333,"counter":true}
+!Tick: {"viewers":71,"votes":2,"time":16,"%":0.08333333333333333,"counter":true}
+!Tick: {"viewers":71,"votes":2,"time":15,"%":0.08333333333333333,"counter":true}
+!Tick: {"viewers":71,"votes":2,"time":14,"%":0.08333333333333333,"counter":true}
+!reconnect:  ceecee926
+!Tick: {"viewers":72,"votes":2,"time":13,"%":0.07407407407407407,"counter":true}
+!Tick: {"viewers":72,"votes":2,"time":12,"%":0.07407407407407407,"counter":true}
+!Tick: {"viewers":72,"votes":2,"time":11,"%":0.07407407407407407,"counter":true}
+!Tick: {"viewers":72,"votes":2,"time":10,"%":0.07407407407407407,"counter":true}
+!disconnect:  shawnbly
+!Tick: {"viewers":72,"votes":2,"time":9,"%":0.07407407407407407,"counter":true}
+!Tick: {"viewers":72,"votes":2,"time":8,"%":0.07407407407407407,"counter":true}
+!comment by ceecee926: { text: 'pick me ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":72,"votes":2,"time":7,"%":0.07407407407407407,"counter":true}
+!Tick: {"viewers":72,"votes":2,"time":6,"%":0.07407407407407407,"counter":true}
+!Tick: {"viewers":72,"votes":2,"time":5,"%":0.07407407407407407,"counter":true}
+!reconnect:  andrewmorley
+!Tick: {"viewers":73,"votes":2,"time":4,"%":0.06666666666666667,"counter":true}
+threshold
+!Tick: {"viewers":73,"votes":2,"time":3,"%":0.2,"counter":true}
+!Tick: {"viewers":73,"votes":2,"time":2,"%":0.2,"counter":true}
+!Tick: {"viewers":73,"votes":2,"time":1,"%":0.2,"counter":true}
+!Tick: {"viewers":73,"votes":2,"time":0,"%":0.2,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  m9xGyorFI0n4UM2wAAAG: 'murdog0214',
+  mattschrage: 'mattschrage',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'TlB07QU6PDljyf-yAAAN': 'andrewmorley',
+  zbtIhjPW1UjtpW6AAAAO: 'raphaelrk' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: hjer
+!stored: shawnbly 0.5
+Streaming rn: mschrage
+!POTENTIAL: zbtIhjPW1UjtpW6AAAAO,IDLsjcXBCPFc3VE-AAAA,TlB07QU6PDljyf-yAAAN
+Coming up is: andrewmorley
+[!END_ANALYTICS!]
+!created: erca
+!Tick: {"viewers":73,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":73,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":73,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":73,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":73,"votes":0,"time":18,"%":0,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":1,"time":17,"%":0.1,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":73,"votes":2,"time":16,"%":0.2,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!leave:  TravelingMagician
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!disconnect:  murdog0214
+!leave:  andrewmorley
+IT WAS UPNEXT
+Streaming rn: mschrage
+!POTENTIAL: zbtIhjPW1UjtpW6AAAAO,IDLsjcXBCPFc3VE-AAAA
+Coming up is: raphaelrk
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":71,"votes":2,"time":15,"%":0.25,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":71,"votes":2,"time":14,"%":0.25,"counter":true}
+!created: bdvl
+!Tick: {"viewers":71,"votes":2,"time":13,"%":0.25,"counter":true}
+!Tick: {"viewers":71,"votes":2,"time":12,"%":0.25,"counter":true}
+!Tick: {"viewers":71,"votes":2,"time":11,"%":0.25,"counter":true}
+!Tick: {"viewers":71,"votes":2,"time":10,"%":0.25,"counter":true}
+!disconnect:  andrewmorley
+!Tick: {"viewers":71,"votes":2,"time":9,"%":0.25,"counter":true}
+!Tick: {"viewers":71,"votes":2,"time":8,"%":0.25,"counter":true}
+!Tick: {"viewers":71,"votes":2,"time":7,"%":0.25,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":71,"votes":2,"time":6,"%":0.25,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":71,"votes":2,"time":5,"%":0.25,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!disconnect:  raphaelrk
+Streaming rn: mschrage
+!POTENTIAL: IDLsjcXBCPFc3VE-AAAA
+Coming up is: ceecee926
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":4,"%":0.2857142857142857,"counter":true}
+!created: kkvd
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":3,"%":0.2857142857142857,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":2,"%":0.2857142857142857,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":1,"%":0.2857142857142857,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":0,"%":0.2857142857142857,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  mattschrage: 'mattschrage',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: kkvd
+!stored: mschrage 0.5
+Streaming rn: ceecee926
+!POTENTIAL: 8pMgPCKX4RRwiMZEAAAL,8pMgPCKX4RRwiMZEAAAL,mUIt5Yi6iQGa1AjsAAAK
+Coming up is: mschrage
+[!END_ANALYTICS!]
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!created: vsap
+!Tick: {"viewers":70,"votes":1,"time":20,"%":0.14285714285714285,"counter":false}
+!comment by mybrotherisamoron: { text: 'fav so far', roomKey: 'thefameshow44' }
+!Tick: {"viewers":70,"votes":1,"time":19,"%":0.14285714285714285,"counter":false}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":1,"time":20,"%":0.14285714285714285,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":19,"%":0.14285714285714285,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":1,"time":18,"%":0.14285714285714285,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":1,"time":17,"%":0.14285714285714285,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":1,"time":16,"%":0.14285714285714285,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":1,"time":15,"%":0.14285714285714285,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":1,"time":14,"%":0.14285714285714285,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":1,"time":13,"%":0.14285714285714285,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":12,"%":0.2857142857142857,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":11,"%":0.2857142857142857,"counter":true}
+!upvote: thefameshow44
+!leave:  mybrotherisamoron
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":69,"votes":2,"time":10,"%":0.4,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":69,"votes":2,"time":9,"%":0.4,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":69,"votes":2,"time":8,"%":0.4,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":69,"votes":2,"time":7,"%":0.4,"counter":true}
+!reconnect:  mybrotherisamoron
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":6,"%":0.3333333333333333,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":5,"%":0.3333333333333333,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":4,"%":0.3333333333333333,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":3,"%":0.3333333333333333,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":2,"%":0.3333333333333333,"counter":true}
+!comment by mschrage: { text: 'wow', roomKey: 'vsap' }
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":1,"%":0.3333333333333333,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":2,"time":0,"%":0.3333333333333333,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  mattschrage: 'mattschrage',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: vsap
+!stored: ceecee926 0.5
+Streaming rn: mschrage
+!POTENTIAL: XJs76FKK1I9t_4JMAAAD
+Coming up is: mybrotherisamoron
+[!END_ANALYTICS!]
+!upvote: thefameshow44
+!created: aeww
+!leave:  mybrotherisamoron
+IT WAS UPNEXT
+Streaming rn: mschrage
+!POTENTIAL: 8pMgPCKX4RRwiMZEAAAL,8pMgPCKX4RRwiMZEAAAL,IDLsjcXBCPFc3VE-AAAA
+Coming up is: ceecee926
+!created: vbki
+!Tick: {"viewers":69,"votes":1,"time":20,"%":0.2,"counter":false}
+!upvote: thefameshow44
+!Tick: {"viewers":69,"votes":1,"time":19,"%":0.2,"counter":false}
+!upvote: thefameshow44
+!Tick: {"viewers":69,"votes":1,"time":20,"%":0.2,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!reconnect:  mybrotherisamoron
+!Tick: {"viewers":70,"votes":1,"time":19,"%":0.16666666666666666,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!leave:  mybrotherisamoron
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":69,"votes":1,"time":18,"%":0.2,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!reconnect:  mybrotherisamoron
+!Tick: {"viewers":70,"votes":1,"time":17,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":16,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":15,"%":0.16666666666666666,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":1,"time":14,"%":0.16666666666666666,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":1,"time":13,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":12,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":11,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":10,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":9,"%":0.16666666666666666,"counter":true}
+!upvote: thefameshow44
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":1,"time":8,"%":0.16666666666666666,"counter":true}
+!upvote: thefameshow44
+!Tick: {"viewers":70,"votes":1,"time":7,"%":0.16666666666666666,"counter":true}
+!upvote: vsap
+!upvote: vsap
+!upvote: vsap
+!upvote: vsap
+!Tick: {"viewers":70,"votes":2,"time":6,"%":0.3333333333333333,"counter":true}
+!upvote: vsap
+!upvote: vsap
+!upvote: thefameshow44
+!upvote: vsap
+!upvote: thefameshow44
+!upvote: vsap
+!Tick: {"viewers":70,"votes":2,"time":5,"%":0.3333333333333333,"counter":true}
+!upvote: vsap
+!upvote: vsap
+!upvote: vsap
+!Tick: {"viewers":70,"votes":2,"time":4,"%":0.3333333333333333,"counter":true}
+!Tick: {"viewers":70,"votes":2,"time":3,"%":0.3333333333333333,"counter":true}
+!reconnect:  TravelingMagician
+!Tick: {"viewers":71,"votes":2,"time":2,"%":0.2857142857142857,"counter":true}
+!Tick: {"viewers":71,"votes":2,"time":1,"%":0.2857142857142857,"counter":true}
+!upvote: vsap
+!upvote: vsap
+!upvote: vsap
+!toggle off: TravelingMagician
+!Tick: {"viewers":71,"votes":2,"time":0,"%":0.2857142857142857,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  XJs76FKK1I9t_4JMAAAD: 'mybrotherisamoron',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  mattschrage: 'mattschrage',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: vbki
+!stored: mschrage 0.5
+Streaming rn: ceecee926
+!POTENTIAL: XJs76FKK1I9t_4JMAAAD
+Coming up is: mybrotherisamoron
+[!END_ANALYTICS!]
+!created: poid
+!Tick: {"viewers":71,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":19,"%":0,"counter":false}
+!upvote: thefameshow44727
+!leave:  TravelingMagician
+!Tick: {"viewers":70,"votes":1,"time":20,"%":0.16666666666666666,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":70,"votes":1,"time":19,"%":0.16666666666666666,"counter":true}
+!upvote: thefameshow44727
+!Tick: {"viewers":70,"votes":1,"time":18,"%":0.16666666666666666,"counter":true}
+!leave:  mybrotherisamoron
+IT WAS UPNEXT
+Streaming rn: ceecee926
+!POTENTIAL: 8pMgPCKX4RRwiMZEAAAL,8pMgPCKX4RRwiMZEAAAL,mUIt5Yi6iQGa1AjsAAAK
+Coming up is: shawnbly
+!created: usjh
+!Tick: {"viewers":69,"votes":1,"time":17,"%":0.2,"counter":true}
+!created: gusq
+!Tick: {"viewers":69,"votes":1,"time":16,"%":0.2,"counter":true}
+!disconnect:  mybrotherisamoron
+!Tick: {"viewers":69,"votes":1,"time":15,"%":0.2,"counter":true}
+!Tick: {"viewers":69,"votes":1,"time":14,"%":0.2,"counter":true}
+!Tick: {"viewers":69,"votes":1,"time":13,"%":0.2,"counter":true}
+!Tick: {"viewers":69,"votes":1,"time":12,"%":0.2,"counter":true}
+!comment by mschrage: { text: 'I wanna be your fav Linden',
+  roomKey: 'thefameshow44727' }
+!Tick: {"viewers":69,"votes":1,"time":11,"%":0.2,"counter":true}
+!upvote: thefameshow44727
+!Tick: {"viewers":69,"votes":1,"time":10,"%":0.2,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":69,"votes":1,"time":9,"%":0.2,"counter":true}
+!upvote: thefameshow44727
+!Tick: {"viewers":69,"votes":1,"time":8,"%":0.2,"counter":true}
+!Tick: {"viewers":69,"votes":1,"time":7,"%":0.2,"counter":true}
+!Tick: {"viewers":69,"votes":1,"time":6,"%":0.2,"counter":true}
+!Tick: {"viewers":69,"votes":1,"time":5,"%":0.2,"counter":true}
+!connected: mybrotherisamoron
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  mattschrage: 'mattschrage',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'tTO-3QRFZAeSIXKCAAAP': 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+!toggle on: mybrotherisamoron
+!Tick: {"viewers":70,"votes":1,"time":4,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":3,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":2,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":1,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":0,"%":0.16666666666666666,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  mattschrage: 'mattschrage',
+  mUIt5Yi6iQGa1AjsAAAK: 'mschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'tTO-3QRFZAeSIXKCAAAP': 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: gusq
+!stored: ceecee926 0.5
+Streaming rn: shawnbly
+!POTENTIAL: tTO-3QRFZAeSIXKCAAAP
+Coming up is: mybrotherisamoron
+[!END_ANALYTICS!]
+!created: tbom
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":true}
+!upvote: thefameshow44727
+!Tick: {"viewers":70,"votes":1,"time":18,"%":0.16666666666666666,"counter":true}
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!upvote: thefameshow44727
+!Tick: {"viewers":70,"votes":1,"time":17,"%":0.16666666666666666,"counter":true}
+!upvote: thefameshow44727
+!Tick: {"viewers":70,"votes":1,"time":16,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":15,"%":0.16666666666666666,"counter":true}
+!upvote: thefameshow44727
+!Tick: {"viewers":70,"votes":1,"time":14,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":13,"%":0.16666666666666666,"counter":true}
+!leave:  mschrage
+!Tick: {"viewers":69,"votes":1,"time":12,"%":0.2,"counter":true}
+!disconnect:  mschrage
+!Tick: {"viewers":69,"votes":1,"time":11,"%":0.2,"counter":true}
+!Tick: {"viewers":69,"votes":1,"time":10,"%":0.2,"counter":true}
+!connected: mschrage
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'tTO-3QRFZAeSIXKCAAAP': 'mybrotherisamoron',
+  b8EtcNaYfVuJ0djvAAAQ: 'mschrage' }
+[!END_CONNECTIONS!]
+!reconnect:  mschrage
+!toggle on: mschrage
+!Tick: {"viewers":70,"votes":1,"time":9,"%":0.14285714285714285,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":8,"%":0.14285714285714285,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":7,"%":0.14285714285714285,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":6,"%":0.14285714285714285,"counter":true}
+!toggle off: mschrage
+!Tick: {"viewers":70,"votes":1,"time":5,"%":0.14285714285714285,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":4,"%":0.14285714285714285,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":3,"%":0.14285714285714285,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":2,"%":0.14285714285714285,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":1,"%":0.14285714285714285,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":0,"%":0.14285714285714285,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'tTO-3QRFZAeSIXKCAAAP': 'mybrotherisamoron',
+  b8EtcNaYfVuJ0djvAAAQ: 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: tbom
+!stored: shawnbly 0.5
+Streaming rn: mybrotherisamoron
+!POTENTIAL: 8pMgPCKX4RRwiMZEAAAL,8pMgPCKX4RRwiMZEAAAL,IDLsjcXBCPFc3VE-AAAA
+Coming up is: shawnbly
+[!END_ANALYTICS!]
+!created: ghzr
+!created: rqjm
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":true}
+!leave:  mschrage
+!Tick: {"viewers":69,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":69,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":69,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":69,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":69,"votes":0,"time":15,"%":0,"counter":true}
+!Tick: {"viewers":69,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":69,"votes":0,"time":13,"%":0,"counter":true}
+!comment by ceecee926: { text: 'awww', roomKey: 'thefameshow44' }
+!Tick: {"viewers":69,"votes":0,"time":12,"%":0,"counter":true}
+!Tick: {"viewers":69,"votes":0,"time":11,"%":0,"counter":true}
+!reconnect:  mschrage
+!Tick: {"viewers":70,"votes":0,"time":10,"%":0,"counter":true}
+!upvote: gusq
+!Tick: {"viewers":70,"votes":1,"time":9,"%":0.16666666666666666,"counter":true}
+!upvote: gusq
+!Tick: {"viewers":70,"votes":1,"time":8,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":7,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":6,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":5,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":4,"%":0.16666666666666666,"counter":true}
+!comment by mschrage: { text: 'I can’t seee!', roomKey: 'gusq' }
+!Tick: {"viewers":70,"votes":1,"time":3,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":2,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":1,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":0,"%":0.16666666666666666,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'tTO-3QRFZAeSIXKCAAAP': 'mybrotherisamoron',
+  b8EtcNaYfVuJ0djvAAAQ: 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: rqjm
+!stored: mybrotherisamoron 0.5
+Streaming rn: shawnbly
+!POTENTIAL: b8EtcNaYfVuJ0djvAAAQ
+Coming up is: mschrage
+[!END_ANALYTICS!]
+!created: ldzn
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!comment by ceecee926: { text: 'heyyyy', roomKey: 'thefameshow44' }
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":true}
+!leave:  mschrage
+IT WAS UPNEXT
+Streaming rn: shawnbly
+!POTENTIAL: IDLsjcXBCPFc3VE-AAAA,tTO-3QRFZAeSIXKCAAAP
+Coming up is: ceecee926
+!created: wzdq
+!Tick: {"viewers":69,"votes":0,"time":18,"%":0,"counter":true}
+!disconnect:  mschrage
+!Tick: {"viewers":69,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":69,"votes":0,"time":16,"%":0,"counter":true}
+!connected: mschrage
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  blYrtlgNxn7ie8kXAAAE: 'TravelingMagician',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'tTO-3QRFZAeSIXKCAAAP': 'mybrotherisamoron',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage' }
+[!END_CONNECTIONS!]
+!toggle on: mschrage
+!Tick: {"viewers":70,"votes":0,"time":15,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":13,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":12,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":11,"%":0,"counter":true}
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!Tick: {"viewers":70,"votes":1,"time":10,"%":0.16666666666666666,"counter":true}
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!Tick: {"viewers":70,"votes":1,"time":9,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":8,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":7,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":6,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":5,"%":0.16666666666666666,"counter":true}
+!disconnect:  TravelingMagician
+!Tick: {"viewers":70,"votes":1,"time":4,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":34,"time":3,"%":5.666666666666667,"counter":true}
+!Tick: {"viewers":70,"votes":34,"time":2,"%":5.666666666666667,"counter":true}
+!Tick: {"viewers":70,"votes":34,"time":1,"%":5.666666666666667,"counter":true}
+!Tick: {"viewers":70,"votes":34,"time":0,"%":5.666666666666667,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'tTO-3QRFZAeSIXKCAAAP': 'mybrotherisamoron',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage' }
+[!END_CONNECTIONS!]
+[!END_ANALYTICS!]
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":true}
+!upvote: usjh
+!Tick: {"viewers":70,"votes":1,"time":19,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":18,"%":0.16666666666666666,"counter":true}
+!upvote: usjh
+!upvote: usjh
+!upvote: usjh
+!upvote: usjh
+!Tick: {"viewers":70,"votes":1,"time":17,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":16,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":15,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":14,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":13,"%":0.16666666666666666,"counter":true}
+😸
+!Tick: {"viewers":70,"votes":1,"time":12,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":11,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":10,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":9,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":8,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":7,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":6,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":5,"%":0.16666666666666666,"counter":true}
+!Tick: {"viewers":70,"votes":1,"time":4,"%":0.16666666666666666,"counter":true}
+!upvote: rqjm
+!Tick: {"viewers":70,"votes":2,"time":3,"%":0.3333333333333333,"counter":true}
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!Tick: {"viewers":70,"votes":2,"time":2,"%":0.3333333333333333,"counter":true}
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!Tick: {"viewers":70,"votes":2,"time":1,"%":0.3333333333333333,"counter":true}
+!Tick: {"viewers":70,"votes":2,"time":0,"%":0.3333333333333333,"counter":true}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'tTO-3QRFZAeSIXKCAAAP': 'mybrotherisamoron',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? true
+!DIED: wzdq
+!stored: shawnbly 1
+Streaming rn: ceecee926
+!POTENTIAL: 2QwmiDdvRM6s8ytYAAAR
+Coming up is: mschrage
+[!END_ANALYTICS!]
+!created: yyvs
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":17,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":16,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":15,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":14,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":13,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":12,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":11,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":10,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":9,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":true}
+!Tick: {"viewers":70,"votes":0,"time":7,"%":0,"counter":true}
+end
+!INIT_DATE: 2018-05-28 19:07:00
+!INIT_PAYOUT: 0.5
+!INIT_INTERVAL: 20
+[!PAYOUTS!]
+{ TravelingMagician: 1.5,
+  shawnbly: 1,
+  mschrage: 0.5,
+  ceecee926: 0.5,
+  mybrotherisamoron: 0.5 }
+[!END_PAYOUTS!]
+!payouts: paid
+!Tick: {"viewers":70,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'tTO-3QRFZAeSIXKCAAAP': 'mybrotherisamoron',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!toggle on: ceecee926
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":15,"%":0,"counter":false}
+!comment by mschrage: { text: 'was a bit of a short show today', roomKey: 'rqjm' }
+!Tick: {"viewers":70,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":12,"%":0,"counter":false}
+!connected: mybrotherisamoron
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'tTO-3QRFZAeSIXKCAAAP': 'mybrotherisamoron',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  kVrLpLgRyuaxI_wMAAAS: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":71,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":8,"%":0,"counter":false}
+!comment by shawnbly: { text: 'I know ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":71,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":6,"%":0,"counter":false}
+!comment by mybrotherisamoron: { text: 'is it frozen?', roomKey: 'wzdq' }
+!Tick: {"viewers":71,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":4,"%":0,"counter":false}
+!comment by mschrage: { text: 'we need you guys to invite your friends',
+  roomKey: 'rqjm' }
+!Tick: {"viewers":71,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":71,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'tTO-3QRFZAeSIXKCAAAP': 'mybrotherisamoron',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  kVrLpLgRyuaxI_wMAAAS: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!upvote: thefameshow44
+!Tick: {"viewers":71,"votes":1,"time":20,"%":0.14285714285714285,"counter":false}
+!Tick: {"viewers":71,"votes":1,"time":19,"%":0.14285714285714285,"counter":false}
+!Tick: {"viewers":71,"votes":1,"time":18,"%":0.14285714285714285,"counter":false}
+!comment by mybrotherisamoron: { text: 'pick me', roomKey: 'wzdq' }
+!Tick: {"viewers":71,"votes":1,"time":17,"%":0.14285714285714285,"counter":false}
+!Tick: {"viewers":71,"votes":1,"time":16,"%":0.14285714285714285,"counter":false}
+!upvote: wzdq
+!comment by vojtadrmota: { text: '^^', roomKey: 'thefameshow44' }
+!upvote: wzdq
+!Tick: {"viewers":71,"votes":2,"time":15,"%":0.2857142857142857,"counter":false}
+!upvote: wzdq
+!upvote: wzdq
+!Tick: {"viewers":71,"votes":2,"time":14,"%":0.2857142857142857,"counter":false}
+!comment by mschrage: { text: 'so the streams can go longer', roomKey: 'rqjm' }
+!Tick: {"viewers":71,"votes":2,"time":13,"%":0.2857142857142857,"counter":false}
+!Tick: {"viewers":71,"votes":2,"time":12,"%":0.2857142857142857,"counter":false}
+!leave:  mybrotherisamoron
+!Tick: {"viewers":70,"votes":2,"time":11,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":70,"votes":2,"time":10,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":70,"votes":2,"time":9,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":70,"votes":2,"time":8,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":70,"votes":2,"time":7,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":70,"votes":2,"time":6,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":70,"votes":2,"time":5,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":70,"votes":2,"time":4,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":70,"votes":2,"time":3,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":70,"votes":2,"time":2,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":70,"votes":2,"time":1,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":70,"votes":2,"time":0,"%":0.3333333333333333,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  'tTO-3QRFZAeSIXKCAAAP': 'mybrotherisamoron',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  kVrLpLgRyuaxI_wMAAAS: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!comment by ceecee926: { text: 'it’s over? ', roomKey: 'thefameshow44' }
+❤️
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":false}
+!disconnect:  mybrotherisamoron
+!Tick: {"viewers":69,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":12,"%":0,"counter":false}
+!comment by shawnbly: { text: 'why was it freezing so much today ',
+  roomKey: 'thefameshow44' }
+!Tick: {"viewers":69,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":5,"%":0,"counter":false}
+!comment by mschrage: { text: 'not enough people wanted to stream', roomKey: 'rqjm' }
+!Tick: {"viewers":69,"votes":0,"time":4,"%":0,"counter":false}
+!reconnect:  mybrotherisamoron
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  kVrLpLgRyuaxI_wMAAAS: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":false}
+!comment by ceecee926: { text: 'aw man ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":70,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":10,"%":0,"counter":false}
+!comment by mschrage: { text: 'so invite your daughter!', roomKey: 'rqjm' }
+!Tick: {"viewers":70,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":false}
+!comment by mschrage: { text: 'and friends', roomKey: 'rqjm' }
+!leave:  mybrotherisamoron
+!comment by shawnbly: { text: '☹️', roomKey: 'thefameshow44' }
+!Tick: {"viewers":69,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  kVrLpLgRyuaxI_wMAAAS: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":69,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":18,"%":0,"counter":false}
+!comment by ceecee926: { text: 'I tried ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":69,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":9,"%":0,"counter":false}
+!reconnect:  mybrotherisamoron
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":false}
+!comment by mschrage: { text: 'tthe more people who are streaming, the longer the show goes on! ',
+  roomKey: 'rqjm' }
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":false}
+!upvote: thefameshow44
+!comment by ceecee926: { text: 'will u b bk later ? ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":70,"votes":1,"time":2,"%":0.16666666666666666,"counter":false}
+!Tick: {"viewers":70,"votes":1,"time":1,"%":0.16666666666666666,"counter":false}
+!Tick: {"viewers":70,"votes":1,"time":0,"%":0.16666666666666666,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  kVrLpLgRyuaxI_wMAAAS: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!upvote: wzdq
+!Tick: {"viewers":70,"votes":1,"time":20,"%":0.16666666666666666,"counter":false}
+!upvote: wzdq
+!upvote: wzdq
+!upvote: wzdq
+!upvote: wzdq
+!upvote: wzdq
+!Tick: {"viewers":70,"votes":1,"time":19,"%":0.16666666666666666,"counter":false}
+!leave:  mybrotherisamoron
+!Tick: {"viewers":69,"votes":1,"time":18,"%":0.2,"counter":false}
+!disconnect:  mybrotherisamoron
+!Tick: {"viewers":69,"votes":1,"time":17,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":16,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":15,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":14,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":13,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":12,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":11,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":10,"%":0.2,"counter":false}
+!comment by shawnbly: { text: 'I will ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":69,"votes":1,"time":9,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":8,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":7,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":6,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":5,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":4,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":3,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":2,"%":0.2,"counter":false}
+!upvote: thefameshow44
+!Tick: {"viewers":69,"votes":2,"time":1,"%":0.4,"counter":false}
+!Tick: {"viewers":69,"votes":2,"time":0,"%":0.4,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":69,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":13,"%":0,"counter":false}
+!comment by mschrage: { text: 'we might do a show in an hour or two',
+  roomKey: 'rqjm' }
+!Tick: {"viewers":69,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":8,"%":0,"counter":false}
+!comment by mschrage: { text: 'Bc this one was so short', roomKey: 'rqjm' }
+!Tick: {"viewers":69,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":6,"%":0,"counter":false}
+!comment by shawnbly: { text: 'awesome ', roomKey: 'thefameshow44' }
+!comment by ceecee926: { text: 'cool ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":69,"votes":0,"time":5,"%":0,"counter":false}
+!upvote: rqjm
+!Tick: {"viewers":69,"votes":1,"time":4,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":3,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":2,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":1,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":0,"%":0.2,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!comment by mschrage: { text: 'in the meantime', roomKey: 'rqjm' }
+!Tick: {"viewers":69,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":12,"%":0,"counter":false}
+!comment by mschrage: { text: 'if you have a friend download the app',
+  roomKey: 'rqjm' }
+!Tick: {"viewers":69,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":6,"%":0,"counter":false}
+!comment by mschrage: { text: 'you can stream for them!!!', roomKey: 'rqjm' }
+!Tick: {"viewers":69,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":69,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":18,"%":0,"counter":false}
+!comment by shawnbly: { text: '😊', roomKey: 'thefameshow44' }
+!Tick: {"viewers":69,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":11,"%":0,"counter":false}
+!upvote: rqjm
+!upvote: rqjm
+!upvote: rqjm
+!Tick: {"viewers":69,"votes":1,"time":10,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":9,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":8,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":7,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":6,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":5,"%":0.2,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":4,"%":0.2,"counter":false}
+!connected: mybrotherisamoron
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  q4xJcpKKx20_a7c_AAAT: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":70,"votes":1,"time":3,"%":0.16666666666666666,"counter":false}
+!toggle on: mybrotherisamoron
+!Tick: {"viewers":70,"votes":1,"time":2,"%":0.16666666666666666,"counter":false}
+!comment by ceecee926: { text: 'my friends wack I need new friends ugh',
+  roomKey: 'thefameshow44' }
+!Tick: {"viewers":70,"votes":1,"time":1,"%":0.16666666666666666,"counter":false}
+!Tick: {"viewers":70,"votes":1,"time":0,"%":0.16666666666666666,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  q4xJcpKKx20_a7c_AAAT: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":15,"%":0,"counter":false}
+!comment by mschrage: { text: 'hahah', roomKey: 'rqjm' }
+!Tick: {"viewers":70,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":10,"%":0,"counter":false}
+!comment by shawnbly: { text: 'me too lol', roomKey: 'thefameshow44' }
+!Tick: {"viewers":70,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":false}
+!comment by mschrage: { text: 'you can post on insta or Twitter!', roomKey: 'rqjm' }
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  q4xJcpKKx20_a7c_AAAT: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":false}
+!comment by ceecee926: { text: 'ok ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":70,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":14,"%":0,"counter":false}
+!comment by ceecee926: { text: 'will do that ', roomKey: 'thefameshow44' }
+!Tick: {"viewers":70,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":12,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":11,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":9,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":7,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":5,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":false}
+!leave:  mybrotherisamoron
+!Tick: {"viewers":69,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  q4xJcpKKx20_a7c_AAAT: 'mybrotherisamoron' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!Tick: {"viewers":69,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":19,"%":0,"counter":false}
+!comment by mschrage: { text: 'if they know your username ', roomKey: 'rqjm' }
+!Tick: {"viewers":69,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":13,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":12,"%":0,"counter":false}
+!upvote: thefameshow44
+!Tick: {"viewers":69,"votes":1,"time":11,"%":0.2,"counter":false}
+!Tick: {"viewers":70,"votes":1,"time":10,"%":0.16666666666666666,"counter":false}
+!connected: ceecee926
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  q4xJcpKKx20_a7c_AAAT: 'mybrotherisamoron',
+  GqyzEj_elVhiwUdlAAAU: 'ceecee926' }
+[!END_CONNECTIONS!]
+!Tick: {"viewers":70,"votes":1,"time":9,"%":0.16666666666666666,"counter":false}
+!Tick: {"viewers":70,"votes":1,"time":8,"%":0.16666666666666666,"counter":false}
+!Tick: {"viewers":70,"votes":1,"time":7,"%":0.16666666666666666,"counter":false}
+!Tick: {"viewers":70,"votes":1,"time":6,"%":0.16666666666666666,"counter":false}
+!Tick: {"viewers":70,"votes":1,"time":5,"%":0.16666666666666666,"counter":false}
+!Tick: {"viewers":70,"votes":1,"time":4,"%":0.16666666666666666,"counter":false}
+!Tick: {"viewers":70,"votes":1,"time":3,"%":0.16666666666666666,"counter":false}
+!leave:  ceecee926
+!Tick: {"viewers":69,"votes":1,"time":2,"%":0.2,"counter":false}
+!reconnect:  ceecee926
+!Tick: {"viewers":70,"votes":1,"time":1,"%":0.16666666666666666,"counter":false}
+!Tick: {"viewers":70,"votes":1,"time":0,"%":0.16666666666666666,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '8pMgPCKX4RRwiMZEAAAL': 'shawnbly',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  q4xJcpKKx20_a7c_AAAT: 'mybrotherisamoron',
+  GqyzEj_elVhiwUdlAAAU: 'ceecee926' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!comment by mschrage: { text: 'you earn a $1 when they stream for the first time ',
+  roomKey: 'rqjm' }
+!Tick: {"viewers":70,"votes":0,"time":20,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":19,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":18,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":17,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":16,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":15,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":14,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":13,"%":0,"counter":false}
+!reconnect:  mybrotherisamoron
+!Tick: {"viewers":71,"votes":0,"time":12,"%":0,"counter":false}
+!leave:  shawnbly
+!Tick: {"viewers":70,"votes":0,"time":11,"%":0,"counter":false}
+!comment by mschrage: { text: 'good luck 🔥👀❤️', roomKey: 'rqjm' }
+!Tick: {"viewers":70,"votes":0,"time":10,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":9,"%":0,"counter":false}
+!disconnect:  shawnbly
+!Tick: {"viewers":70,"votes":0,"time":8,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":7,"%":0,"counter":false}
+!leave:  ceecee926
+!Tick: {"viewers":69,"votes":0,"time":6,"%":0,"counter":false}
+!Tick: {"viewers":69,"votes":0,"time":5,"%":0,"counter":false}
+!connected: shawnbly
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  q4xJcpKKx20_a7c_AAAT: 'mybrotherisamoron',
+  GqyzEj_elVhiwUdlAAAU: 'ceecee926',
+  'v4i0HQjX3-0yeYeoAAAV': 'shawnbly' }
+[!END_CONNECTIONS!]
+!reconnect:  shawnbly
+!toggle off: mybrotherisamoron
+!toggle on: shawnbly
+!Tick: {"viewers":70,"votes":0,"time":4,"%":0,"counter":false}
+!toggle on: mybrotherisamoron
+!toggle off: mybrotherisamoron
+!Tick: {"viewers":70,"votes":0,"time":3,"%":0,"counter":false}
+!toggle on: mybrotherisamoron
+!Tick: {"viewers":70,"votes":0,"time":2,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":1,"%":0,"counter":false}
+!Tick: {"viewers":70,"votes":0,"time":0,"%":0,"counter":false}
+[!BEGIN_ANALYTICS!]
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  q4xJcpKKx20_a7c_AAAT: 'mybrotherisamoron',
+  GqyzEj_elVhiwUdlAAAU: 'ceecee926',
+  'v4i0HQjX3-0yeYeoAAAV': 'shawnbly' }
+[!END_CONNECTIONS!]
+DOES NEXT EXIST? false
+!NO UPNEXT
+false
+[!END_ANALYTICS!]
+!upvote: wzdq
+!leave:  shawnbly
+!upvote: wzdq
+!Tick: {"viewers":69,"votes":1,"time":20,"%":0.25,"counter":false}
+!disconnect:  shawnbly
+!Tick: {"viewers":69,"votes":1,"time":19,"%":0.25,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":18,"%":0.25,"counter":false}
+!connected: shawnbly
+[!CONNECTIONS!]
+{ 'IDLsjcXBCPFc3VE-AAAA': 'ceecee926',
+  'TZ-w9QvtaVYNywytAAAB': 'vojtadrmota',
+  mattschrage: 'mattschrage',
+  '2QwmiDdvRM6s8ytYAAAR': 'mschrage',
+  q4xJcpKKx20_a7c_AAAT: 'mybrotherisamoron',
+  GqyzEj_elVhiwUdlAAAU: 'ceecee926',
+  gKjtys_LCD27cAVFAAAW: 'shawnbly' }
+[!END_CONNECTIONS!]
+!toggle off: mybrotherisamoron
+!Tick: {"viewers":70,"votes":1,"time":17,"%":0.2,"counter":false}
+!leave:  mybrotherisamoron
+!Tick: {"viewers":69,"votes":1,"time":16,"%":0.25,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":15,"%":0.25,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":14,"%":0.25,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":13,"%":0.25,"counter":false}
+end2
+!Tick: {"viewers":69,"votes":1,"time":12,"%":0.25,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":11,"%":0.25,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":10,"%":0.25,"counter":false}
+!Tick: {"viewers":69,"votes":1,"time":9,"%":0.25,"counter":false}
+!leave:  vojtadrmota
+!Tick: {"viewers":68,"votes":1,"time":8,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":68,"votes":1,"time":7,"%":0.3333333333333333,"counter":false}
+!Tick: {"viewers":68,"votes":1,"time":6,"%":0.3333333333333333,"counter":false}
